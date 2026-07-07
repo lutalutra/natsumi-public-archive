@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Natsumi Sugiyama — Archive of Practice</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Landing visuals: _shared_assets/landing/landing_01.jpg etc. -->
+<header class="top top-quiet" id="top">
+  <div class="opening-line">
+    <span class="about-en">I work across information design, archives, editorial design, and artistic practice.</span>
+    <span class="about-ja">情報デザイン、アーカイブ、エディトリアルデザイン、芸術実践を横断して活動しています。</span>
+  </div>
+  <div class="opening-meta">projects / research / ongoing practice</div>
+</header>
+<div class="thin-field"></div>
+<nav class="nav"><a class="home" href="#top">Natsumi Sugiyama</a><a href="#selected">Selected Works</a><a href="#bookshelf">Bookshelf</a><a href="#archive">Archive</a><span class="spacer"></span><div class="nav-controls"><a href="#about">Info</a><span class="lang-group"><button class="lang active" data-lang="en" onclick="setLang('en')">EN</button><button class="lang" data-lang="ja" onclick="setLang('ja')">JP</button></span></div></nav>
+<main>
+<section class="section" id="selected"><h2 class="section-title">Selected Works</h2><div class="selected-grid" id="selectedGrid"></div></section>
+<section class="section bookshelf" id="bookshelf"><h2 class="section-title">Bookshelf</h2><div class="tabs"><span class="label"></span><button data-shelf="authored">Authored</button><button data-shelf="collaborative">Collaborative</button><button data-shelf="layout_design">Layout Design</button></div><p class="small-ja" id="shelfHint">制作編集</p><div class="book-grid" id="bookGrid"></div></section>
+<section class="section archive" id="archive"><h2 class="section-title">Archive</h2><div class="archive-filter-sticky"><div class="archive-tabs"><button data-area="All" class="active">All</button><button data-area="Artistic/Research">Artistic/Research</button><button data-area="Design/Editorial/Digital">Design/Editorial/Digital</button></div><div class="chips" id="themeChips"></div><div class="countsort"><span id="count"></span><div class="sort-year-min"><span>Year</span><button id="yearToggle" type="button" aria-label="Toggle year sort">▼</button></div></div></div><div class="index-grid" id="indexGrid"></div><button class="load" id="loadBtn">Load more</button></section>
+<section class="section about" id="about">
+  <div>
+    <h2>About</h2>
+    <p class="about-en">I work across information design, archives, editorial design, and artistic practice.<br><br>This website is an archive of selected projects developed throughout my practice. After completing graduate studies in environmental design in Tokyo and in Public Art and New Artistic Strategies in Germany, I now work as a freelance designer in UI design and information editing while dividing my time between the suburbs of Tokyo and Berlin.</p>
+    <p class="about-ja">デザイナー。情報デザイン、アーカイブ、エディトリアルデザイン、芸術実践を横断して活動しています。<br><br>このウェブサイトは、過去から現在までのプロジェクトの一部をまとめたアーカイブです。東京で環境デザイン、ドイツで現代美術にまつわる研究制作を経験した後、現在はUIデザインや情報編集の業務に携わりながら、東京郊外とベルリンを行き来しています。</p>
+  </div>
+  <div class="related-col"><h2>Related:</h2><div class="related" id="related"></div></div>
+</section>
+
+<section class="contact-footer" id="contact">
+  <div class="contact-footer-inner">
+    <div>
+      <h2>Contact</h2>
+    </div>
+    <div>
+      
+      <form class="contact-form" action="mailto:n@natyama.com" method="post" enctype="text/plain">
+        <label>
+          Name
+          <input type="text" name="name" autocomplete="name" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" autocomplete="email" required>
+        </label>
+        <label>
+          Message
+          <textarea name="message" required></textarea>
+        </label>
+        <button type="submit">Send message</button>
+      </form>
+      
+    </div>
+  </div>
+</section>
+
+</main>
+<div class="drawer-bg" id="drawerBg" onclick="closeDrawer()"></div><aside class="drawer" id="drawer"><div class="drawer-top"><div><div class="muted" id="drawerMeta"></div><h2 id="drawerTitle"></h2><div class="muted" id="drawerSub"></div><div class="drawer-medium" id="drawerMedium"></div></div><button class="close" onclick="closeDrawer()">×</button></div><div class="drawer-body" id="drawerBody"></div></aside>
+<div class="reading" id="reading"><div class="reading-top"><div><div class="muted" id="readingMeta"></div><h3 id="readingTitle"></h3></div><button onclick="closeReading()">close</button></div><div class="spread"><div class="page"><div class="mark" id="pageMark">A</div><div class="lines"><span></span><span></span><span></span><span></span><span></span></div><div class="muted" id="pageText"></div></div><div class="page right"><div class="lines"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="muted" id="pageText2"></div></div></div><div class="reading-controls"><button onclick="turn(-1)">← Previous</button><button onclick="openReadingInfo()">Information</button><button onclick="turn(1)">Next →</button></div><div class="reading-info" id="readingInfo" onclick="closeReadingInfo()"><div class="reading-info-card" onclick="event.stopPropagation()"><div class="reading-info-head"><h4 id="readingInfoTitle"></h4><button onclick="closeReadingInfo()">close</button></div><div id="readingInfoBody"></div></div></div></div>
+
+<div id="detailLightbox" aria-hidden="true">
+  <button class="lb-close" type="button" aria-label="Close">Close</button>
+  <button class="lb-prev" type="button" aria-label="Previous">Prev</button>
+  <img alt="">
+  <button class="lb-next" type="button" aria-label="Next">Next</button>
+  <div class="lb-count"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
