@@ -156,7 +156,7 @@ function formatVenueText(p){
 function openProject(id){
   let p=PROJECTS.find(x=>x.id===id); if(!p) return;
   $('#drawer').dataset.currentId=id;
-  $('#drawerMeta').textContent=[p.year,p.city,p.country].filter(Boolean).join(' / ');
+  $('#drawerMeta').textContent=[p.year,p.city].filter(Boolean).join(' / ');
   $('#drawerTitle').textContent=title(p);
   $('#drawerSub').textContent=[p.area_label,p.theme].filter(Boolean).join(' · ');
   $('#drawerMedium').textContent=p.medium_text||'';
@@ -172,18 +172,15 @@ function openProject(id){
   ].join('');
   const postFields=[
     ['Title / JA',titleJa(p),''],
-    ['Role',p.role,''],
     ['Medium',p.medium_text,''],
-    ['Place',[p.location_detail,p.city,p.country].filter(Boolean).join(', '),''],
-    ['Venue / Context',venueText,'venue-list'],
+    ['Location',[p.location_detail,p.city,p.country].filter(Boolean).join(', '),''],
+    ['Venue',venueText,'venue-list'],
     ['Client / Commission',[p.client,p.client_type,p.commission_type].filter(Boolean).join(' / '),'small'],
     ['Detailed roles',p.roles_detail,'small'],
     ['Collaborators',p.collaborators,'small'],
     ['Organizations',p.organizations,'small'],
     ['Award',p.award,'small'],
     ['Language',p.language,'small'],
-    ['Photo folder',p.photo_folder,'small'],
-    ['Rights',p.rights,'small']
   ];
   $('#drawerBody').innerHTML=`
     ${topQuestion}
@@ -253,7 +250,7 @@ function bookInfoFields(p){
       ['Role', p.role],
       ['Medium / Format', p.medium_text],
       ['Publisher / Institution', publisherLike(p)],
-      ['Place', [p.city,p.country].filter(Boolean).join(', ')],
+      ['Location', [p.city,].filter(Boolean).join(', ')],
       ['Theme', p.theme],
       ...(isResearchBook ? [['Question', q, 'long']] : []),
       ['Description', description, 'long'],
@@ -403,7 +400,7 @@ function renderShelf(){
 function openProject(id){
   let p=PROJECTS.find(x=>x.id===id); if(!p) return;
   $('#drawer').dataset.currentId=id;
-  $('#drawerMeta').textContent=[p.year,p.city,p.country].filter(Boolean).join(' / ');
+  $('#drawerMeta').textContent=[p.year,p.city].filter(Boolean).join(' / ');
   $('#drawerTitle').textContent=title(p);
   $('#drawerSub').textContent=[p.area_label,p.theme].filter(Boolean).join(' · ');
   $('#drawerMedium').textContent=p.medium_text||'';
@@ -421,7 +418,7 @@ function openProject(id){
     ['Title / JA',titleJa(p),''],
     ['Role',p.role,''],
     /* Medium is already shown in the project header; do not repeat it here. */
-    ['Place',[p.location_detail,p.city,p.country].filter(Boolean).join(', '),''],
+    ['Location',[p.location_detail,p.city].filter(Boolean).join(', '),''],
     ['Venue / Context',venueText,'venue-list'],
     ['Client / Commission',[p.client,p.client_type,p.commission_type].filter(Boolean).join(' / '),'small'],
     ['Detailed roles',p.roles_detail,'small'],
@@ -794,7 +791,7 @@ function activateCandidateImages(root=document){
 function openProject(id){
   let p=PROJECTS.find(x=>x.id===id); if(!p) return;
   $('#drawer').dataset.currentId=id;
-  $('#drawerMeta').textContent=[p.year,p.city,p.country].filter(Boolean).join(' / ');
+  $('#drawerMeta').textContent=[p.year,p.city].filter(Boolean).join(' / ');
   $('#drawerTitle').textContent=title(p);
   $('#drawerSub').textContent=[p.area_label,p.theme].filter(Boolean).join(' · ');
   $('#drawerMedium').textContent=p.medium_text||'';
@@ -811,7 +808,7 @@ function openProject(id){
   const postFields=[
     ['Title / JA',titleJa(p),''],
     ['Role',p.role,''],
-    ['Place',[p.location_detail,p.city,p.country].filter(Boolean).join(', '),''],
+    ['Location',[p.location_detail,p.city].filter(Boolean).join(', '),''],
     ['Venue / Context',venueText,'venue-list'],
     ['Client / Commission',[p.client,p.client_type,p.commission_type].filter(Boolean).join(' / '),'small'],
     ['Detailed roles',p.roles_detail,'small'],
@@ -879,7 +876,7 @@ function renderSelected(){
   let arr=PROJECTS.filter(p=>p.featured).sort((a,b)=>(a.feat_order-b.feat_order)||(b.year_num-a.year_num)).slice(0,8);
   const el=document.getElementById('selectedGrid');
   if(!el) return;
-  el.innerHTML=arr.map((p,i)=>`<article class="work-card card-${i}" data-project-id="${escapeHtml(p.id)}" role="button" tabindex="0"><div class="image">${candidateImgHTML(coverCandidates(p),'',title(p),false)}</div><div class="caption"><h3>${escapeHtml(title(p))}</h3><p>${escapeHtml(p.year||'')} / ${escapeHtml(p.city||'')} ${escapeHtml(p.country||'')}</p><p>${escapeHtml(desc(p)).slice(0,170)}</p><div class="mini-tags">${tagHTML([p.theme,...(p.medium||[])],3)}</div></div></article>`).join('');
+  el.innerHTML=arr.map((p,i)=>`<article class="work-card card-${i}" data-project-id="${escapeHtml(p.id)}" role="button" tabindex="0"><div class="image">${candidateImgHTML(coverCandidates(p),'',title(p),false)}</div><div class="caption"><h3>${escapeHtml(title(p))}</h3><p>${escapeHtml(p.year||'')} / ${escapeHtml(p.city||'')} </p><p>${escapeHtml(desc(p)).slice(0,170)}</p><div class="mini-tags">${tagHTML([p.theme,...(p.medium||[])],3)}</div></div></article>`).join('');
   bindProjectListOpeners();
   activateCandidateImages(el);
 }
@@ -966,7 +963,7 @@ renderArchive();
           <div class="image">${candidateImgHTML(coverCandidates(p),'',title(p),false)}</div>
           <div class="caption">
             <h3>${escapeHtml(title(p))}</h3>
-            <p>${escapeHtml(p.year||'')} / ${escapeHtml(p.city||'')} ${escapeHtml(p.country||'')}</p>
+            <p>${escapeHtml(p.year||'')} / ${escapeHtml(p.city||'')}</p>
             <p>${escapeHtml(desc(p)).slice(0,170)}</p>
             <div class="mini-tags">${tagHTML([p.theme,...(p.medium||[])],3)}</div>
           </div>
@@ -1100,7 +1097,7 @@ renderArchive();
   window.renderSelected = function(){
     const el=qs('#selectedGrid'); if(!el) return;
     const arr=projects().filter(p=>p.featured).sort((a,b)=>(a.feat_order-b.feat_order)||(b.year_num-a.year_num)).slice(0,8);
-    el.innerHTML=arr.map((p,i)=>`<article class="work-card card-${i}" data-project-id="${esc(p.id)}" role="button" tabindex="0"><div class="image">${renderImgHTML(p)}</div><div class="caption"><h3>${esc(ptitle(p))}</h3><p>${esc(p.year||'')} / ${esc(p.city||'')} ${esc(p.country||'')}</p><p>${esc(pdesc(p)).slice(0,170)}</p><div class="mini-tags">${tagHTML([p.theme].concat(p.medium||[]),3)}</div></div></article>`).join('');
+    el.innerHTML=arr.map((p,i)=>`<article class="work-card card-${i}" data-project-id="${esc(p.id)}" role="button" tabindex="0"><div class="image">${renderImgHTML(p)}</div><div class="caption"><h3>${esc(ptitle(p))}</h3><p>${esc(p.year||'')} / ${esc(p.city||'')}</p><p>${esc(pdesc(p)).slice(0,170)}</p><div class="mini-tags">${tagHTML([p.theme].concat(p.medium||[]),3)}</div></div></article>`).join('');
     if(typeof activateCandidateImages==='function') activateCandidateImages(el);
   };
 
@@ -1880,7 +1877,7 @@ renderArchive();
 
     var meta=qs("#readingMeta");
     var ttl=qs("#readingTitle");
-    if(meta) meta.textContent=[p.year,p.city,p.country].filter(Boolean).join(" / ");
+    if(meta) meta.textContent=[p.year,p.city].filter(Boolean).join(" / ");
     if(ttl) ttl.textContent=titleOf(p);
 
     reading.classList.add("open");
@@ -1936,7 +1933,7 @@ renderArchive();
           ["Year", p.year],
           ["Role", p.role],
           ["Medium", p.medium_text],
-          ["Place", [p.city,p.country].filter(Boolean).join(", ")],
+          ["Location", [p.city,p.country].filter(Boolean).join(", ")],
           ["Context", [p.venue,p.venue_original,p.context,p.residency_context].filter(Boolean).join("\n")],
           ["Collaborators", p.collaborators],
           ["Organizations", p.organizations],
@@ -2194,7 +2191,7 @@ renderArchive();
 
     var meta=qs("#readingMeta");
     var ttl=qs("#readingTitle");
-    if(meta) meta.textContent=[p.year,p.city,p.country].filter(Boolean).join(" / ");
+    if(meta) meta.textContent=[p.year,p.city].filter(Boolean).join(" / ");
     if(ttl) ttl.textContent=titleOf(p);
 
     reading.classList.add("open");
@@ -2289,7 +2286,7 @@ renderArchive();
       fields.push(["Role", [p.role, p.roles_detail].map(clean).filter(Boolean).join(" / "), ""]);
     }
 
-    var place = [p.location_detail, p.city, p.country].map(clean).filter(Boolean).join(", ");
+    var place = [p.location_detail, p.city].map(clean).filter(Boolean).join(", ");
     if(place) fields.push(["Place", place, ""]);
 
     var venue = venueText(p);
@@ -2445,7 +2442,7 @@ renderArchive();
     var titleJa = clean(p.title_ja);
     if(titleJa && titleJa !== clean(p.title_en)) fields.push(["Title / JA", titleJa, ""]);
 
-    var place = [p.location_detail, p.city, p.country].map(clean).filter(Boolean).join(", ");
+    var place = [p.location_detail, p.city].map(clean).filter(Boolean).join(", ");
     if(place) fields.push(["Place", place, ""]);
 
     var venue = [p.venue, p.venue_original, p.context, p.residency_context].map(clean).filter(Boolean).join("\n");
@@ -3096,7 +3093,7 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
     if(bg) bg.classList.add("open");
     drawer.classList.add("open");
     drawer.dataset.currentId=p.id;
-    document.getElementById("drawerMeta").textContent=[p.year,p.city,p.country].filter(Boolean).join(" / ");
+    document.getElementById("drawerMeta").textContent=[p.year,p.city].filter(Boolean).join(" / ");
     document.getElementById("drawerTitle").textContent=ptitle(p);
     document.getElementById("drawerSub").textContent=[p.area_label,p.theme].filter(Boolean).join(" · ");
     document.getElementById("drawerMedium").textContent=p.medium_text ? "Medium: "+p.medium_text : "";
@@ -3121,7 +3118,7 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
     const titleJa = clean(p.title_ja) && clean(p.title_ja)!==clean(p.title_en) ? clean(p.title_ja) : "";
     const fields = [
       ["Title / JA", titleJa, ""],
-      ["Location", [p.location_detail,p.city,p.country].map(clean).filter(Boolean).join(", "), ""],
+      ["Location", [p.location_detail,p.city].map(clean).filter(Boolean).join(", "), ""],
       ["Venue / Context", venueText(p), "venue-list"],
       ["Client / Commissioner", clientText(p), "small"],
       ["Funding", fundingText(p), "small"],
@@ -3161,7 +3158,7 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
     const drawer=document.getElementById("drawer"), bg=document.getElementById("drawerBg"), body=document.getElementById("drawerBody");
     if(!drawer || !body) return;
     drawer.dataset.currentId=id;
-    document.getElementById("drawerMeta").textContent=[p.year,p.city,p.country].filter(Boolean).join(" / ");
+    document.getElementById("drawerMeta").textContent=[p.year,p.city].filter(Boolean).join(" / ");
     document.getElementById("drawerTitle").textContent=ptitle(p);
     document.getElementById("drawerSub").textContent=[p.area_label,p.theme].filter(function(x){return clean(x) && clean(x)!=="Applied Practice";}).join(" · ");
     document.getElementById("drawerMedium").textContent=p.medium_text ? "Medium: "+p.medium_text : "";
@@ -3258,7 +3255,7 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
     const titleJa = clean(p.title_ja) && clean(p.title_ja)!==clean(p.title_en) ? clean(p.title_ja) : "";
     return [
       ["Title / JA", titleJa, ""],
-      ["Location", [p.location_detail,p.city,p.country].map(clean).filter(Boolean).join(", "), ""],
+      ["Location", [p.location_detail,p.city].map(clean).filter(Boolean).join(", "), ""],
       ["Venue / Context", venueText(p), "venue-list"],
       ["Client / Commissioner", clientText(p), "small"],
       ["Funding", fundingText(p), "small"],
@@ -3275,7 +3272,7 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
     if(bg) bg.classList.add("open");
     drawer.classList.add("open");
     drawer.dataset.currentId=p.id;
-    document.getElementById("drawerMeta").textContent=[p.year,p.city,p.country].filter(Boolean).join(" / ");
+    document.getElementById("drawerMeta").textContent=[p.year,p.city].filter(Boolean).join(" / ");
     document.getElementById("drawerTitle").textContent=ptitle(p);
     document.getElementById("drawerSub").textContent=[p.area_label,p.theme].filter(Boolean).join(" · ");
     document.getElementById("drawerMedium").textContent=p.medium_text ? "Medium: "+p.medium_text : "";
@@ -3311,7 +3308,7 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
     if(!drawer || !body) return;
 
     drawer.dataset.currentId=id;
-    document.getElementById("drawerMeta").textContent=[p.year,p.city,p.country].filter(Boolean).join(" / ");
+    document.getElementById("drawerMeta").textContent=[p.year,p.city].filter(Boolean).join(" / ");
     document.getElementById("drawerTitle").textContent=ptitle(p);
     document.getElementById("drawerSub").textContent=[p.area_label,p.theme].filter(function(x){return clean(x) && clean(x)!=="Applied Practice";}).join(" · ");
     document.getElementById("drawerMedium").textContent=p.medium_text ? "Medium: "+p.medium_text : "";
@@ -3387,7 +3384,7 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
     const titleJa = clean(p.title_ja) && clean(p.title_ja)!==clean(p.title_en) ? clean(p.title_ja) : "";
     return [
       ["Title / JA", titleJa, ""],
-      ["Location", [p.location_detail,p.city,p.country].map(clean).filter(Boolean).join(", "), ""],
+      ["Location", [p.location_detail,p.city].map(clean).filter(Boolean).join(", "), ""],
       ["Venue / Context", venueText(p), "venue-list"],
       ["Client / Commissioner", clientText(p), "small"],
       ["Funding", fundingText(p), "small"],
@@ -3408,7 +3405,7 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
     if(bg) bg.classList.add("open");
     drawer.classList.add("open");
     drawer.dataset.currentId=p.id;
-    setText("drawerMeta",[p.year,p.city,p.country].filter(Boolean).join(" / "));
+    setText("drawerMeta",[p.year,p.city].filter(Boolean).join(" / "));
     setText("drawerTitle",title(p));
     setText("drawerSub",[p.area_label,p.theme].filter(Boolean).join(" · "));
     setText("drawerMedium",p.medium_text ? "Medium: "+p.medium_text : "");
@@ -3444,7 +3441,7 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
     if(!drawer || !body) return;
 
     drawer.dataset.currentId=id;
-    setText("drawerMeta",[p.year,p.city,p.country].filter(Boolean).join(" / "));
+    setText("drawerMeta",[p.year,p.city].filter(Boolean).join(" / "));
     setText("drawerTitle",title(p));
     setText("drawerSub",[p.area_label,p.theme].filter(function(x){return clean(x) && clean(x)!=="Applied Practice";}).join(" · "));
     setText("drawerMedium",p.medium_text ? "Medium: "+p.medium_text : "");
@@ -3753,7 +3750,7 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
     const titleJa = clean(p.title_ja) && clean(p.title_ja)!==clean(p.title_en) ? clean(p.title_ja) : "";
     return [
       ["Title / JA", titleJa, ""],
-      ["Location", [p.location_detail,p.city,p.country].map(clean).filter(Boolean).join(", "), ""],
+      ["Location", [p.location_detail,p.city].map(clean).filter(Boolean).join(", "), ""],
       ["Venue / Context", venueText(p), "venue-list"],
       ["Client / Commissioner", clientText(p), "small"],
       ["Funding", fundingText(p), "small"],
@@ -3774,7 +3771,7 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
     if(bg) bg.classList.add("open");
     drawer.classList.add("open");
     drawer.dataset.currentId=p.id;
-    setText("drawerMeta",[p.year,p.city,p.country].filter(Boolean).join(" / "));
+    setText("drawerMeta",[p.year,p.city].filter(Boolean).join(" / "));
     setText("drawerTitle",ptitle(p));
     setText("drawerSub",[p.area_label,displayTheme(p.theme)].filter(Boolean).join(" · "));
     setText("drawerMedium",p.medium_text ? "Medium: "+p.medium_text : "");
@@ -3810,7 +3807,7 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
     if(!drawer || !body) return;
 
     drawer.dataset.currentId=id;
-    setText("drawerMeta",[p.year,p.city,p.country].filter(Boolean).join(" / "));
+    setText("drawerMeta",[p.year,p.city].filter(Boolean).join(" / "));
     setText("drawerTitle",ptitle(p));
     setText("drawerSub",[p.area_label,displayTheme(p.theme)].filter(function(x){return clean(x) && clean(x)!=="Applied Practice";}).join(" · "));
     setText("drawerMedium",p.medium_text ? "Medium: "+p.medium_text : "");
@@ -3901,7 +3898,7 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
         <div class="image js-open-project" data-project-id="${esc(p.id)}">${candidateImgHTML(coverCandidates(p),'',title(p),false)}</div>
         <div class="caption js-open-project" data-project-id="${esc(p.id)}">
           <h3>${esc(title(p))}</h3>
-          <p>${esc(p.year||'')} / ${esc(p.city||'')} ${esc(p.country||'')}</p>
+          <p>${esc(p.year||'')} / ${esc(p.city||'')}</p>
           <p>${esc(desc(p)).slice(0,170)}</p>
           <div class="mini-tags">${tagHTML([p.theme,...(p.medium||[])],3)}</div>
         </div>
@@ -3988,7 +3985,7 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
     var drawer=qs('#drawer'), body=qs('#drawerBody'); if(!drawer || !body) return;
     drawer.dataset.currentId=p.id||id;
     var meta=qs('#drawerMeta'), ttl=qs('#drawerTitle'), sub=qs('#drawerSub'), med=qs('#drawerMedium');
-    if(meta) meta.textContent=[p.year,p.city,p.country].filter(Boolean).join(' / ');
+    if(meta) meta.textContent=[p.year,p.city].filter(Boolean).join(' / ');
     if(ttl) ttl.textContent=ptitle(p);
     if(sub) sub.textContent=[p.area_label,p.theme].filter(Boolean).join(' · ');
     if(med) med.textContent=p.medium_text||'';
@@ -4025,7 +4022,7 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
     var fields=[
       ['Title / JA',titleJaSafe(p),''],
       ['Role',p.role,''],
-      ['Place',[p.location_detail,p.city,p.country].filter(Boolean).join(', '),''],
+      ['Location',[p.location_detail,p.city].filter(Boolean).join(', '),''],
       ['Venue / Context',venue,'venue-list'],
       ['Client / Commission',[p.client,p.client_type,p.commission_type].filter(Boolean).join(' / '),'small'],
       ['Detailed roles',p.roles_detail,'small'],
@@ -4079,7 +4076,7 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
   window.renderSelected = function(){
     var el=qs('#selectedGrid'); if(!el) return;
     var arr=projects().filter(function(p){return p.featured;}).sort(function(a,b){return (a.feat_order-b.feat_order)||(b.year_num-a.year_num);}).slice(0,8);
-    el.innerHTML=arr.map(function(p,i){return '<article class="work-card card-'+i+'" data-project-id="'+esc(p.id)+'" role="button" tabindex="0"><div class="image">'+candidateImgHTML(coverCandidates(p),'',ptitle(p),false)+'</div><div class="caption"><h3>'+esc(ptitle(p))+'</h3><p>'+esc(p.year||'')+' / '+esc(p.city||'')+' '+esc(p.country||'')+'</p><p>'+esc(pdesc(p)).slice(0,170)+'</p><div class="mini-tags">'+tagHTML([p.theme].concat(p.medium||[]),3)+'</div></div></article>';}).join('');
+    el.innerHTML=arr.map(function(p,i){return '<article class="work-card card-'+i+'" data-project-id="'+esc(p.id)+'" role="button" tabindex="0"><div class="image">'+candidateImgHTML(coverCandidates(p),'',ptitle(p),false)+'</div><div class="caption"><h3>'+esc(ptitle(p))+'</h3><p>'+esc(p.year||'')+' / '+esc(p.city||'')+' '+'</p><p>'+esc(pdesc(p)).slice(0,170)+'</p><div class="mini-tags">'+tagHTML([p.theme].concat(p.medium||[]),3)+'</div></div></article>';}).join('');
     if(typeof activateCandidateImages==='function') activateCandidateImages(el);
     bindGrid('#selectedGrid','.work-card');
   };
@@ -4282,8 +4279,8 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
 /* selected works override from CSV */
 (function(){
   const selectedOrder = [
-    "A_ART015",
-    "A_ART014",
+    "0_SER001",
+    "0_SER002",
   ];
 
   window.renderSelected = function(){
@@ -4316,3 +4313,204 @@ window.addEventListener("load",function(){stripSelectedYear();renamePlaceToLocat
 /* default archive view: large thumbnails */
 window.archiveDisplay = "grid";
 if (typeof renderArchive === "function") renderArchive();
+/* Selected image auto shuffle */
+(function(){
+  function selectedImages(p){
+  const folder = (p.photo_folder || "").replace(/\/$/, "");
+
+  if(!folder) return [];
+
+  return [
+    "cover.jpg",
+    "gallery_01.jpg",
+    "gallery_02.jpg",
+    "gallery_03.jpg",
+    "gallery_04.jpg",
+    "gallery_05.jpg",
+    "gallery_06.jpg",
+    "gallery_07.jpg"
+  ].map(name => folder + "/" + name);
+}
+  window.renderSelected = function(){
+    const el = document.getElementById("selectedGrid");
+    if(!el) return;
+
+    const selectedOrder = [
+      "A_ART015",
+      "A_ART014",
+      "A_ART012",
+      "A_ART009"
+    ];
+
+    const arr = selectedOrder
+      .map(id => PROJECTS.find(p => p.id === id || p.project_id === id))
+      .filter(Boolean);
+
+    el.innerHTML = arr.map((p,i)=>{
+      const imgs = selectedImages(p).slice(0,5);
+      return `
+        <article class="work-card selected-large card-${i}" data-project-id="${escapeHtml(p.id)}">
+          <div class="image selected-slideshow" data-images='${escapeHtml(JSON.stringify(imgs))}'>
+            ${candidateImgHTML([imgs[0]], "", title(p), false)}
+          </div>
+          <div class="caption">
+            <h3>${escapeHtml(title(p))}</h3>
+            <div class="mini-tags">${tagHTML([p.theme,...(p.medium||[])],3)}</div>
+          </div>
+        </article>
+      `;
+    }).join("");
+
+    if(typeof activateCandidateImages === "function"){
+      activateCandidateImages(el);
+    }
+
+    startSelectedSlideshows();
+  };
+
+  function startSelectedSlideshows(){
+    document.querySelectorAll(".selected-slideshow").forEach((box, boxIndex)=>{
+      let imgs = [];
+      try{ imgs = JSON.parse(box.dataset.images || "[]"); }catch(e){}
+      imgs = imgs.filter(Boolean);
+      if(imgs.length < 2) return;
+
+      let index = 0;
+
+setInterval(()=>{
+  const imageEls = Array.from(box.querySelectorAll("img"));
+
+  if(imageEls.length < 2) return;
+
+  imageEls.forEach(img => img.classList.remove("active"));
+
+  index = (index + 1) % imageEls.length;
+  imageEls[index].classList.add("active");
+
+}, 3200 + boxIndex * 500);
+    });
+  }
+
+  renderSelected();
+})();
+
+/* CSV selected / featured override */
+
+(function(){
+
+  const SERIES = {
+    "0_SER_001": {
+      id: "0_SER_001",
+      type: "series",
+      title_en: "Portraits of (Places)",
+      title_ja: "Portraits of (Places)",
+      order: 1,
+      children: ["A_ART001","A_ART002","A_ART003","A_ART015"]
+    },
+    "0_SER_002": {
+      id: "0_SER_002",
+      type: "series",
+      title_en: "Recollections of Beyond",
+      title_ja: "Recollections of Beyond｜回想：場所と人のあいだ",
+      order: 2,
+      children: ["A_ART014"]
+    }
+  };
+
+  const FEATURED_ORDER = [
+    "0_SER_001",
+    "0_SER_002",
+  ];
+
+  function getProject(id){
+    return PROJECTS.find(p => p.id === id || p.project_id === id);
+  }
+
+  function getImagesForId(id){
+    const p = getProject(id);
+    if(!p) return [];
+
+    const folder = (p.photo_folder || "").replace(/\/$/, "");
+
+    return [
+      ...(p.cover_candidates || []),
+      folder ? folder + "/cover.jpg" : "",
+      folder ? folder + "/cover.png" : "",
+      folder ? folder + "/gallery_01.jpg" : "",
+      folder ? folder + "/gallery_02.jpg" : "",
+      folder ? folder + "/gallery_03.jpg" : ""
+    ].filter(Boolean);
+  }
+
+  function seriesImages(series){
+    return series.children.flatMap(id => getImagesForId(id)).slice(0,8);
+  }
+
+  function itemImages(item){
+    if(item.type === "series") return seriesImages(item);
+    return getImagesForId(item.id).slice(0,6);
+  }
+
+  function itemTitle(item){
+    if(item.type === "series"){
+      return lang === "ja" ? item.title_ja : item.title_en;
+    }
+    const p = getProject(item.id);
+    return p ? title(p) : item.id;
+  }
+
+  window.renderSelected = function(){
+    const el = document.getElementById("selectedGrid");
+    if(!el) return;
+
+    const items = FEATURED_ORDER.map(id => {
+      if(SERIES[id]) return SERIES[id];
+      const p = getProject(id);
+      return p ? { id:p.id, type:"project" } : null;
+    }).filter(Boolean);
+
+    el.innerHTML = items.map((item,i)=>{
+      const imgs = itemImages(item);
+      const first = imgs[0] || "";
+
+      return `
+        <article class="work-card selected-large card-${i}" data-project-id="${item.type === "series" ? item.children[0] : item.id}" role="button" tabindex="0">
+          <div class="image selected-slideshow">
+            ${imgs.map((src,j)=>`
+              <img src="${escapeHtml(src)}" alt="" class="${j === 0 ? "active" : ""}" loading="lazy" onerror="this.remove()">
+            `).join("")}
+          </div>
+          <div class="caption">
+            <h3>${escapeHtml(itemTitle(item))}</h3>
+            <div class="mini-tags">
+              ${item.type === "series" ? '<span class="tag">Series</span>' : ''}
+            </div>
+          </div>
+        </article>
+      `;
+    }).join("");
+
+    startSelectedSlideshows();
+  };
+
+  function startSelectedSlideshows(){
+    document.querySelectorAll(".selected-slideshow").forEach((box, boxIndex)=>{
+      if(box.dataset.slideshowBound === "1") return;
+      box.dataset.slideshowBound = "1";
+
+      let index = 0;
+
+      setInterval(()=>{
+        const images = Array.from(box.querySelectorAll("img"));
+        if(images.length < 2) return;
+
+        images.forEach(img => img.classList.remove("active"));
+        index = (index + 1) % images.length;
+        images[index].classList.add("active");
+      }, 3200 + boxIndex * 500);
+    });
+  }
+
+  renderSelected();
+
+})();
