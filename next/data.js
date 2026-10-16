@@ -2687,16 +2687,16 @@ window.ARCHIVE = {
    "ja": "Natsumi Sugiyama — 作品とプロジェクト（ベルリン）"
   },
   "seo.description": {
-   "en": "Natsumi Sugiyama works across art and design in Berlin: installations, drawings, books, maps and digital projects that begin with close observation.",
-   "ja": "ベルリンを拠点に、アートとデザインを横断して活動。丁寧な観察から始まるインスタレーション、ドローイング、本、地図、デジタルの仕事。"
+   "en": "Natsumi Sugiyama is a hands-on editor in Berlin, making installations, drawings, books, maps and digital work across art and design.",
+   "ja": "ベルリンを拠点に、アートとデザインを横断する「手を動かす編集者」。インスタレーション、ドローイング、本、地図、デジタルの仕事。"
   },
   "info.lead": {
-   "en": "Natsumi Sugiyama works across art and design.",
-   "ja": "Natsumi Sugiyamaは、アートとデザインを横断して活動しています。"
+   "en": "Natsumi Sugiyama is a hands-on editor working across art and design.",
+   "ja": "Natsumi Sugiyamaは、アートとデザインを横断する「手を動かす編集者」です。"
   },
   "info.statement": {
-   "en": "Her projects begin with close observation of places, people, stories and everyday systems, and take shape as installations, drawings, books, maps and digital work. She also designs editorial and digital projects for cultural and educational organisations. Based in Berlin.",
-   "ja": "場所や人、語り、日々の仕組みを丁寧に観察することから始め、インスタレーション、ドローイング、本、地図、デジタルの仕事として形にしています。文化・教育分野に向けた編集とデジタルのデザインも手がけています。ベルリン在住。"
+   "en": "She gathers observations of places, people, stories and everyday systems, and makes them herself into installations, drawings, books, maps and digital work. Alongside her own projects, she edits and designs for cultural and educational organisations. Based in Berlin.",
+   "ja": "場所や人、語り、日々の仕組みを観察して集め、インスタレーション、ドローイング、本、地図、デジタルの仕事として自ら形にしています。自身のプロジェクトのほか、文化・教育分野の編集とデザインも手がけています。ベルリン在住。"
   },
   "info.education.label": {
    "en": "Education",
