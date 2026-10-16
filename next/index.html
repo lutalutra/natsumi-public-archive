@@ -78,30 +78,68 @@
 
 <footer class="foot">© Natsumi Sugiyama</footer>
 
-<div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-labelledby="vTitle" hidden>
-  <button type="button" class="v-close" id="vClose" data-t="close">Close</button>
-  <div class="v-scroll" id="vScroll">
-    <div class="v-strip" id="vStrip" tabindex="0" aria-label="Images"></div>
-    <div class="slider-ui v-ui" id="vUi">
-      <div class="track"><span id="vBar"></span></div>
+<div class="gallery" id="gallery" role="dialog" aria-modal="true" aria-labelledby="gTitle" hidden>
+  <div class="g-top">
+    <p class="g-crumb"><span id="gTitle"></span> <span class="g-year" id="gYear"></span></p>
+    <div class="g-actions">
+      <button type="button" id="gGridBtn" aria-pressed="false" data-t="all.images">All images</button>
+      <button type="button" id="gInfoBtn" aria-pressed="false" aria-controls="gInfo">Info</button>
+      <button type="button" id="gClose" data-t="close">Close</button>
+    </div>
+  </div>
+  <div class="g-stage" id="gStage">
+    <div class="g-frame" id="gFrame"></div>
+    <button type="button" class="g-hit prev" id="gPrevImg" aria-label="Previous image"></button>
+    <button type="button" class="g-hit next" id="gNextImg" aria-label="Next image"></button>
+    <div class="g-grid" id="gGrid" hidden></div>
+  </div>
+  <div class="g-bottom">
+    <p class="g-cap" id="gCap"></p>
+    <div class="slider-ui g-ui">
+      <div class="ticks static" id="gTicks"></div>
       <div class="steps">
-        <button type="button" id="vLeft" aria-label="Previous image">←</button>
-        <span class="count" id="vCount"></span>
-        <button type="button" id="vRight" aria-label="Next image">→</button>
+        <button type="button" id="gLeft" aria-label="Previous image">←</button>
+        <span class="count" id="gCount" aria-live="polite"></span>
+        <button type="button" id="gRight" aria-label="Next image">→</button>
       </div>
     </div>
-    <div class="v-text">
-      <div>
-        <h2 id="vTitle"></h2>
-        <p class="v-sub" id="vSub"></p>
-      </div>
-      <div class="v-body" id="vBody"></div>
-      <dl class="v-facts" id="vFacts"></dl>
+  </div>
+  <aside class="g-info" id="gInfo" hidden>
+    <div class="g-info-in">
+      <h2 id="iTitle"></h2>
+      <p class="v-sub" id="iSub"></p>
+      <div class="v-body" id="iBody"></div>
+      <dl class="v-facts" id="iFacts"></dl>
+      <nav class="i-nav" aria-label="Other works">
+        <button type="button" id="iPrev"></button>
+        <button type="button" id="iNext"></button>
+      </nav>
     </div>
-    <nav class="v-nav" aria-label="Other works">
-      <button type="button" id="vPrev"></button>
-      <button type="button" id="vNext"></button>
-    </nav>
+  </aside>
+</div>
+
+<div class="reader" id="reader" role="dialog" aria-modal="true" aria-labelledby="rTitle" hidden>
+  <div class="g-top">
+    <p class="g-crumb"><span id="rTitle"></span> <span class="g-year" id="rYear"></span></p>
+    <div class="g-actions">
+      <a id="rPdf" target="_blank" rel="noopener" hidden>PDF</a>
+      <button type="button" id="rWork" data-t="about.work">About this work</button>
+      <button type="button" id="rClose" data-t="close">Close</button>
+    </div>
+  </div>
+  <div class="r-stage" id="rStage">
+    <div class="r-book" id="rBook"></div>
+  </div>
+  <div class="g-bottom">
+    <p class="g-cap r-hint" id="rHint"></p>
+    <div class="slider-ui g-ui">
+      <div class="track r-track"><span id="rBar"></span></div>
+      <div class="steps">
+        <button type="button" id="rLeft" aria-label="Previous page">←</button>
+        <span class="count" id="rCount" aria-live="polite"></span>
+        <button type="button" id="rRight" aria-label="Next page">→</button>
+      </div>
+    </div>
   </div>
 </div>
 

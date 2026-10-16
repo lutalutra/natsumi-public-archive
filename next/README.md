@@ -17,31 +17,28 @@ next/
   tools/build.py  data.js と img/ を作り直すスクリプト
 ```
 
-## データの更新
+## コンテンツの編集（CSV）
 
-作品データは今まで通り、ルートの `app.js` 内の `const PROJECTS = [...]` が元です。
-画像は各プロジェクトの `images/public/` に置きます。更新したら、リポジトリのルートで:
+`next/content/` のCSVを編集して、リポジトリのルートで次を実行します。
 
     pip install pillow
     python3 next/tools/build.py
 
+| ファイル | 内容 |
+|---|---|
+| `projects.csv` | 全プロジェクト（旧 app.js の PROJECTS と同じ列）。タイトル、年、テーマ、説明文、会場、公開範囲（visibility）、選定（featured）、本棚（bookshelf, bookshelf_category, order_book）など |
+| `hero.csv` | トップのスライドショーに出す画像と順番。`image` は images/public 内の何番目か（0 = cover） |
+| `studio_projects.csv` | インデックスの「スタジオのプロジェクト」欄（tegote など）。`end` が空欄なら継続中 |
+| `books.csv` | 本棚の各本のページの元。`pages_from` が `pdf` なら PDF を描画（`pdf` にプロジェクトフォルダからのパス、`max_pages` に枚数）、`images` なら表紙と画像から作ります |
+
+- 文字コードは UTF-8（BOM付き）。Excel / Numbers / Google スプレッドシートでそのまま開けます。
+- 複数の値（themes, medium）は `; ` 区切り。TRUE/FALSE は featured と bookshelf の列。
 - `visibility` が `private` の作品は表示しません。`partial` は表紙画像1枚だけを表示します。
 - 画像の並び順は `cover` → `gallery_*` / `documentation_*` → その他（ファイル名順）。
-- `thumb` / `thumbnail` / `cover 2` は表紙の重複として除外します。
-- 読み込めないファイルはスキップし、最後に一覧で表示します。
-
-## トップのスライドショーとインデックスの設定
-
-`next/tools/site-config.json` を編集して `build.py` を実行し直します。
-
-- `hero`：トップに出す画像と順番。`["A_ART014", 0]` は A_ART014 の0番目（cover）の画像。
-  文字色は画像ごとに明るさを測って自動で決まります（暗い写真は白、明るい写真は濃いグレー）。
-- `projects`：インデックスの「スタジオのプロジェクト」欄に出す今後のプロジェクト
-  （tegote、FAULTIER commons、kulage）。作家活動・デザイン（natyama）とは別の欄に表示されます。
-  `status` は planned / ongoing / done、`end` が null なら継続中として右端まで伸びます。
-
-インデックスの行分け：作家活動はテーマ（場所と記憶、語りとアーカイブ、あいだ、文化媒介、その他）、
-デザインは制作物の種類（編集・印刷物、Web・アプリ、コンテンツ制作）で自動的に振り分けます。
+- 読み込めないファイルや真っ白な画像はスキップし、最後に一覧で表示します。
+- 文字色（トップの写真の上）は画像ごとに明るさを測って自動で決まります。
+- 注意：日本語フォントが埋め込まれていないPDFは、ページの日本語が欠けることがあります。
+  その場合は `books.csv` で `images` を選ぶか、フォントを埋め込んだPDFに差し替えてください。
 
 ## 本番への切り替え（確認後）
 

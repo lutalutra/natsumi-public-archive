@@ -11,6 +11,8 @@
       info: "Works across information, editorial, and artistic practice. Based in Berlin, with a background in “Design” and “Public Art and New Artistic Strategies”.",
       contact: "Contact", close: "Close", all: "All", art: "Artistic/Research", design: "Design/Editorial",
       series: "Series", prev: "Previous", next: "Next", noImage: "No image", read: "Publication (PDF)", readJa: "Japanese edition (PDF)",
+      "all.images": "All images", "about.work": "About this work", "read.book": "Read the book", cover: "Cover",
+      "book.open": "Click the cover to open the book", "book.nopages": "Only the cover is in the archive so far",
       open: "Open work", peekHint: "Point at a line to see the work. Lines run from the first to the last year of each project.",
       tracks: { art: ["Artistic practice", "Natsumi Sugiyama"], design: ["Design", "natyama"], projects: ["Studio projects", "studio natyama"] },
       status: { planned: "Planned", ongoing: "Ongoing", done: "Completed" }, since: "since",
@@ -22,6 +24,8 @@
       info: "このサイトには、展示やリサーチ、デザインプロジェクトの一部を収録しています。東京で環境デザイン、ドイツで現代美術に関する研究制作を経て、現在はUIや情報編集を軸に活動しています。",
       contact: "お問い合わせ", close: "閉じる", all: "すべて", art: "アート・リサーチ", design: "デザイン・編集",
       series: "シリーズ", prev: "前へ", next: "次へ", noImage: "画像なし", read: "出版物（PDF）", readJa: "日本語版（PDF）",
+      "all.images": "すべての画像", "about.work": "作品について", "read.book": "本を開く", cover: "表紙",
+      "book.open": "表紙をクリックすると本が開きます", "book.nopages": "アーカイブにはまだ表紙のみです",
       open: "作品を見る", peekHint: "線に触れると作品が表示されます。線の長さは各プロジェクトの期間です。",
       tracks: { art: ["作家活動", "Natsumi Sugiyama"], design: ["デザイン", "natyama"], projects: ["スタジオのプロジェクト", "studio natyama"] },
       status: { planned: "準備中", ongoing: "進行中", done: "完了" }, since: "",
@@ -142,7 +146,7 @@
       if (!books.length) return "";
       return `<div class="shelfrow"><h3>${esc(t("shelves")[k])}<span class="n">${books.length}</span></h3><div class="books">${books.map(w => {
         const c = w.book.cover;
-        return `<button type="button" class="book" data-open="${w.id}">${c ? `<img src="${esc(c.thumb)}" alt="" loading="lazy" width="${c.w}" height="${c.h}">` : ""}<span>${esc(L(w.title))}</span></button>`;
+        return `<button type="button" class="book" data-book="${w.id}">${c ? `<img src="${esc(c.thumb)}" alt="" loading="lazy" width="${c.w}" height="${c.h}">` : ""}<span>${esc(L(w.title))}</span></button>`;
       }).join("")}</div></div>`;
     }).join("");
   }
@@ -240,113 +244,311 @@
     go("#work=" + key);
   });
 
-  /* ---------- viewer ---------- */
-  const viewer = $("#viewer"), vs = $("#vStrip");
+  /* ---------- overlays: gallery (one image at a time) and book reader ---------- */
+  const gallery = $("#gallery"), reader = $("#reader");
   let current = null, lastFocus = null;
+  const isOpen = () => !gallery.hidden || !reader.hidden;
 
-  function stripUI() {
-    const figs = [...vs.querySelectorAll("figure")];
-    $("#vUi").hidden = figs.length < 2;
-    if (figs.length < 2) return;
-    const sw = vs.scrollWidth, cw = vs.clientWidth;
-    $("#vBar").style.width = Math.max(4, cw / sw * 100) + "%";
-    $("#vBar").style.left = (vs.scrollLeft / sw * 100) + "%";
-    let k = figs.findIndex(f => f.offsetLeft - vs.offsetLeft + f.offsetWidth / 2 > vs.scrollLeft);
-    if (vs.scrollLeft + cw >= sw - 4) k = figs.length - 1;
-    $("#vCount").textContent = `${Math.max(1, k + 1)} / ${figs.length}`;
-  }
-  function stripStep(dir) {
-    const figs = [...vs.querySelectorAll("figure")];
-    const base = vs.offsetLeft;
-    const target = dir > 0
-      ? figs.find(f => f.offsetLeft - base > vs.scrollLeft + 8)
-      : figs.slice().reverse().find(f => f.offsetLeft - base < vs.scrollLeft - 8);
-    if (target) vs.scrollTo({ left: target.offsetLeft - base - parseFloat(getComputedStyle(vs).paddingLeft) + 0, behavior: reduced ? "auto" : "smooth" });
-  }
-  vs.addEventListener("scroll", () => requestAnimationFrame(stripUI), { passive: true });
-  $("#vLeft").addEventListener("click", () => stripStep(-1));
-  $("#vRight").addEventListener("click", () => stripStep(1));
-
-  function strip(figs) {
-    vs.innerHTML = figs.length ? figs.join("") : `<div class="none">${esc(t("noImage"))}</div>`;
-    vs.scrollLeft = 0;
-    requestAnimationFrame(stripUI);
-    vs.querySelectorAll("img").forEach(im => im.addEventListener("load", stripUI, { once: true }));
-  }
-  function openViewer() {
-    if (viewer.hidden) lastFocus = document.activeElement;
-    viewer.hidden = false;
+  function showOverlay(el) {
+    if (!isOpen()) lastFocus = document.activeElement;
+    gallery.hidden = el !== gallery; reader.hidden = el !== reader;
     document.body.classList.add("locked");
     clearTimeout(timer);
-    $("#vScroll").scrollTop = 0;
-    $("#vClose").focus({ preventScroll: true });
   }
-  function showWork(id) {
-    const w = byId[id]; if (!w) return;
-    current = { type: "work", id };
-    strip(w.images.map((m, i) => `<figure><img src="${esc(m.src)}" alt="${esc(L(w.title))}, ${i + 1}" width="${m.w}" height="${m.h}"${i > 1 ? ' loading="lazy"' : ""}></figure>`));
-    $("#vTitle").textContent = L(w.title);
-    $("#vSub").textContent = [w.year, place(w)].filter(Boolean).join(", ");
-    const text = L(w.long) || L(w.desc);
-    const pdf = w.pdfs.map(p => `<a href="${esc(p.href)}" target="_blank" rel="noopener">${esc(p.lang === "ja" ? t("readJa") : t("read"))}</a>`).join("　");
-    const s = seriesOf(id);
-    $("#vBody").innerHTML = text.split(/\n+/).filter(Boolean).map(p => `<p>${esc(p)}</p>`).join("")
-      + (pdf ? `<p class="pdf">${pdf}</p>` : "")
-      + (s && s.children.length > 1 ? `<p class="lnk">${esc(t("series"))}: <button type="button" data-series="${s.id}">${esc(L(s.title))}</button></p>` : "");
-    const F = t("facts");
-    $("#vFacts").innerHTML = [["venue", w.venue], ["medium", w.medium.join(", ")], ["role", w.role], ["collaborators", w.collaborators],
-      ["funding", w.funding], ["award", w.award], ["credit", w.credit], ["photo", w.photoCredit]]
-      .filter(f => f[1]).map(([k, v]) => `<div><dt>${esc(F[k])}</dt><dd>${esc(v)}</dd></div>`).join("");
-    const i = works.findIndex(x => x.id === id);
-    const prev = works[(i - 1 + works.length) % works.length], next = works[(i + 1) % works.length];
-    $("#vPrev").innerHTML = `<small>${esc(t("prev"))}</small>${esc(L(prev.title))}`; $("#vPrev").dataset.go = prev.id; $("#vPrev").hidden = false;
-    $("#vNext").innerHTML = `<small>${esc(t("next"))}</small>${esc(L(next.title))}`; $("#vNext").dataset.go = next.id; $("#vNext").hidden = false;
-    openViewer();
-  }
-  function showSeries(sid) {
-    const s = A.series.find(x => x.id === sid); if (!s) return;
-    current = { type: "series", id: sid };
-    const kids = s.children.map(id => byId[id]).filter(Boolean);
-    strip(kids.map(w => { const im = cover(w); return im ? `<figure><button type="button" data-open="${w.id}"><img src="${esc(im.src)}" alt="${esc(L(w.title))}" width="${im.w}" height="${im.h}"></button><figcaption>${esc(w.y0)}　${esc(L(w.title))}</figcaption></figure>` : ""; }).filter(Boolean));
-    $("#vTitle").textContent = L(s.title);
-    $("#vSub").textContent = t("series") + (kids.length ? ", " + Math.min(...kids.map(k => k.y0)) + "–" + Math.max(...kids.map(k => k.y1)) : "");
-    $("#vBody").innerHTML = kids.map(w => `<p class="lnk"><button type="button" data-open="${w.id}">${esc(L(w.title))}</button> <span style="color:var(--quiet)">${esc(w.year)}</span></p>`).join("");
-    $("#vFacts").innerHTML = "";
-    $("#vPrev").hidden = $("#vNext").hidden = true;
-    openViewer();
-  }
-  function go(hash) { if (location.hash !== hash) history.pushState(null, "", hash); route(); }
-  function closeViewer(fromHistory) {
-    if (viewer.hidden) return;
-    viewer.hidden = true; current = null;
+  function closeOverlay(fromHistory) {
+    if (!isOpen()) return;
+    gallery.hidden = reader.hidden = true; current = null;
     document.body.classList.remove("locked");
     if (!fromHistory) history.pushState(null, "", location.pathname + location.search);
     if (lastFocus && document.contains(lastFocus)) lastFocus.focus({ preventScroll: true });
     if (!pastHero) schedule();
   }
+
+  /* gallery */
+  let G = { items: [], i: 0 };
+  function galleryItems(kind, id) {
+    if (kind === "series") {
+      const s = A.series.find(x => x.id === id);
+      return s.children.map(c => byId[c]).filter(w => w && cover(w)).map(w => ({ ...cover(w), cap: `${w.y0}　${L(w.title)}`, open: w.id }));
+    }
+    const w = byId[id];
+    return w.images.map((m, k) => ({ ...m, cap: "" }));
+  }
+  function loadNear() {
+    [...$("#gFrame").children].forEach((im, k) => {
+      if (Math.abs(k - G.i) <= 1 || (G.i === 0 && k === G.items.length - 1)) { if (!im.src) im.src = im.dataset.src; }
+    });
+  }
+  function setImg(i) {
+    if (!G.items.length) return;
+    G.i = (i + G.items.length) % G.items.length;
+    [...$("#gFrame").children].forEach((im, k) => im.classList.toggle("is-on", k === G.i));
+    loadNear();
+    const n = G.items.length, it = G.items[G.i];
+    $("#gCount").textContent = `${G.i + 1} / ${n}`;
+    document.querySelectorAll("#gTicks button").forEach((b, k) => {
+      b.classList.toggle("is-on", k === G.i); b.classList.toggle("is-past", k < G.i);
+    });
+    $("#gCap").innerHTML = it.open ? `${esc(it.cap)}　<button type="button" data-open="${it.open}" style="text-decoration:underline;text-underline-offset:4px">${esc(t("open"))}</button>` : esc(it.cap || "");
+    document.querySelectorAll("#gGrid button").forEach((b, k) => b.setAttribute("aria-current", String(k === G.i)));
+    const single = n < 2;
+    ["#gLeft", "#gRight", "#gPrevImg", "#gNextImg"].forEach(s => $(s).hidden = single);
+    $("#gTicks").hidden = single || n > 24;
+  }
+  function toggleInfo(on) {
+    const open = on ?? $("#gInfo").hidden;
+    $("#gInfo").hidden = !open; gallery.classList.toggle("info-open", open);
+    $("#gInfoBtn").setAttribute("aria-pressed", String(open));
+  }
+  function toggleGrid(on) {
+    const open = on ?? $("#gGrid").hidden;
+    $("#gGrid").hidden = !open; $("#gGridBtn").setAttribute("aria-pressed", String(open));
+  }
+  function fillInfo(kind, id) {
+    const F = t("facts");
+    if (kind === "series") {
+      const s = A.series.find(x => x.id === id), kids = s.children.map(c => byId[c]).filter(Boolean);
+      $("#iTitle").textContent = L(s.title);
+      $("#iSub").textContent = t("series");
+      $("#iBody").innerHTML = kids.map(w => `<p class="lnk"><button type="button" data-open="${w.id}">${esc(L(w.title))}</button> <span style="color:var(--quiet)">${esc(w.year)}</span></p>`).join("");
+      $("#iFacts").innerHTML = ""; $("#iPrev").hidden = $("#iNext").hidden = true;
+      return;
+    }
+    const w = byId[id], s = seriesOf(id);
+    $("#iTitle").textContent = L(w.title);
+    $("#iSub").textContent = [w.year, place(w)].filter(Boolean).join(", ");
+    const text = L(w.long) || L(w.desc);
+    const pdf = w.pdfs.map(p => `<a href="${esc(p.href)}" target="_blank" rel="noopener">${esc(p.lang === "ja" ? t("readJa") : t("read"))}</a>`).join("　");
+    const book = w.book && w.book.pages && w.book.pages.length > 1 ? `<p class="lnk"><button type="button" data-book="${w.id}">${esc(t("read.book"))}</button></p>` : "";
+    $("#iBody").innerHTML = text.split(/\n+/).filter(Boolean).map(p => `<p>${esc(p)}</p>`).join("")
+      + book + (pdf ? `<p class="pdf">${pdf}</p>` : "")
+      + (s && s.children.length > 1 ? `<p class="lnk">${esc(t("series"))}: <button type="button" data-series="${s.id}">${esc(L(s.title))}</button></p>` : "");
+    $("#iFacts").innerHTML = [["venue", w.venue], ["medium", w.medium.join(", ")], ["role", w.role], ["collaborators", w.collaborators],
+      ["funding", w.funding], ["award", w.award], ["credit", w.credit], ["photo", w.photoCredit]]
+      .filter(f => f[1]).map(([k, v]) => `<div><dt>${esc(F[k])}</dt><dd>${esc(v)}</dd></div>`).join("");
+    const i = works.findIndex(x => x.id === id);
+    const prev = works[(i - 1 + works.length) % works.length], next = works[(i + 1) % works.length];
+    $("#iPrev").innerHTML = `<small>${esc(t("prev"))}</small>${esc(L(prev.title))}`; $("#iPrev").dataset.go = prev.id; $("#iPrev").hidden = false;
+    $("#iNext").innerHTML = `<small>${esc(t("next"))}</small>${esc(L(next.title))}`; $("#iNext").dataset.go = next.id; $("#iNext").hidden = false;
+  }
+  function showGallery(kind, id, keepIndex) {
+    if (kind === "work" && !byId[id]) return;
+    if (kind === "series" && !A.series.find(x => x.id === id)) return;
+    const same = current && current.type === kind && current.id === id;
+    current = { type: kind, id };
+    G.items = galleryItems(kind, id);
+    if (!same || !keepIndex) G.i = 0;
+    const title = kind === "series" ? L(A.series.find(x => x.id === id).title) : L(byId[id].title);
+    $("#gTitle").textContent = title;
+    $("#gYear").textContent = kind === "series" ? t("series") : byId[id].year;
+    $("#gFrame").innerHTML = G.items.length
+      ? G.items.map((m, k) => `<img data-src="${esc(m.src)}" alt="${esc(title)}, ${k + 1}" decoding="async">`).join("")
+      : `<p style="position:absolute;inset:0;display:grid;place-items:center;color:var(--quiet)">${esc(t("noImage"))}</p>`;
+    $("#gTicks").innerHTML = G.items.map((m, k) => `<button type="button" data-img="${k}" aria-label="${k + 1}"><span></span></button>`).join("");
+    $("#gGrid").innerHTML = G.items.map((m, k) => `<button type="button" data-img="${k}"><img src="${esc(m.thumb || m.src)}" alt="" loading="lazy"></button>`).join("");
+    fillInfo(kind, id);
+    if (!same) { toggleGrid(false); toggleInfo(false); }
+    showOverlay(gallery);
+    setImg(G.i);
+    if (!same) $("#gClose").focus({ preventScroll: true });
+  }
+  $("#gPrevImg").addEventListener("click", () => setImg(G.i - 1));
+  $("#gNextImg").addEventListener("click", () => setImg(G.i + 1));
+  $("#gLeft").addEventListener("click", () => setImg(G.i - 1));
+  $("#gRight").addEventListener("click", () => setImg(G.i + 1));
+  $("#gTicks").addEventListener("click", e => { const b = e.target.closest("[data-img]"); if (b) setImg(+b.dataset.img); });
+  $("#gGrid").addEventListener("click", e => { const b = e.target.closest("[data-img]"); if (b) { setImg(+b.dataset.img); toggleGrid(false); } });
+  $("#gInfoBtn").addEventListener("click", () => toggleInfo());
+  $("#gGridBtn").addEventListener("click", () => toggleGrid());
+  $("#gClose").addEventListener("click", () => closeOverlay());
+  $("#iPrev").addEventListener("click", e => go("#work=" + e.currentTarget.dataset.go));
+  $("#iNext").addEventListener("click", e => go("#work=" + e.currentTarget.dataset.go));
+  swipe($("#gStage"), d => setImg(G.i + d));
+
+  function swipe(el, fn) {
+    let x0 = null, y0 = null;
+    el.addEventListener("touchstart", e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; }, { passive: true });
+    el.addEventListener("touchend", e => {
+      if (x0 === null) return;
+      const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0; x0 = null;
+      if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) fn(dx < 0 ? 1 : -1);
+    });
+  }
+
+  /* book reader */
+  const R = { id: null, pages: [], views: [], v: 0, two: true, busy: false, aspect: 0.7 };
+  function bookPages(w) {
+    const b = w.book, out = [];
+    if (b.cover) out.push({ src: b.cover.src, cover: true });
+    for (const p of b.pages || []) {
+      if (b.cover && p.src === b.cover.src) continue;
+      if (p.spread && R.two) { out.push({ src: p.src, half: "left" }, { src: p.src, half: "right" }); }
+      else out.push({ src: p.src });
+    }
+    return out;
+  }
+  function pageAspect(w) {
+    const p = (w.book.pages || []).find(x => !x.cover && x.src !== (w.book.cover || {}).src) || w.book.cover;
+    if (!p) return 0.72;
+    const a = p.spread && R.two ? (p.w / 2) / p.h : p.w / p.h;
+    return Math.min(1.4, Math.max(0.55, a));
+  }
+  function pageHTML(p) {
+    if (!p) return "";
+    if (p.half) return `<div class="half" style="background-image:url('${esc(p.src)}');background-position:${p.half} center"></div>`;
+    return `<img src="${esc(p.src)}" alt="" decoding="async">`;
+  }
+  function buildViews() {
+    const P = R.pages; R.views = [];
+    if (R.two) {
+      R.views.push([null, P[0] || null]);
+      for (let k = 1; k < P.length; k += 2) R.views.push([P[k] || null, P[k + 1] || null]);
+    } else P.forEach(p => R.views.push([p]));
+  }
+  function sizeBook() {
+    const st = $("#rStage"), W = st.clientWidth - 2 * Math.max(16, st.clientWidth * 0.04), H = st.clientHeight - 24;
+    let ph, pw;
+    if (R.two) { ph = Math.min(H, W / (2 * R.aspect)); pw = ph * R.aspect; $("#rBook").style.width = 2 * pw + "px"; }
+    else { ph = Math.min(H, W / R.aspect); pw = ph * R.aspect; $("#rBook").style.width = pw + "px"; }
+    $("#rBook").style.height = ph + "px";
+  }
+  function bookShift(v) {
+    if (!R.two) return "none";
+    const [l, r] = R.views[v] || [];
+    if (!l && r) return "translateX(-25%)";
+    if (l && !r) return "translateX(25%)";
+    return "none";
+  }
+  function drawView(v) {
+    const book = $("#rBook"), view = R.views[v];
+    book.classList.toggle("r-single", !R.two);
+    if (R.two) {
+      const [l, r] = view;
+      book.innerHTML = `<div class="r-page left${l ? "" : " empty"}">${pageHTML(l)}</div>`
+        + `<div class="r-page right${r ? "" : " empty"}${r && r.cover ? " cover" : ""}">${pageHTML(r)}</div>`;
+    } else {
+      const [p] = view;
+      book.innerHTML = `<div class="r-page right${p && p.cover ? " cover" : ""}">${pageHTML(p)}</div>`;
+    }
+    book.insertAdjacentHTML("beforeend", `<button type="button" class="r-hit prev" aria-label="${esc(t("prev"))}"></button><button type="button" class="r-hit next" aria-label="${esc(t("next"))}"></button>`);
+    book.style.transform = bookShift(v);
+    readerUI();
+    preload(v + 1); preload(v + 2);
+  }
+  function preload(v) { (R.views[v] || []).forEach(p => { if (p) { const im = new Image(); im.src = p.src; } }); }
+  function readerUI() {
+    const n = R.pages.length, v = R.v;
+    let label;
+    if (R.two) {
+      if (v === 0) label = t("cover");
+      else { const a = 2 * v, b = Math.min(n, 2 * v + 1); label = (a === b ? a : `${a}–${b}`) + ` / ${n}`; }
+    } else label = v === 0 ? t("cover") : `${v + 1} / ${n}`;
+    $("#rCount").textContent = label;
+    $("#rBar").style.width = (R.views.length > 1 ? v / (R.views.length - 1) * 100 : 100) + "%";
+    $("#rLeft").disabled = v === 0; $("#rRight").disabled = v >= R.views.length - 1;
+    $("#rHint").textContent = n < 2 ? t("book.nopages") : (v === 0 ? t("book.open") : "");
+  }
+  function turn(dir) {
+    const to = R.v + dir;
+    if (R.busy || to < 0 || to >= R.views.length) return;
+    const book = $("#rBook");
+    if (reduced) { R.v = to; drawView(to); return; }
+    R.busy = true;
+    const from = R.views[R.v], next = R.views[to];
+    let leaf;
+    if (R.two) {
+      if (dir > 0) {
+        book.querySelector(".r-page.right").innerHTML = pageHTML(next[1]);
+        book.querySelector(".r-page.right").className = `r-page right${next[1] ? "" : " empty"}`;
+        leaf = `<div class="r-leaf"><div class="face front">${pageHTML(from[1])}</div><div class="face back">${pageHTML(next[0])}</div></div>`;
+      } else {
+        book.querySelector(".r-page.left").innerHTML = pageHTML(next[0]);
+        book.querySelector(".r-page.left").className = `r-page left${next[0] ? "" : " empty"}`;
+        leaf = `<div class="r-leaf back-turn"><div class="face front">${pageHTML(from[0])}</div><div class="face back">${pageHTML(next[1])}</div></div>`;
+      }
+      book.insertAdjacentHTML("beforeend", leaf);
+      const el = book.querySelector(".r-leaf");
+      if (dir > 0 && from[1] && from[1].cover) el.querySelector(".front").classList.add("is-cover");
+      if (dir < 0 && next[1] && next[1].cover) el.querySelector(".back").classList.add("is-cover");
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        el.style.transform = `rotateY(${dir > 0 ? -180 : 180}deg)`;
+        book.style.transform = bookShift(to);
+      }));
+      el.addEventListener("transitionend", () => { R.v = to; R.busy = false; drawView(to); }, { once: true });
+    } else {
+      const page = book.querySelector(".r-page");
+      if (dir > 0) {
+        book.insertAdjacentHTML("afterbegin", `<div class="r-page right">${pageHTML(next[0])}</div>`);
+        page.style.zIndex = 4;
+        page.classList.add("r-leaf"); page.style.transformOrigin = "left center";
+        requestAnimationFrame(() => requestAnimationFrame(() => { page.style.transform = "rotateY(-100deg)"; page.style.opacity = "0"; }));
+        page.addEventListener("transitionend", () => { R.v = to; R.busy = false; drawView(to); }, { once: true });
+      } else {
+        book.insertAdjacentHTML("beforeend", `<div class="r-page right r-leaf" style="transform-origin:left center;transform:rotateY(-100deg);opacity:0;z-index:4">${pageHTML(next[0])}</div>`);
+        const el = book.lastElementChild;
+        requestAnimationFrame(() => requestAnimationFrame(() => { el.style.transform = "rotateY(0deg)"; el.style.opacity = "1"; }));
+        el.addEventListener("transitionend", () => { R.v = to; R.busy = false; drawView(to); }, { once: true });
+      }
+    }
+    setTimeout(() => { if (R.busy) { R.v = to; R.busy = false; drawView(to); } }, 1200);
+  }
+  function showBook(id) {
+    const w = byId[id]; if (!w || !w.book) return;
+    current = { type: "book", id };
+    R.two = innerWidth > 760;
+    R.id = id; R.pages = bookPages(w); R.aspect = pageAspect(w);
+    R.v = 0; R.busy = false;
+    $("#rTitle").textContent = L(w.title);
+    $("#rYear").textContent = w.year;
+    const pdf = w.pdfs[0];
+    $("#rPdf").hidden = !pdf; if (pdf) { $("#rPdf").href = pdf.href; $("#rPdf").textContent = "PDF"; }
+    showOverlay(reader);
+    buildViews(); sizeBook(); drawView(0);
+    $("#rClose").focus({ preventScroll: true });
+  }
+  $("#rBook").addEventListener("click", e => {
+    if (e.target.closest(".r-hit.prev")) turn(-1);
+    else if (e.target.closest(".r-hit.next")) turn(1);
+  });
+  $("#rLeft").addEventListener("click", () => turn(-1));
+  $("#rRight").addEventListener("click", () => turn(1));
+  $("#rClose").addEventListener("click", () => closeOverlay());
+  $("#rWork").addEventListener("click", () => go("#work=" + R.id));
+  swipe($("#rStage"), d => turn(d));
+
+  /* routing */
+  function go(hash) { if (location.hash !== hash) history.pushState(null, "", hash); route(); }
   function route() {
-    const m = location.hash.match(/^#(work|series)=([\w-]+)/);
-    if (!m) return closeViewer(true);
-    m[1] === "work" ? showWork(m[2]) : showSeries(m[2]);
+    const m = location.hash.match(/^#(work|series|book)=([\w-]+)/);
+    if (!m) return closeOverlay(true);
+    if (m[1] === "book") showBook(m[2]); else showGallery(m[1], m[2]);
   }
   document.addEventListener("click", e => {
     const o = e.target.closest("[data-open]");
     if (o && !o.classList.contains("mark")) { e.preventDefault(); go("#work=" + o.dataset.open); return; }
+    const b = e.target.closest("[data-book]"); if (b) { e.preventDefault(); go("#book=" + b.dataset.book); return; }
     const s = e.target.closest("[data-series]"); if (s) go("#series=" + s.dataset.series);
   });
-  $("#vClose").addEventListener("click", () => closeViewer());
-  $("#vPrev").addEventListener("click", e => go("#work=" + e.currentTarget.dataset.go));
-  $("#vNext").addEventListener("click", e => go("#work=" + e.currentTarget.dataset.go));
   window.addEventListener("popstate", () => route());
   document.addEventListener("keydown", e => {
-    if (viewer.hidden) {
+    if (!isOpen()) {
       if (!pastHero && (e.key === "ArrowRight" || e.key === "ArrowLeft") && !e.target.closest("input, textarea")) setSlide(cur + (e.key === "ArrowRight" ? 1 : -1));
       return;
     }
-    if (e.key === "Escape") closeViewer();
-    if (e.key === "ArrowRight" || e.key === "ArrowLeft") { e.preventDefault(); stripStep(e.key === "ArrowRight" ? 1 : -1); }
+    const inGallery = !gallery.hidden;
+    if (e.key === "Escape") {
+      if (inGallery && !$("#gGrid").hidden) return toggleGrid(false);
+      if (inGallery && !$("#gInfo").hidden && innerWidth <= 760) return toggleInfo(false);
+      return closeOverlay();
+    }
+    if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
+      e.preventDefault(); const d = e.key === "ArrowRight" ? 1 : -1;
+      inGallery ? setImg(G.i + d) : turn(d);
+    }
+    if (inGallery && (e.key === "i" || e.key === "I") && !e.metaKey && !e.ctrlKey) toggleInfo();
     if (e.key === "Tab") {
-      const f = [...viewer.querySelectorAll("button, a[href], [tabindex='0']")].filter(x => x.offsetParent);
+      const box = inGallery ? gallery : reader;
+      const f = [...box.querySelectorAll("button, a[href], [tabindex='0']")].filter(x => x.offsetParent && !x.disabled);
       if (!f.length) return;
       if (e.shiftKey && document.activeElement === f[0]) { e.preventDefault(); f[f.length - 1].focus(); }
       else if (!e.shiftKey && document.activeElement === f[f.length - 1]) { e.preventDefault(); f[0].focus(); }
@@ -360,14 +562,15 @@
     document.querySelectorAll("[data-set-lang]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.setLang === lang)));
     renderFilters(); renderSheet(); renderShelves(); renderChrono();
     setSlide(cur);
-    if (current) current.type === "work" ? showWork(current.id) : showSeries(current.id);
+    if (current) current.type === "book" ? (readerUI(), $("#rTitle").textContent = L(byId[current.id].title)) : showGallery(current.type, current.id, true);
   }
   document.querySelectorAll("[data-set-lang]").forEach(b => b.addEventListener("click", () => {
     lang = b.dataset.setLang; try { localStorage.setItem("ns-lang", lang); } catch (e) {} applyLang();
   }));
   const setHdr = () => document.documentElement.style.setProperty("--hdr", top.offsetHeight + "px");
   let rz, lastW = 0;
-  window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => { setHdr(); const w = $("#sheet").clientWidth; if (w !== lastW) { lastW = w; renderSheet(); } stripUI(); }, 150); });
+  window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => { setHdr(); const w = $("#sheet").clientWidth; if (w !== lastW) { lastW = w; renderSheet(); }
+    if (!reader.hidden && !R.busy) { const two = innerWidth > 760; if (two !== R.two) { const w = byId[R.id]; R.two = two; R.v = 0; R.pages = bookPages(w); R.aspect = pageAspect(w); buildViews(); } sizeBook(); drawView(R.v); } }, 150); });
 
   buildHero();
   applyLang();

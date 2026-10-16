@@ -60,7 +60,7 @@ window.ARCHIVE = {
    "area": "art",
    "row": "places",
    "featured": true,
-   "featOrder": 11.0,
+   "featOrder": 11,
    "question": {
     "en": "How do people develop a sense of place through their relationship with the environment?",
     "ja": "人はどのように環境と結びつきながら場所の感覚を形成するのか？"
@@ -91,13 +91,171 @@ window.ARCHIVE = {
    "website": "",
    "book": {
     "category": "authored",
-    "order": 3.0,
+    "order": 3,
     "cover": {
      "src": "img/A_ART001/90.webp",
      "thumb": "img/A_ART001/90_s.webp",
      "w": 1448,
      "h": 1086
-    }
+    },
+    "pages": [
+     {
+      "src": "img/A_ART001/book/p000.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p001.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p002.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p003.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p004.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p005.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p006.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p007.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p008.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p009.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p010.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p011.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p012.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p013.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p014.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p015.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p016.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p017.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p018.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p019.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p020.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p021.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p022.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p023.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p024.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     },
+     {
+      "src": "img/A_ART001/book/p025.webp",
+      "w": 1820,
+      "h": 1287,
+      "spread": true
+     }
+    ]
    },
    "pdfs": [
     {
@@ -157,7 +315,7 @@ window.ARCHIVE = {
    "area": "art",
    "row": "narratives",
    "featured": false,
-   "featOrder": 7.0,
+   "featOrder": 7,
    "question": {
     "en": "How is the same city experienced as different landscapes by different people?",
     "ja": "同じ都市は、人によってどのように異なる風景として生きられているのか？"
@@ -220,7 +378,7 @@ window.ARCHIVE = {
    "area": "art",
    "row": "places",
    "featured": true,
-   "featOrder": 10.0,
+   "featOrder": 10,
    "question": {
     "en": "How can the images that people project onto places be made visible?",
     "ja": "他者が場所へ投影するイメージをどう可視化できるのか？"
@@ -270,7 +428,7 @@ window.ARCHIVE = {
    "area": "art",
    "row": "narratives",
    "featured": false,
-   "featOrder": 9.0,
+   "featOrder": 9,
    "question": {
     "en": "What remains unerased within the walls — and what can we see through it?",
     "ja": "矯正の監獄の中で、消されずに残る個人の痕跡から何を見うるか?"
@@ -306,7 +464,51 @@ window.ARCHIVE = {
      "thumb": "img/A_ART004/00_s.webp",
      "w": 3872,
      "h": 2592
-    }
+    },
+    "pages": [
+     {
+      "src": "img/A_ART004/00.webp",
+      "w": 3872,
+      "h": 2592,
+      "spread": false
+     },
+     {
+      "src": "img/A_ART004/01.webp",
+      "w": 1950,
+      "h": 1404,
+      "spread": false
+     },
+     {
+      "src": "img/A_ART004/02.webp",
+      "w": 1173,
+      "h": 1023,
+      "spread": false
+     },
+     {
+      "src": "img/A_ART004/03.webp",
+      "w": 4608,
+      "h": 2592,
+      "spread": false
+     },
+     {
+      "src": "img/A_ART004/04.webp",
+      "w": 540,
+      "h": 361,
+      "spread": false
+     },
+     {
+      "src": "img/A_ART004/05.webp",
+      "w": 3872,
+      "h": 2592,
+      "spread": false
+     },
+     {
+      "src": "img/A_ART004/06.webp",
+      "w": 1970,
+      "h": 1394,
+      "spread": false
+     }
+    ]
    },
    "pdfs": [],
    "images": [
@@ -470,7 +672,7 @@ window.ARCHIVE = {
    "area": "art",
    "row": "other",
    "featured": true,
-   "featOrder": 5.0,
+   "featOrder": 5,
    "question": {
     "en": "Which local symbols are instrumentalized for attachment to place and a sense of territory — as distinct from how individuals actually perceive them?",
     "ja": "地域の記号と、場所の愛着、テリトリー意識は関係があるのだろうか？"
@@ -586,7 +788,33 @@ window.ARCHIVE = {
      "thumb": "img/A_ART008/00_s.webp",
      "w": 5066,
      "h": 5189
-    }
+    },
+    "pages": [
+     {
+      "src": "img/A_ART008/00.webp",
+      "w": 5066,
+      "h": 5189,
+      "spread": false
+     },
+     {
+      "src": "img/A_ART008/01.webp",
+      "w": 5095,
+      "h": 3673,
+      "spread": false
+     },
+     {
+      "src": "img/A_ART008/02.webp",
+      "w": 6328,
+      "h": 4516,
+      "spread": false
+     },
+     {
+      "src": "img/A_ART008/03.webp",
+      "w": 5456,
+      "h": 3632,
+      "spread": false
+     }
+    ]
    },
    "pdfs": [
     {
@@ -635,7 +863,7 @@ window.ARCHIVE = {
    "area": "art",
    "row": "narratives",
    "featured": true,
-   "featOrder": 4.0,
+   "featOrder": 4,
    "question": {
     "en": "How can attachment and emotional relationships to place be observed and described?",
     "ja": "場所への愛着や情動はどのように観察・記述できるのか？"
@@ -663,13 +891,45 @@ window.ARCHIVE = {
    "website": "",
    "book": {
     "category": "authored",
-    "order": 2.0,
+    "order": 2,
     "cover": {
      "src": "img/A_ART009/90.webp",
      "thumb": "img/A_ART009/90_s.webp",
      "w": 4032,
      "h": 2875
-    }
+    },
+    "pages": [
+     {
+      "src": "img/A_ART009/90.webp",
+      "w": 4032,
+      "h": 2875,
+      "spread": false
+     },
+     {
+      "src": "img/A_ART009/91.webp",
+      "w": 4032,
+      "h": 3024,
+      "spread": false
+     },
+     {
+      "src": "img/A_ART009/00.webp",
+      "w": 4912,
+      "h": 3064,
+      "spread": false
+     },
+     {
+      "src": "img/A_ART009/01.webp",
+      "w": 4032,
+      "h": 3024,
+      "spread": false
+     },
+     {
+      "src": "img/A_ART009/02.webp",
+      "w": 564,
+      "h": 675,
+      "spread": false
+     }
+    ]
    },
    "pdfs": [],
    "images": [
@@ -756,7 +1016,7 @@ window.ARCHIVE = {
    "area": "art",
    "row": "mediation",
    "featured": true,
-   "featOrder": 6.0,
+   "featOrder": 6,
    "question": {
     "en": "How can museum space be free from the preservation of the past while remaining open to the future?",
     "ja": "過去の保存の静的博物館空間で、未来への開かれをどのように構成するか"
@@ -807,7 +1067,7 @@ window.ARCHIVE = {
    "area": "art",
    "row": "narratives",
    "featured": true,
-   "featOrder": 1.0,
+   "featOrder": 1,
    "question": {
     "en": "",
     "ja": ""
@@ -835,13 +1095,21 @@ window.ARCHIVE = {
    "website": "",
    "book": {
     "category": "authored",
-    "order": 1.0,
+    "order": 1,
     "cover": {
      "src": "img/A_ART012/00.webp",
      "thumb": "img/A_ART012/00_s.webp",
      "w": 1712,
      "h": 1282
-    }
+    },
+    "pages": [
+     {
+      "src": "img/A_ART012/00.webp",
+      "w": 1712,
+      "h": 1282,
+      "spread": false
+     }
+    ]
    },
    "pdfs": [
     {
@@ -872,7 +1140,7 @@ window.ARCHIVE = {
    "area": "art",
    "row": "between",
    "featured": true,
-   "featOrder": 2.0,
+   "featOrder": 2,
    "question": {
     "en": "How do intersecting narratives move us beyond nostalgia, toward a new landscape?",
     "ja": "異なる人々のナラティブは、どのように交差し、新たな風景を描き出すのか"
@@ -923,7 +1191,7 @@ window.ARCHIVE = {
    "area": "art",
    "row": "between",
    "featured": true,
-   "featOrder": 3.0,
+   "featOrder": 3,
    "question": {
     "en": "",
     "ja": ""
@@ -1027,7 +1295,15 @@ window.ARCHIVE = {
      "thumb": "img/B_COL001/00_s.webp",
      "w": 3600,
      "h": 2592
-    }
+    },
+    "pages": [
+     {
+      "src": "img/B_COL001/00.webp",
+      "w": 3600,
+      "h": 2592,
+      "spread": false
+     }
+    ]
    },
    "pdfs": [],
    "images": [
@@ -1110,7 +1386,7 @@ window.ARCHIVE = {
    "area": "design",
    "row": "digital",
    "featured": false,
-   "featOrder": 8.0,
+   "featOrder": 8,
    "question": {
     "en": "",
     "ja": ""
@@ -1451,7 +1727,15 @@ window.ARCHIVE = {
      "thumb": "img/D_DES006/00_s.webp",
      "w": 2154,
      "h": 2160
-    }
+    },
+    "pages": [
+     {
+      "src": "img/D_DES006/00.webp",
+      "w": 2154,
+      "h": 2160,
+      "spread": false
+     }
+    ]
    },
    "pdfs": [],
    "images": [
@@ -1511,7 +1795,15 @@ window.ARCHIVE = {
      "thumb": "img/D_DES007/00_s.webp",
      "w": 2106,
      "h": 1547
-    }
+    },
+    "pages": [
+     {
+      "src": "img/D_DES007/00.webp",
+      "w": 2106,
+      "h": 1547,
+      "spread": false
+     }
+    ]
    },
    "pdfs": [],
    "images": [
@@ -1615,13 +1907,21 @@ window.ARCHIVE = {
    "website": "",
    "book": {
     "category": "layout_design",
-    "order": 1.0,
+    "order": 1,
     "cover": {
      "src": "img/D_DES016/00.webp",
      "thumb": "img/D_DES016/00_s.webp",
      "w": 2976,
      "h": 3064
-    }
+    },
+    "pages": [
+     {
+      "src": "img/D_DES016/00.webp",
+      "w": 2976,
+      "h": 3064,
+      "spread": false
+     }
+    ]
    },
    "pdfs": [],
    "images": [
@@ -1680,7 +1980,15 @@ window.ARCHIVE = {
      "thumb": "img/D_DES017/00_s.webp",
      "w": 4177,
      "h": 4632
-    }
+    },
+    "pages": [
+     {
+      "src": "img/D_DES017/00.webp",
+      "w": 4177,
+      "h": 4632,
+      "spread": false
+     }
+    ]
    },
    "pdfs": [],
    "images": [
@@ -1735,13 +2043,27 @@ window.ARCHIVE = {
    "website": "https://goldrausch.org/en/gesamtband/goldrausch-2024-i-only-work-with-lost-and-found/noor-us-sabah-saeed/",
    "book": {
     "category": "collaborative",
-    "order": 1.0,
+    "order": 1,
     "cover": {
      "src": "img/D_DES034/90.webp",
      "thumb": "img/D_DES034/90_s.webp",
      "w": 760,
      "h": 672
-    }
+    },
+    "pages": [
+     {
+      "src": "img/D_DES034/90.webp",
+      "w": 760,
+      "h": 672,
+      "spread": false
+     },
+     {
+      "src": "img/D_DES034/00.webp",
+      "w": 760,
+      "h": 672,
+      "spread": false
+     }
+    ]
    },
    "pdfs": [],
    "images": [
