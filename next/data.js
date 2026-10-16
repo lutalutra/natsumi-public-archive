@@ -1919,14 +1919,7 @@ window.ARCHIVE = {
    "website": "",
    "book": null,
    "pdfs": [],
-   "images": [
-    {
-     "src": "img/F_COM040/00.webp",
-     "thumb": "img/F_COM040/00_s.webp",
-     "w": 2400,
-     "h": 1600
-    }
-   ]
+   "images": []
   }
  ],
  "series": [
@@ -1938,6 +1931,12 @@ window.ARCHIVE = {
     "A_ART003",
     "A_ART015"
    ],
+   "hero": {
+    "src": "img/A_ART001/02.webp",
+    "thumb": "img/A_ART001/02_s.webp",
+    "w": 3508,
+    "h": 2481
+   },
    "title": {
     "en": "Portraits of (Places)",
     "ja": "Portraits of (Places)"
@@ -1948,6 +1947,12 @@ window.ARCHIVE = {
    "children": [
     "A_ART014"
    ],
+   "hero": {
+    "src": "img/A_ART014/00.webp",
+    "thumb": "img/A_ART014/00_s.webp",
+    "w": 2000,
+    "h": 1170
+   },
    "title": {
     "en": "Recollections of Beyond",
     "ja": "回想：場所と人のあいだ"

@@ -26,9 +26,11 @@ SKIPPED = []
 # Series shown on the opening view, in order (same as the current site).
 SERIES = [
     {"id": "SER001", "folder": "0_SER/0_SER001", "title_en": "Portraits of (Places)",
-     "title_ja": "Portraits of (Places)", "children": ["A_ART001", "A_ART002", "A_ART003", "A_ART015"]},
+     "title_ja": "Portraits of (Places)", "children": ["A_ART001", "A_ART002", "A_ART003", "A_ART015"],
+     "hero": ["A_ART001", 2]},
     {"id": "SER002", "folder": "0_SER/0_SER002", "title_en": "Recollections of Beyond",
-     "title_ja": "回想：場所と人のあいだ", "children": ["A_ART014"]},
+     "title_ja": "回想：場所と人のあいだ", "children": ["A_ART014"],
+     "hero": ["A_ART014", 0]},
 ]
 
 # Bands on the field map. A work goes to the first band whose themes it carries.
@@ -120,6 +122,10 @@ def derive(src, pid, idx):
             rel = "../" + src.relative_to(ROOT).as_posix()
             return {"src": rel, "thumb": rel, "w": w, "h": h}
         im = im.convert("RGB")
+        from PIL import ImageStat
+        if max(ImageStat.Stat(im.convert("L").resize((64, 64))).stddev) < 6:
+            SKIPPED.append(src.relative_to(ROOT).as_posix() + "  (looks blank / placeholder)")
+            return None
         for target, size, q in ((big, LARGE, 80), (small, SMALL, 72)):
             if not target.exists() or target.stat().st_mtime < src.stat().st_mtime:
                 c = im.copy()
@@ -187,7 +193,9 @@ def main():
     for s in SERIES:
         d = ROOT / "archive" / s["folder"]
         imgs = public_images(d)
-        series.append({**{k: s[k] for k in ("id", "children")},
+        wk = next((w for w in works if w["id"] == s["hero"][0]), None)
+        hero = (wk["images"][min(s["hero"][1], len(wk["images"]) - 1)] if wk and wk["images"] else None)
+        series.append({**{k: s[k] for k in ("id", "children")}, "hero": hero,
                        "title": {"en": s["title_en"], "ja": s["title_ja"]},
                        })
 
