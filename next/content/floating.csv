@@ -1,0 +1,22 @@
+﻿id,start,end,kind,show_label,label_en,label_ja,note
+A_ART013,2020,2020,research,TRUE,"Between Places and Humans, Fragments",,auto from private project
+B_COL010,2017,2017,licence,FALSE,,,auto from private project
+B_COL020,2019,2019,nda,FALSE,,,auto from private project
+C_CUL024,2022,2024,nda,FALSE,,,auto from private project
+C_CUL025,2022,2024,nda,FALSE,,,auto from private project
+C_CUL026,2022,2022,nda,FALSE,,,auto from private project
+C_CUL027,2023,2023,nda,FALSE,,,auto from private project
+C_CUL029,2023,2023,nda,FALSE,,,auto from private project
+C_CUL031,2022,2022,nda,FALSE,,,auto from private project
+D_DES033,2023,2023,nda,FALSE,,,auto from private project
+D_DES037,2025,2026,nda,FALSE,,,auto from private project
+D_DES041,2026,2026,nda,FALSE,,,auto from private project
+D_DES042,2025,2025,nda,FALSE,,,auto from private project
+E_DEV032,2021,2026,nda,FALSE,,,auto from private project
+E_DEV043,2019,2019,nda,FALSE,,,auto from private project
+W_RP044,2015,2020,research,TRUE,Field Research: Weimar / Berlin,,auto from private project
+W_RP045,2015,2020,research,TRUE,Oral History Research: Weimar / Berlin,,auto from private project
+W_RP046,2015,2025,research,TRUE,Urban Observation,,auto from private project
+W_RP047,2017,2021,research,TRUE,Kleingarten and Local Life,,auto from private project
+W_RP048,2015,2025,research,TRUE,Living Observing,,auto from private project
+W_RP049,2023,2025,research,TRUE,Citizen Science Project Reports,,auto from private project

@@ -153,6 +153,14 @@ h2, p { margin: 0; }
 .mark.is-on, .mark:hover, .mark:focus-visible { background: var(--ink); transform: scaleY(1.6); outline: none; }
 .mark.project.is-on, .mark.project:hover { background: var(--well); }
 .chart.dim .mark:not(.is-on) { opacity: .35; }
+.float {
+  position: absolute; width: 8px; height: 8px; border-radius: 50%; background: #C9C9C6;
+  animation: drift 7s ease-in-out infinite alternate;
+}
+.float.named { background: #9E9E9A; }
+.float::after { content: ""; position: absolute; inset: -6px; }
+.float:hover, .float.is-on, .float:focus-visible { background: var(--ink); outline: none; }
+@keyframes drift { from { transform: translate(-3px, -4px); } to { transform: translate(3px, 4px); } }
 .peek { position: sticky; top: 96px; font-size: 13px; display: grid; gap: 8px; }
 .peek img { width: 100%; max-height: 240px; object-fit: contain; object-position: left top; }
 .peek .t { font-size: 15px; line-height: 1.35; }
@@ -380,6 +388,7 @@ body.locked { overflow: hidden; }
   .hero-slides img, .tile img, .top, .hero-foot, .mark { transition: none; }
   .ticks button.is-on span { animation: none; width: 100%; }
   .g-frame img, .r-book, .r-leaf, .shell { transition: none; }
+  .float { animation: none; }
 }
 
 /* legal pages */

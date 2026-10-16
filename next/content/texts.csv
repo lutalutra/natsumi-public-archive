@@ -78,3 +78,10 @@ labels,kind.content,Content production,コンテンツ制作,
 ui,legend.art,Artistic practice,作家活動,List legend
 ui,legend.design,Design,デザイン,List legend
 ui,list.self,Self-initiated,自主制作,List: no venue
+labels,tracks.floating.0,Unplaced,未分類・非公開,
+labels,tracks.floating.1,not public or not yet placed,非公開や、まだ位置づけていないもの,
+labels,float.nda,"Client work, not public",クライアントワーク（非公開）,
+labels,float.research,Ongoing research,継続中のリサーチ,
+labels,float.licence,Not shown for rights reasons,権利上の理由で非掲載,
+labels,float.spot,Spot project,スポットプロジェクト,
+labels,float.unplaced,Not yet placed,未分類,

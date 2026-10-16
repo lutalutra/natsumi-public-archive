@@ -2602,36 +2602,25 @@ window.ARCHIVE = {
    "link": ""
   },
   {
-   "id": "A_ART009",
-   "src": "img/A_ART009/hero_00.webp",
-   "w": 4912,
-   "h": 3064,
-   "lumTop": 0.562,
-   "lumBottom": 0.47,
-   "fit": "cover",
-   "bg": "#8c7f73",
-   "link": ""
+   "id": "A_ART015",
+   "src": "img/A_ART015/hero_02.webp",
+   "w": 990,
+   "h": 562,
+   "lumTop": 0.827,
+   "lumBottom": 0.827,
+   "fit": "contain",
+   "bg": "#d2d4cb",
+   "link": "SER001"
   },
   {
-   "id": "A_ART004",
-   "src": "img/A_ART004/hero_00.webp",
-   "w": 3872,
-   "h": 2592,
-   "lumTop": 0.076,
-   "lumBottom": 0.089,
+   "id": "A_ART011",
+   "src": "img/A_ART011/hero_00.webp",
+   "w": 2778,
+   "h": 1345,
+   "lumTop": 0.65,
+   "lumBottom": 0.527,
    "fit": "cover",
-   "bg": "#0d131a",
-   "link": ""
-  },
-  {
-   "id": "A_ART001",
-   "src": "img/A_ART001/hero_00.webp",
-   "w": 1454,
-   "h": 740,
-   "lumTop": 0.962,
-   "lumBottom": 0.825,
-   "fit": "cover",
-   "bg": "#f8ebdf",
+   "bg": "#98acaf",
    "link": ""
   },
   {
@@ -2643,6 +2632,17 @@ window.ARCHIVE = {
    "lumBottom": 0.835,
    "fit": "cover",
    "bg": "#f7f7f8",
+   "link": ""
+  },
+  {
+   "id": "A_ART001",
+   "src": "img/A_ART001/hero_00.webp",
+   "w": 1454,
+   "h": 740,
+   "lumTop": 0.962,
+   "lumBottom": 0.825,
+   "fit": "cover",
+   "bg": "#f8ebdf",
    "link": ""
   }
  ],
@@ -2965,6 +2965,183 @@ window.ARCHIVE = {
   "list.self": {
    "en": "Self-initiated",
    "ja": "自主制作"
+  },
+  "tracks.floating.0": {
+   "en": "Unplaced",
+   "ja": "未分類・非公開"
+  },
+  "tracks.floating.1": {
+   "en": "not public or not yet placed",
+   "ja": "非公開や、まだ位置づけていないもの"
+  },
+  "float.nda": {
+   "en": "Client work, not public",
+   "ja": "クライアントワーク（非公開）"
+  },
+  "float.research": {
+   "en": "Ongoing research",
+   "ja": "継続中のリサーチ"
+  },
+  "float.licence": {
+   "en": "Not shown for rights reasons",
+   "ja": "権利上の理由で非掲載"
+  },
+  "float.spot": {
+   "en": "Spot project",
+   "ja": "スポットプロジェクト"
+  },
+  "float.unplaced": {
+   "en": "Not yet placed",
+   "ja": "未分類"
   }
- }
+ },
+ "floating": [
+  {
+   "y0": 2020,
+   "y1": 2020,
+   "kind": "research",
+   "label": {
+    "en": "Between Places and Humans, Fragments",
+    "ja": ""
+   }
+  },
+  {
+   "y0": 2017,
+   "y1": 2017,
+   "kind": "licence",
+   "label": null
+  },
+  {
+   "y0": 2019,
+   "y1": 2019,
+   "kind": "nda",
+   "label": null
+  },
+  {
+   "y0": 2022,
+   "y1": 2024,
+   "kind": "nda",
+   "label": null
+  },
+  {
+   "y0": 2022,
+   "y1": 2024,
+   "kind": "nda",
+   "label": null
+  },
+  {
+   "y0": 2022,
+   "y1": 2022,
+   "kind": "nda",
+   "label": null
+  },
+  {
+   "y0": 2023,
+   "y1": 2023,
+   "kind": "nda",
+   "label": null
+  },
+  {
+   "y0": 2023,
+   "y1": 2023,
+   "kind": "nda",
+   "label": null
+  },
+  {
+   "y0": 2022,
+   "y1": 2022,
+   "kind": "nda",
+   "label": null
+  },
+  {
+   "y0": 2023,
+   "y1": 2023,
+   "kind": "nda",
+   "label": null
+  },
+  {
+   "y0": 2025,
+   "y1": 2026,
+   "kind": "nda",
+   "label": null
+  },
+  {
+   "y0": 2026,
+   "y1": 2026,
+   "kind": "nda",
+   "label": null
+  },
+  {
+   "y0": 2025,
+   "y1": 2025,
+   "kind": "nda",
+   "label": null
+  },
+  {
+   "y0": 2021,
+   "y1": 2026,
+   "kind": "nda",
+   "label": null
+  },
+  {
+   "y0": 2019,
+   "y1": 2019,
+   "kind": "nda",
+   "label": null
+  },
+  {
+   "y0": 2015,
+   "y1": 2020,
+   "kind": "research",
+   "label": {
+    "en": "Field Research: Weimar / Berlin",
+    "ja": ""
+   }
+  },
+  {
+   "y0": 2015,
+   "y1": 2020,
+   "kind": "research",
+   "label": {
+    "en": "Oral History Research: Weimar / Berlin",
+    "ja": ""
+   }
+  },
+  {
+   "y0": 2015,
+   "y1": 2025,
+   "kind": "research",
+   "label": {
+    "en": "Urban Observation",
+    "ja": ""
+   }
+  },
+  {
+   "y0": 2017,
+   "y1": 2021,
+   "kind": "research",
+   "label": {
+    "en": "Kleingarten and Local Life",
+    "ja": ""
+   }
+  },
+  {
+   "y0": 2015,
+   "y1": 2025,
+   "kind": "research",
+   "label": {
+    "en": "Living Observing",
+    "ja": ""
+   }
+  },
+  {
+   "y0": 2023,
+   "y1": 2025,
+   "kind": "research",
+   "label": {
+    "en": "Citizen Science Project Reports",
+    "ja": ""
+   }
+  }
+ ]
 };

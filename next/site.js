@@ -203,7 +203,7 @@
   const Y0 = 2013, Y1 = Math.max(2027, ...A.projects.map(p => (p.end || p.start) + 1));
   const NY = Y1 - Y0 + 1;
   const xp = y => ((y - Y0) / NY * 100);
-  const shown = { art: true, design: true, projects: true };
+  const shown = { art: true, design: true, projects: true, floating: true };
   let selected = null, lastPointer = "mouse";
 
   function lanes(items) {
@@ -227,7 +227,7 @@
   }
   function renderChrono() {
     const TR = t("tracks");
-    $("#tracks").innerHTML = ["art", "design", "projects"].map(k =>
+    $("#tracks").innerHTML = ["art", "design", "projects", "floating"].filter(k => k !== "floating" || (A.floating || []).length).map(k =>
       `<button type="button" data-track="${k}" aria-pressed="${shown[k]}">${esc(TR[k][0])}</button>`).join("");
     const years = Array.from({ length: NY }, (_, i) => Y0 + i);
     let html = `<div class="axis"><div></div><div class="years">${years.map((y, i) =>
@@ -252,15 +252,33 @@
       html += A.projects.map(p => laneHTML(p.title,
         [{ key: "p:" + p.id, label: p.title, y0: p.start, y1: p.end || Y1 - 1 }], "project")).join("");
     }
+    if (shown.floating && (A.floating || []).length) {
+      html += `<div class="trackhead"><b>${esc(TR.floating[0])}</b><span>${esc(TR.floating[1])}</span></div>`;
+      // a stable pseudo-random scatter, so the dots keep their places between renders
+      let seed = 7; const rnd = () => (seed = (seed * 9301 + 49297) % 233280) / 233280;
+      const dots = A.floating.map((f, i) => {
+        const x = f.y0 ? xp(f.y0 + (Math.max(f.y0, f.y1 || f.y0) - f.y0 + 1) / 2) : 4 + rnd() * 92;
+        const y = 14 + rnd() * 56, d = (rnd() * 6).toFixed(2), dur = (5 + rnd() * 4).toFixed(2);
+        return `<button type="button" class="float${f.label ? " named" : ""}" data-mark="f:${i}" style="left:calc(${x}% - 4px);top:${y}px;animation-delay:-${d}s;animation-duration:${dur}s" aria-label="${esc(f.label ? L(f.label) : t("float." + f.kind))}"></button>`;
+      }).join("");
+      const grid = Array.from({ length: NY + 1 }, (_, i) => `<i style="left:${i / NY * 100}%"></i>`).join("");
+      html += `<div class="lane floating"><div class="lbl"></div><div class="marks" style="height:84px"><div class="grid-lines">${grid}</div>${dots}</div></div>`;
+    }
     $("#chart").innerHTML = html;
     peek(selected);
   }
   function peek(key) {
     selected = key;
-    document.querySelectorAll(".mark").forEach(m => m.classList.toggle("is-on", m.dataset.mark === key));
+    document.querySelectorAll(".mark, .float").forEach(m => m.classList.toggle("is-on", m.dataset.mark === key));
     $("#chart").classList.toggle("dim", !!key);
     const el = $("#peek");
     if (!key) { el.innerHTML = `<p class="hint">${esc(t("peekHint"))}</p>`; return; }
+    if (key.startsWith("f:")) {
+      const f = A.floating[+key.slice(2)];
+      const yrs = f.y0 ? (f.y1 && f.y1 !== f.y0 ? `${f.y0}–${f.y1}` : `${f.y0}`) : "";
+      el.innerHTML = `${yrs ? `<p class="s">${esc(yrs)}</p>` : ""}<p class="t">${esc(f.label ? L(f.label) : t("float." + f.kind))}</p>${f.label ? `<p class="s">${esc(t("float." + f.kind))}</p>` : ""}`;
+      return;
+    }
     if (key.startsWith("p:")) {
       const p = A.projects.find(x => "p:" + x.id === key);
       el.innerHTML = `<p class="s">${esc(t("status")[p.status] || p.status)}, ${esc(t("since"))} ${p.start}</p><p class="t">${esc(p.title)}</p><p class="s">${esc(L(p.subtitle))}</p>`;
@@ -279,15 +297,15 @@
   let preSelected = false;
   chart.addEventListener("pointerdown", e => {
     lastPointer = e.pointerType;
-    const m = e.target.closest(".mark");
+    const m = e.target.closest(".mark, .float");
     preSelected = !!m && selected === m.dataset.mark;   // read before focus moves the selection
   });
-  chart.addEventListener("pointerover", e => { const m = e.target.closest(".mark"); if (m && e.pointerType === "mouse") peek(m.dataset.mark); });
-  chart.addEventListener("focusin", e => { const m = e.target.closest(".mark"); if (m) peek(m.dataset.mark); });
+  chart.addEventListener("pointerover", e => { const m = e.target.closest(".mark, .float"); if (m && e.pointerType === "mouse") peek(m.dataset.mark); });
+  chart.addEventListener("focusin", e => { const m = e.target.closest(".mark, .float"); if (m) peek(m.dataset.mark); });
   chart.addEventListener("click", e => {
-    const m = e.target.closest(".mark"); if (!m) return;
+    const m = e.target.closest(".mark, .float"); if (!m) return;
     const key = m.dataset.mark;
-    if (key.startsWith("p:")) { peek(key); return; }
+    if (key.startsWith("p:") || key.startsWith("f:")) { peek(key); return; }
     if ((lastPointer !== "mouse" || matchMedia("(hover: none)").matches) && !preSelected) { peek(key); return; }   // first tap shows, second opens
     go("#work=" + key);
   });

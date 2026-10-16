@@ -9,6 +9,7 @@ Content comes from the CSV files in next/content/ (edit these):
   books.csv            where each bookshelf item takes its pages from
   image_captions.csv   a short caption and credit per image, shown in the gallery
   texts.csv            every piece of text on the site (EN and JA): Info, labels, SEO
+  floating.csv         grey dots floating in the index: NDA work, spot projects, things not yet placed
   legal.csv            Impressum and privacy policy (DE and EN) -> impressum.html, datenschutz.html
 If projects.csv is missing, the list is read from ../app.js instead.
 
@@ -497,7 +498,13 @@ def main():
                 {"id": r["id"], "title": r["title"], "subtitle": {"en": r.get("subtitle_en", ""), "ja": r.get("subtitle_ja", "")},
                  "start": int(r["start"]), "end": int(r["end"]) if r.get("end") else None, "status": r.get("status") or "planned"}
                 for r in read_csv("studio_projects.csv") if r.get("id")],
-            "texts": texts}
+            "texts": texts,
+            "floating": [{"y0": int(r["start"]) if r.get("start") else None,
+                          "y1": int(r["end"] or r["start"]) if r.get("start") else None,
+                          "kind": r.get("kind") or "unplaced",
+                          "label": ({"en": r.get("label_en", ""), "ja": r.get("label_ja", "")}
+                                    if (r.get("show_label") or "").upper() in ("TRUE", "1", "YES") else None)}
+                         for r in read_csv("floating.csv")]}
     write_static(texts, sorted(works, key=lambda w: -w["y0"]))
     write_legal()
     (NEXT / "data.js").write_text(

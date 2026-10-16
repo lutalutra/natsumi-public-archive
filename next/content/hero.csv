@@ -1,6 +1,6 @@
 ﻿order,project_id,image,fit,link,note
-1,A_ART014,cover.jpg,cover,,"Recollections of Beyond — installation, dark"
-2,A_ART009,cover.jpg,cover,,"Field Notes of Topophilia — exhibition room, light"
-3,A_ART004,cover.jpg,cover,,"Unerased Reminders — former prison room, dark"
-4,A_ART001,cover.jpg,cover,,"About My Topos — exhibition, warm light"
-5,A_ART007,documentation_01.jpg,cover,,"Phenomena, and Symbols of Persuasion — stones in hand"
+1,A_ART014,cover.jpg,cover,,Recollections of Beyond
+2,A_ART015,gallery_02.jpg,contain,SER001,"Portraits of (Places) — source image is 990px, shown whole"
+3,A_ART011,cover.jpg,cover,,Scenery of De/Museumization
+4,A_ART007,documentation_01.jpg,cover,,"Phenomena, and Symbols of Persuasion (Portraits of Dresden)"
+5,A_ART001,cover.jpg,cover,,About My Topos
