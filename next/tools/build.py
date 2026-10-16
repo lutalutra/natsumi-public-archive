@@ -7,6 +7,9 @@ Content comes from the CSV files in next/content/ (edit these):
   hero.csv             images for the opening slideshow, in order
   studio_projects.csv  studio projects shown separately in the index
   books.csv            where each bookshelf item takes its pages from
+  image_captions.csv   a short caption and credit per image, shown in the gallery
+  texts.csv            every piece of text on the site (EN and JA): Info, labels, SEO
+  legal.csv            Impressum and privacy policy (DE and EN) -> impressum.html, datenschutz.html
 If projects.csv is missing, the list is read from ../app.js instead.
 
 Images come from archive/<group>/<id>/images/public/. Web-sized copies go to
@@ -191,7 +194,11 @@ def derive(src, pid, idx):
                 c.thumbnail((size, size), Image.LANCZOS)
                 c.save(target, "WEBP", quality=q, method=5)
         bg, lum = edge_color(small)
-        return {"src": f"img/{pid}/{name}.webp", "thumb": f"img/{pid}/{name}_s.webp", "w": w, "h": h, "bg": bg, "lum": lum}
+        out = {"src": f"img/{pid}/{name}.webp", "thumb": f"img/{pid}/{name}_s.webp", "w": w, "h": h, "bg": bg, "lum": lum}
+        cap = CAPTIONS.get((pid, src.name))
+        if cap and any(cap.values()):
+            out["cap"] = cap
+        return out
 
 
 def save_page(im, dest):
@@ -276,10 +283,122 @@ def nice(s):
 
 
 BOOKS = {}
+CAPTIONS = {}
+
+
+def esc(t):
+    return (t or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
+
+
+def write_static(texts, works):
+    """Put the parts search engines read into index.html, between marker comments."""
+    page = NEXT / "index.html"
+    html = page.read_text(encoding="utf-8")
+    T = lambda k, l="en": (texts.get(k) or {}).get(l, "")
+    paras = lambda t: "".join(f"<p>{esc(x.strip())}</p>" for x in t.split("\n\n") if x.strip())
+    lines = lambda t: "".join(f"<li>{esc(x.strip())}</li>" for x in t.split("\n") if x.strip())
+    alumni = []
+    for line in T("info.education").split("\n"):
+        name = line.split(" — ")[0].split(",")[0].strip()
+        if name:
+            alumni.append({"@type": "CollegeOrUniversity", "name": name})
+    ld = {
+        "@context": "https://schema.org", "@type": "Person", "name": "Natsumi Sugiyama", "alternateName": "杉山夏実",
+        "jobTitle": "Artist and researcher", "description": T("seo.description"),
+        "homeLocation": {"@type": "Place", "name": "Berlin, Germany"},
+        "alumniOf": alumni, "email": "mailto:" + T("contact.email"),
+        "knowsAbout": ["sense of place", "artistic research", "fieldwork", "installation", "drawing",
+                       "mapping", "editorial design", "information design"],
+        "award": [x.strip() for x in T("info.support").split("\n") if x.strip()],
+    }
+    blocks = {
+        "head": (f'<title>{esc(T("seo.title"))}</title>\n'
+                 f'<meta name="description" content="{esc(T("seo.description"))}">\n'
+                 f'<meta property="og:title" content="{esc(T("seo.title"))}">\n'
+                 f'<meta property="og:description" content="{esc(T("seo.description"))}">\n'
+                 f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>'),
+        "info": (f'<div class="info-text" lang="en"><p class="lead">{esc(T("info.lead"))}</p>{paras(T("info.statement"))}</div>\n'
+                 f'<div class="info-text" lang="ja" hidden><p class="lead">{esc(T("info.lead", "ja"))}</p>{paras(T("info.statement", "ja"))}</div>\n'
+                 f'<div class="info-side">'
+                 f'<div><h3 data-t="info.education.label">{esc(T("info.education.label"))}</h3><ul class="plain" data-lines="info.education">{lines(T("info.education"))}</ul></div>'
+                 f'<div><h3 data-t="info.support.label">{esc(T("info.support.label"))}</h3><ul class="plain" data-lines="info.support">{lines(T("info.support"))}</ul></div>'
+                 f'<div><h3 data-t="contact">{esc(T("contact"))}</h3><p><a href="mailto:{esc(T("contact.email"))}">{esc(T("contact.email"))}</a></p></div>'
+                 f'</div>'),
+        "works": '<ol class="list">' + "".join(
+            f'<li><a href="#work={w["id"]}"><span class="y">{esc(w["year"])}</span><span>{esc(w["title"]["en"])}</span>'
+            f'<span class="m">{esc(", ".join(w["medium"]))}</span></a></li>' for w in works) + "</ol>",
+    }
+    for name, content in blocks.items():
+        a, b = f"<!--static:{name}-->", f"<!--/static:{name}-->"
+        if a in html and b in html:
+            html = html[:html.index(a) + len(a)] + "\n" + content + "\n" + html[html.index(b):]
+        else:
+            print("index.html: marker missing for", name)
+    page.write_text(html, encoding="utf-8")
+
+
+LEGAL_PAGE = """<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{title} — Natsumi Sugiyama</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="site.css">
+</head>
+<body class="legal">
+<header class="top solid"><a class="name" href="./">Natsumi Sugiyama</a></header>
+<main class="legal-main">
+<div lang="de">{de}</div>
+<div lang="en">{en}</div>
+</main>
+<footer class="foot"><a href="./">Archive</a> <a href="impressum.html">Impressum</a> <a href="datenschutz.html">Datenschutz</a></footer>
+</body>
+</html>
+"""
+
+
+def linkify(t):
+    t = esc(t)
+    t = re.sub(r"(https?://[^\s<]+)", r'<a href="\1" rel="noopener">\1</a>', t)
+    return re.sub(r"([\w.+-]+@[\w-]+\.[\w.]+)", r'<a href="mailto:\1">\1</a>', t)
+
+
+def write_legal():
+    L = {r["key"]: r for r in read_csv("legal.csv") if r.get("key")}
+    if not L:
+        return
+    block = lambda t: "".join(f"<p>{linkify(x).replace(chr(10), '<br>')}</p>" for x in t.split("\n\n") if x.strip())
+    def imprint(l):
+        g = lambda k: (L.get(k) or {}).get(l, "")
+        parts = [f"<h1>{esc(g('imprint.title'))}</h1>", f"<p class='muted'>{esc(g('imprint.law'))}</p>",
+                 f"<p>{esc(g('imprint.name'))}<br>{esc(g('imprint.address')).replace(chr(10), '<br>')}</p>",
+                 f"<p>E-Mail: {linkify(g('imprint.email'))}" + (f"<br>{'Telefon' if l == 'de' else 'Phone'}: {esc(g('imprint.phone'))}" if g('imprint.phone') else "") + "</p>"]
+        if g("imprint.vat"):
+            parts.append(f"<p>{'USt-IdNr.' if l == 'de' else 'VAT ID'}: {esc(g('imprint.vat'))}</p>")
+        for k in ("copyright", "liability"):
+            parts.append(f"<h2>{esc(g(f'imprint.{k}.title'))}</h2>{block(g(f'imprint.{k}'))}")
+        return "".join(parts)
+    def privacy(l):
+        g = lambda k: (L.get(k) or {}).get(l, "")
+        parts = [f"<h1>{esc(g('privacy.title'))}</h1>"]
+        for k in ("controller", "hosting", "nocookies", "contact", "rights"):
+            parts.append(f"<h2>{esc(g(f'privacy.{k}.title'))}</h2>{block(g(f'privacy.{k}'))}")
+        return "".join(parts)
+    (NEXT / "impressum.html").write_text(LEGAL_PAGE.format(title="Impressum", de=imprint("de"), en=imprint("en")), encoding="utf-8")
+    (NEXT / "datenschutz.html").write_text(LEGAL_PAGE.format(title="Datenschutz", de=privacy("de"), en=privacy("en")), encoding="utf-8")
+    open_items = [k for k, r in L.items() if "[" in (r.get("de", "") + r.get("en", ""))]
+    if open_items:
+        print("legal.csv: fill in before going live ->", ", ".join(open_items))
 
 
 def main():
     BOOKS.update({r["project_id"]: r for r in read_csv("books.csv") if r.get("project_id")})
+    for r in read_csv("image_captions.csv"):
+        if r.get("project_id") and r.get("file"):
+            CAPTIONS[(r["project_id"], r["file"])] = {"en": r.get("caption_en", ""), "ja": r.get("caption_ja", ""),
+                                                      "credit": r.get("credit", "")}
+    texts = {r["key"]: {"en": r.get("en", ""), "ja": r.get("ja", "")} for r in read_csv("texts.csv") if r.get("key")}
     projects = load_projects()
     works, seen = [], set()
     for p in projects:
@@ -312,6 +431,7 @@ def main():
             "year": p.get("year", ""), "y0": years[0], "y1": years[-1],
             "area": "art" if p.get("area_label") == "Artistic/Research" else "design",
             "row": row_for(p),
+            "pillars": [x.strip() for x in (p.get("pillar") or "").split(";") if x.strip()],
             "featured": bool(p.get("featured")), "featOrder": p.get("feat_order") or 99,
             "question": {"en": nice(p.get("research_question_en")), "ja": nice(p.get("research_question_ja"))},
             "desc": {"en": nice(p.get("desc_en")), "ja": nice(p.get("desc_ja"))},
@@ -342,13 +462,17 @@ def main():
 
     hero = []
     hero_rows = sorted(read_csv("hero.csv"), key=lambda r: float(r.get("order") or 0))
-    for pid, idx in ((r["project_id"], int(r.get("image") or 0)) for r in hero_rows):
+    for row in hero_rows:
+        pid, want = row["project_id"], row.get("image") or "0"
         p = next((x for x in projects if x["id"] == pid), None)
         d = project_dir(p) if p else None
         files = public_images(d) if d else []
-        if idx >= len(files):
-            print("hero: no image", pid, idx); continue
-        src = files[idx]
+        src = next((f for f in files if f.name == want), None)
+        if src is None and want.isdigit() and int(want) < len(files):
+            src = files[int(want)]
+        if src is None:
+            print("hero: no image", pid, want); continue
+        idx = files.index(src)
         dest = OUT_IMG / pid / f"hero_{idx:02d}.webp"
         dest.parent.mkdir(parents=True, exist_ok=True)
         with Image.open(src) as im:
@@ -360,15 +484,22 @@ def main():
         top, bottom = luminance(dest)
         if max(w, h) < 1400:
             print(f"hero: {pid} image {idx} is only {w}x{h}px and will look soft full-screen")
+        bg, lum = edge_color(dest)
+        fit = (row.get("fit") or "cover").lower()
+        if fit == "contain":
+            top = bottom = lum
         hero.append({"id": pid, "src": dest.relative_to(NEXT).as_posix(), "w": w, "h": h,
-                     "lumTop": top, "lumBottom": bottom})
+                     "lumTop": top, "lumBottom": bottom, "fit": fit, "bg": bg, "link": row.get("link") or ""})
 
     data = {"rows": {"art": [{"key": k, "en": en, "ja": ja} for k, en, ja, _ in ART_ROWS],
                      "design": [{"key": k, "en": en, "ja": ja} for k, en, ja, _ in DESIGN_ROWS]},
             "works": works, "series": series, "hero": hero, "projects": [
                 {"id": r["id"], "title": r["title"], "subtitle": {"en": r.get("subtitle_en", ""), "ja": r.get("subtitle_ja", "")},
                  "start": int(r["start"]), "end": int(r["end"]) if r.get("end") else None, "status": r.get("status") or "planned"}
-                for r in read_csv("studio_projects.csv") if r.get("id")]}
+                for r in read_csv("studio_projects.csv") if r.get("id")],
+            "texts": texts}
+    write_static(texts, sorted(works, key=lambda w: -w["y0"]))
+    write_legal()
     (NEXT / "data.js").write_text(
         "/* generated by next/tools/build.py — do not edit by hand */\n"
         "window.ARCHIVE = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n", encoding="utf-8")

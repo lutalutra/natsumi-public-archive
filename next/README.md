@@ -27,12 +27,15 @@ next/
 | ファイル | 内容 |
 |---|---|
 | `projects.csv` | 全プロジェクト（旧 app.js の PROJECTS と同じ列）。タイトル、年、テーマ、説明文、会場、公開範囲（visibility）、選定（featured）、本棚（bookshelf, bookshelf_category, order_book）など |
-| `hero.csv` | トップのスライドショーに出す画像と順番。`image` は images/public 内の何番目か（0 = cover） |
+| `hero.csv` | トップのスライドショー。`image` は images/public 内のファイル名、`fit` は cover（全面）か contain（全体を見せる）、`link` にシリーズIDを入れるとシリーズを開きます |
 | `studio_projects.csv` | インデックスの「スタジオのプロジェクト」欄（tegote など）。`end` が空欄なら継続中 |
+| `texts.csv` | サイト上のすべての文言（英・日）。Info の文章、学歴、受賞・助成、ボタンや見出しのラベル、検索結果に出るタイトルと説明文（seo.*） |
+| `image_captions.csv` | 画像ごとの短い説明とクレジット。ギャラリーの左下に小さく表示（例：Installation view / Photo: …） |
+| `legal.csv` | Impressum とプライバシーポリシー（独・英）。`[ ]` の部分（住所・電話）を埋めるまで、ビルド時に警告が出ます |
 | `books.csv` | 本棚の各本のページの元。`pages_from` が `pdf` なら PDF を描画（`pdf` にプロジェクトフォルダからのパス、`max_pages` に枚数）、`images` なら表紙と画像から作ります |
 
 - 文字コードは UTF-8（BOM付き）。Excel / Numbers / Google スプレッドシートでそのまま開けます。
-- 複数の値（themes, medium）は `; ` 区切り。TRUE/FALSE は featured と bookshelf の列。
+- 複数の値（themes, medium, pillar）は `; ` 区切り。`pillar` は installation / portraits / other（アーカイブの「Installations」「Portraits of Places」欄）。TRUE/FALSE は featured と bookshelf の列。
 - `visibility` が `private` の作品は表示しません。`partial` は表紙画像1枚だけを表示します。
 - 画像の並び順は `cover` → `gallery_*` / `documentation_*` → その他（ファイル名順）。
 - 読み込めないファイルや真っ白な画像はスキップし、最後に一覧で表示します。

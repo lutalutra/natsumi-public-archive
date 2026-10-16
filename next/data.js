@@ -59,6 +59,9 @@ window.ARCHIVE = {
    "y1": 2013,
    "area": "art",
    "row": "places",
+   "pillars": [
+    "portraits"
+   ],
    "featured": true,
    "featOrder": 11,
    "question": {
@@ -279,7 +282,12 @@ window.ARCHIVE = {
      "w": 1454,
      "h": 740,
      "bg": "#f7ebde",
-     "lum": 0.928
+     "lum": 0.928,
+     "cap": {
+      "en": "Installation view",
+      "ja": "展示風景",
+      "credit": "Photo: Kenji Utsugi"
+     }
     },
     {
      "src": "img/A_ART001/01.webp",
@@ -327,6 +335,9 @@ window.ARCHIVE = {
    "y1": 2014,
    "area": "art",
    "row": "narratives",
+   "pillars": [
+    "portraits"
+   ],
    "featured": false,
    "featOrder": 7,
    "question": {
@@ -397,6 +408,9 @@ window.ARCHIVE = {
    "y1": 2014,
    "area": "art",
    "row": "places",
+   "pillars": [
+    "portraits"
+   ],
    "featured": true,
    "featOrder": 10,
    "question": {
@@ -450,6 +464,9 @@ window.ARCHIVE = {
    "y1": 2015,
    "area": "art",
    "row": "narratives",
+   "pillars": [
+    "installation"
+   ],
    "featured": false,
    "featOrder": 9,
    "question": {
@@ -489,7 +506,12 @@ window.ARCHIVE = {
      "w": 3872,
      "h": 2592,
      "bg": "#0d131a",
-     "lum": 0.071
+     "lum": 0.071,
+     "cap": {
+      "en": "Installation view",
+      "ja": "展示風景",
+      "credit": ""
+     }
     },
     "pages": [
      {
@@ -558,7 +580,12 @@ window.ARCHIVE = {
      "w": 3872,
      "h": 2592,
      "bg": "#0d131a",
-     "lum": 0.071
+     "lum": 0.071,
+     "cap": {
+      "en": "Installation view",
+      "ja": "展示風景",
+      "credit": ""
+     }
     },
     {
      "src": "img/A_ART004/01.webp",
@@ -566,7 +593,12 @@ window.ARCHIVE = {
      "w": 1950,
      "h": 1404,
      "bg": "#f1f1f1",
-     "lum": 0.945
+     "lum": 0.945,
+     "cap": {
+      "en": "Booklet, sample pages",
+      "ja": "冊子（見本ページ）",
+      "credit": ""
+     }
     },
     {
      "src": "img/A_ART004/02.webp",
@@ -622,6 +654,9 @@ window.ARCHIVE = {
    "y1": 2015,
    "area": "art",
    "row": "narratives",
+   "pillars": [
+    "portraits"
+   ],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -677,6 +712,9 @@ window.ARCHIVE = {
    "y1": 2016,
    "area": "art",
    "row": "places",
+   "pillars": [
+    "other"
+   ],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -731,6 +769,9 @@ window.ARCHIVE = {
    "y1": 2016,
    "area": "art",
    "row": "other",
+   "pillars": [
+    "portraits"
+   ],
    "featured": true,
    "featOrder": 5,
    "question": {
@@ -825,6 +866,9 @@ window.ARCHIVE = {
    "y1": 2016,
    "area": "art",
    "row": "places",
+   "pillars": [
+    "other"
+   ],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -954,6 +998,9 @@ window.ARCHIVE = {
    "y1": 2017,
    "area": "art",
    "row": "narratives",
+   "pillars": [
+    "portraits"
+   ],
    "featured": true,
    "featOrder": 4,
    "question": {
@@ -1044,7 +1091,12 @@ window.ARCHIVE = {
      "w": 4912,
      "h": 3064,
      "bg": "#8c7f73",
-     "lum": 0.505
+     "lum": 0.505,
+     "cap": {
+      "en": "Installation view",
+      "ja": "展示風景",
+      "credit": "Photo: Hilde Pank"
+     }
     },
     {
      "src": "img/A_ART009/01.webp",
@@ -1076,6 +1128,9 @@ window.ARCHIVE = {
    "y1": 2017,
    "area": "art",
    "row": "narratives",
+   "pillars": [
+    "installation"
+   ],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -1113,7 +1168,12 @@ window.ARCHIVE = {
      "w": 1181,
      "h": 827,
      "bg": "#8c939b",
-     "lum": 0.573
+     "lum": 0.573,
+     "cap": {
+      "en": "Installation view",
+      "ja": "展示風景",
+      "credit": "Photo: Egbert Trogemann, VG Bild-Kunst, 2017"
+     }
     }
    ]
   },
@@ -1129,6 +1189,9 @@ window.ARCHIVE = {
    "y1": 2019,
    "area": "art",
    "row": "mediation",
+   "pillars": [
+    "installation"
+   ],
    "featured": true,
    "featOrder": 6,
    "question": {
@@ -1167,7 +1230,12 @@ window.ARCHIVE = {
      "w": 2778,
      "h": 1345,
      "bg": "#99acb0",
-     "lum": 0.66
+     "lum": 0.66,
+     "cap": {
+      "en": "Exhibition view",
+      "ja": "展示風景",
+      "credit": "Photo: Carlos Santos"
+     }
     }
    ]
   },
@@ -1183,6 +1251,9 @@ window.ARCHIVE = {
    "y1": 2020,
    "area": "art",
    "row": "narratives",
+   "pillars": [
+    "portraits"
+   ],
    "featured": true,
    "featOrder": 1,
    "question": {
@@ -1263,6 +1334,10 @@ window.ARCHIVE = {
    "y1": 2022,
    "area": "art",
    "row": "between",
+   "pillars": [
+    "installation",
+    "portraits"
+   ],
    "featured": true,
    "featOrder": 2,
    "question": {
@@ -1301,7 +1376,12 @@ window.ARCHIVE = {
      "w": 2000,
      "h": 1170,
      "bg": "#050403",
-     "lum": 0.016
+     "lum": 0.016,
+     "cap": {
+      "en": "Installation view",
+      "ja": "展示風景",
+      "credit": ""
+     }
     }
    ]
   },
@@ -1317,6 +1397,9 @@ window.ARCHIVE = {
    "y1": 2025,
    "area": "art",
    "row": "between",
+   "pillars": [
+    "portraits"
+   ],
    "featured": true,
    "featOrder": 3,
    "question": {
@@ -1395,6 +1478,7 @@ window.ARCHIVE = {
    "y1": 2014,
    "area": "design",
    "row": "editorial",
+   "pillars": [],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -1470,6 +1554,9 @@ window.ARCHIVE = {
    "y1": 2017,
    "area": "art",
    "row": "places",
+   "pillars": [
+    "installation"
+   ],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -1509,7 +1596,12 @@ window.ARCHIVE = {
      "w": 1181,
      "h": 566,
      "bg": "#7e7c71",
-     "lum": 0.485
+     "lum": 0.485,
+     "cap": {
+      "en": "Installation view",
+      "ja": "展示風景",
+      "credit": "Artwork: Danica Dakić, VG Bild-Kunst Bonn. Photo: Egbert Trogemann"
+     }
     },
     {
      "src": "img/B_COL010/01.webp",
@@ -1533,6 +1625,7 @@ window.ARCHIVE = {
    "y1": 2025,
    "area": "design",
    "row": "digital",
+   "pillars": [],
    "featured": false,
    "featOrder": 8,
    "question": {
@@ -1587,6 +1680,7 @@ window.ARCHIVE = {
    "y1": 2014,
    "area": "design",
    "row": "content",
+   "pillars": [],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -1640,6 +1734,7 @@ window.ARCHIVE = {
    "y1": 2024,
    "area": "design",
    "row": "digital",
+   "pillars": [],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -1693,6 +1788,7 @@ window.ARCHIVE = {
    "y1": 2023,
    "area": "design",
    "row": "digital",
+   "pillars": [],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -1738,6 +1834,7 @@ window.ARCHIVE = {
    "y1": 2025,
    "area": "design",
    "row": "digital",
+   "pillars": [],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -1792,6 +1889,7 @@ window.ARCHIVE = {
    "y1": 2026,
    "area": "design",
    "row": "digital",
+   "pillars": [],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -1855,6 +1953,7 @@ window.ARCHIVE = {
    "y1": 2015,
    "area": "design",
    "row": "editorial",
+   "pillars": [],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -1930,6 +2029,7 @@ window.ARCHIVE = {
    "y1": 2015,
    "area": "design",
    "row": "editorial",
+   "pillars": [],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -2005,6 +2105,7 @@ window.ARCHIVE = {
    "y1": 2015,
    "area": "design",
    "row": "editorial",
+   "pillars": [],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -2058,6 +2159,7 @@ window.ARCHIVE = {
    "y1": 2017,
    "area": "design",
    "row": "editorial",
+   "pillars": [],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -2133,6 +2235,7 @@ window.ARCHIVE = {
    "y1": 2017,
    "area": "design",
    "row": "editorial",
+   "pillars": [],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -2207,6 +2310,7 @@ window.ARCHIVE = {
    "y1": 2024,
    "area": "design",
    "row": "editorial",
+   "pillars": [],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -2291,6 +2395,7 @@ window.ARCHIVE = {
    "y1": 2026,
    "area": "design",
    "row": "editorial",
+   "pillars": [],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -2344,6 +2449,7 @@ window.ARCHIVE = {
    "y1": 2021,
    "area": "design",
    "row": "digital",
+   "pillars": [],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -2388,6 +2494,7 @@ window.ARCHIVE = {
    "y1": 2025,
    "area": "design",
    "row": "content",
+   "pillars": [],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -2442,6 +2549,7 @@ window.ARCHIVE = {
    "y1": 2026,
    "area": "design",
    "row": "content",
+   "pillars": [],
    "featured": false,
    "featOrder": 9999,
    "question": {
@@ -2508,7 +2616,12 @@ window.ARCHIVE = {
     "w": 2000,
     "h": 1170,
     "bg": "#050403",
-    "lum": 0.016
+    "lum": 0.016,
+    "cap": {
+     "en": "Installation view",
+     "ja": "展示風景",
+     "credit": ""
+    }
    },
    "title": {
     "en": "Recollections of Beyond",
@@ -2518,68 +2631,26 @@ window.ARCHIVE = {
  ],
  "hero": [
   {
+   "id": "A_ART001",
+   "src": "img/A_ART001/hero_02.webp",
+   "w": 3508,
+   "h": 2481,
+   "lumTop": 1.0,
+   "lumBottom": 1.0,
+   "fit": "contain",
+   "bg": "#ffffff",
+   "link": "SER001"
+  },
+  {
    "id": "A_ART014",
    "src": "img/A_ART014/hero_00.webp",
    "w": 2000,
    "h": 1170,
    "lumTop": 0.002,
-   "lumBottom": 0.131
-  },
-  {
-   "id": "A_ART007",
-   "src": "img/A_ART007/hero_00.webp",
-   "w": 3000,
-   "h": 1860,
-   "lumTop": 0.801,
-   "lumBottom": 0.863
-  },
-  {
-   "id": "A_ART004",
-   "src": "img/A_ART004/hero_00.webp",
-   "w": 3872,
-   "h": 2592,
-   "lumTop": 0.076,
-   "lumBottom": 0.089
-  },
-  {
-   "id": "A_ART011",
-   "src": "img/A_ART011/hero_00.webp",
-   "w": 2778,
-   "h": 1345,
-   "lumTop": 0.65,
-   "lumBottom": 0.527
-  },
-  {
-   "id": "A_ART002",
-   "src": "img/A_ART002/hero_00.webp",
-   "w": 4724,
-   "h": 3753,
-   "lumTop": 0.972,
-   "lumBottom": 0.827
-  },
-  {
-   "id": "B_COL010",
-   "src": "img/B_COL010/hero_00.webp",
-   "w": 1181,
-   "h": 566,
-   "lumTop": 0.619,
-   "lumBottom": 0.224
-  },
-  {
-   "id": "A_ART009",
-   "src": "img/A_ART009/hero_00.webp",
-   "w": 4912,
-   "h": 3064,
-   "lumTop": 0.562,
-   "lumBottom": 0.47
-  },
-  {
-   "id": "A_ART010",
-   "src": "img/A_ART010/hero_00.webp",
-   "w": 1181,
-   "h": 827,
-   "lumTop": 0.564,
-   "lumBottom": 0.357
+   "lumBottom": 0.131,
+   "fit": "cover",
+   "bg": "#030303",
+   "link": "SER002"
   }
  ],
  "projects": [
@@ -2616,5 +2687,263 @@ window.ARCHIVE = {
    "end": null,
    "status": "planned"
   }
- ]
+ ],
+ "texts": {
+  "seo.title": {
+   "en": "Natsumi Sugiyama — Artist and researcher, Berlin",
+   "ja": "Natsumi Sugiyama — アーティスト／リサーチャー（ベルリン）"
+  },
+  "seo.description": {
+   "en": "Natsumi Sugiyama is a Berlin-based artist and researcher working on how people form a sense of place, through fieldwork, drawing, installation and publication.",
+   "ja": "ベルリンを拠点に、人が場所の感覚をどのように形づくるのかを、フィールドワーク、ドローイング、インスタレーション、出版を通して探るアーティスト／リサーチャー。"
+  },
+  "info.lead": {
+   "en": "Natsumi Sugiyama is an artist and researcher based in Berlin. She works on how people form a sense of place.",
+   "ja": "Natsumi Sugiyamaは、ベルリンを拠点とするアーティスト／リサーチャーです。人が場所の感覚をどのように形づくるのかを主題に活動しています。"
+  },
+  "info.statement": {
+   "en": "Her projects trace how memories, routines and stories attach to particular sites, and what remains in the space between people and their surroundings. Working through fieldwork, interviews, drawing, mapping, installation and publication, she turns these observations into works that can be read, walked through or held in the hand.\n\nAlongside her artistic practice she works in editorial and information design, shaping books, exhibitions and digital content so that complex material becomes clear and approachable.",
+   "ja": "記憶や日々の営み、語りが特定の場所に重なっていく過程や、人と環境の「あいだ」に残るものをたどるプロジェクトを手がけています。フィールドワーク、インタビュー、ドローイング、マッピング、インスタレーション、出版を通して、観察したことを、読み、歩き、手に取ることのできる作品へと編み直しています。\n\n芸術実践と並行して、編集デザインと情報デザインの仕事にも携わり、書籍や展示、デジタルコンテンツを通じて、複雑な情報を明快で親しみやすい形に整えています。"
+  },
+  "info.education.label": {
+   "en": "Education",
+   "ja": "学歴"
+  },
+  "info.education": {
+   "en": "Tama Art University, Tokyo — Environmental Design (BA)\nTokyo University of the Arts — practice-based doctoral research\nBauhaus-Universität Weimar — Public Art and New Artistic Strategies",
+   "ja": "多摩美術大学 環境デザイン学科\n東京藝術大学大学院 博士課程（実践研究）\nバウハウス大学ワイマール Public Art and New Artistic Strategies"
+  },
+  "info.support.label": {
+   "en": "Awards and support",
+   "ja": "受賞・助成"
+  },
+  "info.support": {
+   "en": "Mitsubishi Chemical Junior Designer Award, Grand Prize\nSalon de Printemps Prize, Tokyo University of the Arts\nPOLA Art Foundation, Overseas Research Grant (2017–2018)",
+   "ja": "Mitsubishi Chemical Junior Designer Award 大賞\nサロン・ド・プランタン賞（東京藝術大学）\nポーラ美術振興財団 在外研修助成（2017–2018）"
+  },
+  "contact": {
+   "en": "Contact",
+   "ja": "お問い合わせ"
+  },
+  "contact.email": {
+   "en": "n@natyama.com",
+   "ja": "n@natyama.com"
+  },
+  "nav.archive": {
+   "en": "Archive",
+   "ja": "アーカイブ"
+  },
+  "nav.bookshelf": {
+   "en": "Bookshelf",
+   "ja": "本棚"
+  },
+  "nav.index": {
+   "en": "Index",
+   "ja": "インデックス"
+  },
+  "nav.info": {
+   "en": "Info",
+   "ja": "情報"
+  },
+  "view.images": {
+   "en": "Images",
+   "ja": "画像"
+  },
+  "view.list": {
+   "en": "List",
+   "ja": "リスト"
+  },
+  "close": {
+   "en": "Close",
+   "ja": "閉じる"
+  },
+  "all": {
+   "en": "All",
+   "ja": "すべて"
+  },
+  "art": {
+   "en": "Artistic practice",
+   "ja": "作家活動"
+  },
+  "design": {
+   "en": "Design",
+   "ja": "デザイン"
+  },
+  "infoBtn": {
+   "en": "Info",
+   "ja": "情報"
+  },
+  "top": {
+   "en": "Back to top",
+   "ja": "トップへ戻る"
+  },
+  "allMedia": {
+   "en": "All media",
+   "ja": "すべてのメディア"
+  },
+  "series": {
+   "en": "Series",
+   "ja": "シリーズ"
+  },
+  "prev": {
+   "en": "Previous",
+   "ja": "前へ"
+  },
+  "next": {
+   "en": "Next",
+   "ja": "次へ"
+  },
+  "noImage": {
+   "en": "No image",
+   "ja": "画像なし"
+  },
+  "read": {
+   "en": "Publication (PDF)",
+   "ja": "出版物（PDF）"
+  },
+  "readJa": {
+   "en": "Japanese edition (PDF)",
+   "ja": "日本語版（PDF）"
+  },
+  "all.images": {
+   "en": "All images",
+   "ja": "すべての画像"
+  },
+  "about.work": {
+   "en": "About this work",
+   "ja": "作品について"
+  },
+  "read.book": {
+   "en": "Read the book",
+   "ja": "本を開く"
+  },
+  "cover": {
+   "en": "Cover",
+   "ja": "表紙"
+  },
+  "book.open": {
+   "en": "Click the cover to open the book",
+   "ja": "表紙をクリックすると本が開きます"
+  },
+  "book.nopages": {
+   "en": "Only the cover is in the archive so far",
+   "ja": "アーカイブにはまだ表紙のみです"
+  },
+  "open": {
+   "en": "Open work",
+   "ja": "作品を見る"
+  },
+  "peekHint": {
+   "en": "Point at a line to see the work. Lines run from the first to the last year of each project.",
+   "ja": "線に触れると作品が表示されます。線の長さは各プロジェクトの期間です。"
+  },
+  "tracks.art.0": {
+   "en": "Artistic practice",
+   "ja": "作家活動"
+  },
+  "tracks.art.1": {
+   "en": "Natsumi Sugiyama",
+   "ja": "Natsumi Sugiyama"
+  },
+  "tracks.design.0": {
+   "en": "Design",
+   "ja": "デザイン"
+  },
+  "tracks.design.1": {
+   "en": "natyama",
+   "ja": "natyama"
+  },
+  "tracks.projects.0": {
+   "en": "Studio projects",
+   "ja": "スタジオのプロジェクト"
+  },
+  "tracks.projects.1": {
+   "en": "studio natyama",
+   "ja": "studio natyama"
+  },
+  "status.planned": {
+   "en": "Planned",
+   "ja": "準備中"
+  },
+  "status.ongoing": {
+   "en": "Ongoing",
+   "ja": "進行中"
+  },
+  "status.done": {
+   "en": "Completed",
+   "ja": "完了"
+  },
+  "since": {
+   "en": "since",
+   "ja": ""
+  },
+  "shelves.authored": {
+   "en": "Project documentation",
+   "ja": "プロジェクト記録"
+  },
+  "shelves.collaborative": {
+   "en": "Collaborative",
+   "ja": "共同制作"
+  },
+  "shelves.layout_design": {
+   "en": "Layout design",
+   "ja": "レイアウトデザイン"
+  },
+  "facts.venue": {
+   "en": "Venue",
+   "ja": "会場"
+  },
+  "facts.medium": {
+   "en": "Medium",
+   "ja": "メディウム"
+  },
+  "facts.role": {
+   "en": "Role",
+   "ja": "役割"
+  },
+  "facts.collaborators": {
+   "en": "With",
+   "ja": "協働"
+  },
+  "facts.funding": {
+   "en": "Support",
+   "ja": "助成"
+  },
+  "facts.award": {
+   "en": "Award",
+   "ja": "受賞"
+  },
+  "facts.credit": {
+   "en": "Credits",
+   "ja": "クレジット"
+  },
+  "facts.photo": {
+   "en": "Photos",
+   "ja": "撮影"
+  },
+  "facts.series": {
+   "en": "Series",
+   "ja": "シリーズ"
+  },
+  "legal.imprint": {
+   "en": "Imprint",
+   "ja": "インプリント（Impressum）"
+  },
+  "legal.privacy": {
+   "en": "Privacy",
+   "ja": "プライバシーポリシー"
+  },
+  "pillar.installation": {
+   "en": "Installations",
+   "ja": "インスタレーション"
+  },
+  "pillar.portraits": {
+   "en": "Portraits of Places",
+   "ja": "Portraits of Places"
+  },
+  "pillar.other": {
+   "en": "Other works",
+   "ja": "その他の作品"
+  }
+ }
 };

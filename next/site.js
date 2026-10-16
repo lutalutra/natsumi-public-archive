@@ -33,6 +33,18 @@
       facts: { venue: "会場", medium: "メディウム", role: "役割", collaborators: "協働", funding: "助成", award: "受賞", credit: "クレジット", photo: "撮影", series: "シリーズ" },
     },
   };
+  // texts.csv overrides the built-in wording
+  Object.entries(A.texts || {}).forEach(([key, v]) => {
+    ["en", "ja"].forEach(l => {
+      if (!v[l] && l === "ja") return;
+      const parts = key.split("."); let o = T[l];
+      const nested = parts.length > 1 && typeof T.en[parts[0]] === "object" && !(key in T.en);
+      if (nested) {
+        for (let k = 0; k < parts.length - 1; k++) o = o[parts[k]] = o[parts[k]] || {};
+        o[parts[parts.length - 1]] = v[l];
+      } else T[l][key] = v[l];
+    });
+  });
   let lang = "en";
   try { lang = localStorage.getItem("ns-lang") === "ja" ? "ja" : "en"; } catch (e) {}
   const t = k => T[lang][k];
@@ -55,7 +67,7 @@
 
   function buildHero() {
     $("#heroSlides").innerHTML = slides.map((s, i) =>
-      `<img src="${esc(s.src)}" alt="" ${i ? 'loading="eager" decoding="async"' : 'fetchpriority="high"'} class="${i === 0 ? "is-on" : ""}">`).join("");
+      `<img src="${esc(s.src)}" alt="" ${i ? 'loading="eager" decoding="async"' : 'fetchpriority="high"'} class="${i === 0 ? "is-on" : ""}${s.fit === "contain" ? " contain" : ""}">`).join("");
     $("#heroTicks").innerHTML = slides.map((s, i) =>
       `<button type="button" data-slide="${i}" aria-label="${i + 1}"><span></span></button>`).join("");
     $("#heroTicks").style.setProperty("--dur", DUR + "ms");
@@ -68,8 +80,17 @@
     document.querySelectorAll("#heroSlides img").forEach((im, k) => im.classList.toggle("is-on", k === cur));
     foot.classList.remove("on-dark", "on-light"); foot.classList.add(tone(s.lumBottom));
     if (!pastHero) { top.classList.remove("on-dark", "on-light"); top.classList.add(tone(s.lumTop)); }
-    $("#heroCap").innerHTML = `<span class="y">${esc(w.year)}${place(w) ? ", " + esc(place(w)) : ""}</span><span class="t">${esc(L(w.title))}</span>`;
-    $("#heroCap").dataset.open = w.id;
+    const ser = s.link && A.series.find(x => x.id === s.link);
+    hero.style.backgroundColor = s.fit === "contain" ? s.bg : "";
+    if (ser) {
+      const kids = ser.children.map(c => byId[c]).filter(Boolean);
+      const yrs = kids.length ? Math.min(...kids.map(k => k.y0)) + "–" + Math.max(...kids.map(k => k.y1)) : "";
+      $("#heroCap").innerHTML = `<span class="y">${esc(t("series"))}, ${esc(yrs)}</span><span class="t">${esc(L(ser.title))}</span>`;
+      delete $("#heroCap").dataset.open; $("#heroCap").dataset.series = ser.id;
+    } else {
+      $("#heroCap").innerHTML = `<span class="y">${esc(w.year)}${place(w) ? ", " + esc(place(w)) : ""}</span><span class="t">${esc(L(w.title))}</span>`;
+      delete $("#heroCap").dataset.series; $("#heroCap").dataset.open = w.id;
+    }
     $("#heroCount").textContent = `${cur + 1} / ${slides.length}`;
     document.querySelectorAll("#heroTicks button").forEach((b, k) => {
       b.classList.toggle("is-past", k < cur);
@@ -132,7 +153,16 @@
       return;
     }
     list.sort((a, b) => (!!cover(b)) - (!!cover(a)));
-    const W = sheet.clientWidth, gap = W < 560 ? 8 : 12;
+    if (area === "art" && !medium) {
+      const order = ["installation", "portraits", "other"];
+      const groups = order.map(k => [k, list.filter(w => (w.pillars.length ? w.pillars : ["other"]).includes(k))]).filter(g => g[1].length);
+      sheet.innerHTML = groups.map(([k, ws]) => `<section class="pillar"><h3>${esc(t("pillar." + k))} <span class="n">${ws.length}</span></h3><div class="pillar-sheet">${justified(ws, sheet.clientWidth)}</div></section>`).join("");
+      return;
+    }
+    sheet.innerHTML = justified(list, sheet.clientWidth);
+  }
+  function justified(list, W) {
+    const gap = W < 560 ? 8 : 12;
     const target = W < 560 ? 130 : W < 1000 ? 210 : 300;
     const items = list.map(w => { const im = cover(w); return { w, im, r: im ? Math.min(2.2, Math.max(0.55, im.w / im.h)) : 1.4 }; });
     const rows = []; let row = [], sum = 0;
@@ -141,8 +171,7 @@
       if (sum * target + gap * (row.length - 1) >= W) { rows.push({ row, h: (W - gap * (row.length - 1)) / sum }); row = []; sum = 0; }
     }
     if (row.length) rows.push({ row, h: target });
-    sheet.style.columnGap = gap + "px";
-    sheet.innerHTML = rows.map(({ row, h }) => row.map(({ w, im, r }) =>
+    return rows.map(({ row, h }) => row.map(({ w, im, r }) =>
       `<button type="button" class="tile${im ? "" : " blank"}" data-open="${w.id}" style="width:${Math.floor(r * h)}px">
         <span class="frame" style="height:${Math.round(h)}px">${im ? `<img src="${esc(h > 260 ? im.src : im.thumb)}" alt="" loading="lazy" decoding="async">` : esc(t("noImage"))}</span>
         <span class="cap"><span class="y">${esc(w.y0)}</span><span>${esc(L(w.title))}</span></span>
@@ -291,10 +320,10 @@
   function galleryItems(kind, id) {
     if (kind === "series") {
       const s = A.series.find(x => x.id === id);
-      return s.children.map(c => byId[c]).filter(w => w && cover(w)).map(w => ({ ...cover(w), cap: `${w.y0}, ${L(w.title)}`, open: w.id }));
+      return s.children.map(c => byId[c]).filter(w => w && cover(w)).map(w => ({ ...cover(w), label: `${w.y0}, ${L(w.title)}`, open: w.id }));
     }
     const w = byId[id];
-    return w.images.map((m, k) => ({ ...m, cap: "" }));
+    return w.images.map(m => ({ ...m }));
   }
   function loadNear() {
     [...$("#gFrame").children].forEach((im, k) => {
@@ -309,7 +338,10 @@
     const n = G.items.length, it = G.items[G.i];
     $("#gCount").textContent = `${G.i + 1} / ${n}`;
     paint(gallery, it.bg, it.lum);
-    if (it.open) { $("#gYear").textContent = it.cap; }
+    if (it.open) { $("#gYear").textContent = it.label; }
+    const c = it.cap || {}, words = [c[lang] || c.en, c.credit].filter(Boolean);
+    $("#gNote").textContent = words.join(" — ");
+    $("#gNote").hidden = !words.length;
     document.querySelectorAll("#gGrid button").forEach((b, k) => b.setAttribute("aria-current", String(k === G.i)));
     const single = n < 2;
     ["#gPrevImg", "#gNextImg"].forEach(s => $(s).hidden = single);
@@ -583,6 +615,11 @@
     document.querySelectorAll("[data-t]").forEach(el => { const v = T[lang][el.dataset.t]; if (typeof v === "string") el.textContent = v; });
     document.querySelectorAll("[data-t-label]").forEach(el => { const v = T[lang][el.dataset.tLabel]; if (typeof v === "string" && v) { el.setAttribute("aria-label", v); el.dataset.tip = v; } });
     document.querySelectorAll("[data-set-lang]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.setLang === lang)));
+    document.querySelectorAll(".info-text[lang]").forEach(el => { el.hidden = el.lang !== lang; });
+    document.querySelectorAll("[data-lines]").forEach(el => {
+      const v = T[lang][el.dataset.lines]; if (typeof v === "string") el.innerHTML = v.split("\n").filter(Boolean).map(x => `<li>${esc(x)}</li>`).join("");
+    });
+    document.title = T[lang]["seo.title"] || document.title;
     renderFilters(); renderSheet(); renderShelves(); renderChrono();
     setSlide(cur);
     if (current) current.type === "book" ? (readerUI(), $("#rTitle").textContent = L(byId[current.id].title)) : showGallery(current.type, current.id, true);

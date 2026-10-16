@@ -1,0 +1,77 @@
+﻿group,key,en,ja,note
+seo,seo.title,"Natsumi Sugiyama — Artist and researcher, Berlin",Natsumi Sugiyama — アーティスト／リサーチャー（ベルリン）,Browser tab and search result title
+seo,seo.description,"Natsumi Sugiyama is a Berlin-based artist and researcher working on how people form a sense of place, through fieldwork, drawing, installation and publication.",ベルリンを拠点に、人が場所の感覚をどのように形づくるのかを、フィールドワーク、ドローイング、インスタレーション、出版を通して探るアーティスト／リサーチャー。,Search result summary. Keep under about 155 characters (EN) / 80 characters (JA)
+info,info.lead,Natsumi Sugiyama is an artist and researcher based in Berlin. She works on how people form a sense of place.,Natsumi Sugiyamaは、ベルリンを拠点とするアーティスト／リサーチャーです。人が場所の感覚をどのように形づくるのかを主題に活動しています。,First sentence of Info. Says who and what in one breath
+info,info.statement,"Her projects trace how memories, routines and stories attach to particular sites, and what remains in the space between people and their surroundings. Working through fieldwork, interviews, drawing, mapping, installation and publication, she turns these observations into works that can be read, walked through or held in the hand.
+
+Alongside her artistic practice she works in editorial and information design, shaping books, exhibitions and digital content so that complex material becomes clear and approachable.","記憶や日々の営み、語りが特定の場所に重なっていく過程や、人と環境の「あいだ」に残るものをたどるプロジェクトを手がけています。フィールドワーク、インタビュー、ドローイング、マッピング、インスタレーション、出版を通して、観察したことを、読み、歩き、手に取ることのできる作品へと編み直しています。
+
+芸術実践と並行して、編集デザインと情報デザインの仕事にも携わり、書籍や展示、デジタルコンテンツを通じて、複雑な情報を明快で親しみやすい形に整えています。",Main statement. Blank line = new paragraph
+info,info.education.label,Education,学歴,
+info,info.education,"Tama Art University, Tokyo — Environmental Design (BA)
+Tokyo University of the Arts — practice-based doctoral research
+Bauhaus-Universität Weimar — Public Art and New Artistic Strategies","多摩美術大学 環境デザイン学科
+東京藝術大学大学院 博士課程（実践研究）
+バウハウス大学ワイマール Public Art and New Artistic Strategies",One line per entry. CHECK degree names and add years if wanted
+info,info.support.label,Awards and support,受賞・助成,
+info,info.support,"Mitsubishi Chemical Junior Designer Award, Grand Prize
+Salon de Printemps Prize, Tokyo University of the Arts
+POLA Art Foundation, Overseas Research Grant (2017–2018)","Mitsubishi Chemical Junior Designer Award 大賞
+サロン・ド・プランタン賞（東京藝術大学）
+ポーラ美術振興財団 在外研修助成（2017–2018）",One line per entry. CHECK official names
+info,contact,Contact,お問い合わせ,
+info,contact.email,n@natyama.com,n@natyama.com,Shown as text and link
+nav,nav.archive,Archive,アーカイブ,
+nav,nav.bookshelf,Bookshelf,本棚,
+nav,nav.index,Index,インデックス,
+nav,nav.info,Info,情報,
+nav,view.images,Images,画像,Archive view switch
+nav,view.list,List,リスト,Archive view switch
+ui,close,Close,閉じる,
+ui,all,All,すべて,
+ui,art,Artistic practice,作家活動,
+ui,design,Design,デザイン,
+ui,infoBtn,Info,情報,
+ui,top,Back to top,トップへ戻る,
+ui,allMedia,All media,すべてのメディア,
+ui,series,Series,シリーズ,
+ui,prev,Previous,前へ,
+ui,next,Next,次へ,
+ui,noImage,No image,画像なし,
+ui,read,Publication (PDF),出版物（PDF）,
+ui,readJa,Japanese edition (PDF),日本語版（PDF）,
+ui,all.images,All images,すべての画像,
+ui,about.work,About this work,作品について,
+ui,read.book,Read the book,本を開く,
+ui,cover,Cover,表紙,
+ui,book.open,Click the cover to open the book,表紙をクリックすると本が開きます,
+ui,book.nopages,Only the cover is in the archive so far,アーカイブにはまだ表紙のみです,
+ui,open,Open work,作品を見る,
+ui,peekHint,Point at a line to see the work. Lines run from the first to the last year of each project.,線に触れると作品が表示されます。線の長さは各プロジェクトの期間です。,
+labels,tracks.art.0,Artistic practice,作家活動,
+labels,tracks.art.1,Natsumi Sugiyama,Natsumi Sugiyama,
+labels,tracks.design.0,Design,デザイン,
+labels,tracks.design.1,natyama,natyama,
+labels,tracks.projects.0,Studio projects,スタジオのプロジェクト,
+labels,tracks.projects.1,studio natyama,studio natyama,
+labels,status.planned,Planned,準備中,
+labels,status.ongoing,Ongoing,進行中,
+labels,status.done,Completed,完了,
+ui,since,since,,
+labels,shelves.authored,Project documentation,プロジェクト記録,
+labels,shelves.collaborative,Collaborative,共同制作,
+labels,shelves.layout_design,Layout design,レイアウトデザイン,
+labels,facts.venue,Venue,会場,
+labels,facts.medium,Medium,メディウム,
+labels,facts.role,Role,役割,
+labels,facts.collaborators,With,協働,
+labels,facts.funding,Support,助成,
+labels,facts.award,Award,受賞,
+labels,facts.credit,Credits,クレジット,
+labels,facts.photo,Photos,撮影,
+labels,facts.series,Series,シリーズ,
+legal,legal.imprint,Imprint,インプリント（Impressum）,Footer link
+legal,legal.privacy,Privacy,プライバシーポリシー,Footer link
+pillars,pillar.installation,Installations,インスタレーション,Archive section
+pillars,pillar.portraits,Portraits of Places,Portraits of Places,Archive section (series)
+pillars,pillar.other,Other works,その他の作品,Archive section
