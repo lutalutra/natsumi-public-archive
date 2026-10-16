@@ -160,7 +160,7 @@
     const list = works.filter(w => (area === "all" || w.area === area) && (!medium || kinds(w).includes(medium)));
     if (view === "list") {
       sheet.innerHTML = `<ol class="list">${list.map(w =>
-        `<li><button type="button" data-open="${w.id}"><span class="y">${esc(w.year)}</span><span>${esc(L(w.title))}</span><span class="m">${esc(kinds(w).join(", "))}</span><span class="p">${esc(place(w))}</span></button></li>`).join("")}</ol>`;
+        `<li><button type="button" data-open="${w.id}"><span class="t">${esc(L(w.title))}</span><span class="m">${esc(kinds(w).join(", "))}</span><span class="y">${esc(w.year)}</span></button></li>`).join("")}</ol>`;
       return;
     }
     list.sort((a, b) => (!!cover(b)) - (!!cover(a)));
@@ -248,9 +248,7 @@
       }).join("");
     }
     if (shown.projects && A.projects.length) {
-      html += `<div class="trackhead"><b>${esc(TR.projects[0])}</b><span>${esc(TR.projects[1])}</span></div>`;
-      html += A.projects.map(p => laneHTML(p.title,
-        [{ key: "p:" + p.id, label: p.title, y0: p.start, y1: p.end || Y1 - 1 }], "project")).join("");
+      html += `<div class="trackhead"><b>${esc(TR.projects[0])}</b><span>${esc(TR.projects[1])}</span><span class="soon">${esc(t("status.planned"))}</span></div>`;
     }
     if (shown.floating && (A.floating || []).length) {
       html += `<div class="trackhead"><b>${esc(TR.floating[0])}</b><span>${esc(TR.floating[1])}</span></div>`;
@@ -404,8 +402,8 @@
       .filter(f => f[1]).map(([k, v]) => `<div><dt>${esc(F[k])}</dt><dd>${esc(v)}</dd></div>`).join("");
     const i = works.findIndex(x => x.id === id);
     const prev = works[(i - 1 + works.length) % works.length], next = works[(i + 1) % works.length];
-    $("#iPrev").innerHTML = `<small>${esc(t("prev"))}</small>${esc(L(prev.title))}`; $("#iPrev").dataset.go = prev.id; $("#iPrev").hidden = false;
-    $("#iNext").innerHTML = `<small>${esc(t("next"))}</small>${esc(L(next.title))}`; $("#iNext").dataset.go = next.id; $("#iNext").hidden = false;
+    $("#iPrev").innerHTML = `<small>← ${esc(t("prev"))}</small><cite>${esc(L(prev.title))}</cite>`; $("#iPrev").dataset.go = prev.id; $("#iPrev").hidden = false;
+    $("#iNext").innerHTML = `<small>${esc(t("next"))} →</small><cite>${esc(L(next.title))}</cite>`; $("#iNext").dataset.go = next.id; $("#iNext").hidden = false;
   }
   function showGallery(kind, id, keepIndex) {
     if (kind === "work" && !byId[id]) return;
@@ -636,7 +634,7 @@
   function applyLang() {
     document.documentElement.lang = lang; document.documentElement.dataset.lang = lang;
     document.querySelectorAll("[data-t]").forEach(el => { const v = T[lang][el.dataset.t]; if (typeof v === "string") el.textContent = v; });
-    document.querySelectorAll("[data-t-label]").forEach(el => { const v = T[lang][el.dataset.tLabel]; if (typeof v === "string" && v) { el.setAttribute("aria-label", v); el.dataset.tip = v; } });
+    document.querySelectorAll("[data-t-label]").forEach(el => { const v = T[lang][el.dataset.tLabel]; if (typeof v === "string" && v) { el.setAttribute("aria-label", v); el.dataset.tip = v; if (el.title) el.title = v; } });
     document.querySelectorAll("[data-set-lang]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.setLang === lang)));
     document.querySelectorAll(".info-text[lang]").forEach(el => { el.hidden = el.lang !== lang; });
     document.querySelectorAll("[data-lines]").forEach(el => {
