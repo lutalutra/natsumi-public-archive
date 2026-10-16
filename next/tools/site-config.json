@@ -1,0 +1,35 @@
+{
+  "_hero_help": "Opening slideshow, in order. [project id, image number] — image number 0 is the cover, 1 the next image in images/public, and so on.",
+  "hero": [
+    ["A_ART014", 0],
+    ["A_ART007", 0],
+    ["A_ART004", 0],
+    ["A_ART011", 0],
+    ["A_ART002", 0],
+    ["B_COL010", 0],
+    ["A_ART009", 0],
+    ["A_ART010", 0]
+  ],
+
+  "_projects_help": "Studio projects shown on their own track in the index, separate from artistic and design work. status: planned | ongoing | done. end: null means ongoing.",
+  "projects": [
+    {
+      "id": "tegote",
+      "title": "tegote",
+      "subtitle": {"en": "Tools, materials, making", "ja": "道具店・ライブラリ・ものづくり"},
+      "start": 2026, "end": null, "status": "planned"
+    },
+    {
+      "id": "faultier",
+      "title": "FAULTIER commons",
+      "subtitle": {"en": "Nature, place, observation", "ja": "自然・生態系・観察"},
+      "start": 2026, "end": null, "status": "planned"
+    },
+    {
+      "id": "kulage",
+      "title": "kulage",
+      "subtitle": {"en": "Editorial, images, ideas", "ja": "ショートフィルム・編集"},
+      "start": 2026, "end": null, "status": "planned"
+    }
+  ]
+}

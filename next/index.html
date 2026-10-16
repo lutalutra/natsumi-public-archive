@@ -2,20 +2,21 @@
 <html lang="en" data-lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Natsumi Sugiyama — Archive</title>
 <meta name="description" content="Projects, research, and ongoing practice by Natsumi Sugiyama.">
 <meta property="og:title" content="Natsumi Sugiyama — Archive">
-<meta property="og:image" content="img/A_ART014/00.webp">
+<meta property="og:image" content="img/A_ART014/hero_00.webp">
 <link rel="stylesheet" href="site.css">
 </head>
 <body>
 
-<header class="top">
-  <a class="name" href="#top" id="top">Natsumi Sugiyama</a>
+<header class="top on-dark" id="top">
+  <a class="name" href="#hero">Natsumi Sugiyama</a>
   <nav class="menu" aria-label="Sections">
     <a href="#archive">Archive</a>
     <a href="#bookshelf">Bookshelf</a>
+    <a href="#chronology" data-t="nav.index">Index</a>
     <a href="#info">Info</a>
   </nav>
   <div class="lang" role="group" aria-label="Language">
@@ -25,7 +26,20 @@
 </header>
 
 <main>
-  <section class="selected" id="selected" aria-label="Selected series"></section>
+  <section class="hero" id="hero" aria-roledescription="carousel" aria-label="Selected works">
+    <div class="hero-slides" id="heroSlides"></div>
+    <div class="hero-foot" id="heroFoot">
+      <button type="button" class="hero-cap" id="heroCap"></button>
+      <div class="slider-ui">
+        <div class="ticks" id="heroTicks" role="group" aria-label="Choose image"></div>
+        <div class="steps">
+          <button type="button" id="heroPrev" aria-label="Previous image">←</button>
+          <span class="count" id="heroCount" aria-live="polite"></span>
+          <button type="button" id="heroNext" aria-label="Next image">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="archive" id="archive" aria-labelledby="archiveTitle">
     <div class="bar">
@@ -40,18 +54,24 @@
   </section>
 
   <section class="bookshelf" id="bookshelf" aria-labelledby="bookTitle">
+    <div class="bar"><h2 id="bookTitle">Bookshelf</h2></div>
+    <div id="shelves"></div>
+  </section>
+
+  <section class="chrono" id="chronology" aria-labelledby="chronoTitle">
     <div class="bar">
-      <h2 id="bookTitle">Bookshelf</h2>
-      <div class="filters" id="shelfTabs" role="group" aria-label="Shelf"></div>
+      <h2 id="chronoTitle" data-t="nav.index">Index</h2>
+      <div class="filters" id="tracks" role="group" aria-label="Show"></div>
     </div>
-    <div class="shelf" id="shelf"></div>
+    <div class="chrono-body">
+      <div class="chart" id="chart"></div>
+      <aside class="peek" id="peek" aria-live="polite"></aside>
+    </div>
   </section>
 
   <section class="info" id="info" aria-labelledby="infoTitle">
     <h2 id="infoTitle">Info</h2>
-    <div class="info-text">
-      <p data-t="info">Works across information, editorial, and artistic practice. Based in Berlin, with a background in design and in Public Art and New Artistic Strategies.</p>
-    </div>
+    <div class="info-text"><p data-t="info"></p></div>
     <p class="contact"><span data-t="contact">Contact</span><br><a href="mailto:n@natyama.com">n@natyama.com</a></p>
   </section>
 </main>
@@ -62,6 +82,14 @@
   <button type="button" class="v-close" id="vClose" data-t="close">Close</button>
   <div class="v-scroll" id="vScroll">
     <div class="v-strip" id="vStrip" tabindex="0" aria-label="Images"></div>
+    <div class="slider-ui v-ui" id="vUi">
+      <div class="track"><span id="vBar"></span></div>
+      <div class="steps">
+        <button type="button" id="vLeft" aria-label="Previous image">←</button>
+        <span class="count" id="vCount"></span>
+        <button type="button" id="vRight" aria-label="Next image">→</button>
+      </div>
+    </div>
     <div class="v-text">
       <div>
         <h2 id="vTitle"></h2>

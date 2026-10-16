@@ -33,13 +33,22 @@ SERIES = [
      "hero": ["A_ART014", 0]},
 ]
 
-# Bands on the field map. A work goes to the first band whose themes it carries.
-BANDS = [
+CONFIG = json.loads((Path(__file__).parent / "site-config.json").read_text(encoding="utf-8"))
+HERO_SIZE = 2400
+
+# Rows of the index. Artistic work goes to the first row whose themes it carries.
+ART_ROWS = [
     ("places", "Places & memory", "場所と記憶", ["Places & Memory", "Landscapes"]),
     ("narratives", "Narratives & archives", "語りとアーカイブ", ["Narratives & Archives"]),
     ("between", "In-betweenness", "あいだ", ["In-Betweenness", "Shared Environments"]),
-    ("mediation", "Mediation", "メディエーション", ["Cultural Mediation", "Applied Practice"]),
-    ("editorial", "Editorial & digital", "編集とデジタル", []),
+    ("mediation", "Cultural mediation", "文化媒介", ["Cultural Mediation", "Applied Practice"]),
+    ("other", "Other works", "その他", []),
+]
+# Design (natyama) work is sorted by what was made.
+DESIGN_ROWS = [
+    ("editorial", "Editorial and print", "編集・印刷物", r"book|booklet|editorial|publication|zine|logo|layout|graphic|infographic"),
+    ("digital", "Web and app UX/UI", "Web・アプリ UX/UI", r"app|ui|ux|website|web"),
+    ("content", "Content production", "コンテンツ制作", r"."),
 ]
 
 
@@ -134,14 +143,36 @@ def derive(src, pid, idx):
         return {"src": f"img/{pid}/{name}.webp", "thumb": f"img/{pid}/{name}_s.webp", "w": w, "h": h}
 
 
-def band_for(p):
-    themes = [t.strip() for t in (p.get("themes") or [])]
-    for key, _en, _ja, names in BANDS:
-        if any(t in names for t in themes):
-            return key
-    if p.get("id", "").startswith("C_CUL"):
-        return "mediation"
-    return "between" if p.get("area_label") == "Artistic/Research" else "editorial"
+def row_for(p):
+    if p.get("area_label") == "Artistic/Research":
+        themes = [t.strip() for t in (p.get("themes") or [])]
+        for key, _en, _ja, names in ART_ROWS:
+            if any(t in names for t in themes):
+                return key
+        return "other"
+    med = " ".join(p.get("medium") or []).lower()
+    if re.search(r"app|ui_|ux|website", med):
+        return "digital"
+    if re.search(r"book|booklet|editorial|publication|zine|logo|layout", med):
+        return "editorial"
+    return "content"
+
+
+def luminance(path):
+    """Mean brightness (0-1) of the top band and the lower-left caption area, as seen with object-fit: cover."""
+    with Image.open(path) as im:
+        im = im.convert("L")
+        w, h = im.size
+        target = 16 / 10                      # typical screen; crop like object-fit: cover
+        if w / h > target:
+            cw = int(h * target); im = im.crop(((w - cw) // 2, 0, (w - cw) // 2 + cw, h))
+        else:
+            ch = int(w / target); im = im.crop((0, (h - ch) // 2, w, (h - ch) // 2 + ch))
+        w, h = im.size
+        from PIL import ImageStat
+        top = ImageStat.Stat(im.crop((0, 0, w, int(h * .12)))).mean[0] / 255
+        bottom = ImageStat.Stat(im.crop((0, int(h * .7), int(w * .55), h))).mean[0] / 255
+        return round(top, 3), round(bottom, 3)
 
 
 def nice(s):
@@ -171,7 +202,7 @@ def main():
             "title": {"en": nice(p.get("title_en")), "ja": nice(p.get("title_ja") or p.get("title_en"))},
             "year": p.get("year", ""), "y0": years[0], "y1": years[-1],
             "area": "art" if p.get("area_label") == "Artistic/Research" else "design",
-            "band": band_for(p),
+            "row": row_for(p),
             "featured": bool(p.get("featured")), "featOrder": p.get("feat_order") or 99,
             "question": {"en": nice(p.get("research_question_en")), "ja": nice(p.get("research_question_ja"))},
             "desc": {"en": nice(p.get("desc_en")), "ja": nice(p.get("desc_ja"))},
@@ -199,8 +230,31 @@ def main():
                        "title": {"en": s["title_en"], "ja": s["title_ja"]},
                        })
 
-    data = {"bands": [{"key": k, "en": en, "ja": ja} for k, en, ja, _ in BANDS],
-            "works": works, "series": series}
+    hero = []
+    for pid, idx in CONFIG.get("hero", []):
+        p = next((x for x in projects if x["id"] == pid), None)
+        d = project_dir(p) if p else None
+        files = public_images(d) if d else []
+        if idx >= len(files):
+            print("hero: no image", pid, idx); continue
+        src = files[idx]
+        dest = OUT_IMG / pid / f"hero_{idx:02d}.webp"
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        with Image.open(src) as im:
+            im = ImageOps.exif_transpose(im).convert("RGB")
+            if not dest.exists() or dest.stat().st_mtime < src.stat().st_mtime:
+                c = im.copy(); c.thumbnail((HERO_SIZE, HERO_SIZE), Image.LANCZOS)
+                c.save(dest, "WEBP", quality=78, method=5)
+            w, h = im.size
+        top, bottom = luminance(dest)
+        if max(w, h) < 1400:
+            print(f"hero: {pid} image {idx} is only {w}x{h}px and will look soft full-screen")
+        hero.append({"id": pid, "src": dest.relative_to(NEXT).as_posix(), "w": w, "h": h,
+                     "lumTop": top, "lumBottom": bottom})
+
+    data = {"rows": {"art": [{"key": k, "en": en, "ja": ja} for k, en, ja, _ in ART_ROWS],
+                     "design": [{"key": k, "en": en, "ja": ja} for k, en, ja, _ in DESIGN_ROWS]},
+            "works": works, "series": series, "hero": hero, "projects": CONFIG.get("projects", [])}
     (NEXT / "data.js").write_text(
         "/* generated by next/tools/build.py — do not edit by hand */\n"
         "window.ARCHIVE = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n", encoding="utf-8")
