@@ -10,6 +10,7 @@ Content comes from the CSV files in next/content/ (edit these):
   image_captions.csv   a short caption and credit per image, shown in the gallery
   texts.csv            every piece of text on the site (EN and JA): Info, labels, SEO
   floating.csv         grey dots floating in the index: NDA work, spot projects, things not yet placed
+  links.csv            studio links and client/partner names (or logos) below the profile
   legal.csv            Impressum and privacy policy (DE and EN) -> impressum.html, datenschutz.html
 If projects.csv is missing, the list is read from ../app.js instead.
 
@@ -291,6 +292,27 @@ def esc(t):
     return (t or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
 
 
+def links_html(T):
+    rows = sorted((r for r in read_csv("links.csv") if (r.get("show") or "TRUE").upper() in ("TRUE", "1", "YES")),
+                  key=lambda r: float(r.get("order") or 0))
+    if not rows:
+        return ""
+    def item(r):
+        logo = f'<img src="{esc(r["logo"])}" alt="" class="logo">' if r.get("logo") else ""
+        sub = (f'<span class="sub" lang="en">{esc(r.get("sub_en", ""))}</span>'
+               f'<span class="sub" lang="ja" hidden>{esc(r.get("sub_ja") or r.get("sub_en", ""))}</span>') if r.get("sub_en") else ""
+        inner = f'{logo}<span class="lbl">{esc(r["label"])}</span>{sub}'
+        if r.get("url"):
+            return f'<a class="linkcard" href="{esc(r["url"])}" target="_blank" rel="noopener">{inner}<span class="arr" aria-hidden="true">↗</span></a>'
+        return f'<div class="linkcard off">{inner}</div>'
+    studios = "".join(item(r) for r in rows if r.get("kind") != "partner")
+    partners = [r for r in rows if r.get("kind") == "partner"]
+    pl = ("".join(f'<li>{(f"<img src=" + chr(34) + esc(r["logo"]) + chr(34) + " alt=" + chr(34) + esc(r["label"]) + chr(34) + ">") if r.get("logo") else esc(r["label"])}</li>' for r in partners))
+    return (f'<div class="links"><h3 data-t="links.heading">{esc(T("links.heading"))}</h3><div class="linkcards">{studios}</div>'
+            + (f'<h3 data-t="links.partners">{esc(T("links.partners"))}</h3><ul class="partners">{pl}</ul>' if partners else "")
+            + '</div>')
+
+
 def write_static(texts, works):
     """Put the parts search engines read into index.html, between marker comments."""
     page = NEXT / "index.html"
@@ -324,7 +346,7 @@ def write_static(texts, works):
                  f'<div><h3 data-t="info.education.label">{esc(T("info.education.label"))}</h3><ul class="plain" data-lines="info.education">{lines(T("info.education"))}</ul></div>'
                  f'<div><h3 data-t="info.support.label">{esc(T("info.support.label"))}</h3><ul class="plain" data-lines="info.support">{lines(T("info.support"))}</ul></div>'
                  f'<div><h3 data-t="contact">{esc(T("contact"))}</h3><p><a href="mailto:{esc(T("contact.email"))}">{esc(T("contact.email"))}</a></p></div>'
-                 f'</div>'),
+                 f'</div>\n' + links_html(T)),
         "works": '<ol class="list">' + "".join(
             f'<li><a href="#work={w["id"]}"><span class="y">{esc(w["year"])}</span><span>{esc(w["title"]["en"])}</span>'
             f'<span class="m">{esc(", ".join(w["medium"]))}</span></a></li>' for w in works) + "</ol>",

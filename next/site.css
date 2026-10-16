@@ -191,6 +191,23 @@ h2, p { margin: 0; }
 .info-side { display: grid; gap: 24px; align-content: start; font-size: 13.5px; }
 .info-side h3 { margin: 0 0 6px; font-size: 13px; font-weight: 400; color: var(--quiet); }
 .plain { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.links { grid-column: 2 / -1; display: grid; gap: 12px; margin-top: 36px; padding-top: 22px; border-top: 1px solid var(--line); }
+.links h3 { margin: 0; font-size: 13px; font-weight: 400; color: var(--quiet); }
+.links h3 + .partners { margin-top: -2px; }
+.linkcards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; margin-bottom: 18px; }
+.linkcard {
+  display: grid; grid-template-columns: auto minmax(0, 1fr) auto; grid-template-rows: auto auto; column-gap: 12px; align-items: center;
+  padding: 14px 16px; border: 1px solid var(--line); border-radius: 10px; text-decoration: none; color: var(--ink);
+}
+.linkcard .logo { grid-row: span 2; width: 28px; height: 28px; object-fit: contain; }
+.linkcard .lbl { font-size: 15px; grid-column: 2; }
+.linkcard .sub { grid-column: 2; font-size: 12.5px; color: var(--quiet); line-height: 1.4; }
+.linkcard .sub[hidden] { display: none; }
+.linkcard .arr { grid-column: 3; grid-row: 1 / span 2; color: var(--quiet); }
+a.linkcard:hover { border-color: var(--ink); }
+.linkcard.off { border-style: dashed; color: var(--quiet); }
+.partners { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 13.5px; color: #444; }
+.partners img { height: 26px; width: auto; filter: grayscale(1); opacity: .8; }
 .foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 20px; }
 .foot-links { display: flex; gap: 18px; }
 .foot-links a { text-decoration: none; }
@@ -401,6 +418,7 @@ body.locked { overflow: hidden; }
   .s-note { left: var(--gutter); right: var(--gutter); max-width: none; bottom: calc(52px + env(safe-area-inset-bottom, 0px)); text-align: center; }
   .hero-slides img.contain { top: calc(96px + env(safe-area-inset-top, 0px)); height: calc(100% - 250px); }
   .info-text .lead { font-size: 19px; }
+  .links { grid-column: 1; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -418,3 +436,4 @@ body.locked { overflow: hidden; }
 .legal-main h2 { font-size: 15px; font-weight: 500; margin: 28px 0 6px; }
 .legal-main p { margin: 0 0 10px; max-width: 38em; font-size: 14.5px; overflow-wrap: anywhere; }
 .legal-main .muted { color: var(--quiet); }
+section[id] { scroll-margin-top: calc(var(--hdr, 56px) + 8px); }

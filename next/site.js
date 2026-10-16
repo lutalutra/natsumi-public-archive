@@ -638,7 +638,7 @@
     document.querySelectorAll("[data-t]").forEach(el => { const v = T[lang][el.dataset.t]; if (typeof v === "string") el.textContent = v; });
     document.querySelectorAll("[data-t-label]").forEach(el => { const v = T[lang][el.dataset.tLabel]; if (typeof v === "string" && v) { el.setAttribute("aria-label", v); el.dataset.tip = v; if (el.title) el.title = v; } });
     document.querySelectorAll("[data-set-lang]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.setLang === lang)));
-    document.querySelectorAll(".info-text[lang]").forEach(el => { el.hidden = el.lang !== lang; });
+    document.querySelectorAll(".info-text[lang], .links .sub[lang]").forEach(el => { el.hidden = el.lang !== lang; });
     document.querySelectorAll("[data-lines]").forEach(el => {
       const v = T[lang][el.dataset.lines]; if (typeof v === "string") el.innerHTML = v.split("\n").filter(Boolean).map(x => `<li>${esc(x)}</li>`).join("");
     });
