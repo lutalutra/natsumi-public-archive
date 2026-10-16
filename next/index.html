@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Natsumi Sugiyama — Archive</title>
+<meta name="description" content="Works and research on places, memory, and the space between people and their surroundings, 2013–2026.">
+<meta property="og:title" content="Natsumi Sugiyama — Archive">
+<meta property="og:description" content="Works and research on places, memory, and the space between people and their surroundings, 2013–2026.">
+<meta property="og:image" content="img/A_ART014/00.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Sans+JP:wght@400;500&family=Shippori+Mincho:wght@400;500&family=Spectral:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<a class="skip" href="#works">Skip to works</a>
+
+<header class="masthead">
+  <a class="name" href="#top" id="top">Natsumi Sugiyama</a>
+  <nav class="menu" aria-label="Sections">
+    <a href="#works" data-t="nav.works">Works</a>
+    <a href="#index" data-t="nav.index">Index</a>
+    <a href="#books" data-t="nav.books">Books</a>
+    <a href="#info" data-t="nav.info">Info</a>
+  </nav>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+    <button type="button" data-set-lang="ja" aria-pressed="false">JP</button>
+  </div>
+</header>
+
+<main>
+  <section class="opening" aria-labelledby="statement">
+    <div class="opening-head">
+      <div>
+        <p class="statement" id="statement" data-t="statement">Works on places, memory, and what lies between people and their surroundings.</p>
+        <p class="span-years">2013–2026</p>
+      </div>
+      <p class="field-caption" id="fieldCaption" aria-live="polite"></p>
+    </div>
+
+    <div class="field-wrap">
+      <div class="field" id="field" role="list" aria-label="All works placed by year and theme"></div>
+    </div>
+    <p class="field-hint" data-t="hint" aria-hidden="true">Swipe the field to see later years.</p>
+  </section>
+
+  <section class="works" id="works" aria-labelledby="worksTitle">
+    <h2 class="section-title" id="worksTitle" data-t="nav.works">Works</h2>
+    <div id="selected"></div>
+  </section>
+
+  <section class="index" id="index" aria-labelledby="indexTitle">
+    <div class="index-head">
+      <h2 class="section-title" id="indexTitle" data-t="nav.index">Index</h2>
+      <div class="filter" role="group" aria-label="Filter the index" id="filter"></div>
+    </div>
+    <ol class="index-list" id="indexList"></ol>
+  </section>
+
+  <section class="books" id="books" aria-labelledby="booksTitle">
+    <h2 class="section-title" id="booksTitle" data-t="nav.books">Books</h2>
+    <div id="shelves"></div>
+  </section>
+
+  <section class="info" id="info" aria-labelledby="infoTitle">
+    <h2 class="section-title" id="infoTitle" data-t="nav.info">Info</h2>
+    <div class="info-body">
+      <p data-t="info.1">Natsumi Sugiyama works across artistic research, editorial design, and information design. Her projects collect how people form a sense of place — through fieldwork, drawing, interviews, installation, and publication.</p>
+      <p data-t="info.2">She studied environmental design in Tokyo and Public Art and New Artistic Strategies in Germany, and is based in Berlin.</p>
+    </div>
+    <div class="info-contact">
+      <p class="muted" data-t="info.contact">For exhibitions, research, and publications</p>
+      <a class="mail" href="mailto:n@natyama.com">n@natyama.com</a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>© Natsumi Sugiyama</span>
+  <span class="muted" data-t="foot.rights">Images and texts may not be reused without permission.</span>
+</footer>
+
+<div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-labelledby="vTitle" hidden>
+  <div class="viewer-bar">
+    <p class="viewer-crumb muted" id="vCrumb"></p>
+    <button type="button" class="viewer-close" id="vClose" data-t="close">Close</button>
+  </div>
+  <div class="viewer-scroll" id="vScroll">
+    <div class="strip" id="vStrip" tabindex="0" aria-label="Images"></div>
+    <div class="viewer-text">
+      <div class="viewer-head">
+        <p class="muted" id="vYear"></p>
+        <h2 id="vTitle"></h2>
+        <p class="viewer-alt" id="vAlt"></p>
+      </div>
+      <div class="viewer-main">
+        <p class="question" id="vQuestion"></p>
+        <div class="long" id="vLong"></div>
+        <div id="vPdf"></div>
+      </div>
+      <dl class="facts" id="vFacts"></dl>
+    </div>
+    <nav class="viewer-nav" aria-label="Other works">
+      <button type="button" id="vPrev"></button>
+      <button type="button" id="vNext"></button>
+    </nav>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="site.js"></script>
+</body>
+</html>
