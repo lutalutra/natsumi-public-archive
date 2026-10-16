@@ -85,3 +85,7 @@ labels,float.research,Ongoing research,継続中のリサーチ,
 labels,float.licence,Not shown for rights reasons,権利上の理由で非掲載,
 labels,float.spot,Spot project,スポットプロジェクト,
 labels,float.unplaced,Not yet placed,未分類,
+ui,col.title,Title,作品名,List column
+ui,col.medium,Medium,メディア,List column
+ui,col.venue,Venue,会場・機関,List column
+ui,col.year,Year,年,List column

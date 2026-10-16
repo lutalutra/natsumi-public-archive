@@ -153,14 +153,16 @@
     const keys = Object.keys(counts).sort((a, b) => (side[a] === side[b] ? 0 : side[a] === "art" ? -1 : 1) || counts[b] - counts[a] || a.localeCompare(b));
     if (medium && !counts[medium]) medium = null;
     $("#media").innerHTML = `<button type="button" data-medium="" aria-pressed="${!medium}">${esc(t("allMedia"))}</button>`
-      + keys.map(k => `<button type="button" data-medium="${esc(k)}" aria-pressed="${medium === k}">${esc(k)} <span class="n">${counts[k]}</span></button>`).join("");
+      + keys.map(k => `<button type="button" class="chip ${side[k]}" data-medium="${esc(k)}" aria-pressed="${medium === k}">${esc(k)} <span class="n">${counts[k]}</span></button>`).join("");
   }
   function renderSheet() {
     const sheet = $("#sheet");
     const list = works.filter(w => (area === "all" || w.area === area) && (!medium || kinds(w).includes(medium)));
     if (view === "list") {
-      sheet.innerHTML = `<ol class="list">${list.map(w =>
-        `<li><button type="button" data-open="${w.id}"><span class="t">${esc(L(w.title))}</span><span class="m">${esc(kinds(w).join(", "))}</span><span class="y">${esc(w.year)}</span></button></li>`).join("")}</ol>`;
+      const chips = w => `<span class="chips">${kinds(w).map(k => `<span class="chip ${w.area}">${esc(k)}</span>`).join("")}</span>`;
+      sheet.innerHTML = `<div class="listwrap"><div class="list-head" aria-hidden="true"><span>${esc(t("col.title"))}</span><span>${esc(t("col.medium"))}</span><span>${esc(t("col.venue"))}</span><span>${esc(t("col.year"))}</span></div>`
+        + `<ol class="list">${list.map(w =>
+        `<li><button type="button" data-open="${w.id}"><span class="t">${esc(L(w.title))}</span>${chips(w)}<span class="v">${esc(venueOf(w))}</span><span class="y">${esc(w.year)}</span></button></li>`).join("")}</ol></div>`;
       return;
     }
     list.sort((a, b) => (!!cover(b)) - (!!cover(a)));
@@ -180,7 +182,7 @@
       `<button type="button" class="tile${im ? "" : " blank"}" data-open="${w.id}" style="width:${Math.floor(r * h)}px">
         <span class="frame" style="height:${Math.round(h)}px">${im ? `<img src="${esc(h > 260 ? im.src : im.thumb)}" alt="" loading="lazy" decoding="async">` : esc(t("noImage"))}</span>
         <span class="cap"><span class="y">${esc(w.y0)}</span><span>${esc(L(w.title))}</span></span>
-        <span class="med">${esc([w.area === "art" ? venueOf(w) : "", kinds(w).slice(0, 3).join(" · ")].filter(Boolean).join(" — "))}</span>
+        <span class="med">${esc(kinds(w).slice(0, 3).join(" · "))}</span>
       </button>`).join("")).join("");
   }
   $("#filters").addEventListener("click", e => { const b = e.target.closest("[data-area]"); if (b) { area = b.dataset.area; renderFilters(); renderSheet(); } });

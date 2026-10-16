@@ -2993,6 +2993,22 @@ window.ARCHIVE = {
   "float.unplaced": {
    "en": "Not yet placed",
    "ja": "未分類"
+  },
+  "col.title": {
+   "en": "Title",
+   "ja": "作品名"
+  },
+  "col.medium": {
+   "en": "Medium",
+   "ja": "メディア"
+  },
+  "col.venue": {
+   "en": "Venue",
+   "ja": "会場・機関"
+  },
+  "col.year": {
+   "en": "Year",
+   "ja": "年"
   }
  },
  "floating": [
