@@ -54,8 +54,8 @@
   const byId = Object.fromEntries(works.map(w => [w.id, w]));
   // A place is shown only where it belongs to the work: an installation view, or research tied to a region.
   const PLACE_MEDIA = /installation|exhibition|field research|field observation|fieldwork|interview|participant observation|site/i;
-  const place = w => (w.area === "art" && w.city && PLACE_MEDIA.test(w.medium.join(" "))) ? w.city : "";
-  const mediumLabel = m => m.charAt(0).toLowerCase() + m.slice(1);
+  const place = w => (w.area === "art" && w.city && PLACE_MEDIA.test(w.medium.join(" "))) ? (T[lang]["city." + w.city] || w.city) : "";
+  const mediumLabel = m => { const k = m.charAt(0).toLowerCase() + m.slice(1); return T[lang]["medium." + k] || k; };
   const cover = w => w.images[0] || (w.book && w.book.cover) || null;
   const seriesOf = id => A.series.find(s => s.children.includes(id));
 

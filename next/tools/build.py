@@ -66,7 +66,7 @@ ART_ROWS = [
 # Design (natyama) work is sorted by what was made.
 DESIGN_ROWS = [
     ("editorial", "Editorial and print", "編集・印刷物", r"book|booklet|editorial|publication|zine|logo|layout|graphic|infographic"),
-    ("digital", "Web and app UX/UI", "Web・アプリ UX/UI", r"app|ui|ux|website|web"),
+    ("digital", "Web and app UX/UI", "ウェブ・アプリのUI/UX", r"app|ui|ux|website|web"),
     ("content", "Content production", "コンテンツ制作", r"."),
 ]
 

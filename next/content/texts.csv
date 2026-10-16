@@ -15,50 +15,50 @@ Salon de Printemps Prize, Tokyo University of the Arts
 POLA Art Foundation, Overseas Research Grant (2017–2018)","Mitsubishi Chemical Junior Designer Award 大賞
 サロン・ド・プランタン賞（東京藝術大学）
 ポーラ美術振興財団 在外研修助成（2017–2018）",One line per entry. CHECK official names
-info,contact,Contact,お問い合わせ,
+info,contact,Contact,連絡先,
 info,contact.email,n@natyama.com,n@natyama.com,Shown as text and link
 nav,nav.archive,Archive,アーカイブ,
 nav,nav.bookshelf,Bookshelf,本棚,
 nav,nav.index,Index,インデックス,
-nav,nav.info,Info,情報,
-nav,view.images,Images,画像,Archive view switch
-nav,view.list,List,リスト,Archive view switch
+nav,nav.info,Info,プロフィール,
+nav,view.images,Images,画像で表示,Archive view switch
+nav,view.list,List,リストで表示,Archive view switch
 ui,close,Close,閉じる,
 ui,all,All,すべて,
 ui,art,Artistic practice,作家活動,
 ui,design,Design,デザイン,
-ui,infoBtn,Info,情報,
+ui,infoBtn,Info,作品情報,
 ui,top,Back to top,トップへ戻る,
-ui,allMedia,All media,すべてのメディア,
+ui,allMedia,All media,すべて,
 ui,series,Series,シリーズ,
 ui,prev,Previous,前へ,
 ui,next,Next,次へ,
-ui,noImage,No image,画像なし,
-ui,read,Publication (PDF),出版物（PDF）,
+ui,noImage,No image,画像準備中,
+ui,read,Publication (PDF),冊子を読む（PDF）,
 ui,readJa,Japanese edition (PDF),日本語版（PDF）,
-ui,all.images,All images,すべての画像,
+ui,all.images,All images,画像一覧,
 ui,about.work,About this work,作品について,
 ui,read.book,Read the book,本を開く,
 ui,cover,Cover,表紙,
-ui,book.open,Click the cover to open the book,表紙をクリックすると本が開きます,
-ui,book.nopages,Only the cover is in the archive so far,アーカイブにはまだ表紙のみです,
+ui,book.open,Click the cover to open the book,表紙をクリックして開く,
+ui,book.nopages,Only the cover is in the archive so far,表紙のみ掲載しています,
 ui,open,Open work,作品を見る,
-ui,peekHint,Point at a line to see the work. Lines run from the first to the last year of each project.,線に触れると作品が表示されます。線の長さは各プロジェクトの期間です。,
+ui,peekHint,Point at a line to see the work.,線を選ぶと作品が表示されます。,
 labels,tracks.art.0,Artistic practice,作家活動,
 labels,tracks.art.1,Natsumi Sugiyama,Natsumi Sugiyama,
 labels,tracks.design.0,Design,デザイン,
 labels,tracks.design.1,natyama,natyama,
-labels,tracks.projects.0,Studio projects,スタジオのプロジェクト,
+labels,tracks.projects.0,Studio projects,スタジオプロジェクト,
 labels,tracks.projects.1,studio natyama,studio natyama,
-labels,status.planned,Planned,準備中,
+labels,status.planned,Planned,構想中,
 labels,status.ongoing,Ongoing,進行中,
 labels,status.done,Completed,完了,
 ui,since,since,,
 labels,shelves.authored,Project documentation,プロジェクト記録,
-labels,shelves.collaborative,Collaborative,共同制作,
+labels,shelves.collaborative,Collaborative,共同出版,
 labels,shelves.layout_design,Layout design,レイアウトデザイン,
 labels,facts.venue,Venue,会場,
-labels,facts.medium,Medium,メディウム,
+labels,facts.medium,Medium,メディア,
 labels,facts.role,Role,役割,
 labels,facts.collaborators,With,協働,
 labels,facts.funding,Support,助成,
@@ -66,13 +66,13 @@ labels,facts.award,Award,受賞,
 labels,facts.credit,Credits,クレジット,
 labels,facts.photo,Photos,撮影,
 labels,facts.series,Series,シリーズ,
-legal,legal.imprint,Imprint,インプリント（Impressum）,Footer link
+legal,legal.imprint,Imprint,法的表示,Footer link
 legal,legal.privacy,Privacy,プライバシーポリシー,Footer link
 pillars,pillar.installation,Installations,インスタレーション,Archive section
 pillars,pillar.portraits,Portraits of Places,Portraits of Places,Archive section (series)
 pillars,pillar.other,Other works,その他の作品,Archive section
 labels,kind.books,Books and print,本・印刷物,
-labels,kind.apps,Apps and web,アプリ・Web,
+labels,kind.apps,Apps and web,アプリ・ウェブ,
 labels,kind.graphics,Graphics and identity,グラフィック・ロゴ,
 labels,kind.content,Content production,コンテンツ制作,
 ui,legend.art,Artistic practice,作家活動,List legend
@@ -87,5 +87,35 @@ labels,float.spot,Spot project,スポットプロジェクト,
 labels,float.unplaced,Not yet placed,未分類,
 ui,col.title,Title,作品名,List column
 ui,col.medium,Medium,メディア,List column
-ui,col.venue,Venue,会場・機関,List column
+ui,col.venue,Venue,会場,List column
 ui,col.year,Year,年,List column
+medium,medium.installation,installation,インスタレーション,Medium word for artistic practice
+medium,medium.drawing,drawing,ドローイング,Medium word for artistic practice
+medium,medium.field research,field research,フィールドリサーチ,Medium word for artistic practice
+medium,medium.exhibition,exhibition,展示,Medium word for artistic practice
+medium,medium.interview,interview,インタビュー,Medium word for artistic practice
+medium,medium.photography,photography,写真,Medium word for artistic practice
+medium,medium.mixed media object,mixed media object,ミクストメディア,Medium word for artistic practice
+medium,medium.video,video,映像,Medium word for artistic practice
+place,city.Tokyo,Tokyo,東京,City name
+place,city.Weimar,Weimar,ワイマール,City name
+place,city.Berlin,Berlin,ベルリン,City name
+place,city.Dresden,Dresden,ドレスデン,City name
+place,city.Nagano,Nagano,長野,City name
+place,city.Düsseldorf,Düsseldorf,デュッセルドルフ,City name
+aria,aria.sections,Sections,セクション,Screen reader label
+aria,aria.language,Language,言語,Screen reader label
+aria,aria.filter,Filter,絞り込み,Screen reader label
+aria,aria.view,View,表示切り替え,Screen reader label
+aria,aria.medium,Medium,メディア,Screen reader label
+aria,aria.choose,Choose image,画像を選ぶ,Screen reader label
+aria,aria.controls,Controls,操作,Screen reader label
+aria,aria.prevImage,Previous image,前の画像,Screen reader label
+aria,aria.nextImage,Next image,次の画像,Screen reader label
+aria,aria.prevPage,Previous page,前のページ,Screen reader label
+aria,aria.nextPage,Next page,次のページ,Screen reader label
+aria,aria.pdf,Open PDF,PDFを開く,Screen reader label
+aria,aria.selected,Selected works,選定作品,Screen reader label
+aria,aria.show,Show,表示する項目,Screen reader label
+aria,aria.others,Other works,ほかの作品,Screen reader label
+aria,aria.images,Images,画像,Screen reader label

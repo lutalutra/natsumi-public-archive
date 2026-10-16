@@ -37,7 +37,7 @@ window.ARCHIVE = {
    {
     "key": "digital",
     "en": "Web and app UX/UI",
-    "ja": "Web・アプリ UX/UI"
+    "ja": "ウェブ・アプリのUI/UX"
    },
    {
     "key": "content",
@@ -2716,7 +2716,7 @@ window.ARCHIVE = {
   },
   "contact": {
    "en": "Contact",
-   "ja": "お問い合わせ"
+   "ja": "連絡先"
   },
   "contact.email": {
    "en": "n@natyama.com",
@@ -2736,15 +2736,15 @@ window.ARCHIVE = {
   },
   "nav.info": {
    "en": "Info",
-   "ja": "情報"
+   "ja": "プロフィール"
   },
   "view.images": {
    "en": "Images",
-   "ja": "画像"
+   "ja": "画像で表示"
   },
   "view.list": {
    "en": "List",
-   "ja": "リスト"
+   "ja": "リストで表示"
   },
   "close": {
    "en": "Close",
@@ -2764,7 +2764,7 @@ window.ARCHIVE = {
   },
   "infoBtn": {
    "en": "Info",
-   "ja": "情報"
+   "ja": "作品情報"
   },
   "top": {
    "en": "Back to top",
@@ -2772,7 +2772,7 @@ window.ARCHIVE = {
   },
   "allMedia": {
    "en": "All media",
-   "ja": "すべてのメディア"
+   "ja": "すべて"
   },
   "series": {
    "en": "Series",
@@ -2788,11 +2788,11 @@ window.ARCHIVE = {
   },
   "noImage": {
    "en": "No image",
-   "ja": "画像なし"
+   "ja": "画像準備中"
   },
   "read": {
    "en": "Publication (PDF)",
-   "ja": "出版物（PDF）"
+   "ja": "冊子を読む（PDF）"
   },
   "readJa": {
    "en": "Japanese edition (PDF)",
@@ -2800,7 +2800,7 @@ window.ARCHIVE = {
   },
   "all.images": {
    "en": "All images",
-   "ja": "すべての画像"
+   "ja": "画像一覧"
   },
   "about.work": {
    "en": "About this work",
@@ -2816,19 +2816,19 @@ window.ARCHIVE = {
   },
   "book.open": {
    "en": "Click the cover to open the book",
-   "ja": "表紙をクリックすると本が開きます"
+   "ja": "表紙をクリックして開く"
   },
   "book.nopages": {
    "en": "Only the cover is in the archive so far",
-   "ja": "アーカイブにはまだ表紙のみです"
+   "ja": "表紙のみ掲載しています"
   },
   "open": {
    "en": "Open work",
    "ja": "作品を見る"
   },
   "peekHint": {
-   "en": "Point at a line to see the work. Lines run from the first to the last year of each project.",
-   "ja": "線に触れると作品が表示されます。線の長さは各プロジェクトの期間です。"
+   "en": "Point at a line to see the work.",
+   "ja": "線を選ぶと作品が表示されます。"
   },
   "tracks.art.0": {
    "en": "Artistic practice",
@@ -2848,7 +2848,7 @@ window.ARCHIVE = {
   },
   "tracks.projects.0": {
    "en": "Studio projects",
-   "ja": "スタジオのプロジェクト"
+   "ja": "スタジオプロジェクト"
   },
   "tracks.projects.1": {
    "en": "studio natyama",
@@ -2856,7 +2856,7 @@ window.ARCHIVE = {
   },
   "status.planned": {
    "en": "Planned",
-   "ja": "準備中"
+   "ja": "構想中"
   },
   "status.ongoing": {
    "en": "Ongoing",
@@ -2876,7 +2876,7 @@ window.ARCHIVE = {
   },
   "shelves.collaborative": {
    "en": "Collaborative",
-   "ja": "共同制作"
+   "ja": "共同出版"
   },
   "shelves.layout_design": {
    "en": "Layout design",
@@ -2888,7 +2888,7 @@ window.ARCHIVE = {
   },
   "facts.medium": {
    "en": "Medium",
-   "ja": "メディウム"
+   "ja": "メディア"
   },
   "facts.role": {
    "en": "Role",
@@ -2920,7 +2920,7 @@ window.ARCHIVE = {
   },
   "legal.imprint": {
    "en": "Imprint",
-   "ja": "インプリント（Impressum）"
+   "ja": "法的表示"
   },
   "legal.privacy": {
    "en": "Privacy",
@@ -2944,7 +2944,7 @@ window.ARCHIVE = {
   },
   "kind.apps": {
    "en": "Apps and web",
-   "ja": "アプリ・Web"
+   "ja": "アプリ・ウェブ"
   },
   "kind.graphics": {
    "en": "Graphics and identity",
@@ -3004,11 +3004,131 @@ window.ARCHIVE = {
   },
   "col.venue": {
    "en": "Venue",
-   "ja": "会場・機関"
+   "ja": "会場"
   },
   "col.year": {
    "en": "Year",
    "ja": "年"
+  },
+  "medium.installation": {
+   "en": "installation",
+   "ja": "インスタレーション"
+  },
+  "medium.drawing": {
+   "en": "drawing",
+   "ja": "ドローイング"
+  },
+  "medium.field research": {
+   "en": "field research",
+   "ja": "フィールドリサーチ"
+  },
+  "medium.exhibition": {
+   "en": "exhibition",
+   "ja": "展示"
+  },
+  "medium.interview": {
+   "en": "interview",
+   "ja": "インタビュー"
+  },
+  "medium.photography": {
+   "en": "photography",
+   "ja": "写真"
+  },
+  "medium.mixed media object": {
+   "en": "mixed media object",
+   "ja": "ミクストメディア"
+  },
+  "medium.video": {
+   "en": "video",
+   "ja": "映像"
+  },
+  "city.Tokyo": {
+   "en": "Tokyo",
+   "ja": "東京"
+  },
+  "city.Weimar": {
+   "en": "Weimar",
+   "ja": "ワイマール"
+  },
+  "city.Berlin": {
+   "en": "Berlin",
+   "ja": "ベルリン"
+  },
+  "city.Dresden": {
+   "en": "Dresden",
+   "ja": "ドレスデン"
+  },
+  "city.Nagano": {
+   "en": "Nagano",
+   "ja": "長野"
+  },
+  "city.Düsseldorf": {
+   "en": "Düsseldorf",
+   "ja": "デュッセルドルフ"
+  },
+  "aria.sections": {
+   "en": "Sections",
+   "ja": "セクション"
+  },
+  "aria.language": {
+   "en": "Language",
+   "ja": "言語"
+  },
+  "aria.filter": {
+   "en": "Filter",
+   "ja": "絞り込み"
+  },
+  "aria.view": {
+   "en": "View",
+   "ja": "表示切り替え"
+  },
+  "aria.medium": {
+   "en": "Medium",
+   "ja": "メディア"
+  },
+  "aria.choose": {
+   "en": "Choose image",
+   "ja": "画像を選ぶ"
+  },
+  "aria.controls": {
+   "en": "Controls",
+   "ja": "操作"
+  },
+  "aria.prevImage": {
+   "en": "Previous image",
+   "ja": "前の画像"
+  },
+  "aria.nextImage": {
+   "en": "Next image",
+   "ja": "次の画像"
+  },
+  "aria.prevPage": {
+   "en": "Previous page",
+   "ja": "前のページ"
+  },
+  "aria.nextPage": {
+   "en": "Next page",
+   "ja": "次のページ"
+  },
+  "aria.pdf": {
+   "en": "Open PDF",
+   "ja": "PDFを開く"
+  },
+  "aria.selected": {
+   "en": "Selected works",
+   "ja": "選定作品"
+  },
+  "aria.show": {
+   "en": "Show",
+   "ja": "表示する項目"
+  },
+  "aria.others": {
+   "en": "Other works",
+   "ja": "ほかの作品"
+  },
+  "aria.images": {
+   "en": "Images",
+   "ja": "画像"
   }
  },
  "floating": [
