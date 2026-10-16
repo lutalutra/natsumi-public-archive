@@ -117,35 +117,6 @@ h2, p { margin: 0; }
 .pillar h3 .n { margin-left: 6px; }
 .pillar-sheet { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 28px 12px; }
 
-/* art / design markers: filled for artistic practice, open for design */
-.dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 7px; vertical-align: 1px; flex: none; }
-.dot.art { background: var(--ink); }
-.dot.design { border: 1px solid var(--quiet); border-radius: 1px; transform: rotate(45deg) scale(.85); }
-.tile.design .cap > span:last-child { color: #4a4a4a; }
-.media button.k-design { border-style: dashed; }
-.legend { display: flex; gap: 20px; font-size: 12px; color: var(--quiet); margin: 0 0 8px; }
-
-/* list view: a CV by year */
-.cv { border-top: 1px solid var(--ink); }
-.cv-year { display: grid; grid-template-columns: 9rem minmax(0, 1fr); border-bottom: 1px solid var(--line); }
-.cv-year h3 { margin: 0; padding: 14px 0; font-weight: 400; display: grid; align-content: start; gap: 8px; }
-.cv-year .yy { font-size: 26px; line-height: 1; letter-spacing: -.01em; font-variant-numeric: tabular-nums; position: sticky; top: calc(var(--hdr, 56px) + 10px); }
-.cv-year .mix { display: flex; flex-wrap: wrap; gap: 3px 0; }
-.cv-year .mix .dot { width: 6px; height: 6px; margin-right: 4px; }
-.cv-year ol { list-style: none; margin: 0; padding: 0; }
-.cv-row + .cv-row button { border-top: 1px solid color-mix(in srgb, var(--line) 70%, transparent); }
-.cv-row button {
-  display: grid; width: 100%; text-align: left; align-items: baseline;
-  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.2fr) minmax(0, .9fr); gap: 4px 24px; padding: 13px 0;
-}
-.cv-row .t { font-size: 16px; line-height: 1.35; }
-.cv-row .span { color: var(--quiet); font-size: 13px; margin-left: 6px; font-variant-numeric: tabular-nums; }
-.cv-row .v { font-size: 13.5px; line-height: 1.4; }
-.cv-row .k { font-size: 12.5px; color: var(--quiet); line-height: 1.4; }
-.cv-row.design .t { font-size: 14.5px; color: #3c3c3c; }
-.cv-row.design .v { color: var(--quiet); }
-.cv-row button:hover .t { text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; }
-
 /* bookshelf: every shelf visible at once */
 .shelfrow { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: 16px var(--gutter); padding: 24px 0; border-top: 1px solid var(--line); }
 .shelfrow h3 { margin: 0; font-size: 13px; font-weight: 400; color: var(--quiet); }
@@ -366,10 +337,6 @@ body.locked { overflow: hidden; }
   .sheet { gap: 20px 8px; }
   .tile .cap { font-size: 12px; gap: 6px; flex-direction: column; }
   .list button { grid-template-columns: 4.2rem minmax(0, 1fr); gap: 10px; }
-  .cv-year { grid-template-columns: 4.2rem minmax(0, 1fr); }
-  .cv-year .yy { font-size: 20px; }
-  .cv-row button { grid-template-columns: 1fr; gap: 2px; padding: 11px 0; }
-  .cv-row .t { font-size: 15px; }
   .list .p { display: none; }
   .list .m { grid-column: 2; font-size: 12px; }
   .media { flex-wrap: nowrap; overflow-x: auto; margin-right: calc(-1 * var(--gutter)); padding-right: var(--gutter); scrollbar-width: none; }

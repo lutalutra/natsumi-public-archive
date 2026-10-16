@@ -153,29 +153,16 @@
     const keys = Object.keys(counts).sort((a, b) => (side[a] === side[b] ? 0 : side[a] === "art" ? -1 : 1) || counts[b] - counts[a] || a.localeCompare(b));
     if (medium && !counts[medium]) medium = null;
     $("#media").innerHTML = `<button type="button" data-medium="" aria-pressed="${!medium}">${esc(t("allMedia"))}</button>`
-      + keys.map(k => `<button type="button" class="${area === "all" ? "k-" + side[k] : ""}" data-medium="${esc(k)}" aria-pressed="${medium === k}">${esc(k)} <span class="n">${counts[k]}</span></button>`).join("");
-  }
-  const mark = w => `<i class="dot ${w.area}" aria-hidden="true"></i>`;
-  function renderList(list) {
-    const years = [...new Set(list.map(w => w.y0))].sort((a, b) => b - a);
-    const legend = area === "all" ? `<p class="legend"><span>${mark({ area: "art" })}${esc(t("legend.art"))}</span><span>${mark({ area: "design" })}${esc(t("legend.design"))}</span></p>` : "";
-    return legend + `<div class="cv">` + years.map(y => {
-      const ws = list.filter(w => w.y0 === y).sort((a, b) => (a.area === b.area ? 0 : a.area === "art" ? -1 : 1));
-      const dots = area === "all" ? `<span class="mix">${ws.map(mark).join("")}</span>` : "";
-      return `<section class="cv-year"><h3><span class="yy">${y}</span>${dots}</h3><ol>` + ws.map(w => {
-        const v = venueOf(w);
-        return `<li class="cv-row ${w.area}"><button type="button" data-open="${w.id}">
-          <span class="t">${area === "all" ? mark(w) : ""}${esc(L(w.title))}${w.y1 > w.y0 ? `<span class="span">–${w.y1}</span>` : ""}</span>
-          <span class="v">${esc(v || (w.area === "art" ? "" : ""))}</span>
-          <span class="k">${esc(kinds(w).slice(0, 3).join(", "))}</span>
-        </button></li>`;
-      }).join("") + `</ol></section>`;
-    }).join("") + `</div>`;
+      + keys.map(k => `<button type="button" data-medium="${esc(k)}" aria-pressed="${medium === k}">${esc(k)} <span class="n">${counts[k]}</span></button>`).join("");
   }
   function renderSheet() {
     const sheet = $("#sheet");
     const list = works.filter(w => (area === "all" || w.area === area) && (!medium || kinds(w).includes(medium)));
-    if (view === "list") { sheet.innerHTML = renderList(list); return; }
+    if (view === "list") {
+      sheet.innerHTML = `<ol class="list">${list.map(w =>
+        `<li><button type="button" data-open="${w.id}"><span class="y">${esc(w.year)}</span><span>${esc(L(w.title))}</span><span class="m">${esc(kinds(w).join(", "))}</span><span class="p">${esc(place(w))}</span></button></li>`).join("")}</ol>`;
+      return;
+    }
     list.sort((a, b) => (!!cover(b)) - (!!cover(a)));
     sheet.innerHTML = justified(list, sheet.clientWidth);
   }
@@ -190,9 +177,9 @@
     }
     if (row.length) rows.push({ row, h: target });
     return rows.map(({ row, h }) => row.map(({ w, im, r }) =>
-      `<button type="button" class="tile ${w.area}${im ? "" : " blank"}" data-open="${w.id}" style="width:${Math.floor(r * h)}px">
+      `<button type="button" class="tile${im ? "" : " blank"}" data-open="${w.id}" style="width:${Math.floor(r * h)}px">
         <span class="frame" style="height:${Math.round(h)}px">${im ? `<img src="${esc(h > 260 ? im.src : im.thumb)}" alt="" loading="lazy" decoding="async">` : esc(t("noImage"))}</span>
-        <span class="cap"><span class="y">${area === "all" ? mark(w) : ""}${esc(w.y0)}</span><span>${esc(L(w.title))}</span></span>
+        <span class="cap"><span class="y">${esc(w.y0)}</span><span>${esc(L(w.title))}</span></span>
         <span class="med">${esc([w.area === "art" ? venueOf(w) : "", kinds(w).slice(0, 3).join(" · ")].filter(Boolean).join(" — "))}</span>
       </button>`).join("")).join("");
   }
