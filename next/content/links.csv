@@ -1,8 +1,8 @@
 ﻿order,kind,label,sub_en,sub_ja,url,logo,show,note
 1,studio,natyama,"Web and app UX/UI, digital products, content production",ウェブ・アプリのUI/UX、デジタルプロダクト、コンテンツ制作,https://natyama.com,,TRUE,Design studio
-2,studio,studio natyama 夏山企画,Curation and design — in preparation,キュレーション・デザイン（準備中）,,,TRUE,No link yet
-3,partner,Bauhaus-Universität Weimar,,,,,TRUE,From public design projects — check wording
-4,partner,Goldrausch Künstlerinnenprojekt,,,,,TRUE,
-5,partner,Verlag für moderne Kunst,,,,,TRUE,
-6,partner,Art Spin Berlin,,,,,TRUE,
-7,partner,Tokyo University of the Arts,,,,,TRUE,
+2,studio,studio natyama 夏山企画,Curation and design — in preparation,キュレーション・デザイン（準備中）,,,FALSE,No link yet
+3,partner,Bauhaus-Universität Weimar,,,,,FALSE,From public design projects — check wording
+4,partner,Goldrausch Künstlerinnenprojekt,,,,,FALSE,
+5,partner,Verlag für moderne Kunst,,,,,FALSE,
+6,partner,Art Spin Berlin,,,,,FALSE,
+7,partner,Tokyo University of the Arts,,,,,FALSE,

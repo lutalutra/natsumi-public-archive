@@ -2687,15 +2687,15 @@ window.ARCHIVE = {
    "ja": "Natsumi Sugiyama — 作品とプロジェクト（ベルリン）"
   },
   "seo.description": {
-   "en": "Natsumi Sugiyama is a hands-on editor in Berlin working across art and design: installations, drawings, books and digital products.",
+   "en": "Natsumi Sugiyama, editor based in Berlin: researching places, people, stories and everyday systems, and shaping them into installations, drawings, publications and digital products.",
    "ja": "ベルリン在住、アートとデザインを横断する手を動かす編集者。インスタレーション、ドローイング、本、デジタルプロダクト。"
   },
   "info.lead": {
-   "en": "A hands-on editor working across art and design.",
+   "en": "Editor.",
    "ja": "アートとデザインを横断する、手を動かす編集者。"
   },
   "info.statement": {
-   "en": "She gathers observations of places, people, stories and everyday systems, and gives them form as installations, drawings, books and digital products. Based in Berlin.",
+   "en": "Researching places, people, stories and everyday systems, and shaping them into installations, drawings, publications and digital products. Based in Berlin.",
    "ja": "場所や人、語り、日々の仕組みを観察して集め、インスタレーション、ドローイング、本、デジタルプロダクトなどの形にしています。ベルリン在住。"
   },
   "info.education.label": {
