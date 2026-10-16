@@ -9,7 +9,7 @@
     en: {
       "nav.index": "Index",
       info: "Works across information, editorial, and artistic practice. Based in Berlin, with a background in “Design” and “Public Art and New Artistic Strategies”.",
-      contact: "Contact", close: "Close", all: "All", art: "Artistic/Research", design: "Design/Editorial",
+      contact: "Contact", close: "Close", all: "All", art: "Artistic practice", design: "Design", infoBtn: "Info", top: "Back to top", allMedia: "All media",
       series: "Series", prev: "Previous", next: "Next", noImage: "No image", read: "Publication (PDF)", readJa: "Japanese edition (PDF)",
       "all.images": "All images", "about.work": "About this work", "read.book": "Read the book", cover: "Cover",
       "book.open": "Click the cover to open the book", "book.nopages": "Only the cover is in the archive so far",
@@ -22,7 +22,7 @@
     ja: {
       "nav.index": "インデックス",
       info: "このサイトには、展示やリサーチ、デザインプロジェクトの一部を収録しています。東京で環境デザイン、ドイツで現代美術に関する研究制作を経て、現在はUIや情報編集を軸に活動しています。",
-      contact: "お問い合わせ", close: "閉じる", all: "すべて", art: "アート・リサーチ", design: "デザイン・編集",
+      contact: "お問い合わせ", close: "閉じる", all: "すべて", art: "作家活動", design: "デザイン", infoBtn: "情報", top: "トップへ戻る", allMedia: "すべてのメディア",
       series: "シリーズ", prev: "前へ", next: "次へ", noImage: "画像なし", read: "出版物（PDF）", readJa: "日本語版（PDF）",
       "all.images": "すべての画像", "about.work": "作品について", "read.book": "本を開く", cover: "表紙",
       "book.open": "表紙をクリックすると本が開きます", "book.nopages": "アーカイブにはまだ表紙のみです",
@@ -40,7 +40,10 @@
 
   const works = A.works.slice().sort((a, b) => b.y0 - a.y0 || a.id.localeCompare(b.id));
   const byId = Object.fromEntries(works.map(w => [w.id, w]));
-  const place = w => [w.city, w.country].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i).join(", ");
+  // A place is shown only where it belongs to the work: an installation view, or research tied to a region.
+  const PLACE_MEDIA = /installation|exhibition|field research|field observation|fieldwork|interview|participant observation|site/i;
+  const place = w => (w.area === "art" && w.city && PLACE_MEDIA.test(w.medium.join(" "))) ? w.city : "";
+  const mediumLabel = m => m.charAt(0).toLowerCase() + m.slice(1);
   const cover = w => w.images[0] || (w.book && w.book.cover) || null;
   const seriesOf = id => A.series.find(s => s.children.includes(id));
 
@@ -97,26 +100,35 @@
     if (sx === null) return; const dx = e.changedTouches[0].clientX - sx; sx = null;
     if (Math.abs(dx) > 40) setSlide(cur + (dx < 0 ? 1 : -1));
   });
+  $("#toTop").addEventListener("click", () => window.scrollTo({ top: 0, behavior: reduced ? "auto" : "smooth" }));
   new IntersectionObserver(([en]) => {
     pastHero = !en.isIntersecting;
+    $("#toTop").hidden = !pastHero;
     top.classList.toggle("solid", pastHero);
     if (!pastHero) setSlide(cur); else clearTimeout(timer);
   }, { rootMargin: "-56px 0px 0px 0px", threshold: 0 }).observe(hero);
 
   /* ---------- archive ---------- */
   let area = "art", view = "grid";
+  let medium = null;
   function renderFilters() {
     const n = k => k === "all" ? works.length : works.filter(w => w.area === k).length;
     $("#filters").innerHTML = ["all", "art", "design"].map(k =>
       `<button type="button" data-area="${k}" aria-pressed="${k === area}">${esc(t(k))} <span class="n">${n(k)}</span></button>`).join("");
     document.querySelectorAll("[data-view]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.view === view)));
+    const pool = works.filter(w => area === "all" || w.area === area), counts = {};
+    pool.forEach(w => w.medium.forEach(m => { const k = mediumLabel(m); counts[k] = (counts[k] || 0) + 1; }));
+    const keys = Object.keys(counts).sort((a, b) => counts[b] - counts[a] || a.localeCompare(b));
+    if (medium && !counts[medium]) medium = null;
+    $("#media").innerHTML = `<button type="button" data-medium="" aria-pressed="${!medium}">${esc(t("allMedia"))}</button>`
+      + keys.map(k => `<button type="button" data-medium="${esc(k)}" aria-pressed="${medium === k}">${esc(k)} <span class="n">${counts[k]}</span></button>`).join("");
   }
   function renderSheet() {
     const sheet = $("#sheet");
-    const list = works.filter(w => area === "all" || w.area === area);
+    const list = works.filter(w => (area === "all" || w.area === area) && (!medium || w.medium.some(m => mediumLabel(m) === medium)));
     if (view === "list") {
       sheet.innerHTML = `<ol class="list">${list.map(w =>
-        `<li><button type="button" data-open="${w.id}"><span class="y">${esc(w.year)}</span><span>${esc(L(w.title))}</span><span class="p">${esc(place(w))}</span></button></li>`).join("")}</ol>`;
+        `<li><button type="button" data-open="${w.id}"><span class="y">${esc(w.year)}</span><span>${esc(L(w.title))}</span><span class="m">${esc(w.medium.map(mediumLabel).join(", "))}</span><span class="p">${esc(place(w))}</span></button></li>`).join("")}</ol>`;
       return;
     }
     list.sort((a, b) => (!!cover(b)) - (!!cover(a)));
@@ -134,9 +146,11 @@
       `<button type="button" class="tile${im ? "" : " blank"}" data-open="${w.id}" style="width:${Math.floor(r * h)}px">
         <span class="frame" style="height:${Math.round(h)}px">${im ? `<img src="${esc(h > 260 ? im.src : im.thumb)}" alt="" loading="lazy" decoding="async">` : esc(t("noImage"))}</span>
         <span class="cap"><span class="y">${esc(w.y0)}</span><span>${esc(L(w.title))}</span></span>
+        ${w.medium.length ? `<span class="med">${esc(w.medium.slice(0, 3).map(mediumLabel).join(" · "))}</span>` : ""}
       </button>`).join("")).join("");
   }
   $("#filters").addEventListener("click", e => { const b = e.target.closest("[data-area]"); if (b) { area = b.dataset.area; renderFilters(); renderSheet(); } });
+  $("#media").addEventListener("click", e => { const b = e.target.closest("[data-medium]"); if (b) { medium = b.dataset.medium || null; renderFilters(); renderSheet(); } });
   document.querySelectorAll("[data-view]").forEach(b => b.addEventListener("click", () => { view = b.dataset.view; renderFilters(); renderSheet(); }));
 
   /* ---------- bookshelf: all shelves at once ---------- */
@@ -249,6 +263,14 @@
   let current = null, lastFocus = null;
   const isOpen = () => !gallery.hidden || !reader.hidden;
 
+  function paint(el, bg, lum) {
+    el.style.setProperty("--s-bg", bg || "#FFFFFF");
+    el.classList.toggle("dark", (lum ?? 1) < 0.5);
+  }
+  function toTop() {
+    closeOverlay();
+    window.scrollTo({ top: 0, behavior: reduced ? "auto" : "smooth" });
+  }
   function showOverlay(el) {
     if (!isOpen()) lastFocus = document.activeElement;
     gallery.hidden = el !== gallery; reader.hidden = el !== reader;
@@ -269,7 +291,7 @@
   function galleryItems(kind, id) {
     if (kind === "series") {
       const s = A.series.find(x => x.id === id);
-      return s.children.map(c => byId[c]).filter(w => w && cover(w)).map(w => ({ ...cover(w), cap: `${w.y0}　${L(w.title)}`, open: w.id }));
+      return s.children.map(c => byId[c]).filter(w => w && cover(w)).map(w => ({ ...cover(w), cap: `${w.y0}, ${L(w.title)}`, open: w.id }));
     }
     const w = byId[id];
     return w.images.map((m, k) => ({ ...m, cap: "" }));
@@ -286,18 +308,16 @@
     loadNear();
     const n = G.items.length, it = G.items[G.i];
     $("#gCount").textContent = `${G.i + 1} / ${n}`;
-    document.querySelectorAll("#gTicks button").forEach((b, k) => {
-      b.classList.toggle("is-on", k === G.i); b.classList.toggle("is-past", k < G.i);
-    });
-    $("#gCap").innerHTML = it.open ? `${esc(it.cap)}　<button type="button" data-open="${it.open}" style="text-decoration:underline;text-underline-offset:4px">${esc(t("open"))}</button>` : esc(it.cap || "");
+    paint(gallery, it.bg, it.lum);
+    if (it.open) { $("#gYear").textContent = it.cap; }
     document.querySelectorAll("#gGrid button").forEach((b, k) => b.setAttribute("aria-current", String(k === G.i)));
     const single = n < 2;
-    ["#gLeft", "#gRight", "#gPrevImg", "#gNextImg"].forEach(s => $(s).hidden = single);
-    $("#gTicks").hidden = single || n > 24;
+    ["#gPrevImg", "#gNextImg"].forEach(s => $(s).hidden = single);
+    $("#gSteps").hidden = single; $("#gGridBtn").hidden = single;
   }
   function toggleInfo(on) {
     const open = on ?? $("#gInfo").hidden;
-    $("#gInfo").hidden = !open; gallery.classList.toggle("info-open", open);
+    $("#gInfo").hidden = !open;
     $("#gInfoBtn").setAttribute("aria-pressed", String(open));
   }
   function toggleGrid(on) {
@@ -311,19 +331,20 @@
       $("#iTitle").textContent = L(s.title);
       $("#iSub").textContent = t("series");
       $("#iBody").innerHTML = kids.map(w => `<p class="lnk"><button type="button" data-open="${w.id}">${esc(L(w.title))}</button> <span style="color:var(--quiet)">${esc(w.year)}</span></p>`).join("");
-      $("#iFacts").innerHTML = ""; $("#iPrev").hidden = $("#iNext").hidden = true;
+      $("#iFacts").innerHTML = ""; $("#iTags").innerHTML = ""; $("#iPrev").hidden = $("#iNext").hidden = true;
       return;
     }
     const w = byId[id], s = seriesOf(id);
     $("#iTitle").textContent = L(w.title);
     $("#iSub").textContent = [w.year, place(w)].filter(Boolean).join(", ");
+    $("#iTags").innerHTML = w.medium.map(m => `<li>${esc(mediumLabel(m))}</li>`).join("");
     const text = L(w.long) || L(w.desc);
     const pdf = w.pdfs.map(p => `<a href="${esc(p.href)}" target="_blank" rel="noopener">${esc(p.lang === "ja" ? t("readJa") : t("read"))}</a>`).join("　");
     const book = w.book && w.book.pages && w.book.pages.length > 1 ? `<p class="lnk"><button type="button" data-book="${w.id}">${esc(t("read.book"))}</button></p>` : "";
     $("#iBody").innerHTML = text.split(/\n+/).filter(Boolean).map(p => `<p>${esc(p)}</p>`).join("")
       + book + (pdf ? `<p class="pdf">${pdf}</p>` : "")
       + (s && s.children.length > 1 ? `<p class="lnk">${esc(t("series"))}: <button type="button" data-series="${s.id}">${esc(L(s.title))}</button></p>` : "");
-    $("#iFacts").innerHTML = [["venue", w.venue], ["medium", w.medium.join(", ")], ["role", w.role], ["collaborators", w.collaborators],
+    $("#iFacts").innerHTML = [["venue", place(w) ? w.venue : ""], ["role", w.role], ["collaborators", w.collaborators],
       ["funding", w.funding], ["award", w.award], ["credit", w.credit], ["photo", w.photoCredit]]
       .filter(f => f[1]).map(([k, v]) => `<div><dt>${esc(F[k])}</dt><dd>${esc(v)}</dd></div>`).join("");
     const i = works.findIndex(x => x.id === id);
@@ -344,7 +365,6 @@
     $("#gFrame").innerHTML = G.items.length
       ? G.items.map((m, k) => `<img data-src="${esc(m.src)}" alt="${esc(title)}, ${k + 1}" decoding="async">`).join("")
       : `<p style="position:absolute;inset:0;display:grid;place-items:center;color:var(--quiet)">${esc(t("noImage"))}</p>`;
-    $("#gTicks").innerHTML = G.items.map((m, k) => `<button type="button" data-img="${k}" aria-label="${k + 1}"><span></span></button>`).join("");
     $("#gGrid").innerHTML = G.items.map((m, k) => `<button type="button" data-img="${k}"><img src="${esc(m.thumb || m.src)}" alt="" loading="lazy"></button>`).join("");
     fillInfo(kind, id);
     if (!same) { toggleGrid(false); toggleInfo(false); }
@@ -356,7 +376,7 @@
   $("#gNextImg").addEventListener("click", () => setImg(G.i + 1));
   $("#gLeft").addEventListener("click", () => setImg(G.i - 1));
   $("#gRight").addEventListener("click", () => setImg(G.i + 1));
-  $("#gTicks").addEventListener("click", e => { const b = e.target.closest("[data-img]"); if (b) setImg(+b.dataset.img); });
+  $("#gHome").addEventListener("click", () => toTop());
   $("#gGrid").addEventListener("click", e => { const b = e.target.closest("[data-img]"); if (b) { setImg(+b.dataset.img); toggleGrid(false); } });
   $("#gInfoBtn").addEventListener("click", () => toggleInfo());
   $("#gGridBtn").addEventListener("click", () => toggleGrid());
@@ -444,7 +464,6 @@
       else { const a = 2 * v, b = Math.min(n, 2 * v + 1); label = (a === b ? a : `${a}–${b}`) + ` / ${n}`; }
     } else label = v === 0 ? t("cover") : `${v + 1} / ${n}`;
     $("#rCount").textContent = label;
-    $("#rBar").style.width = (R.views.length > 1 ? v / (R.views.length - 1) * 100 : 100) + "%";
     $("#rLeft").disabled = v === 0; $("#rRight").disabled = v >= R.views.length - 1;
     $("#rHint").textContent = n < 2 ? t("book.nopages") : (v === 0 ? t("book.open") : "");
   }
@@ -501,7 +520,9 @@
     $("#rTitle").textContent = L(w.title);
     $("#rYear").textContent = w.year;
     const pdf = w.pdfs[0];
-    $("#rPdf").hidden = !pdf; if (pdf) { $("#rPdf").href = pdf.href; $("#rPdf").textContent = "PDF"; }
+    $("#rPdf").hidden = !pdf; if (pdf) $("#rPdf").href = pdf.href;
+    const c = w.book.cover || {};
+    paint(reader, c.bg ? `color-mix(in srgb, ${c.bg} 70%, #e9e9e6)` : "#ECECEA", c.lum);
     showOverlay(reader);
     buildViews(); sizeBook(); drawView(0);
     $("#rClose").focus({ preventScroll: true });
@@ -513,7 +534,8 @@
   $("#rLeft").addEventListener("click", () => turn(-1));
   $("#rRight").addEventListener("click", () => turn(1));
   $("#rClose").addEventListener("click", () => closeOverlay());
-  $("#rWork").addEventListener("click", () => go("#work=" + R.id));
+  $("#rWork").addEventListener("click", () => { go("#work=" + R.id); toggleInfo(true); });
+  $("#rHome").addEventListener("click", () => toTop());
   swipe($("#rStage"), d => turn(d));
 
   /* routing */
@@ -559,6 +581,7 @@
   function applyLang() {
     document.documentElement.lang = lang; document.documentElement.dataset.lang = lang;
     document.querySelectorAll("[data-t]").forEach(el => { const v = T[lang][el.dataset.t]; if (typeof v === "string") el.textContent = v; });
+    document.querySelectorAll("[data-t-label]").forEach(el => { const v = T[lang][el.dataset.tLabel]; if (typeof v === "string" && v) { el.setAttribute("aria-label", v); el.dataset.tip = v; } });
     document.querySelectorAll("[data-set-lang]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.setLang === lang)));
     renderFilters(); renderSheet(); renderShelves(); renderChrono();
     setSlide(cur);

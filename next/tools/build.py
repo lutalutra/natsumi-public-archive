@@ -146,6 +146,21 @@ def pdfs(d):
     return out
 
 
+def edge_color(path):
+    """Colour of the image's own background: median of a thin border, plus a readable text tone."""
+    with Image.open(path) as im:
+        im = im.convert("RGB")
+        im.thumbnail((200, 200))
+        w, h = im.size
+        b = max(2, min(w, h) // 25)
+        px = []
+        for box in ((0, 0, w, b), (0, h - b, w, h), (0, 0, b, h), (w - b, 0, w, h)):
+            px += list(im.crop(box).getdata())
+    med = [sorted(c[i] for c in px)[len(px) // 2] for i in range(3)]
+    lum = (0.2126 * med[0] + 0.7152 * med[1] + 0.0722 * med[2]) / 255
+    return "#%02x%02x%02x" % tuple(med), round(lum, 3)
+
+
 def derive(src, pid, idx):
     """Write large + small webp copies, return their info."""
     dest = OUT_IMG / pid
@@ -175,7 +190,8 @@ def derive(src, pid, idx):
                 c = im.copy()
                 c.thumbnail((size, size), Image.LANCZOS)
                 c.save(target, "WEBP", quality=q, method=5)
-        return {"src": f"img/{pid}/{name}.webp", "thumb": f"img/{pid}/{name}_s.webp", "w": w, "h": h}
+        bg, lum = edge_color(small)
+        return {"src": f"img/{pid}/{name}.webp", "thumb": f"img/{pid}/{name}_s.webp", "w": w, "h": h, "bg": bg, "lum": lum}
 
 
 def save_page(im, dest):
@@ -219,7 +235,7 @@ def book_pages(p, d, images, cover):
     for m in ([cover] if cover else []) + images:
         if m and m["src"] not in seen:
             seen.add(m["src"])
-            pages.append({"src": m["src"], "w": m["w"], "h": m["h"], "spread": False})
+            pages.append({"src": m["src"], "w": m["w"], "h": m["h"], "spread": False, "bg": m.get("bg"), "lum": m.get("lum")})
     return pages
 
 
@@ -300,7 +316,8 @@ def main():
             "question": {"en": nice(p.get("research_question_en")), "ja": nice(p.get("research_question_ja"))},
             "desc": {"en": nice(p.get("desc_en")), "ja": nice(p.get("desc_ja"))},
             "long": {"en": (p.get("long_en") or "").strip(), "ja": (p.get("long_ja") or "").strip()},
-            "venue": nice(p.get("venue")), "city": nice(p.get("city")), "country": nice(p.get("country")),
+            "venue": nice(p.get("venue")), "city": nice(p.get("city")),
+            "site": nice(p.get("site_type")), "context": nice(p.get("location_detail")),
             "medium": [nice(m) for m in (p.get("medium") or []) if m],
             "credit": nice(p.get("credit")), "photoCredit": nice(p.get("photo_credits")),
             "award": nice(p.get("award")), "funding": nice(p.get("funding")),

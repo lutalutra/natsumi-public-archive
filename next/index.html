@@ -50,6 +50,7 @@
         <button type="button" data-view="list" aria-pressed="false">List</button>
       </div>
     </div>
+    <div class="media" id="media" role="group" aria-label="Medium"></div>
     <div class="sheet" id="sheet"></div>
   </section>
 
@@ -78,36 +79,25 @@
 
 <footer class="foot">© Natsumi Sugiyama</footer>
 
-<div class="gallery" id="gallery" role="dialog" aria-modal="true" aria-labelledby="gTitle" hidden>
-  <div class="g-top">
-    <p class="g-crumb"><span id="gTitle"></span> <span class="g-year" id="gYear"></span></p>
-    <div class="g-actions">
-      <button type="button" id="gGridBtn" aria-pressed="false" data-t="all.images">All images</button>
-      <button type="button" id="gInfoBtn" aria-pressed="false" aria-controls="gInfo">Info</button>
-      <button type="button" id="gClose" data-t="close">Close</button>
-    </div>
-  </div>
+<div class="gallery shell" id="gallery" role="dialog" aria-modal="true" aria-labelledby="gTitle" hidden>
   <div class="g-stage" id="gStage">
     <div class="g-frame" id="gFrame"></div>
     <button type="button" class="g-hit prev" id="gPrevImg" aria-label="Previous image"></button>
     <button type="button" class="g-hit next" id="gNextImg" aria-label="Next image"></button>
-    <div class="g-grid" id="gGrid" hidden></div>
   </div>
-  <div class="g-bottom">
-    <p class="g-cap" id="gCap"></p>
-    <div class="slider-ui g-ui">
-      <div class="ticks static" id="gTicks"></div>
-      <div class="steps">
-        <button type="button" id="gLeft" aria-label="Previous image">←</button>
-        <span class="count" id="gCount" aria-live="polite"></span>
-        <button type="button" id="gRight" aria-label="Next image">→</button>
-      </div>
-    </div>
+  <p class="s-title"><span id="gTitle"></span><span class="s-sub" id="gYear"></span></p>
+  <nav class="rail" aria-label="Controls"><button type="button" class="ic" id="gClose" aria-label="Close" data-tip="Close" data-t-label="close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button><button type="button" class="ic" id="gInfoBtn" aria-label="Info" data-tip="Info" data-t-label="infoBtn"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg></button><button type="button" class="ic" id="gGridBtn" aria-label="All images" data-tip="All images" data-t-label="all.images"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg></button><button type="button" class="ic" id="gHome" aria-label="Back to top" data-tip="Back to top" data-t-label="top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button></nav>
+  <div class="s-steps" id="gSteps">
+    <button type="button" class="ic" id="gLeft" aria-label="Previous image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <span class="count" id="gCount" aria-live="polite"></span>
+    <button type="button" class="ic" id="gRight" aria-label="Next image"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
   </div>
+  <div class="g-grid" id="gGrid" hidden></div>
   <aside class="g-info" id="gInfo" hidden>
     <div class="g-info-in">
       <h2 id="iTitle"></h2>
       <p class="v-sub" id="iSub"></p>
+      <ul class="tags" id="iTags"></ul>
       <div class="v-body" id="iBody"></div>
       <dl class="v-facts" id="iFacts"></dl>
       <nav class="i-nav" aria-label="Other works">
@@ -118,30 +108,21 @@
   </aside>
 </div>
 
-<div class="reader" id="reader" role="dialog" aria-modal="true" aria-labelledby="rTitle" hidden>
-  <div class="g-top">
-    <p class="g-crumb"><span id="rTitle"></span> <span class="g-year" id="rYear"></span></p>
-    <div class="g-actions">
-      <a id="rPdf" target="_blank" rel="noopener" hidden>PDF</a>
-      <button type="button" id="rWork" data-t="about.work">About this work</button>
-      <button type="button" id="rClose" data-t="close">Close</button>
-    </div>
-  </div>
+<div class="reader shell" id="reader" role="dialog" aria-modal="true" aria-labelledby="rTitle" hidden>
   <div class="r-stage" id="rStage">
     <div class="r-book" id="rBook"></div>
   </div>
-  <div class="g-bottom">
-    <p class="g-cap r-hint" id="rHint"></p>
-    <div class="slider-ui g-ui">
-      <div class="track r-track"><span id="rBar"></span></div>
-      <div class="steps">
-        <button type="button" id="rLeft" aria-label="Previous page">←</button>
-        <span class="count" id="rCount" aria-live="polite"></span>
-        <button type="button" id="rRight" aria-label="Next page">→</button>
-      </div>
-    </div>
+  <p class="s-title"><span id="rTitle"></span><span class="s-sub" id="rYear"></span></p>
+  <nav class="rail" aria-label="Controls"><button type="button" class="ic" id="rClose" aria-label="Close" data-tip="Close" data-t-label="close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button><button type="button" class="ic" id="rWork" aria-label="About this work" data-tip="About this work" data-t-label="about.work"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg></button><a class="ic" id="rPdf" target="_blank" rel="noopener" aria-label="Open PDF" data-tip="Open PDF" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4"/><path d="M10 13h5M10 16.5h5"/></svg></a><button type="button" class="ic" id="rHome" aria-label="Back to top" data-tip="Back to top" data-t-label="top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button></nav>
+  <div class="s-steps">
+    <button type="button" class="ic" id="rLeft" aria-label="Previous page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <span class="count" id="rCount" aria-live="polite"></span>
+    <button type="button" class="ic" id="rRight" aria-label="Next page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
   </div>
+  <p class="r-hint" id="rHint"></p>
 </div>
+
+<button type="button" class="to-top ic" id="toTop" aria-label="Back to top" data-tip="Back to top" data-t-label="top" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
 
 <script src="data.js"></script>
 <script src="site.js"></script>

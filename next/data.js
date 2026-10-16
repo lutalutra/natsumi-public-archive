@@ -75,7 +75,8 @@ window.ARCHIVE = {
    },
    "venue": "Tokyo International Forum / Tokyo University of the Arts Museum",
    "city": "Tokyo",
-   "country": "Japan",
+   "site": "fieldwork",
+   "context": "Suburb",
    "medium": [
     "installation",
     "drawing",
@@ -96,7 +97,9 @@ window.ARCHIVE = {
      "src": "img/A_ART001/90.webp",
      "thumb": "img/A_ART001/90_s.webp",
      "w": 1448,
-     "h": 1086
+     "h": 1086,
+     "bg": "#d4d4d4",
+     "lum": 0.831
     },
     "pages": [
      {
@@ -274,31 +277,41 @@ window.ARCHIVE = {
      "src": "img/A_ART001/00.webp",
      "thumb": "img/A_ART001/00_s.webp",
      "w": 1454,
-     "h": 740
+     "h": 740,
+     "bg": "#f7ebde",
+     "lum": 0.928
     },
     {
      "src": "img/A_ART001/01.webp",
      "thumb": "img/A_ART001/01_s.webp",
      "w": 3508,
-     "h": 2481
+     "h": 2481,
+     "bg": "#ffffff",
+     "lum": 1.0
     },
     {
      "src": "img/A_ART001/02.webp",
      "thumb": "img/A_ART001/02_s.webp",
      "w": 3508,
-     "h": 2481
+     "h": 2481,
+     "bg": "#ffffff",
+     "lum": 1.0
     },
     {
      "src": "img/A_ART001/03.webp",
      "thumb": "img/A_ART001/03_s.webp",
      "w": 3508,
-     "h": 2481
+     "h": 2481,
+     "bg": "#ffffff",
+     "lum": 1.0
     },
     {
      "src": "img/A_ART001/06.webp",
      "thumb": "img/A_ART001/06_s.webp",
      "w": 3508,
-     "h": 2481
+     "h": 2481,
+     "bg": "#ffffff",
+     "lum": 1.0
     }
    ]
   },
@@ -330,7 +343,8 @@ window.ARCHIVE = {
    },
    "venue": "Roppongi Art Night publicity magazine",
    "city": "Tokyo",
-   "country": "Japan",
+   "site": "fieldwork",
+   "context": "",
    "medium": [
     "drawing",
     "interview"
@@ -349,19 +363,25 @@ window.ARCHIVE = {
      "src": "img/A_ART002/00.webp",
      "thumb": "img/A_ART002/00_s.webp",
      "w": 4724,
-     "h": 3753
+     "h": 3753,
+     "bg": "#ffffff",
+     "lum": 1.0
     },
     {
      "src": "img/A_ART002/01.webp",
      "thumb": "img/A_ART002/01_s.webp",
      "w": 6620,
-     "h": 4680
+     "h": 4680,
+     "bg": "#ffffff",
+     "lum": 1.0
     },
     {
      "src": "img/A_ART002/02.webp",
      "thumb": "img/A_ART002/02_s.webp",
      "w": 5063,
-     "h": 2681
+     "h": 2681,
+     "bg": "#fefefe",
+     "lum": 0.996
     }
    ]
   },
@@ -393,7 +413,8 @@ window.ARCHIVE = {
    },
    "venue": "Jūniten Gallery",
    "city": "Nagano",
-   "country": "Japan",
+   "site": "fieldwork",
+   "context": "",
    "medium": [
     "field research"
    ],
@@ -411,7 +432,9 @@ window.ARCHIVE = {
      "src": "img/A_ART003/00.webp",
      "thumb": "img/A_ART003/00_s.webp",
      "w": 2920,
-     "h": 2064
+     "h": 2064,
+     "bg": "#ffffff",
+     "lum": 1.0
     }
    ]
   },
@@ -443,7 +466,8 @@ window.ARCHIVE = {
    },
    "venue": "Ehemalige JVA Weimar",
    "city": "Weimar",
-   "country": "Germany",
+   "site": "fieldwork",
+   "context": "",
    "medium": [
     "installation",
     "drawing",
@@ -463,50 +487,66 @@ window.ARCHIVE = {
      "src": "img/A_ART004/00.webp",
      "thumb": "img/A_ART004/00_s.webp",
      "w": 3872,
-     "h": 2592
+     "h": 2592,
+     "bg": "#0d131a",
+     "lum": 0.071
     },
     "pages": [
      {
       "src": "img/A_ART004/00.webp",
       "w": 3872,
       "h": 2592,
-      "spread": false
+      "spread": false,
+      "bg": "#0d131a",
+      "lum": 0.071
      },
      {
       "src": "img/A_ART004/01.webp",
       "w": 1950,
       "h": 1404,
-      "spread": false
+      "spread": false,
+      "bg": "#f1f1f1",
+      "lum": 0.945
      },
      {
       "src": "img/A_ART004/02.webp",
       "w": 1173,
       "h": 1023,
-      "spread": false
+      "spread": false,
+      "bg": "#ffffff",
+      "lum": 1.0
      },
      {
       "src": "img/A_ART004/03.webp",
       "w": 4608,
       "h": 2592,
-      "spread": false
+      "spread": false,
+      "bg": "#4c4944",
+      "lum": 0.287
      },
      {
       "src": "img/A_ART004/04.webp",
       "w": 540,
       "h": 361,
-      "spread": false
+      "spread": false,
+      "bg": "#3861a3",
+      "lum": 0.365
      },
      {
       "src": "img/A_ART004/05.webp",
       "w": 3872,
       "h": 2592,
-      "spread": false
+      "spread": false,
+      "bg": "#263140",
+      "lum": 0.187
      },
      {
       "src": "img/A_ART004/06.webp",
       "w": 1970,
       "h": 1394,
-      "spread": false
+      "spread": false,
+      "bg": "#f1f1f1",
+      "lum": 0.945
      }
     ]
    },
@@ -516,43 +556,57 @@ window.ARCHIVE = {
      "src": "img/A_ART004/00.webp",
      "thumb": "img/A_ART004/00_s.webp",
      "w": 3872,
-     "h": 2592
+     "h": 2592,
+     "bg": "#0d131a",
+     "lum": 0.071
     },
     {
      "src": "img/A_ART004/01.webp",
      "thumb": "img/A_ART004/01_s.webp",
      "w": 1950,
-     "h": 1404
+     "h": 1404,
+     "bg": "#f1f1f1",
+     "lum": 0.945
     },
     {
      "src": "img/A_ART004/02.webp",
      "thumb": "img/A_ART004/02_s.webp",
      "w": 1173,
-     "h": 1023
+     "h": 1023,
+     "bg": "#ffffff",
+     "lum": 1.0
     },
     {
      "src": "img/A_ART004/03.webp",
      "thumb": "img/A_ART004/03_s.webp",
      "w": 4608,
-     "h": 2592
+     "h": 2592,
+     "bg": "#4c4944",
+     "lum": 0.287
     },
     {
      "src": "img/A_ART004/04.webp",
      "thumb": "img/A_ART004/04_s.webp",
      "w": 540,
-     "h": 361
+     "h": 361,
+     "bg": "#3861a3",
+     "lum": 0.365
     },
     {
      "src": "img/A_ART004/05.webp",
      "thumb": "img/A_ART004/05_s.webp",
      "w": 3872,
-     "h": 2592
+     "h": 2592,
+     "bg": "#263140",
+     "lum": 0.187
     },
     {
      "src": "img/A_ART004/06.webp",
      "thumb": "img/A_ART004/06_s.webp",
      "w": 1970,
-     "h": 1394
+     "h": 1394,
+     "bg": "#f1f1f1",
+     "lum": 0.945
     }
    ]
   },
@@ -584,7 +638,8 @@ window.ARCHIVE = {
    },
    "venue": "Maxim Gorki Theater",
    "city": "Berlin",
-   "country": "Germany",
+   "site": "fieldwork",
+   "context": "",
    "medium": [
     "installation",
     "field research",
@@ -604,7 +659,9 @@ window.ARCHIVE = {
      "src": "img/A_ART005/00.webp",
      "thumb": "img/A_ART005/00_s.webp",
      "w": 1342,
-     "h": 848
+     "h": 848,
+     "bg": "#d6cdbd",
+     "lum": 0.807
     }
    ]
   },
@@ -636,7 +693,8 @@ window.ARCHIVE = {
    },
    "venue": "Personal production",
    "city": "",
-   "country": "",
+   "site": "fieldwork",
+   "context": "",
    "medium": [
     "field research",
     "photography"
@@ -655,7 +713,9 @@ window.ARCHIVE = {
      "src": "img/A_ART006/00.webp",
      "thumb": "img/A_ART006/00_s.webp",
      "w": 724,
-     "h": 498
+     "h": 498,
+     "bg": "#9b9d5d",
+     "lum": 0.596
     }
    ]
   },
@@ -687,7 +747,8 @@ window.ARCHIVE = {
    },
    "venue": "Kunsthaus Dresden, Public space in the city of Dresden",
    "city": "Dresden",
-   "country": "Germany",
+   "site": "fieldwork",
+   "context": "",
    "medium": [
     "mixed media object",
     "exhibition"
@@ -706,37 +767,49 @@ window.ARCHIVE = {
      "src": "img/A_ART007/00.webp",
      "thumb": "img/A_ART007/00_s.webp",
      "w": 3000,
-     "h": 1860
+     "h": 1860,
+     "bg": "#e0e4e7",
+     "lum": 0.892
     },
     {
      "src": "img/A_ART007/01.webp",
      "thumb": "img/A_ART007/01_s.webp",
      "w": 3872,
-     "h": 2592
+     "h": 2592,
+     "bg": "#f7f7f7",
+     "lum": 0.969
     },
     {
      "src": "img/A_ART007/02.webp",
      "thumb": "img/A_ART007/02_s.webp",
      "w": 1163,
-     "h": 797
+     "h": 797,
+     "bg": "#f0ece8",
+     "lum": 0.928
     },
     {
      "src": "img/A_ART007/03.webp",
      "thumb": "img/A_ART007/03_s.webp",
      "w": 1442,
-     "h": 920
+     "h": 920,
+     "bg": "#d8dcd5",
+     "lum": 0.857
     },
     {
      "src": "img/A_ART007/04.webp",
      "thumb": "img/A_ART007/04_s.webp",
      "w": 3872,
-     "h": 2592
+     "h": 2592,
+     "bg": "#f7f7f7",
+     "lum": 0.969
     },
     {
      "src": "img/A_ART007/05.webp",
      "thumb": "img/A_ART007/05_s.webp",
      "w": 3648,
-     "h": 5472
+     "h": 5472,
+     "bg": "#434d43",
+     "lum": 0.291
     }
    ]
   },
@@ -768,7 +841,8 @@ window.ARCHIVE = {
    },
    "venue": "Personal production",
    "city": "Weimar",
-   "country": "Germany",
+   "site": "fieldwork",
+   "context": "",
    "medium": [
     "drawing",
     "photography"
@@ -787,32 +861,42 @@ window.ARCHIVE = {
      "src": "img/A_ART008/00.webp",
      "thumb": "img/A_ART008/00_s.webp",
      "w": 5066,
-     "h": 5189
+     "h": 5189,
+     "bg": "#ffffff",
+     "lum": 1.0
     },
     "pages": [
      {
       "src": "img/A_ART008/00.webp",
       "w": 5066,
       "h": 5189,
-      "spread": false
+      "spread": false,
+      "bg": "#ffffff",
+      "lum": 1.0
      },
      {
       "src": "img/A_ART008/01.webp",
       "w": 5095,
       "h": 3673,
-      "spread": false
+      "spread": false,
+      "bg": "#ffffff",
+      "lum": 1.0
      },
      {
       "src": "img/A_ART008/02.webp",
       "w": 6328,
       "h": 4516,
-      "spread": false
+      "spread": false,
+      "bg": "#ffffff",
+      "lum": 1.0
      },
      {
       "src": "img/A_ART008/03.webp",
       "w": 5456,
       "h": 3632,
-      "spread": false
+      "spread": false,
+      "bg": "#cdc9c7",
+      "lum": 0.791
      }
     ]
    },
@@ -828,25 +912,33 @@ window.ARCHIVE = {
      "src": "img/A_ART008/00.webp",
      "thumb": "img/A_ART008/00_s.webp",
      "w": 5066,
-     "h": 5189
+     "h": 5189,
+     "bg": "#ffffff",
+     "lum": 1.0
     },
     {
      "src": "img/A_ART008/01.webp",
      "thumb": "img/A_ART008/01_s.webp",
      "w": 5095,
-     "h": 3673
+     "h": 3673,
+     "bg": "#ffffff",
+     "lum": 1.0
     },
     {
      "src": "img/A_ART008/02.webp",
      "thumb": "img/A_ART008/02_s.webp",
      "w": 6328,
-     "h": 4516
+     "h": 4516,
+     "bg": "#ffffff",
+     "lum": 1.0
     },
     {
      "src": "img/A_ART008/03.webp",
      "thumb": "img/A_ART008/03_s.webp",
      "w": 5456,
-     "h": 3632
+     "h": 3632,
+     "bg": "#cdc9c7",
+     "lum": 0.791
     }
    ]
   },
@@ -878,7 +970,8 @@ window.ARCHIVE = {
    },
    "venue": "Anna Amalia Bibliothek",
    "city": "Weimar",
-   "country": "Germany",
+   "site": "fieldwork",
+   "context": "",
    "medium": [
     "field research"
    ],
@@ -896,38 +989,50 @@ window.ARCHIVE = {
      "src": "img/A_ART009/90.webp",
      "thumb": "img/A_ART009/90_s.webp",
      "w": 4032,
-     "h": 2875
+     "h": 2875,
+     "bg": "#f6f6f0",
+     "lum": 0.963
     },
     "pages": [
      {
       "src": "img/A_ART009/90.webp",
       "w": 4032,
       "h": 2875,
-      "spread": false
+      "spread": false,
+      "bg": "#f6f6f0",
+      "lum": 0.963
      },
      {
       "src": "img/A_ART009/91.webp",
       "w": 4032,
       "h": 3024,
-      "spread": false
+      "spread": false,
+      "bg": "#e5e8e9",
+      "lum": 0.908
      },
      {
       "src": "img/A_ART009/00.webp",
       "w": 4912,
       "h": 3064,
-      "spread": false
+      "spread": false,
+      "bg": "#8c7f73",
+      "lum": 0.505
      },
      {
       "src": "img/A_ART009/01.webp",
       "w": 4032,
       "h": 3024,
-      "spread": false
+      "spread": false,
+      "bg": "#e5e8e9",
+      "lum": 0.908
      },
      {
       "src": "img/A_ART009/02.webp",
       "w": 564,
       "h": 675,
-      "spread": false
+      "spread": false,
+      "bg": "#897d66",
+      "lum": 0.494
      }
     ]
    },
@@ -937,19 +1042,25 @@ window.ARCHIVE = {
      "src": "img/A_ART009/00.webp",
      "thumb": "img/A_ART009/00_s.webp",
      "w": 4912,
-     "h": 3064
+     "h": 3064,
+     "bg": "#8c7f73",
+     "lum": 0.505
     },
     {
      "src": "img/A_ART009/01.webp",
      "thumb": "img/A_ART009/01_s.webp",
      "w": 4032,
-     "h": 3024
+     "h": 3024,
+     "bg": "#e5e8e9",
+     "lum": 0.908
     },
     {
      "src": "img/A_ART009/02.webp",
      "thumb": "img/A_ART009/02_s.webp",
      "w": 564,
-     "h": 675
+     "h": 675,
+     "bg": "#897d66",
+     "lum": 0.494
     }
    ]
   },
@@ -981,7 +1092,8 @@ window.ARCHIVE = {
    },
    "venue": "Asphalt Festival – Sommer der Künste / two outdoor public spaces in city centre",
    "city": "Düsseldorf",
-   "country": "Germany",
+   "site": "fieldwork",
+   "context": "",
    "medium": [
     "installation"
    ],
@@ -999,7 +1111,9 @@ window.ARCHIVE = {
      "src": "img/A_ART010/00.webp",
      "thumb": "img/A_ART010/00_s.webp",
      "w": 1181,
-     "h": 827
+     "h": 827,
+     "bg": "#8c939b",
+     "lum": 0.573
     }
    ]
   },
@@ -1031,7 +1145,8 @@ window.ARCHIVE = {
    },
    "venue": "Schiller Museum",
    "city": "Weimar",
-   "country": "Germany",
+   "site": "museum",
+   "context": "",
    "medium": [
     "installation",
     "exhibition"
@@ -1050,7 +1165,9 @@ window.ARCHIVE = {
      "src": "img/A_ART011/00.webp",
      "thumb": "img/A_ART011/00_s.webp",
      "w": 2778,
-     "h": 1345
+     "h": 1345,
+     "bg": "#99acb0",
+     "lum": 0.66
     }
    ]
   },
@@ -1082,7 +1199,8 @@ window.ARCHIVE = {
    },
    "venue": "Tokyo University of the Arts",
    "city": "Tokyo",
-   "country": "Japan",
+   "site": "fieldwork",
+   "context": "",
    "medium": [
     "field research"
    ],
@@ -1100,14 +1218,18 @@ window.ARCHIVE = {
      "src": "img/A_ART012/00.webp",
      "thumb": "img/A_ART012/00_s.webp",
      "w": 1712,
-     "h": 1282
+     "h": 1282,
+     "bg": "#cbcbcb",
+     "lum": 0.796
     },
     "pages": [
      {
       "src": "img/A_ART012/00.webp",
       "w": 1712,
       "h": 1282,
-      "spread": false
+      "spread": false,
+      "bg": "#cbcbcb",
+      "lum": 0.796
      }
     ]
    },
@@ -1123,7 +1245,9 @@ window.ARCHIVE = {
      "src": "img/A_ART012/00.webp",
      "thumb": "img/A_ART012/00_s.webp",
      "w": 1712,
-     "h": 1282
+     "h": 1282,
+     "bg": "#cbcbcb",
+     "lum": 0.796
     }
    ]
   },
@@ -1155,7 +1279,8 @@ window.ARCHIVE = {
    },
    "venue": "Pola Museum Annex",
    "city": "Tokyo",
-   "country": "Japan",
+   "site": "fieldwork, gallery",
+   "context": "",
    "medium": [
     "installation",
     "video"
@@ -1174,7 +1299,9 @@ window.ARCHIVE = {
      "src": "img/A_ART014/00.webp",
      "thumb": "img/A_ART014/00_s.webp",
      "w": 2000,
-     "h": 1170
+     "h": 1170,
+     "bg": "#050403",
+     "lum": 0.016
     }
    ]
   },
@@ -1206,7 +1333,8 @@ window.ARCHIVE = {
    },
    "venue": "KIOSK FOR A MAGIC FUTURE by IMAGINARY COLLECTIVE during the exhibition ЯE:IMAGINE: THE RED HOUSE, 7. Herbst Salon in Maxim Gorki Theater",
    "city": "Berlin",
-   "country": "Germany",
+   "site": "fieldwork",
+   "context": "Maxim Gorki Theater",
    "medium": [
     "mixed media object",
     "exhibition"
@@ -1225,25 +1353,33 @@ window.ARCHIVE = {
      "src": "img/A_ART015/00.webp",
      "thumb": "img/A_ART015/00_s.webp",
      "w": 293,
-     "h": 197
+     "h": 197,
+     "bg": "#bfc3c1",
+     "lum": 0.761
     },
     {
      "src": "img/A_ART015/01.webp",
      "thumb": "img/A_ART015/01_s.webp",
      "w": 988,
-     "h": 561
+     "h": 561,
+     "bg": "#cdd1d1",
+     "lum": 0.816
     },
     {
      "src": "img/A_ART015/02.webp",
      "thumb": "img/A_ART015/02_s.webp",
      "w": 990,
-     "h": 562
+     "h": 562,
+     "bg": "#d2d4cb",
+     "lum": 0.827
     },
     {
      "src": "img/A_ART015/03.webp",
      "thumb": "img/A_ART015/03_s.webp",
      "w": 1076,
-     "h": 611
+     "h": 611,
+     "bg": "#dfe0df",
+     "lum": 0.877
     }
    ]
   },
@@ -1275,7 +1411,8 @@ window.ARCHIVE = {
    },
    "venue": "Kei Matsushita Lab / Tokyo University of the Arts",
    "city": "Tokyo",
-   "country": "Japan",
+   "site": "fieldwork",
+   "context": "",
    "medium": [
     "publication",
     "zine"
@@ -1294,14 +1431,18 @@ window.ARCHIVE = {
      "src": "img/B_COL001/00.webp",
      "thumb": "img/B_COL001/00_s.webp",
      "w": 3600,
-     "h": 2592
+     "h": 2592,
+     "bg": "#a7bdd3",
+     "lum": 0.729
     },
     "pages": [
      {
       "src": "img/B_COL001/00.webp",
       "w": 3600,
       "h": 2592,
-      "spread": false
+      "spread": false,
+      "bg": "#a7bdd3",
+      "lum": 0.729
      }
     ]
    },
@@ -1311,7 +1452,9 @@ window.ARCHIVE = {
      "src": "img/B_COL001/00.webp",
      "thumb": "img/B_COL001/00_s.webp",
      "w": 3600,
-     "h": 2592
+     "h": 2592,
+     "bg": "#a7bdd3",
+     "lum": 0.729
     }
    ]
   },
@@ -1343,7 +1486,8 @@ window.ARCHIVE = {
    },
    "venue": "Lehmbruck Museum",
    "city": "Duisburg",
-   "country": "Germany",
+   "site": "museum",
+   "context": "",
    "medium": [
     "installation",
     "drawing",
@@ -1363,13 +1507,17 @@ window.ARCHIVE = {
      "src": "img/B_COL010/00.webp",
      "thumb": "img/B_COL010/00_s.webp",
      "w": 1181,
-     "h": 566
+     "h": 566,
+     "bg": "#7e7c71",
+     "lum": 0.485
     },
     {
      "src": "img/B_COL010/01.webp",
      "thumb": "img/B_COL010/01_s.webp",
      "w": 787,
-     "h": 560
+     "h": 560,
+     "bg": "#c2c5cb",
+     "lum": 0.772
     }
    ]
   },
@@ -1401,7 +1549,8 @@ window.ARCHIVE = {
    },
    "venue": "iOS and Android",
    "city": "Tokyo",
-   "country": "Japan",
+   "site": "school, app, public space",
+   "context": "",
    "medium": [
     "mobile app",
     "video"
@@ -1420,7 +1569,9 @@ window.ARCHIVE = {
      "src": "img/B_COL030/00.webp",
      "thumb": "img/B_COL030/00_s.webp",
      "w": 1024,
-     "h": 576
+     "h": 576,
+     "bg": "#fdfdfd",
+     "lum": 0.992
     }
    ]
   },
@@ -1452,7 +1603,8 @@ window.ARCHIVE = {
    },
    "venue": "Yoyogi-Uehara Kodomoen",
    "city": "Tokyo",
-   "country": "Japan",
+   "site": "fieldwork",
+   "context": "",
    "medium": [
     "workshop"
    ],
@@ -1470,7 +1622,9 @@ window.ARCHIVE = {
      "src": "img/C_CUL001/00.webp",
      "thumb": "img/C_CUL001/00_s.webp",
      "w": 500,
-     "h": 349
+     "h": 349,
+     "bg": "#f8efe8",
+     "lum": 0.943
     }
    ]
   },
@@ -1502,7 +1656,8 @@ window.ARCHIVE = {
    },
    "venue": "Digital",
    "city": "Tokyo",
-   "country": "Japan",
+   "site": "fieldwork",
+   "context": "",
    "medium": [
     "mobile app",
     "drawing",
@@ -1554,7 +1709,8 @@ window.ARCHIVE = {
    },
    "venue": "Digital",
    "city": "Tokyo",
-   "country": "Japan",
+   "site": "online",
+   "context": "",
    "medium": [
     "mobile app content",
     "visual production"
@@ -1598,7 +1754,8 @@ window.ARCHIVE = {
    },
    "venue": "Digital",
    "city": "Tokyo",
-   "country": "Japan",
+   "site": "app",
+   "context": "",
    "medium": [
     "mobile app content",
     "visual production"
@@ -1617,7 +1774,9 @@ window.ARCHIVE = {
      "src": "img/C_CUL030/00.webp",
      "thumb": "img/C_CUL030/00_s.webp",
      "w": 2000,
-     "h": 2032
+     "h": 2032,
+     "bg": "#9a635f",
+     "lum": 0.433
     }
    ]
   },
@@ -1649,7 +1808,8 @@ window.ARCHIVE = {
    },
    "venue": "Client project",
    "city": "",
-   "country": "Japan",
+   "site": "app",
+   "context": "",
    "medium": [
     "app content",
     "visual content",
@@ -1669,13 +1829,17 @@ window.ARCHIVE = {
      "src": "img/C_CUL039/00.webp",
      "thumb": "img/C_CUL039/00_s.webp",
      "w": 1000,
-     "h": 750
+     "h": 750,
+     "bg": "#ffffff",
+     "lum": 1.0
     },
     {
      "src": "img/C_CUL039/01.webp",
      "thumb": "img/C_CUL039/01_s.webp",
      "w": 2732,
-     "h": 2048
+     "h": 2048,
+     "bg": "#ffffff",
+     "lum": 1.0
     }
    ]
   },
@@ -1707,7 +1871,8 @@ window.ARCHIVE = {
    },
    "venue": "Bauhaus-Universität Weimar",
    "city": "Weimar",
-   "country": "Germany",
+   "site": "publication",
+   "context": "",
    "medium": [
     "booklet design",
     "editorial design"
@@ -1726,14 +1891,18 @@ window.ARCHIVE = {
      "src": "img/D_DES006/00.webp",
      "thumb": "img/D_DES006/00_s.webp",
      "w": 2154,
-     "h": 2160
+     "h": 2160,
+     "bg": "#ffffff",
+     "lum": 1.0
     },
     "pages": [
      {
       "src": "img/D_DES006/00.webp",
       "w": 2154,
       "h": 2160,
-      "spread": false
+      "spread": false,
+      "bg": "#ffffff",
+      "lum": 1.0
      }
     ]
    },
@@ -1743,7 +1912,9 @@ window.ARCHIVE = {
      "src": "img/D_DES006/00.webp",
      "thumb": "img/D_DES006/00_s.webp",
      "w": 2154,
-     "h": 2160
+     "h": 2160,
+     "bg": "#ffffff",
+     "lum": 1.0
     }
    ]
   },
@@ -1775,7 +1946,8 @@ window.ARCHIVE = {
    },
    "venue": "Jugendarrestanstalt / Bauhaus-Universität Weimar",
    "city": "Weimar",
-   "country": "Germany",
+   "site": "public space",
+   "context": "",
    "medium": [
     "booklet design",
     "editorial design"
@@ -1794,14 +1966,18 @@ window.ARCHIVE = {
      "src": "img/D_DES007/00.webp",
      "thumb": "img/D_DES007/00_s.webp",
      "w": 2106,
-     "h": 1547
+     "h": 1547,
+     "bg": "#ffffff",
+     "lum": 1.0
     },
     "pages": [
      {
       "src": "img/D_DES007/00.webp",
       "w": 2106,
       "h": 1547,
-      "spread": false
+      "spread": false,
+      "bg": "#ffffff",
+      "lum": 1.0
      }
     ]
    },
@@ -1811,7 +1987,9 @@ window.ARCHIVE = {
      "src": "img/D_DES007/00.webp",
      "thumb": "img/D_DES007/00_s.webp",
      "w": 2106,
-     "h": 1547
+     "h": 1547,
+     "bg": "#ffffff",
+     "lum": 1.0
     }
    ]
   },
@@ -1843,7 +2021,8 @@ window.ARCHIVE = {
    },
    "venue": "Art Spin",
    "city": "Berlin",
-   "country": "Germany",
+   "site": "festival",
+   "context": "",
    "medium": [
     "logo design"
    ],
@@ -1861,7 +2040,9 @@ window.ARCHIVE = {
      "src": "img/D_DES008/00.webp",
      "thumb": "img/D_DES008/00_s.webp",
      "w": 930,
-     "h": 550
+     "h": 550,
+     "bg": "#ed878e",
+     "lum": 0.616
     }
    ]
   },
@@ -1893,7 +2074,8 @@ window.ARCHIVE = {
    },
    "venue": "Verlag für moderne Kunst / Lehmbruck Museum context",
    "city": "Vienna",
-   "country": "Verlag Moderne Kunst",
+   "site": "publication",
+   "context": "",
    "medium": [
     "book design",
     "bilingual layout"
@@ -1912,14 +2094,18 @@ window.ARCHIVE = {
      "src": "img/D_DES016/00.webp",
      "thumb": "img/D_DES016/00_s.webp",
      "w": 2976,
-     "h": 3064
+     "h": 3064,
+     "bg": "#ffffff",
+     "lum": 1.0
     },
     "pages": [
      {
       "src": "img/D_DES016/00.webp",
       "w": 2976,
       "h": 3064,
-      "spread": false
+      "spread": false,
+      "bg": "#ffffff",
+      "lum": 1.0
      }
     ]
    },
@@ -1929,7 +2115,9 @@ window.ARCHIVE = {
      "src": "img/D_DES016/00.webp",
      "thumb": "img/D_DES016/00_s.webp",
      "w": 2976,
-     "h": 3064
+     "h": 3064,
+     "bg": "#ffffff",
+     "lum": 1.0
     }
    ]
   },
@@ -1961,7 +2149,8 @@ window.ARCHIVE = {
    },
    "venue": "Bauhaus-Universität Weimar",
    "city": "Weimar",
-   "country": "Germany",
+   "site": "publication",
+   "context": "",
    "medium": [
     "booklet design"
    ],
@@ -1979,14 +2168,18 @@ window.ARCHIVE = {
      "src": "img/D_DES017/00.webp",
      "thumb": "img/D_DES017/00_s.webp",
      "w": 4177,
-     "h": 4632
+     "h": 4632,
+     "bg": "#ffffff",
+     "lum": 1.0
     },
     "pages": [
      {
       "src": "img/D_DES017/00.webp",
       "w": 4177,
       "h": 4632,
-      "spread": false
+      "spread": false,
+      "bg": "#ffffff",
+      "lum": 1.0
      }
     ]
    },
@@ -1996,7 +2189,9 @@ window.ARCHIVE = {
      "src": "img/D_DES017/00.webp",
      "thumb": "img/D_DES017/00_s.webp",
      "w": 4177,
-     "h": 4632
+     "h": 4632,
+     "bg": "#ffffff",
+     "lum": 1.0
     }
    ]
   },
@@ -2028,7 +2223,8 @@ window.ARCHIVE = {
    },
    "venue": "Goldrausch Künstlerinnenprojekt Berlin",
    "city": "Berlin",
-   "country": "Germany",
+   "site": "publication",
+   "context": "",
    "medium": [
     "editorial design",
     "technical coaching",
@@ -2048,20 +2244,26 @@ window.ARCHIVE = {
      "src": "img/D_DES034/90.webp",
      "thumb": "img/D_DES034/90_s.webp",
      "w": 760,
-     "h": 672
+     "h": 672,
+     "bg": "#e7e7e7",
+     "lum": 0.906
     },
     "pages": [
      {
       "src": "img/D_DES034/90.webp",
       "w": 760,
       "h": 672,
-      "spread": false
+      "spread": false,
+      "bg": "#e7e7e7",
+      "lum": 0.906
      },
      {
       "src": "img/D_DES034/00.webp",
       "w": 760,
       "h": 672,
-      "spread": false
+      "spread": false,
+      "bg": "#e7e7e7",
+      "lum": 0.906
      }
     ]
    },
@@ -2071,7 +2273,9 @@ window.ARCHIVE = {
      "src": "img/D_DES034/00.webp",
      "thumb": "img/D_DES034/00_s.webp",
      "w": 760,
-     "h": 672
+     "h": 672,
+     "bg": "#e7e7e7",
+     "lum": 0.906
     }
    ]
   },
@@ -2103,7 +2307,8 @@ window.ARCHIVE = {
    },
    "venue": "Podcast series",
    "city": "Berlin",
-   "country": "Germany",
+   "site": "online",
+   "context": "",
    "medium": [
     "editorial graphic"
    ],
@@ -2121,7 +2326,9 @@ window.ARCHIVE = {
      "src": "img/D_DES035/00.webp",
      "thumb": "img/D_DES035/00_s.webp",
      "w": 960,
-     "h": 540
+     "h": 540,
+     "bg": "#fff9f6",
+     "lum": 0.981
     }
    ]
   },
@@ -2153,7 +2360,8 @@ window.ARCHIVE = {
    },
    "venue": "a Kita in Berlin",
    "city": "Berlin",
-   "country": "Germany",
+   "site": "website",
+   "context": "",
    "medium": [
     "website design"
    ],
@@ -2196,7 +2404,8 @@ window.ARCHIVE = {
    },
    "venue": "",
    "city": "",
-   "country": "Europe",
+   "site": "online",
+   "context": "",
    "medium": [
     "Infographic",
     "Content Operations"
@@ -2215,7 +2424,9 @@ window.ARCHIVE = {
      "src": "img/F_COM038/00.webp",
      "thumb": "img/F_COM038/00_s.webp",
      "w": 652,
-     "h": 490
+     "h": 490,
+     "bg": "#ffffff",
+     "lum": 1.0
     }
    ]
   },
@@ -2247,7 +2458,8 @@ window.ARCHIVE = {
    },
    "venue": "",
    "city": "",
-   "country": "Europe",
+   "site": "online",
+   "context": "",
    "medium": [
     "Content Operations"
    ],
@@ -2276,7 +2488,9 @@ window.ARCHIVE = {
     "src": "img/A_ART001/02.webp",
     "thumb": "img/A_ART001/02_s.webp",
     "w": 3508,
-    "h": 2481
+    "h": 2481,
+    "bg": "#ffffff",
+    "lum": 1.0
    },
    "title": {
     "en": "Portraits of (Places)",
@@ -2292,7 +2506,9 @@ window.ARCHIVE = {
     "src": "img/A_ART014/00.webp",
     "thumb": "img/A_ART014/00_s.webp",
     "w": 2000,
-    "h": 1170
+    "h": 1170,
+    "bg": "#050403",
+    "lum": 0.016
    },
    "title": {
     "en": "Recollections of Beyond",
