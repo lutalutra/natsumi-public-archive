@@ -62,7 +62,7 @@
   /* ---------- opening slideshow ---------- */
   const top = $("#top"), hero = $("#hero"), foot = $("#heroFoot");
   const slides = A.hero.filter(h => byId[h.id]);
-  const DUR = 6000;
+  const DUR = 5500;
   let cur = 0, timer = null, paused = false, pastHero = false;
 
   function buildHero() {
@@ -153,12 +153,6 @@
       return;
     }
     list.sort((a, b) => (!!cover(b)) - (!!cover(a)));
-    if (area === "art" && !medium) {
-      const order = ["installation", "portraits", "other"];
-      const groups = order.map(k => [k, list.filter(w => (w.pillars.length ? w.pillars : ["other"]).includes(k))]).filter(g => g[1].length);
-      sheet.innerHTML = groups.map(([k, ws]) => `<section class="pillar"><h3>${esc(t("pillar." + k))} <span class="n">${ws.length}</span></h3><div class="pillar-sheet">${justified(ws, sheet.clientWidth)}</div></section>`).join("");
-      return;
-    }
     sheet.innerHTML = justified(list, sheet.clientWidth);
   }
   function justified(list, W) {

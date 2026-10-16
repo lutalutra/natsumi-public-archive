@@ -1543,77 +1543,6 @@ window.ARCHIVE = {
    ]
   },
   {
-   "id": "B_COL010",
-   "visibility": "public",
-   "title": {
-    "en": "Missing Sculpture Floor Drawing",
-    "ja": "Missing Sculpture 空間ドローイング"
-   },
-   "year": "2017",
-   "y0": 2017,
-   "y1": 2017,
-   "area": "art",
-   "row": "places",
-   "pillars": [
-    "installation"
-   ],
-   "featured": false,
-   "featOrder": 9999,
-   "question": {
-    "en": "",
-    "ja": ""
-   },
-   "desc": {
-    "en": "A floor drawing installation made with pigments and bone glue, interlaced with words from Joseph Beuys’ final speech, as part of the multimedia artwork Missing Sculpture by Danica Dakić.",
-    "ja": "Danica Dakić による彫刻美術館インスタレーション作品の一部として、顔料と膠による大型空間ドローイングを制作。"
-   },
-   "long": {
-    "en": "A floor drawing installation made with pigments and bone glue, interlaced with words from Joseph Beuys’ final speech, as part of the multimedia artwork Missing Sculpture by Danica Dakić.",
-    "ja": "Danica Dakić による彫刻美術館インスタレーション作品の一部として、顔料と膠による大型空間ドローイングを制作。"
-   },
-   "venue": "Lehmbruck Museum",
-   "city": "Duisburg",
-   "site": "museum",
-   "context": "",
-   "medium": [
-    "installation",
-    "drawing",
-    "exhibition"
-   ],
-   "credit": "Artwork: Danica Dakic, Bild-Kunst Bonn, Photography: Egbert Trogemann",
-   "photoCredit": "Installation View Photo: Egbert Trogemann, VG Bild-Kunst, 2017",
-   "award": "",
-   "funding": "",
-   "collaborators": "",
-   "role": "Guest Artist within the framework of Danica Dakic's art work",
-   "website": "",
-   "book": null,
-   "pdfs": [],
-   "images": [
-    {
-     "src": "img/B_COL010/00.webp",
-     "thumb": "img/B_COL010/00_s.webp",
-     "w": 1181,
-     "h": 566,
-     "bg": "#7e7c71",
-     "lum": 0.485,
-     "cap": {
-      "en": "Installation view",
-      "ja": "展示風景",
-      "credit": "Artwork: Danica Dakić, VG Bild-Kunst Bonn. Photo: Egbert Trogemann"
-     }
-    },
-    {
-     "src": "img/B_COL010/01.webp",
-     "thumb": "img/B_COL010/01_s.webp",
-     "w": 787,
-     "h": 560,
-     "bg": "#c2c5cb",
-     "lum": 0.772
-    }
-   ]
-  },
-  {
    "id": "B_COL030",
    "visibility": "public",
    "title": {
@@ -2631,17 +2560,6 @@ window.ARCHIVE = {
  ],
  "hero": [
   {
-   "id": "A_ART001",
-   "src": "img/A_ART001/hero_02.webp",
-   "w": 3508,
-   "h": 2481,
-   "lumTop": 1.0,
-   "lumBottom": 1.0,
-   "fit": "contain",
-   "bg": "#ffffff",
-   "link": "SER001"
-  },
-  {
    "id": "A_ART014",
    "src": "img/A_ART014/hero_00.webp",
    "w": 2000,
@@ -2650,7 +2568,51 @@ window.ARCHIVE = {
    "lumBottom": 0.131,
    "fit": "cover",
    "bg": "#030303",
-   "link": "SER002"
+   "link": ""
+  },
+  {
+   "id": "A_ART009",
+   "src": "img/A_ART009/hero_00.webp",
+   "w": 4912,
+   "h": 3064,
+   "lumTop": 0.562,
+   "lumBottom": 0.47,
+   "fit": "cover",
+   "bg": "#8c7f73",
+   "link": ""
+  },
+  {
+   "id": "A_ART004",
+   "src": "img/A_ART004/hero_00.webp",
+   "w": 3872,
+   "h": 2592,
+   "lumTop": 0.076,
+   "lumBottom": 0.089,
+   "fit": "cover",
+   "bg": "#0d131a",
+   "link": ""
+  },
+  {
+   "id": "A_ART001",
+   "src": "img/A_ART001/hero_00.webp",
+   "w": 1454,
+   "h": 740,
+   "lumTop": 0.962,
+   "lumBottom": 0.825,
+   "fit": "cover",
+   "bg": "#f8ebdf",
+   "link": ""
+  },
+  {
+   "id": "A_ART007",
+   "src": "img/A_ART007/hero_01.webp",
+   "w": 3872,
+   "h": 2592,
+   "lumTop": 0.967,
+   "lumBottom": 0.835,
+   "fit": "cover",
+   "bg": "#f7f7f8",
+   "link": ""
   }
  ],
  "projects": [

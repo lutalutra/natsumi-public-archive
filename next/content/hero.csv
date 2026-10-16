@@ -1,3 +1,6 @@
 ﻿order,project_id,image,fit,link,note
-1,A_ART001,gallery_02.jpg,contain,SER001,Portraits of (Places): notation diagram
-2,A_ART014,cover.jpg,cover,SER002,Recollections of Beyond: installation view
+1,A_ART014,cover.jpg,cover,,"Recollections of Beyond — installation, dark"
+2,A_ART009,cover.jpg,cover,,"Field Notes of Topophilia — exhibition room, light"
+3,A_ART004,cover.jpg,cover,,"Unerased Reminders — former prison room, dark"
+4,A_ART001,cover.jpg,cover,,"About My Topos — exhibition, warm light"
+5,A_ART007,documentation_01.jpg,cover,,"Phenomena, and Symbols of Persuasion — stones in hand"
