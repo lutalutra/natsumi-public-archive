@@ -132,26 +132,50 @@
   /* ---------- archive ---------- */
   let area = "art", view = "grid";
   let medium = null;
+  // Design work is grouped into a few broad kinds; artistic work keeps its own media words.
+  const kinds = w => {
+    if (w.area === "art") return w.medium.map(mediumLabel);
+    const m = w.medium.map(x => x.toLowerCase()), has = re => m.some(x => re.test(x)), out = [];
+    if (has(/^(mobile app|website design|website|ui design)$/)) out.push("apps");
+    if (has(/book|booklet|zine|publication|editorial design|layout/)) out.push("books");
+    if (has(/logo|graphic|infographic/)) out.push("graphics");
+    if (has(/content|workshop|coaching|visual|video/) || !out.length) out.push("content");
+    return out.map(k => t("kind." + k));
+  };
+  const venueOf = w => w.venueShort || "";
   function renderFilters() {
     const n = k => k === "all" ? works.length : works.filter(w => w.area === k).length;
     $("#filters").innerHTML = ["all", "art", "design"].map(k =>
       `<button type="button" data-area="${k}" aria-pressed="${k === area}">${esc(t(k))} <span class="n">${n(k)}</span></button>`).join("");
     document.querySelectorAll("[data-view]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.view === view)));
-    const pool = works.filter(w => area === "all" || w.area === area), counts = {};
-    pool.forEach(w => w.medium.forEach(m => { const k = mediumLabel(m); counts[k] = (counts[k] || 0) + 1; }));
-    const keys = Object.keys(counts).sort((a, b) => counts[b] - counts[a] || a.localeCompare(b));
+    const pool = works.filter(w => area === "all" || w.area === area), counts = {}, side = {};
+    pool.forEach(w => kinds(w).forEach(k => { counts[k] = (counts[k] || 0) + 1; side[k] = w.area; }));
+    const keys = Object.keys(counts).sort((a, b) => (side[a] === side[b] ? 0 : side[a] === "art" ? -1 : 1) || counts[b] - counts[a] || a.localeCompare(b));
     if (medium && !counts[medium]) medium = null;
     $("#media").innerHTML = `<button type="button" data-medium="" aria-pressed="${!medium}">${esc(t("allMedia"))}</button>`
-      + keys.map(k => `<button type="button" data-medium="${esc(k)}" aria-pressed="${medium === k}">${esc(k)} <span class="n">${counts[k]}</span></button>`).join("");
+      + keys.map(k => `<button type="button" class="${area === "all" ? "k-" + side[k] : ""}" data-medium="${esc(k)}" aria-pressed="${medium === k}">${esc(k)} <span class="n">${counts[k]}</span></button>`).join("");
+  }
+  const mark = w => `<i class="dot ${w.area}" aria-hidden="true"></i>`;
+  function renderList(list) {
+    const years = [...new Set(list.map(w => w.y0))].sort((a, b) => b - a);
+    const legend = area === "all" ? `<p class="legend"><span>${mark({ area: "art" })}${esc(t("legend.art"))}</span><span>${mark({ area: "design" })}${esc(t("legend.design"))}</span></p>` : "";
+    return legend + `<div class="cv">` + years.map(y => {
+      const ws = list.filter(w => w.y0 === y).sort((a, b) => (a.area === b.area ? 0 : a.area === "art" ? -1 : 1));
+      const dots = area === "all" ? `<span class="mix">${ws.map(mark).join("")}</span>` : "";
+      return `<section class="cv-year"><h3><span class="yy">${y}</span>${dots}</h3><ol>` + ws.map(w => {
+        const v = venueOf(w);
+        return `<li class="cv-row ${w.area}"><button type="button" data-open="${w.id}">
+          <span class="t">${area === "all" ? mark(w) : ""}${esc(L(w.title))}${w.y1 > w.y0 ? `<span class="span">–${w.y1}</span>` : ""}</span>
+          <span class="v">${esc(v || (w.area === "art" ? "" : ""))}</span>
+          <span class="k">${esc(kinds(w).slice(0, 3).join(", "))}</span>
+        </button></li>`;
+      }).join("") + `</ol></section>`;
+    }).join("") + `</div>`;
   }
   function renderSheet() {
     const sheet = $("#sheet");
-    const list = works.filter(w => (area === "all" || w.area === area) && (!medium || w.medium.some(m => mediumLabel(m) === medium)));
-    if (view === "list") {
-      sheet.innerHTML = `<ol class="list">${list.map(w =>
-        `<li><button type="button" data-open="${w.id}"><span class="y">${esc(w.year)}</span><span>${esc(L(w.title))}</span><span class="m">${esc(w.medium.map(mediumLabel).join(", "))}</span><span class="p">${esc(place(w))}</span></button></li>`).join("")}</ol>`;
-      return;
-    }
+    const list = works.filter(w => (area === "all" || w.area === area) && (!medium || kinds(w).includes(medium)));
+    if (view === "list") { sheet.innerHTML = renderList(list); return; }
     list.sort((a, b) => (!!cover(b)) - (!!cover(a)));
     sheet.innerHTML = justified(list, sheet.clientWidth);
   }
@@ -166,10 +190,10 @@
     }
     if (row.length) rows.push({ row, h: target });
     return rows.map(({ row, h }) => row.map(({ w, im, r }) =>
-      `<button type="button" class="tile${im ? "" : " blank"}" data-open="${w.id}" style="width:${Math.floor(r * h)}px">
+      `<button type="button" class="tile ${w.area}${im ? "" : " blank"}" data-open="${w.id}" style="width:${Math.floor(r * h)}px">
         <span class="frame" style="height:${Math.round(h)}px">${im ? `<img src="${esc(h > 260 ? im.src : im.thumb)}" alt="" loading="lazy" decoding="async">` : esc(t("noImage"))}</span>
-        <span class="cap"><span class="y">${esc(w.y0)}</span><span>${esc(L(w.title))}</span></span>
-        ${w.medium.length ? `<span class="med">${esc(w.medium.slice(0, 3).map(mediumLabel).join(" · "))}</span>` : ""}
+        <span class="cap"><span class="y">${area === "all" ? mark(w) : ""}${esc(w.y0)}</span><span>${esc(L(w.title))}</span></span>
+        <span class="med">${esc([w.area === "art" ? venueOf(w) : "", kinds(w).slice(0, 3).join(" · ")].filter(Boolean).join(" — "))}</span>
       </button>`).join("")).join("");
   }
   $("#filters").addEventListener("click", e => { const b = e.target.closest("[data-area]"); if (b) { area = b.dataset.area; renderFilters(); renderSheet(); } });
@@ -363,7 +387,7 @@
     const w = byId[id], s = seriesOf(id);
     $("#iTitle").textContent = L(w.title);
     $("#iSub").textContent = [w.year, place(w)].filter(Boolean).join(", ");
-    $("#iTags").innerHTML = w.medium.map(m => `<li>${esc(mediumLabel(m))}</li>`).join("");
+    $("#iTags").innerHTML = kinds(w).map(k => `<li>${esc(k)}</li>`).join("");
     const text = L(w.long) || L(w.desc);
     const pdf = w.pdfs.map(p => `<a href="${esc(p.href)}" target="_blank" rel="noopener">${esc(p.lang === "ja" ? t("readJa") : t("read"))}</a>`).join("　");
     const book = w.book && w.book.pages && w.book.pages.length > 1 ? `<p class="lnk"><button type="button" data-book="${w.id}">${esc(t("read.book"))}</button></p>` : "";

@@ -77,6 +77,7 @@ window.ARCHIVE = {
     "ja": "東京郊外の環境記憶に関する記憶とそれらの再構成をもとにしたインスタレーション。場所にまつわるシリーズ制作の起点。"
    },
    "venue": "Tokyo International Forum / Tokyo University of the Arts Museum",
+   "venueShort": "Tokyo International Forum; Tokyo University of the Arts Museum",
    "city": "Tokyo",
    "site": "fieldwork",
    "context": "Suburb",
@@ -353,6 +354,7 @@ window.ARCHIVE = {
     "ja": "街の住民の都市のイメージにまつわるインタビューをもとにしたイラスト・ダイアグラム"
    },
    "venue": "Roppongi Art Night publicity magazine",
+   "venueShort": "Roppongi Art Night",
    "city": "Tokyo",
    "site": "fieldwork",
    "context": "",
@@ -426,6 +428,7 @@ window.ARCHIVE = {
     "ja": "長野の元住民の環境記憶に関する聞き取り調査と、その認知地図の展示。"
    },
    "venue": "Jūniten Gallery",
+   "venueShort": "Jūniten Gallery, Nagano",
    "city": "Nagano",
    "site": "fieldwork",
    "context": "",
@@ -482,6 +485,7 @@ window.ARCHIVE = {
     "ja": "旧青年刑務所に残る痕跡の観察をもとに、その消されなかった気配を組み替えたドローイングによる冊子インスタレーション。建物最上階の礼拝堂に隣接する、小さく暗い図書室で展示された。"
    },
    "venue": "Ehemalige JVA Weimar",
+   "venueShort": "Former prison (JVA), Weimar",
    "city": "Weimar",
    "site": "fieldwork",
    "context": "",
@@ -672,6 +676,7 @@ window.ARCHIVE = {
     "ja": "場所を移動する個人の物語と普遍の風景の関係を扱うインスタレーション。"
    },
    "venue": "Maxim Gorki Theater",
+   "venueShort": "Maxim Gorki Theater, Berlin",
    "city": "Berlin",
    "site": "fieldwork",
    "context": "",
@@ -730,6 +735,7 @@ window.ARCHIVE = {
     "ja": "風景と人の関係を扱うフィールドリサーチ、写真・編集による個人制作。"
    },
    "venue": "Personal production",
+   "venueShort": "",
    "city": "",
    "site": "fieldwork",
    "context": "",
@@ -787,6 +793,7 @@ window.ARCHIVE = {
     "ja": "都市への愛着と表象記号、その危うさを扱うミクストメディア作品。"
    },
    "venue": "Kunsthaus Dresden, Public space in the city of Dresden",
+   "venueShort": "Kunsthaus Dresden; public space, Dresden",
    "city": "Dresden",
    "site": "fieldwork",
    "context": "",
@@ -884,6 +891,7 @@ window.ARCHIVE = {
     "ja": "居住環境の観察に基づくイラストアーカイブ。"
    },
    "venue": "Personal production",
+   "venueShort": "",
    "city": "Weimar",
    "site": "fieldwork",
    "context": "",
@@ -1016,6 +1024,7 @@ window.ARCHIVE = {
     "ja": "場所への愛着と環境の記憶をめぐるリサーチに基づく冊子・インスタレーション。"
    },
    "venue": "Anna Amalia Bibliothek",
+   "venueShort": "Anna Amalia Bibliothek, Weimar",
    "city": "Weimar",
    "site": "fieldwork",
    "context": "",
@@ -1146,6 +1155,7 @@ window.ARCHIVE = {
     "ja": "都市の顔とは誰なのかを扱うパブリック・インスタレーション。プロジェクトサイト周辺での偶然のやり取りから断片化された顔の要素を集め、都市の肖像を立ち上げる。"
    },
    "venue": "Asphalt Festival – Sommer der Künste / two outdoor public spaces in city centre",
+   "venueShort": "Asphalt Festival, Düsseldorf",
    "city": "Düsseldorf",
    "site": "fieldwork",
    "context": "",
@@ -1207,6 +1217,7 @@ window.ARCHIVE = {
     "ja": "博物館的展示空間とその再構成を扱う空間グラフィックインスタレーション。"
    },
    "venue": "Schiller Museum",
+   "venueShort": "Schiller Museum, Weimar",
    "city": "Weimar",
    "site": "museum",
    "context": "",
@@ -1269,6 +1280,7 @@ window.ARCHIVE = {
     "ja": "場所と人間の関係にまつわる試行と思考の旅。日本及びドイツで採集した場所と人の感情的つながりに関するフィールドリサーチと制作事例を通して思考する。芸術実践領域の博士論文。"
    },
    "venue": "Tokyo University of the Arts",
+   "venueShort": "Tokyo University of the Arts",
    "city": "Tokyo",
    "site": "fieldwork",
    "context": "",
@@ -1353,6 +1365,7 @@ window.ARCHIVE = {
     "ja": "場所についての語りのインタビューに基づき、次の風景を作り出すオーディオ・ビジュアルのコラージュ・インスタレーション。複数の大陸と時代を横断してきた人々の物語の断片が組み合わされ、繋がれていく。\n本作は「場所の肖像(Portraits of Places)」シリーズにおける、次のフェーズへの転換点であると言える。同シリーズは、匿名的な郊外の風景の中での個人的な経験の分析から始まったが、場所と領域を固定的に結びつけることの危うさに気づき、複数の軌跡が一時的に交差する場として捉え直す視点へと、その関心を移行させてきた。"
    },
    "venue": "Pola Museum Annex",
+   "venueShort": "Pola Museum Annex, Tokyo",
    "city": "Tokyo",
    "site": "fieldwork, gallery",
    "context": "",
@@ -1415,6 +1428,7 @@ window.ARCHIVE = {
     "ja": "個人の移動史による場所像を扱うミクストメディア小作品。"
    },
    "venue": "KIOSK FOR A MAGIC FUTURE by IMAGINARY COLLECTIVE during the exhibition ЯE:IMAGINE: THE RED HOUSE, 7. Herbst Salon in Maxim Gorki Theater",
+   "venueShort": "7. Herbst Salon, Maxim Gorki Theater, Berlin",
    "city": "Berlin",
    "site": "fieldwork",
    "context": "Maxim Gorki Theater",
@@ -1494,6 +1508,7 @@ window.ARCHIVE = {
     "ja": "修了作品 About My Topos をもとにしたZINE。"
    },
    "venue": "Kei Matsushita Lab / Tokyo University of the Arts",
+   "venueShort": "Tokyo University of the Arts",
    "city": "Tokyo",
    "site": "fieldwork",
    "context": "",
@@ -1570,6 +1585,7 @@ window.ARCHIVE = {
     "ja": "教育モバイルアプリUX。哲学・美術鑑賞などを軸にしたデジタルコンテンツの開発。コンセプトからリリースまでの制作プロセスに併走。"
    },
    "venue": "iOS and Android",
+   "venueShort": "",
    "city": "Tokyo",
    "site": "school, app, public space",
    "context": "",
@@ -1625,6 +1641,7 @@ window.ARCHIVE = {
     "ja": "美術造形教育プログラムの企画・実施および成果発表展示。3〜5歳対象。"
    },
    "venue": "Yoyogi-Uehara Kodomoen",
+   "venueShort": "",
    "city": "Tokyo",
    "site": "fieldwork",
    "context": "",
@@ -1679,6 +1696,7 @@ window.ARCHIVE = {
     "ja": "OpenDNA内の哲学教育コンテンツ。"
    },
    "venue": "Digital",
+   "venueShort": "",
    "city": "Tokyo",
    "site": "fieldwork",
    "context": "",
@@ -1733,6 +1751,7 @@ window.ARCHIVE = {
     "ja": "俳句を扱う教育コンテンツ。"
    },
    "venue": "Digital",
+   "venueShort": "",
    "city": "Tokyo",
    "site": "online",
    "context": "",
@@ -1779,6 +1798,7 @@ window.ARCHIVE = {
     "ja": "日常の美学を扱う教育コンテンツ。"
    },
    "venue": "Digital",
+   "venueShort": "",
    "city": "Tokyo",
    "site": "app",
    "context": "",
@@ -1834,6 +1854,7 @@ window.ARCHIVE = {
     "ja": "児童向け英語学習アプリの視聴覚コンテンツ構成。"
    },
    "venue": "Client project",
+   "venueShort": "",
    "city": "",
    "site": "app",
    "context": "",
@@ -1898,6 +1919,7 @@ window.ARCHIVE = {
     "ja": "アートプロジェクトの冊子デザイン。"
    },
    "venue": "Bauhaus-Universität Weimar",
+   "venueShort": "Bauhaus-Universität Weimar",
    "city": "Weimar",
    "site": "publication",
    "context": "",
@@ -1974,6 +1996,7 @@ window.ARCHIVE = {
     "ja": "旧刑務所を会場としたアートプロジェクトの冊子デザイン。"
    },
    "venue": "Jugendarrestanstalt / Bauhaus-Universität Weimar",
+   "venueShort": "Bauhaus-Universität Weimar",
    "city": "Weimar",
    "site": "public space",
    "context": "",
@@ -2050,6 +2073,7 @@ window.ARCHIVE = {
     "ja": "自転車で巡るアートプロジェクトのロゴデザイン。"
    },
    "venue": "Art Spin",
+   "venueShort": "Art Spin, Berlin",
    "city": "Berlin",
    "site": "festival",
    "context": "",
@@ -2104,6 +2128,7 @@ window.ARCHIVE = {
     "ja": "現代美術家 Danica Dakić のアーティストカタログの出版物レイアウトデザイン、英独バイリンガルレイアウト。"
    },
    "venue": "Verlag für moderne Kunst / Lehmbruck Museum context",
+   "venueShort": "Verlag für moderne Kunst",
    "city": "Vienna",
    "site": "publication",
    "context": "",
@@ -2180,6 +2205,7 @@ window.ARCHIVE = {
     "ja": "アートプロジェクトの冊子デザイン。"
    },
    "venue": "Bauhaus-Universität Weimar",
+   "venueShort": "Bauhaus-Universität Weimar",
    "city": "Weimar",
    "site": "publication",
    "context": "",
@@ -2255,6 +2281,7 @@ window.ARCHIVE = {
     "ja": "ベルリン女性アーティスト向けメンタリングプログラムにおける冊子制作支援。編集レイアウトと技術指導を担当。"
    },
    "venue": "Goldrausch Künstlerinnenprojekt Berlin",
+   "venueShort": "Goldrausch Künstlerinnenprojekt, Berlin",
    "city": "Berlin",
    "site": "publication",
    "context": "",
@@ -2340,6 +2367,7 @@ window.ARCHIVE = {
     "ja": "歴史とワインを巡るポッドキャストシリーズのビジュアルデザイン。"
    },
    "venue": "Podcast series",
+   "venueShort": "",
    "city": "Berlin",
    "site": "online",
    "context": "",
@@ -2394,6 +2422,7 @@ window.ARCHIVE = {
     "ja": "ベルリンの保育教育施設向けWebサイト制作。独葡バイリンガルWebサイトデザイン。"
    },
    "venue": "a Kita in Berlin",
+   "venueShort": "",
    "city": "Berlin",
    "site": "website",
    "context": "",
@@ -2439,6 +2468,7 @@ window.ARCHIVE = {
     "ja": "欧州フィンテック企業のインフォグラフィック制作。"
    },
    "venue": "",
+   "venueShort": "",
    "city": "",
    "site": "online",
    "context": "",
@@ -2494,6 +2524,7 @@ window.ARCHIVE = {
     "ja": "欧州BtoB教育ツールの多言語SEO運用支援およびローカライゼーション業務。"
    },
    "venue": "",
+   "venueShort": "",
    "city": "",
    "site": "online",
    "context": "",
@@ -2652,20 +2683,20 @@ window.ARCHIVE = {
  ],
  "texts": {
   "seo.title": {
-   "en": "Natsumi Sugiyama — Artist and researcher, Berlin",
-   "ja": "Natsumi Sugiyama — アーティスト／リサーチャー（ベルリン）"
+   "en": "Natsumi Sugiyama — Works and projects, Berlin",
+   "ja": "Natsumi Sugiyama — 作品とプロジェクト（ベルリン）"
   },
   "seo.description": {
-   "en": "Natsumi Sugiyama is a Berlin-based artist and researcher working on how people form a sense of place, through fieldwork, drawing, installation and publication.",
-   "ja": "ベルリンを拠点に、人が場所の感覚をどのように形づくるのかを、フィールドワーク、ドローイング、インスタレーション、出版を通して探るアーティスト／リサーチャー。"
+   "en": "Natsumi Sugiyama works across art and design in Berlin: installations, drawings, books, maps and digital projects that begin with close observation.",
+   "ja": "ベルリンを拠点に、アートとデザインを横断して活動。丁寧な観察から始まるインスタレーション、ドローイング、本、地図、デジタルの仕事。"
   },
   "info.lead": {
-   "en": "Natsumi Sugiyama is an artist and researcher based in Berlin. She works on how people form a sense of place.",
-   "ja": "Natsumi Sugiyamaは、ベルリンを拠点とするアーティスト／リサーチャーです。人が場所の感覚をどのように形づくるのかを主題に活動しています。"
+   "en": "Natsumi Sugiyama works across art and design.",
+   "ja": "Natsumi Sugiyamaは、アートとデザインを横断して活動しています。"
   },
   "info.statement": {
-   "en": "Her projects trace how memories, routines and stories attach to particular sites, and what remains in the space between people and their surroundings. Working through fieldwork, interviews, drawing, mapping, installation and publication, she turns these observations into works that can be read, walked through or held in the hand.\n\nAlongside her artistic practice she works in editorial and information design, shaping books, exhibitions and digital content so that complex material becomes clear and approachable.",
-   "ja": "記憶や日々の営み、語りが特定の場所に重なっていく過程や、人と環境の「あいだ」に残るものをたどるプロジェクトを手がけています。フィールドワーク、インタビュー、ドローイング、マッピング、インスタレーション、出版を通して、観察したことを、読み、歩き、手に取ることのできる作品へと編み直しています。\n\n芸術実践と並行して、編集デザインと情報デザインの仕事にも携わり、書籍や展示、デジタルコンテンツを通じて、複雑な情報を明快で親しみやすい形に整えています。"
+   "en": "Her projects begin with close observation of places, people, stories and everyday systems, and take shape as installations, drawings, books, maps and digital work. She also designs editorial and digital projects for cultural and educational organisations. Based in Berlin.",
+   "ja": "場所や人、語り、日々の仕組みを丁寧に観察することから始め、インスタレーション、ドローイング、本、地図、デジタルの仕事として形にしています。文化・教育分野に向けた編集とデジタルのデザインも手がけています。ベルリン在住。"
   },
   "info.education.label": {
    "en": "Education",
@@ -2906,6 +2937,34 @@ window.ARCHIVE = {
   "pillar.other": {
    "en": "Other works",
    "ja": "その他の作品"
+  },
+  "kind.books": {
+   "en": "Books and print",
+   "ja": "本・印刷物"
+  },
+  "kind.apps": {
+   "en": "Apps and web",
+   "ja": "アプリ・Web"
+  },
+  "kind.graphics": {
+   "en": "Graphics and identity",
+   "ja": "グラフィック・ロゴ"
+  },
+  "kind.content": {
+   "en": "Content production",
+   "ja": "コンテンツ制作"
+  },
+  "legend.art": {
+   "en": "Artistic practice",
+   "ja": "作家活動"
+  },
+  "legend.design": {
+   "en": "Design",
+   "ja": "デザイン"
+  },
+  "list.self": {
+   "en": "Self-initiated",
+   "ja": "自主制作"
   }
  }
 };

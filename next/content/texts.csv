@@ -1,12 +1,8 @@
 ﻿group,key,en,ja,note
-seo,seo.title,"Natsumi Sugiyama — Artist and researcher, Berlin",Natsumi Sugiyama — アーティスト／リサーチャー（ベルリン）,Browser tab and search result title
-seo,seo.description,"Natsumi Sugiyama is a Berlin-based artist and researcher working on how people form a sense of place, through fieldwork, drawing, installation and publication.",ベルリンを拠点に、人が場所の感覚をどのように形づくるのかを、フィールドワーク、ドローイング、インスタレーション、出版を通して探るアーティスト／リサーチャー。,Search result summary. Keep under about 155 characters (EN) / 80 characters (JA)
-info,info.lead,Natsumi Sugiyama is an artist and researcher based in Berlin. She works on how people form a sense of place.,Natsumi Sugiyamaは、ベルリンを拠点とするアーティスト／リサーチャーです。人が場所の感覚をどのように形づくるのかを主題に活動しています。,First sentence of Info. Says who and what in one breath
-info,info.statement,"Her projects trace how memories, routines and stories attach to particular sites, and what remains in the space between people and their surroundings. Working through fieldwork, interviews, drawing, mapping, installation and publication, she turns these observations into works that can be read, walked through or held in the hand.
-
-Alongside her artistic practice she works in editorial and information design, shaping books, exhibitions and digital content so that complex material becomes clear and approachable.","記憶や日々の営み、語りが特定の場所に重なっていく過程や、人と環境の「あいだ」に残るものをたどるプロジェクトを手がけています。フィールドワーク、インタビュー、ドローイング、マッピング、インスタレーション、出版を通して、観察したことを、読み、歩き、手に取ることのできる作品へと編み直しています。
-
-芸術実践と並行して、編集デザインと情報デザインの仕事にも携わり、書籍や展示、デジタルコンテンツを通じて、複雑な情報を明快で親しみやすい形に整えています。",Main statement. Blank line = new paragraph
+seo,seo.title,"Natsumi Sugiyama — Works and projects, Berlin",Natsumi Sugiyama — 作品とプロジェクト（ベルリン）,Browser tab and search result title
+seo,seo.description,"Natsumi Sugiyama works across art and design in Berlin: installations, drawings, books, maps and digital projects that begin with close observation.",ベルリンを拠点に、アートとデザインを横断して活動。丁寧な観察から始まるインスタレーション、ドローイング、本、地図、デジタルの仕事。,Search result summary. Keep under about 155 characters (EN) / 80 characters (JA)
+info,info.lead,Natsumi Sugiyama works across art and design.,Natsumi Sugiyamaは、アートとデザインを横断して活動しています。,First sentence of Info. Says who and what in one breath
+info,info.statement,"Her projects begin with close observation of places, people, stories and everyday systems, and take shape as installations, drawings, books, maps and digital work. She also designs editorial and digital projects for cultural and educational organisations. Based in Berlin.",場所や人、語り、日々の仕組みを丁寧に観察することから始め、インスタレーション、ドローイング、本、地図、デジタルの仕事として形にしています。文化・教育分野に向けた編集とデジタルのデザインも手がけています。ベルリン在住。,Main statement. Blank line = new paragraph
 info,info.education.label,Education,学歴,
 info,info.education,"Tama Art University, Tokyo — Environmental Design (BA)
 Tokyo University of the Arts — practice-based doctoral research
@@ -75,3 +71,10 @@ legal,legal.privacy,Privacy,プライバシーポリシー,Footer link
 pillars,pillar.installation,Installations,インスタレーション,Archive section
 pillars,pillar.portraits,Portraits of Places,Portraits of Places,Archive section (series)
 pillars,pillar.other,Other works,その他の作品,Archive section
+labels,kind.books,Books and print,本・印刷物,
+labels,kind.apps,Apps and web,アプリ・Web,
+labels,kind.graphics,Graphics and identity,グラフィック・ロゴ,
+labels,kind.content,Content production,コンテンツ制作,
+ui,legend.art,Artistic practice,作家活動,List legend
+ui,legend.design,Design,デザイン,List legend
+ui,list.self,Self-initiated,自主制作,List: no venue

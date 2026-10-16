@@ -304,11 +304,11 @@ def write_static(texts, works):
             alumni.append({"@type": "CollegeOrUniversity", "name": name})
     ld = {
         "@context": "https://schema.org", "@type": "Person", "name": "Natsumi Sugiyama", "alternateName": "杉山夏実",
-        "jobTitle": "Artist and researcher", "description": T("seo.description"),
+        "description": T("seo.description"),
         "homeLocation": {"@type": "Place", "name": "Berlin, Germany"},
         "alumniOf": alumni, "email": "mailto:" + T("contact.email"),
-        "knowsAbout": ["sense of place", "artistic research", "fieldwork", "installation", "drawing",
-                       "mapping", "editorial design", "information design"],
+        "knowsAbout": ["installation art", "drawing", "mapping", "fieldwork", "artistic research",
+                       "editorial design", "information design", "digital content"],
         "award": [x.strip() for x in T("info.support").split("\n") if x.strip()],
     }
     blocks = {
@@ -436,7 +436,7 @@ def main():
             "question": {"en": nice(p.get("research_question_en")), "ja": nice(p.get("research_question_ja"))},
             "desc": {"en": nice(p.get("desc_en")), "ja": nice(p.get("desc_ja"))},
             "long": {"en": (p.get("long_en") or "").strip(), "ja": (p.get("long_ja") or "").strip()},
-            "venue": nice(p.get("venue")), "city": nice(p.get("city")),
+            "venue": nice(p.get("venue")), "venueShort": nice(p.get("venue_short")), "city": nice(p.get("city")),
             "site": nice(p.get("site_type")), "context": nice(p.get("location_detail")),
             "medium": [nice(m) for m in (p.get("medium") or []) if m],
             "credit": nice(p.get("credit")), "photoCredit": nice(p.get("photo_credits")),
