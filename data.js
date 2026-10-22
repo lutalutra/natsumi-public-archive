@@ -382,6 +382,7 @@ window.ARCHIVE = {
    "organizations": "",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "Concept Development",
    "format": "",
    "material": {
@@ -636,7 +637,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Kenji Utsugi",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -727,6 +729,12 @@ window.ARCHIVE = {
    "organizations": "",
    "publisher": "",
    "collaborators": "Chika Imai, Mr. Takehara",
+   "people": [
+    [
+     "",
+     "Chika Imai, Mr. Takehara"
+    ]
+   ],
    "role": "Illustration, Drawing, Writing",
    "format": "",
    "material": {
@@ -827,6 +835,12 @@ window.ARCHIVE = {
    "organizations": "",
    "publisher": "",
    "collaborators": "Yoshizumi Kumai",
+   "people": [
+    [
+     "",
+     "Yoshizumi Kumai"
+    ]
+   ],
    "role": "Research, Information Design",
    "format": "",
    "material": {
@@ -910,6 +924,7 @@ window.ARCHIVE = {
    "organizations": "MFA \"Public Art and New Artistic Strategies\" Bauhaus-Universität Weimar",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "Illustration, Drawing",
    "format": "",
    "material": {
@@ -941,7 +956,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     "pages": [
@@ -1036,7 +1052,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -1051,7 +1068,8 @@ window.ARCHIVE = {
       "ja": "冊子（見本ページ）",
       "credit": "",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -1143,6 +1161,7 @@ window.ARCHIVE = {
    "organizations": "Stiftung Mercator, Gorki Theatre Berlin, MFA \"Public Art and New Artistic Strategies\" Bauhaus-Universität Weimar",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "Illustration, Drawing",
    "format": "",
    "material": {
@@ -1225,6 +1244,7 @@ window.ARCHIVE = {
    "organizations": "",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "Photography",
    "format": "",
    "material": {
@@ -1308,6 +1328,7 @@ window.ARCHIVE = {
    "organizations": "Kunsthaus Dresden, MFA \"Public Art and New Artistic Strategies\" Bauhaus-Universität Weimar",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "",
    "format": "",
    "material": {
@@ -1420,6 +1441,7 @@ window.ARCHIVE = {
    "organizations": "",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "",
    "format": "",
    "material": {
@@ -1742,6 +1764,7 @@ window.ARCHIVE = {
    "organizations": "MFA \"Public Art and New Artistic Strategies\" Bauhaus-Universität Weimar, Anna Amalia Bibliothek",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "",
    "format": "",
    "material": {
@@ -2577,7 +2600,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Hilde Pank",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -2650,6 +2674,12 @@ window.ARCHIVE = {
    "organizations": "Asphaslt Festival Sommer der Kunste",
    "publisher": "",
    "collaborators": "public (randomly encountered people at the site)",
+   "people": [
+    [
+     "",
+     "public (randomly encountered people at the site)"
+    ]
+   ],
    "role": "Artist",
    "format": "",
    "material": {
@@ -2681,7 +2711,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Egbert Trogemann, VG Bild-Kunst, 2017",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     }
    ]
@@ -2739,6 +2770,7 @@ window.ARCHIVE = {
    "organizations": "MFA \"Public Art and New Artistic Strategies\" at Bauhaus-Universität Weimar; Klassik Stiftung Weimar",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "Artist",
    "format": "",
    "material": {
@@ -2770,7 +2802,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Carlos Santos",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -2785,7 +2818,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Carlos Santos",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -2800,7 +2834,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Carlos Santos",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -2815,7 +2850,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Carlos Santos",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -2830,7 +2866,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Carlos Santos",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -2845,7 +2882,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Carlos Santos",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -2860,7 +2898,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Carlos Santos",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -2875,7 +2914,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Carlos Santos",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -2890,7 +2930,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Carlos Santos",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -2905,7 +2946,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Carlos Santos",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -2920,7 +2962,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Carlos Santos",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -2935,7 +2978,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Carlos Santos",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -2950,7 +2994,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Carlos Santos",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -2965,7 +3010,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Carlos Santos",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -2980,7 +3026,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Photo: Carlos Santos",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -3085,6 +3132,7 @@ window.ARCHIVE = {
    "organizations": "",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "",
    "format": "",
    "material": {
@@ -4960,7 +5008,17 @@ window.ARCHIVE = {
    "commissioner": "Pola Art Foundation",
    "organizations": "",
    "publisher": "",
-   "collaborators": "Voice: 12 people who shared narratives about their places. Programming of Audio-Visual system: Vasili Macharadze",
+   "collaborators": "Voice: 12 people who shared narratives about their places Audio-visual programming: Vasili Macharadze",
+   "people": [
+    [
+     "Voice",
+     "12 people who shared narratives about their places"
+    ],
+    [
+     "Audio-visual programming",
+     "Vasili Macharadze"
+    ]
+   ],
    "role": "",
    "format": "",
    "material": {
@@ -4992,7 +5050,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -5059,6 +5118,7 @@ window.ARCHIVE = {
    "organizations": "Gorki Theatre",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "",
    "format": "",
    "material": {
@@ -5090,7 +5150,8 @@ window.ARCHIVE = {
       "ja": "MEYH-19-11-2015",
       "credit": "",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      },
      "label": {
       "no": "MEYH-19-11-2015",
@@ -5128,7 +5189,8 @@ window.ARCHIVE = {
       "ja": "DSP-06-12-2015",
       "credit": "",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      },
      "label": {
       "no": "DSP-06-12-2015",
@@ -5166,7 +5228,8 @@ window.ARCHIVE = {
       "ja": "CL-29-11-2015",
       "credit": "",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      },
      "label": {
       "no": "CL-29-11-2015",
@@ -5204,7 +5267,8 @@ window.ARCHIVE = {
       "ja": "XX",
       "credit": "",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      },
      "label": {
       "no": "XX",
@@ -5281,6 +5345,12 @@ window.ARCHIVE = {
    "organizations": "Matsushita Kei Lab, Tokyo University of the Arts",
    "publisher": "",
    "collaborators": "Bak Enkoh, Kei Matsushita",
+   "people": [
+    [
+     "",
+     "Bak Enkoh, Kei Matsushita"
+    ]
+   ],
    "role": "",
    "format": "",
    "material": {
@@ -5410,6 +5480,7 @@ window.ARCHIVE = {
    "organizations": "Lehmbruck Museum",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "Guest artist, within the framework of the work *Missing Sculpture*",
    "format": "",
    "material": {
@@ -5442,7 +5513,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "Artwork: Danica Dakić, *Missing Sculpture*, VG Bild-Kunst Bonn. Photo: Egbert Trogemann",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     },
     {
@@ -5457,7 +5529,8 @@ window.ARCHIVE = {
       "ja": "展示風景",
       "credit": "",
       "clean": "",
-      "bg": ""
+      "bg": "",
+      "gallery": ""
      }
     }
    ]
@@ -5513,7 +5586,13 @@ window.ARCHIVE = {
    "commissioner": "IMAGINARY BAUHAUS MUSEUM",
    "organizations": "Klassik Stiftung Weimar; Bauhaus-Universität Weimar; Helmreich Malerfachbetrieb und Fassadensanierung GmbH",
    "publisher": "",
-   "collaborators": "Nicolas Buenaventura; Georg Wesolowski; Vasili Macharadze; students; Xenia Schürmann",
+   "collaborators": "Nicolas Buenaventura, Georg Wesolowski, Vasili Macharadze, Xenia Schürmann, students",
+   "people": [
+    [
+     "",
+     "Nicolas Buenaventura, Georg Wesolowski, Vasili Macharadze, Xenia Schürmann, students"
+    ]
+   ],
    "role": "Designer",
    "format": "",
    "material": {
@@ -5605,8 +5684,38 @@ window.ARCHIVE = {
    "commissioner": "",
    "organizations": "",
    "publisher": "",
-   "collaborators": "Producer: Yuji Ando Editor-in-Chief: Ai Sakaguchi Editor: Yusuke Mori, Wataru Ono, Kyoko Akimoto Development: Sora Fukui Sound: Shunsuke Ookuchi App UI: VEHICLE inc. Contents are in cooperation with external writers and supervisors from universities and museums.",
-   "role": "Art Director",
+   "collaborators": "Producer: Yuji Ando Editor-in-Chief: Ai Sakaguchi Editor: Yusuke Mori, Wataru Ono, Kyoko Akimoto Development: Sora Fukui Sound: Shunsuke Ookuchi App UI: VEHICLE inc. Contents in cooperation with external writers and supervisors from universities and museums.",
+   "people": [
+    [
+     "Producer",
+     "Yuji Ando"
+    ],
+    [
+     "Editor-in-Chief",
+     "Ai Sakaguchi"
+    ],
+    [
+     "Editor",
+     "Yusuke Mori, Wataru Ono, Kyoko Akimoto"
+    ],
+    [
+     "Development",
+     "Sora Fukui"
+    ],
+    [
+     "Sound",
+     "Shunsuke Ookuchi"
+    ],
+    [
+     "App UI",
+     "VEHICLE inc."
+    ],
+    [
+     "",
+     "Contents in cooperation with external writers and supervisors from universities and museums."
+    ]
+   ],
+   "role": "UX, Art Director, Mediengestaltung",
    "format": "",
    "material": {
     "en": "",
@@ -5632,13 +5741,23 @@ window.ARCHIVE = {
      "w": 1024,
      "h": 576,
      "bg": "#fdfdfd",
-     "lum": 0.992
+     "lum": 0.992,
+     "cap": {
+      "en": "",
+      "ja": "",
+      "credit": "",
+      "clean": "",
+      "bg": "",
+      "gallery": "hide"
+     },
+     "hide": true
     },
     {
-     "src": "img/B_COL030/01.webp?v=28686073",
-     "thumb": "img/B_COL030/01.webp?v=28686073",
-     "w": 355,
-     "h": 560,
+     "src": "img/B_COL030/v00.webp?v=3b6cbea3",
+     "thumb": "img/B_COL030/v00.webp?v=3b6cbea3",
+     "video": "img/B_COL030/v00.mp4?v=43729d1a",
+     "w": 480,
+     "h": 650,
      "bg": "#fdfdfd",
      "lum": 0.992
     }
@@ -5692,6 +5811,7 @@ window.ARCHIVE = {
    "organizations": "",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "Educator",
    "format": "",
    "material": {
@@ -5770,7 +5890,37 @@ window.ARCHIVE = {
    "commissioner": "",
    "organizations": "",
    "publisher": "",
-   "collaborators": "Supervisor: Motoki Saito (Takachiho University, Department of Philosophy) OpenDNA, Inc — Yuji Ando (Producer), Ai Sakaguchi (Editor-in-Chief), Yusuke Mori (Editor, Philosophy section), Wataru Ono (Editor, Philosophy section), Sora Fukui (Development) Sound: Shunsuke Ookuchi",
+   "collaborators": "Supervisor: Motoki Saito (Takachiho University, Department of Philosophy) Production: OpenDNA, Inc Producer: Yuji Ando Editor-in-Chief: Ai Sakaguchi Editor, Philosophy: Yusuke Mori, Wataru Ono Development: Sora Fukui Sound: Shunsuke Ookuchi",
+   "people": [
+    [
+     "Supervisor",
+     "Motoki Saito (Takachiho University, Department of Philosophy)"
+    ],
+    [
+     "Production",
+     "OpenDNA, Inc"
+    ],
+    [
+     "Producer",
+     "Yuji Ando"
+    ],
+    [
+     "Editor-in-Chief",
+     "Ai Sakaguchi"
+    ],
+    [
+     "Editor, Philosophy",
+     "Yusuke Mori, Wataru Ono"
+    ],
+    [
+     "Development",
+     "Sora Fukui"
+    ],
+    [
+     "Sound",
+     "Shunsuke Ookuchi"
+    ]
+   ],
    "role": "Designer",
    "format": "",
    "material": {
@@ -5854,7 +6004,17 @@ window.ARCHIVE = {
    "commissioner": "",
    "organizations": "",
    "publisher": "",
-   "collaborators": "Supervisor: Hiroshi Ozawa (Sawa Haiku Association); OpenDNA editorial team",
+   "collaborators": "Supervisor: Hiroshi Ozawa (Sawa Haiku Association) Editorial: OpenDNA, Inc",
+   "people": [
+    [
+     "Supervisor",
+     "Hiroshi Ozawa (Sawa Haiku Association)"
+    ],
+    [
+     "Editorial",
+     "OpenDNA, Inc"
+    ]
+   ],
    "role": "Designer",
    "format": "",
    "material": {
@@ -5930,7 +6090,17 @@ window.ARCHIVE = {
    "commissioner": "",
    "organizations": "",
    "publisher": "",
-   "collaborators": "Supervisor: Yoshinobu Shino (Meiji University); OpenDNA editorial team",
+   "collaborators": "Supervisor: Yoshinobu Shino (Meiji University) Editorial: OpenDNA, Inc",
+   "people": [
+    [
+     "Supervisor",
+     "Yoshinobu Shino (Meiji University)"
+    ],
+    [
+     "Editorial",
+     "OpenDNA, Inc"
+    ]
+   ],
    "role": "Designer",
    "format": "",
    "material": {
@@ -6006,7 +6176,21 @@ window.ARCHIVE = {
    "commissioner": "",
    "organizations": "",
    "publisher": "",
-   "collaborators": "Text by Futoshi Hoshino (Philosopher / University of Tokyo), Editorial by OpenDNA, Inc, Sound Creation by Shunsuke Ookuchi",
+   "collaborators": "Text: Futoshi Hoshino (Philosopher, University of Tokyo) Editorial: OpenDNA, Inc Sound: Shunsuke Ookuchi",
+   "people": [
+    [
+     "Text",
+     "Futoshi Hoshino (Philosopher, University of Tokyo)"
+    ],
+    [
+     "Editorial",
+     "OpenDNA, Inc"
+    ],
+    [
+     "Sound",
+     "Shunsuke Ookuchi"
+    ]
+   ],
    "role": "Designer",
    "format": "",
    "material": {
@@ -6084,6 +6268,7 @@ window.ARCHIVE = {
    "organizations": "",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "Designer",
    "format": "",
    "material": {
@@ -6168,6 +6353,7 @@ window.ARCHIVE = {
    "organizations": "Bauhaus-Universität Weimar",
    "publisher": "MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar (distribution: VERLAK)",
    "collaborators": "",
+   "people": [],
    "role": "Designer",
    "format": "",
    "material": {
@@ -7044,6 +7230,7 @@ window.ARCHIVE = {
    "organizations": "Bauhaus-Universität Weimar",
    "publisher": "MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar",
    "collaborators": "",
+   "people": [],
    "role": "Designer",
    "format": "",
    "material": {
@@ -7639,6 +7826,7 @@ window.ARCHIVE = {
    "organizations": "",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "Designer",
    "format": "",
    "material": {
@@ -7714,7 +7902,13 @@ window.ARCHIVE = {
    "commissioner": "",
    "organizations": "",
    "publisher": "Verlag für moderne Kunst, 2018",
-   "collaborators": "Texts: Boris Buden; Söke Dinkla; Ronja Friedrichs; Peter Gorschlüter; Sabine Maria Schmidt",
+   "collaborators": "Texts: Boris Buden, Söke Dinkla, Ronja Friedrichs, Peter Gorschlüter, Sabine Maria Schmidt",
+   "people": [
+    [
+     "Texts",
+     "Boris Buden, Söke Dinkla, Ronja Friedrichs, Peter Gorschlüter, Sabine Maria Schmidt"
+    ]
+   ],
    "role": "Designer",
    "format": "Paperback, 28 x 22 cm, 152 pages, color",
    "material": {
@@ -7838,6 +8032,7 @@ window.ARCHIVE = {
    "organizations": "Bauhaus-Universität Weimar",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "Designer",
    "format": "",
    "material": {
@@ -7964,7 +8159,17 @@ window.ARCHIVE = {
    "commissioner": "",
    "organizations": "Goldrausch Künstlerinnenprojekt Berlin",
    "publisher": "Goldrausch Künstlerinnenprojekt, Berlin",
-   "collaborators": "Noor us Sabah Saeed; Text: Hajra Haider Karrar",
+   "collaborators": "Noor us Sabah Saeed Text: Hajra Haider Karrar",
+   "people": [
+    [
+     "",
+     "Noor us Sabah Saeed"
+    ],
+    [
+     "Text",
+     "Hajra Haider Karrar"
+    ]
+   ],
    "role": "Designer",
    "format": "Booklet, 22.8 x 30 cm, 16 pages, color, Offset-Print",
    "material": {
@@ -8160,6 +8365,7 @@ window.ARCHIVE = {
    "organizations": "",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "Designer",
    "format": "",
    "material": {
@@ -8235,6 +8441,7 @@ window.ARCHIVE = {
    "organizations": "",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "Designer",
    "format": "",
    "material": {
@@ -8313,6 +8520,7 @@ window.ARCHIVE = {
    "organizations": "",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "Designer",
    "format": "",
    "material": {
@@ -8388,6 +8596,7 @@ window.ARCHIVE = {
    "organizations": "",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "",
    "format": "",
    "material": {
@@ -8464,6 +8673,7 @@ window.ARCHIVE = {
    "organizations": "",
    "publisher": "",
    "collaborators": "",
+   "people": [],
    "role": "Writer Editor",
    "format": "",
    "material": {
@@ -8531,7 +8741,8 @@ window.ARCHIVE = {
      "ja": "展示風景",
      "credit": "",
      "clean": "",
-     "bg": ""
+     "bg": "",
+     "gallery": ""
     }
    },
    "title": {
