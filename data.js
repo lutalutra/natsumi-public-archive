@@ -5551,7 +5551,9 @@ window.ARCHIVE = {
      "src": "img/B_COL020/02.gif?v=c03f35db",
      "thumb": "img/B_COL020/02.gif?v=c03f35db",
      "w": 600,
-     "h": 338
+     "h": 338,
+     "bg": "#fefdfe",
+     "lum": 0.993
     }
    ]
   },
@@ -5563,7 +5565,7 @@ window.ARCHIVE = {
    "kinds": [],
    "title": {
     "en": "Mobile App UX/UI and Content Series of Cultural Mediation",
-    "ja": "UXデザイン アートや哲学を通して問いを育てるアプリ"
+    "ja": "アートや哲学を通して問いを育てるアプリ"
    },
    "year": "2021–2025",
    "y0": 2021,
@@ -5633,13 +5635,12 @@ window.ARCHIVE = {
      "lum": 0.992
     },
     {
-     "src": "img/B_COL030/v00.webp?v=656bf77d",
-     "thumb": "img/B_COL030/v00.webp?v=656bf77d",
-     "video": "img/B_COL030/v00.mp4?v=2518cb72",
-     "w": 1280,
-     "h": 720,
-     "bg": "#ffffff",
-     "lum": 1.0
+     "src": "img/B_COL030/01.webp?v=28686073",
+     "thumb": "img/B_COL030/01.webp?v=28686073",
+     "w": 355,
+     "h": 560,
+     "bg": "#fdfdfd",
+     "lum": 0.992
     }
    ]
   },
@@ -5791,13 +5792,17 @@ window.ARCHIVE = {
      "src": "img/C_CUL024/00.gif?v=41ce8369",
      "thumb": "img/C_CUL024/00.gif?v=41ce8369",
      "w": 500,
-     "h": 500
+     "h": 500,
+     "bg": "#000000",
+     "lum": 0.0
     },
     {
      "src": "img/C_CUL024/01.gif?v=dc535c3c",
      "thumb": "img/C_CUL024/01.gif?v=dc535c3c",
      "w": 500,
-     "h": 500
+     "h": 500,
+     "bg": "#000000",
+     "lum": 0.0
     }
    ]
   },
@@ -5947,7 +5952,9 @@ window.ARCHIVE = {
      "src": "img/C_CUL029/00.gif?v=d44536cd",
      "thumb": "img/C_CUL029/00.gif?v=d44536cd",
      "w": 500,
-     "h": 500
+     "h": 500,
+     "bg": "#231c01",
+     "lum": 0.108
     }
    ]
   },
