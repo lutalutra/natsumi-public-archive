@@ -8961,8 +8961,8 @@ window.ARCHIVE = {
  ],
  "texts": {
   "seo.title": {
-   "en": "Natsumi Sugiyama — Works and Projects",
-   "ja": "Natsumi Sugiyama — Works and Projects"
+   "en": "Natsumi Sugiyama — Project Archive",
+   "ja": "Natsumi Sugiyama — Project Archive"
   },
   "seo.description": {
    "en": "Project archive of Natsumi Sugiyama, artist based in Berlin, and of the design studio nat/yama.",
