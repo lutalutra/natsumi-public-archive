@@ -32,8 +32,8 @@ window.ARCHIVE = {
     "ja": "Recollections of Beyond"
    },
    "exhibition": {
-    "en": "",
-    "ja": ""
+    "en": "Beyond Subjects and Material",
+    "ja": "Beyond Subjects and Material"
    },
    "venue": {
     "en": "Pola Museum Annex",
@@ -155,8 +155,8 @@ window.ARCHIVE = {
     "ja": "Portraits of Dresden"
    },
    "exhibition": {
-    "en": "",
-    "ja": ""
+    "en": "Tomorrow We Will Explain",
+    "ja": "Tomorrow We Will Explain"
    },
    "venue": {
     "en": "Kunsthaus Dresden and public space",
@@ -177,8 +177,8 @@ window.ARCHIVE = {
     "ja": "Landscapes Narratives"
    },
    "exhibition": {
-    "en": "",
-    "ja": ""
+    "en": "YOU SAY ART I SAY WHAT",
+    "ja": "YOU SAY ART I SAY WHAT"
    },
    "venue": {
     "en": "Maxim Gorki Theater and Stiftung Mercator",
@@ -199,8 +199,8 @@ window.ARCHIVE = {
     "ja": "Unerased Reminders"
    },
    "exhibition": {
-    "en": "",
-    "ja": ""
+    "en": "There is an Exhibition in Prison. It is Called CRACK",
+    "ja": "There is an Exhibition in Prison. It is Called CRACK"
    },
    "venue": {
     "en": "Former prison (JVA)",
@@ -6352,8 +6352,37 @@ window.ARCHIVE = {
    "commissioner": "",
    "organizations": "Bauhaus-Universität Weimar",
    "publisher": "MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar (distribution: VERLAK)",
-   "collaborators": "",
-   "people": [],
+   "collaborators": "Curators: Danica Dakić, Stefan Klein Assistance: Vanessa Brazeau Photography: Egbert Trogemann Translation: Danielle Kourtesis Proofreading: Dagmar Deuring, Vanessa Brazeau Artistic staff: Anke Hannemann, Claire Waffel, Ina Weise Coordination: Jirka Reichmann",
+   "people": [
+    [
+     "Curators",
+     "Danica Dakić, Stefan Klein"
+    ],
+    [
+     "Assistance",
+     "Vanessa Brazeau"
+    ],
+    [
+     "Photography",
+     "Egbert Trogemann"
+    ],
+    [
+     "Translation",
+     "Danielle Kourtesis"
+    ],
+    [
+     "Proofreading",
+     "Dagmar Deuring, Vanessa Brazeau"
+    ],
+    [
+     "Artistic staff",
+     "Anke Hannemann, Claire Waffel, Ina Weise"
+    ],
+    [
+     "Coordination",
+     "Jirka Reichmann"
+    ]
+   ],
    "role": "Designer",
    "format": "",
    "material": {
@@ -7229,8 +7258,33 @@ window.ARCHIVE = {
    "commissioner": "",
    "organizations": "Bauhaus-Universität Weimar",
    "publisher": "MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar",
-   "collaborators": "",
-   "people": [],
+   "collaborators": "Teaching team: Danica Dakić, Boris Buden, Anke Hannemann, Ina Weise Coordination: Jirka Reichmann Photography: the artists, unless otherwise stated Architectural diagram: Carmina Revert Translation: Danielle Kourtesis Proofreading: Vanessa Brazeau, Danielle Kourtesis, Ina Weise",
+   "people": [
+    [
+     "Teaching team",
+     "Danica Dakić, Boris Buden, Anke Hannemann, Ina Weise"
+    ],
+    [
+     "Coordination",
+     "Jirka Reichmann"
+    ],
+    [
+     "Photography",
+     "the artists, unless otherwise stated"
+    ],
+    [
+     "Architectural diagram",
+     "Carmina Revert"
+    ],
+    [
+     "Translation",
+     "Danielle Kourtesis"
+    ],
+    [
+     "Proofreading",
+     "Vanessa Brazeau, Danielle Kourtesis, Ina Weise"
+    ]
+   ],
    "role": "Designer",
    "format": "",
    "material": {
@@ -7753,7 +7807,7 @@ window.ARCHIVE = {
      "en": "",
      "ja": ""
     },
-    "artists": "",
+    "artists": "Vanessa Brazeau, Antonije Burić, Isaac Chong Wai, Burak Erkil, Jazmin Gabriela Flores del Pozo, Anke Hannemann, Stefan Klein, Vasili Macharadze, Maayan Miriam Mozes, Atsuko Mochida, Paloma Sanchez-Palencia, Filipe Serro, Moran Shavit, Natsumi Sugiyama, Daphna Westerman, Abraham Winterstein, Ada Kai-Ting Yang, Ina Weise",
     "texts": "Danica Dakić, Boris Buden",
     "isbn": "",
     "pageCount": 0,
@@ -9558,6 +9612,7 @@ window.ARCHIVE = {
    "y0": 2020,
    "y1": 2020,
    "kind": "research",
+   "band": "art",
    "label": {
     "en": "Between Places and Humans, Fragments",
     "ja": ""
@@ -9567,84 +9622,98 @@ window.ARCHIVE = {
    "y0": 2019,
    "y1": 2019,
    "kind": "nda",
+   "band": "design",
    "label": null
   },
   {
    "y0": 2022,
    "y1": 2024,
    "kind": "nda",
+   "band": "design",
    "label": null
   },
   {
    "y0": 2022,
    "y1": 2024,
    "kind": "nda",
+   "band": "design",
    "label": null
   },
   {
    "y0": 2022,
    "y1": 2022,
    "kind": "nda",
+   "band": "design",
    "label": null
   },
   {
    "y0": 2023,
    "y1": 2023,
    "kind": "nda",
+   "band": "design",
    "label": null
   },
   {
    "y0": 2023,
    "y1": 2023,
    "kind": "nda",
+   "band": "design",
    "label": null
   },
   {
    "y0": 2022,
    "y1": 2022,
    "kind": "nda",
+   "band": "design",
    "label": null
   },
   {
    "y0": 2023,
    "y1": 2023,
    "kind": "nda",
+   "band": "design",
    "label": null
   },
   {
    "y0": 2025,
    "y1": 2026,
    "kind": "nda",
+   "band": "design",
    "label": null
   },
   {
    "y0": 2026,
    "y1": 2026,
    "kind": "nda",
+   "band": "design",
    "label": null
   },
   {
    "y0": 2025,
    "y1": 2025,
    "kind": "nda",
+   "band": "design",
    "label": null
   },
   {
    "y0": 2021,
    "y1": 2026,
    "kind": "nda",
+   "band": "design",
    "label": null
   },
   {
    "y0": 2019,
    "y1": 2019,
    "kind": "nda",
+   "band": "design",
    "label": null
   },
   {
    "y0": 2015,
    "y1": 2020,
    "kind": "research",
+   "band": "studio",
    "label": {
     "en": "Field Research: Weimar / Berlin",
     "ja": ""
@@ -9654,6 +9723,7 @@ window.ARCHIVE = {
    "y0": 2015,
    "y1": 2020,
    "kind": "research",
+   "band": "studio",
    "label": {
     "en": "Oral History Research: Weimar / Berlin",
     "ja": ""
@@ -9663,6 +9733,7 @@ window.ARCHIVE = {
    "y0": 2015,
    "y1": 2025,
    "kind": "research",
+   "band": "studio",
    "label": {
     "en": "Urban Observation",
     "ja": ""
@@ -9672,6 +9743,7 @@ window.ARCHIVE = {
    "y0": 2017,
    "y1": 2021,
    "kind": "research",
+   "band": "studio",
    "label": {
     "en": "Kleingarten and Local Life",
     "ja": ""
@@ -9681,6 +9753,7 @@ window.ARCHIVE = {
    "y0": 2015,
    "y1": 2025,
    "kind": "research",
+   "band": "studio",
    "label": {
     "en": "Living Observing",
     "ja": ""
@@ -9690,6 +9763,7 @@ window.ARCHIVE = {
    "y0": 2023,
    "y1": 2025,
    "kind": "research",
+   "band": "studio",
    "label": {
     "en": "Citizen Science Project Reports",
     "ja": ""
