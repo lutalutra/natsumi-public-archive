@@ -6050,7 +6050,7 @@ window.ARCHIVE = {
    "kinds": [],
    "title": {
     "en": "Media Content Production \"The beginning of Kanji Characters\"",
-    "ja": "メディアコンテンツ 漢字のはじまり"
+    "ja": "メディアコンテンツ 漢字について"
    },
    "year": "2023",
    "y0": 2023,
@@ -6226,7 +6226,7 @@ window.ARCHIVE = {
    "kinds": [],
    "title": {
     "en": "Second Language Learning App for Children",
-    "ja": "こども向け英語学習アプリ"
+    "ja": "コンテンツ構成 こども向けアプリ"
    },
    "year": "2026",
    "y0": 2026,
@@ -8479,7 +8479,7 @@ window.ARCHIVE = {
    ],
    "title": {
     "en": "Infomation Graphics",
-    "ja": "インフォグラフィック 欧州拠点フィンテック"
+    "ja": "インフォグラフィック 欧州フィンテック"
    },
    "year": "2025",
    "y0": 2025,
@@ -8539,10 +8539,10 @@ window.ARCHIVE = {
    "pdfs": [],
    "images": [
     {
-     "src": "img/F_COM038/00.webp?v=50e4147a",
-     "thumb": "img/F_COM038/00_s.webp?v=529f2dea",
-     "w": 652,
-     "h": 490,
+     "src": "img/F_COM038/00.webp?v=dec8d7b1",
+     "thumb": "img/F_COM038/00_s.webp?v=6eb23258",
+     "w": 1600,
+     "h": 1000,
      "bg": "#ffffff",
      "lum": 1.0
     }
