@@ -294,7 +294,7 @@ window.ARCHIVE = {
    {
     "key": "between",
     "en": "In-betweenness",
-    "ja": "越境と生成"
+    "ja": "越境と変容"
    },
    {
     "key": "spatial",
@@ -351,12 +351,12 @@ window.ARCHIVE = {
     "ja": "人はどのように環境と結びつきながら場所の感覚を形成するのか？"
    },
    "desc": {
-    "en": "An installation based on memories of an environment in the suburbs of Tokyo, and their reconstruction; the starting point of the later research on place and humans.",
-    "ja": "東京郊外の環境記憶に関する記憶とそれらの再構成をもとにしたインスタレーション。"
+    "en": "An installation and book that analyse and recompose memories of a living environment in the suburbs of Tokyo, Japan. Graduation work of the Master's programme in Design, Tokyo University of the Arts.",
+    "ja": "東京郊外の生活環境にまつわる記憶を分析し、再構成したインスタレーションと冊子。東京藝術大学大学院デザイン専攻の修了制作。"
    },
    "long": {
-    "en": "An installation based on memories of an environment in the suburbs of Tokyo, and their reconstruction; the starting point of the later research on place and humans.",
-    "ja": "東京郊外の環境記憶に関する記憶とそれらの再構成をもとにしたインスタレーション。場所にまつわるシリーズ制作の起点。"
+    "en": "An installation and book that analyse and recompose memories of a living environment in the suburbs of Tokyo, Japan. Graduation work of the Master's programme in Design, Tokyo University of the Arts.",
+    "ja": "東京郊外の生活環境にまつわる記憶を分析し、再構成したインスタレーションと冊子。東京藝術大学大学院デザイン専攻の修了制作。"
    },
    "venue": "Tokyo International Forum and The Museum of Tokyo University of the Arts",
    "venueShort": "Tokyo International Forum and The Museum of Tokyo University of the Arts",
@@ -383,6 +383,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "Concept Development",
    "format": "",
    "material": {
@@ -417,182 +418,208 @@ window.ARCHIVE = {
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 1
+      "n": 1,
+      "z": "img/A_ART001/book/z000.webp?v=ce3d5904"
      },
      {
       "src": "img/A_ART001/book/p001.webp?v=e420ddb8",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 2
+      "n": 2,
+      "z": "img/A_ART001/book/z001.webp?v=8ea57531"
      },
      {
       "src": "img/A_ART001/book/p002.webp?v=b7f6561c",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 3
+      "n": 3,
+      "z": "img/A_ART001/book/z002.webp?v=388ddd2d"
      },
      {
       "src": "img/A_ART001/book/p003.webp?v=091e4c37",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 4
+      "n": 4,
+      "z": "img/A_ART001/book/z003.webp?v=19de8039"
      },
      {
       "src": "img/A_ART001/book/p004.webp?v=79d218b5",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 5
+      "n": 5,
+      "z": "img/A_ART001/book/z004.webp?v=bb86c81e"
      },
      {
       "src": "img/A_ART001/book/p005.webp?v=3a966600",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 6
+      "n": 6,
+      "z": "img/A_ART001/book/z005.webp?v=6fda1a19"
      },
      {
       "src": "img/A_ART001/book/p006.webp?v=f9878e40",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 7
+      "n": 7,
+      "z": "img/A_ART001/book/z006.webp?v=ae356feb"
      },
      {
       "src": "img/A_ART001/book/p007.webp?v=57459363",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 8
+      "n": 8,
+      "z": "img/A_ART001/book/z007.webp?v=3ff58212"
      },
      {
       "src": "img/A_ART001/book/p008.webp?v=d18fcbbd",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 9
+      "n": 9,
+      "z": "img/A_ART001/book/z008.webp?v=38a4ad8a"
      },
      {
       "src": "img/A_ART001/book/p009.webp?v=a7211fa7",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 10
+      "n": 10,
+      "z": "img/A_ART001/book/z009.webp?v=e21d0d36"
      },
      {
       "src": "img/A_ART001/book/p010.webp?v=fa476ed3",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 11
+      "n": 11,
+      "z": "img/A_ART001/book/z010.webp?v=6d8737dc"
      },
      {
       "src": "img/A_ART001/book/p011.webp?v=c3f4ee7c",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 12
+      "n": 12,
+      "z": "img/A_ART001/book/z011.webp?v=f80827a1"
      },
      {
       "src": "img/A_ART001/book/p012.webp?v=5e3c1674",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 13
+      "n": 13,
+      "z": "img/A_ART001/book/z012.webp?v=1ca2d62b"
      },
      {
       "src": "img/A_ART001/book/p013.webp?v=52f1dae1",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 14
+      "n": 14,
+      "z": "img/A_ART001/book/z013.webp?v=4a666c65"
      },
      {
       "src": "img/A_ART001/book/p014.webp?v=b9f819a9",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 15
+      "n": 15,
+      "z": "img/A_ART001/book/z014.webp?v=2193db11"
      },
      {
       "src": "img/A_ART001/book/p015.webp?v=1bf828d2",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 16
+      "n": 16,
+      "z": "img/A_ART001/book/z015.webp?v=bdc628fa"
      },
      {
       "src": "img/A_ART001/book/p016.webp?v=5e486dc0",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 17
+      "n": 17,
+      "z": "img/A_ART001/book/z016.webp?v=632c7cd4"
      },
      {
       "src": "img/A_ART001/book/p017.webp?v=70fa7cfc",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 18
+      "n": 18,
+      "z": "img/A_ART001/book/z017.webp?v=b4802d07"
      },
      {
       "src": "img/A_ART001/book/p018.webp?v=3520000e",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 19
+      "n": 19,
+      "z": "img/A_ART001/book/z018.webp?v=6d60d64a"
      },
      {
       "src": "img/A_ART001/book/p019.webp?v=ef4d00d6",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 20
+      "n": 20,
+      "z": "img/A_ART001/book/z019.webp?v=683da25d"
      },
      {
       "src": "img/A_ART001/book/p020.webp?v=ebe1e646",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 21
+      "n": 21,
+      "z": "img/A_ART001/book/z020.webp?v=533c088b"
      },
      {
       "src": "img/A_ART001/book/p021.webp?v=ec44168b",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 22
+      "n": 22,
+      "z": "img/A_ART001/book/z021.webp?v=25987ce6"
      },
      {
       "src": "img/A_ART001/book/p022.webp?v=5f513525",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 23
+      "n": 23,
+      "z": "img/A_ART001/book/z022.webp?v=66b592e4"
      },
      {
       "src": "img/A_ART001/book/p023.webp?v=de143836",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 24
+      "n": 24,
+      "z": "img/A_ART001/book/z023.webp?v=a2eafa76"
      },
      {
       "src": "img/A_ART001/book/p024.webp?v=71cae369",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 25
+      "n": 25,
+      "z": "img/A_ART001/book/z024.webp?v=dbdfb0ab"
      },
      {
       "src": "img/A_ART001/book/p025.webp?v=8eb14779",
       "w": 1820,
       "h": 1287,
       "spread": true,
-      "n": 26
+      "n": 26,
+      "z": "img/A_ART001/book/z025.webp?v=8a391889"
      }
     ],
     "coverFirst": false,
@@ -605,7 +632,8 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "",
-    "role": "",
+    "pdf": "pdf/A_ART001.pdf",
+    "role": "documentation",
     "fromImages": false,
     "print": {
      "en": "",
@@ -736,6 +764,7 @@ window.ARCHIVE = {
      "Chika Imai, Mr. Takehara"
     ]
    ],
+   "group": "",
    "role": "Illustration, Drawing, Writing",
    "format": "",
    "material": {
@@ -842,6 +871,7 @@ window.ARCHIVE = {
      "Yoshizumi Kumai"
     ]
    ],
+   "group": "",
    "role": "Research, Information Design",
    "format": "",
    "material": {
@@ -896,12 +926,12 @@ window.ARCHIVE = {
     "ja": "矯正の監獄の中で、消されずに残る個人の痕跡から何を見うるか?"
    },
    "desc": {
-    "en": "A booklet installation of drawings that recompose the faint, unerased traces observed within a former prison/youth detention facility in Weimar. Installed in a small, dark library adjoining the chapel on the building's top floor.",
-    "ja": "旧青年刑務所に残る痕跡の観察をもとに、その消されなかった気配を組み替えたドローイングによる冊子インスタレーション。建物最上階の礼拝堂に隣接する、小さく暗い図書室で展示された。"
+    "en": "Drawings in booklet form that recompose traces left in the former youth detention centre in Weimar, Germany. Installed in the small library next to the chapel on the building's top floor.",
+    "ja": "ドイツ・ワイマールの旧青年刑務所に残る痕跡を観察し、ドローイングで組み替えた冊子のインスタレーション。建物最上階、礼拝堂に隣接する小さな図書室に設置。"
    },
    "long": {
-    "en": "A booklet installation of drawings that recompose the faint, unerased traces observed within a former prison/youth detention facility in Weimar. Installed in a small, dark library adjoining the chapel on the building's top floor.",
-    "ja": "旧青年刑務所に残る痕跡の観察をもとに、その消されなかった気配を組み替えたドローイングによる冊子インスタレーション。建物最上階の礼拝堂に隣接する、小さく暗い図書室で展示された。"
+    "en": "Drawings in booklet form that recompose traces left in the former youth detention centre in Weimar, Germany. Installed in the small library next to the chapel on the building's top floor.",
+    "ja": "ドイツ・ワイマールの旧青年刑務所に残る痕跡を観察し、ドローイングで組み替えた冊子のインスタレーション。建物最上階、礼拝堂に隣接する小さな図書室に設置。"
    },
    "venue": "Ehemalige JVA Weimar",
    "venueShort": "Former prison (JVA), Weimar",
@@ -926,6 +956,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "Illustration, Drawing",
    "format": "",
    "material": {
@@ -1021,7 +1052,8 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "",
-    "role": "none",
+    "pdf": "",
+    "role": "documentation",
     "fromImages": true,
     "print": {
      "en": "",
@@ -1164,6 +1196,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "Illustration, Drawing",
    "format": "",
    "material": {
@@ -1247,6 +1280,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "Photography",
    "format": "",
    "material": {
@@ -1290,7 +1324,7 @@ window.ARCHIVE = {
    "y0": 2016,
    "y1": 2016,
    "area": "art",
-   "row": "other",
+   "row": "narratives",
    "pillars": [
     "portraits"
    ],
@@ -1331,6 +1365,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "",
    "format": "",
    "material": {
@@ -1415,12 +1450,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "An illustrated archive based on observations of a living environment.",
-    "ja": "居住環境の観察に基づくイラストアーカイブ。"
+    "en": "An illustrated archive of an apartment building in Weimar, Germany, based on observations of everyday life in and around it.",
+    "ja": "ドイツ・ワイマールの集合住宅と、その周りの日常の観察にもとづくイラストのアーカイブ。"
    },
    "long": {
-    "en": "An illustrated archive based on observations of a living environment.",
-    "ja": "居住環境の観察に基づくイラストアーカイブ。"
+    "en": "An illustrated archive of an apartment building in Weimar, Germany, based on observations of everyday life in and around it.",
+    "ja": "ドイツ・ワイマールの集合住宅と、その周りの日常の観察にもとづくイラストのアーカイブ。"
    },
    "venue": "Personal production",
    "venueShort": "",
@@ -1444,6 +1479,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "",
    "format": "",
    "material": {
@@ -1478,175 +1514,200 @@ window.ARCHIVE = {
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 1
+      "n": 1,
+      "z": "img/A_ART008/book/z000.webp?v=3c6429b8"
      },
      {
       "src": "img/A_ART008/book/p001.webp?v=afcacb35",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 2
+      "n": 2,
+      "z": "img/A_ART008/book/z001.webp?v=45bef278"
      },
      {
       "src": "img/A_ART008/book/p002.webp?v=9d4a7cc8",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 3
+      "n": 3,
+      "z": "img/A_ART008/book/z002.webp?v=79f93e8f"
      },
      {
       "src": "img/A_ART008/book/p003.webp?v=847cdb9d",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 4
+      "n": 4,
+      "z": "img/A_ART008/book/z003.webp?v=63ba50cb"
      },
      {
       "src": "img/A_ART008/book/p004.webp?v=b637675d",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 5
+      "n": 5,
+      "z": "img/A_ART008/book/z004.webp?v=6beb2955"
      },
      {
       "src": "img/A_ART008/book/p005.webp?v=261d7583",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 6
+      "n": 6,
+      "z": "img/A_ART008/book/z005.webp?v=24a37f61"
      },
      {
       "src": "img/A_ART008/book/p006.webp?v=453f26e8",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 7
+      "n": 7,
+      "z": "img/A_ART008/book/z006.webp?v=8e73d3f2"
      },
      {
       "src": "img/A_ART008/book/p007.webp?v=78856f9e",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 8
+      "n": 8,
+      "z": "img/A_ART008/book/z007.webp?v=3ea07041"
      },
      {
       "src": "img/A_ART008/book/p008.webp?v=84490f58",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 9
+      "n": 9,
+      "z": "img/A_ART008/book/z008.webp?v=a5d807eb"
      },
      {
       "src": "img/A_ART008/book/p009.webp?v=d02b3162",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 10
+      "n": 10,
+      "z": "img/A_ART008/book/z009.webp?v=e0f49f68"
      },
      {
       "src": "img/A_ART008/book/p010.webp?v=7c29c824",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 11
+      "n": 11,
+      "z": "img/A_ART008/book/z010.webp?v=47f199e2"
      },
      {
       "src": "img/A_ART008/book/p011.webp?v=f29f419c",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 12
+      "n": 12,
+      "z": "img/A_ART008/book/z011.webp?v=43cad967"
      },
      {
       "src": "img/A_ART008/book/p012.webp?v=75929a66",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 13
+      "n": 13,
+      "z": "img/A_ART008/book/z012.webp?v=7d51b22c"
      },
      {
       "src": "img/A_ART008/book/p013.webp?v=cc5b47b9",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 14
+      "n": 14,
+      "z": "img/A_ART008/book/z013.webp?v=8574b658"
      },
      {
       "src": "img/A_ART008/book/p014.webp?v=5f3ff561",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 15
+      "n": 15,
+      "z": "img/A_ART008/book/z014.webp?v=9f6281e9"
      },
      {
       "src": "img/A_ART008/book/p015.webp?v=f93bfb3e",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 16
+      "n": 16,
+      "z": "img/A_ART008/book/z015.webp?v=9dd3cfaa"
      },
      {
       "src": "img/A_ART008/book/p016.webp?v=0d4bd01e",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 17
+      "n": 17,
+      "z": "img/A_ART008/book/z016.webp?v=f2e6217b"
      },
      {
       "src": "img/A_ART008/book/p017.webp?v=95c95500",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 18
+      "n": 18,
+      "z": "img/A_ART008/book/z017.webp?v=aa502d64"
      },
      {
       "src": "img/A_ART008/book/p018.webp?v=bb33322a",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 19
+      "n": 19,
+      "z": "img/A_ART008/book/z018.webp?v=664ef7c6"
      },
      {
       "src": "img/A_ART008/book/p019.webp?v=ae900f79",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 20
+      "n": 20,
+      "z": "img/A_ART008/book/z019.webp?v=9fdc7abf"
      },
      {
       "src": "img/A_ART008/book/p020.webp?v=cd4fce1f",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 21
+      "n": 21,
+      "z": "img/A_ART008/book/z020.webp?v=13cbb4cf"
      },
      {
       "src": "img/A_ART008/book/p021.webp?v=6d0a5160",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 22
+      "n": 22,
+      "z": "img/A_ART008/book/z021.webp?v=c838e7ff"
      },
      {
       "src": "img/A_ART008/book/p022.webp?v=60aa289d",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 23
+      "n": 23,
+      "z": "img/A_ART008/book/z022.webp?v=fd3207d4"
      },
      {
       "src": "img/A_ART008/book/p023.webp?v=dc8251ed",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 24
+      "n": 24,
+      "z": "img/A_ART008/book/z023.webp?v=6f6fc05a"
      },
      {
       "src": "img/A_ART008/book/p024.webp?v=e651dcaa",
       "w": 2800,
       "h": 990,
       "spread": true,
-      "n": 25
+      "n": 25,
+      "z": "img/A_ART008/book/z024.webp?v=5ea6c83a"
      }
     ],
     "coverFirst": false,
@@ -1659,7 +1720,8 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "",
-    "role": "",
+    "pdf": "pdf/A_ART008.pdf",
+    "role": "documentation",
     "fromImages": false,
     "print": {
      "en": "",
@@ -1739,12 +1801,12 @@ window.ARCHIVE = {
     "ja": "人と場所の関係は、どのように観察・記述できるのか？"
    },
    "desc": {
-    "en": "A booklet and installation based on research into places and environmental memory.",
-    "ja": "場所と環境の記憶をめぐるリサーチに基づく冊子・インスタレーション。"
+    "en": "A booklet printed on tracing paper and an installation, based on field research into places and environmental memory in Weimar, Germany. Master's thesis project, MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar.",
+    "ja": "ドイツ・ワイマールでの、場所と環境の記憶をめぐるフィールドリサーチにもとづく、トレーシングペーパーの冊子とインスタレーション。バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」の修了研究。"
    },
    "long": {
-    "en": "A booklet and installation based on research into places and environmental memory.",
-    "ja": "場所と環境の記憶をめぐるリサーチに基づく冊子・インスタレーション。"
+    "en": "A booklet printed on tracing paper and an installation, based on field research into places and environmental memory in Weimar, Germany. Master's thesis project, MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar.",
+    "ja": "ドイツ・ワイマールでの、場所と環境の記憶をめぐるフィールドリサーチにもとづく、トレーシングペーパーの冊子とインスタレーション。バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」の修了研究。"
    },
    "venue": "Herzogin Anna Amalia Bibliothek",
    "venueShort": "Herzogin Anna Amalia Bibliothek, Weimar",
@@ -1768,6 +1830,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "",
    "format": "",
    "material": {
@@ -2559,7 +2622,8 @@ window.ARCHIVE = {
     "endpaper": "#87bfce",
     "coverStyle": "",
     "edition": "",
-    "role": "",
+    "pdf": "",
+    "role": "documentation",
     "fromImages": false,
     "print": {
      "en": "",
@@ -2684,6 +2748,7 @@ window.ARCHIVE = {
      "public (randomly encountered people at the site)"
     ]
    ],
+   "group": "",
    "role": "Artist",
    "format": "",
    "material": {
@@ -2765,8 +2830,8 @@ window.ARCHIVE = {
    "method": [
     "archive"
    ],
-   "credit": "Each artwork by paticipated artists, Exhibition view photos: Carlos Santos, Opening and event photos: Konrad Behr",
-   "photoCredit": "Carlos Santos",
+   "credit": "Each artwork by paticipated artists, Exhibition view photos: Carlos Santos",
+   "photoCredit": "",
    "creditAlways": false,
    "award": "",
    "funding": "Kreativfonds der Bauhaus-Universität Weimar; Thüringer Staatskanzlei,",
@@ -2775,6 +2840,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "Artist",
    "format": "",
    "material": {
@@ -2804,7 +2870,7 @@ window.ARCHIVE = {
      "cap": {
       "en": "Exhibition view",
       "ja": "展示風景",
-      "credit": "Photo: Carlos Santos",
+      "credit": "",
       "clean": "",
       "bg": "",
       "gallery": ""
@@ -2820,7 +2886,7 @@ window.ARCHIVE = {
      "cap": {
       "en": "Exhibition view",
       "ja": "展示風景",
-      "credit": "Photo: Carlos Santos",
+      "credit": "",
       "clean": "",
       "bg": "",
       "gallery": ""
@@ -2836,7 +2902,7 @@ window.ARCHIVE = {
      "cap": {
       "en": "Exhibition view",
       "ja": "展示風景",
-      "credit": "Photo: Carlos Santos",
+      "credit": "",
       "clean": "",
       "bg": "",
       "gallery": ""
@@ -2852,7 +2918,7 @@ window.ARCHIVE = {
      "cap": {
       "en": "Exhibition view",
       "ja": "展示風景",
-      "credit": "Photo: Carlos Santos",
+      "credit": "",
       "clean": "",
       "bg": "",
       "gallery": ""
@@ -2868,7 +2934,7 @@ window.ARCHIVE = {
      "cap": {
       "en": "Exhibition view",
       "ja": "展示風景",
-      "credit": "Photo: Carlos Santos",
+      "credit": "",
       "clean": "",
       "bg": "",
       "gallery": ""
@@ -2884,7 +2950,7 @@ window.ARCHIVE = {
      "cap": {
       "en": "Exhibition view",
       "ja": "展示風景",
-      "credit": "Photo: Carlos Santos",
+      "credit": "",
       "clean": "",
       "bg": "",
       "gallery": ""
@@ -2900,7 +2966,7 @@ window.ARCHIVE = {
      "cap": {
       "en": "Exhibition view",
       "ja": "展示風景",
-      "credit": "Photo: Carlos Santos",
+      "credit": "",
       "clean": "",
       "bg": "",
       "gallery": ""
@@ -2916,7 +2982,7 @@ window.ARCHIVE = {
      "cap": {
       "en": "Exhibition view",
       "ja": "展示風景",
-      "credit": "Photo: Carlos Santos",
+      "credit": "",
       "clean": "",
       "bg": "",
       "gallery": ""
@@ -2932,7 +2998,7 @@ window.ARCHIVE = {
      "cap": {
       "en": "Exhibition view",
       "ja": "展示風景",
-      "credit": "Photo: Carlos Santos",
+      "credit": "",
       "clean": "",
       "bg": "",
       "gallery": ""
@@ -2948,7 +3014,7 @@ window.ARCHIVE = {
      "cap": {
       "en": "Exhibition view",
       "ja": "展示風景",
-      "credit": "Photo: Carlos Santos",
+      "credit": "",
       "clean": "",
       "bg": "",
       "gallery": ""
@@ -2964,7 +3030,7 @@ window.ARCHIVE = {
      "cap": {
       "en": "Exhibition view",
       "ja": "展示風景",
-      "credit": "Photo: Carlos Santos",
+      "credit": "",
       "clean": "",
       "bg": "",
       "gallery": ""
@@ -2980,7 +3046,7 @@ window.ARCHIVE = {
      "cap": {
       "en": "Exhibition view",
       "ja": "展示風景",
-      "credit": "Photo: Carlos Santos",
+      "credit": "",
       "clean": "",
       "bg": "",
       "gallery": ""
@@ -2996,7 +3062,7 @@ window.ARCHIVE = {
      "cap": {
       "en": "Exhibition view",
       "ja": "展示風景",
-      "credit": "Photo: Carlos Santos",
+      "credit": "",
       "clean": "",
       "bg": "",
       "gallery": ""
@@ -3012,7 +3078,7 @@ window.ARCHIVE = {
      "cap": {
       "en": "Exhibition view",
       "ja": "展示風景",
-      "credit": "Photo: Carlos Santos",
+      "credit": "",
       "clean": "",
       "bg": "",
       "gallery": ""
@@ -3028,7 +3094,7 @@ window.ARCHIVE = {
      "cap": {
       "en": "Exhibition view",
       "ja": "展示風景",
-      "credit": "Photo: Carlos Santos",
+      "credit": "",
       "clean": "",
       "bg": "",
       "gallery": ""
@@ -3096,7 +3162,7 @@ window.ARCHIVE = {
    "y0": 2020,
    "y1": 2020,
    "area": "art",
-   "row": "other",
+   "row": "between",
    "pillars": [
     "portraits"
    ],
@@ -3107,12 +3173,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "A practice-based doctoral dissertation exploring relationships between places and people, through field research and project work.",
-    "ja": "場所と人間の関係にまつわる試行と思考の旅。日本及びドイツで採集した場所と人の関係に関するフィールドリサーチと制作事例。"
+    "en": "Practice-based doctoral dissertation, Graduate School of Fine Arts, Intermedia Art, Tokyo University of the Arts. It examines the relationship between places and people through field research and projects in Japan and Germany.",
+    "ja": "東京藝術大学大学院美術研究科先端芸術表現専攻の博士論文。日本とドイツでのフィールドリサーチと制作をもとに、場所と人の関係を論じる。"
    },
    "long": {
-    "en": "A practice-based doctoral dissertation exploring relationships between places and people, through field research and project work.",
-    "ja": "場所と人間の関係にまつわる試行と思考の旅。日本及びドイツで採集した場所と人の関係に関するフィールドリサーチと制作事例を通して思考する。芸術実践領域の博士論文。"
+    "en": "Practice-based doctoral dissertation, Graduate School of Fine Arts, Intermedia Art, Tokyo University of the Arts. It examines the relationship between places and people through field research and projects in Japan and Germany.",
+    "ja": "東京藝術大学大学院美術研究科先端芸術表現専攻の博士論文。日本とドイツでのフィールドリサーチと制作をもとに、場所と人の関係を論じる。"
    },
    "venue": "Tokyo University of the Arts",
    "venueShort": "Tokyo University of the Arts",
@@ -3137,6 +3203,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "",
    "format": "",
    "material": {
@@ -3264,1603 +3331,1832 @@ window.ARCHIVE = {
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 1
+      "n": 1,
+      "z": "img/A_ART012/book/z000.webp?v=857e1e81"
      },
      {
       "src": "img/A_ART012/book/p001.webp?v=357a1e58",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 2
+      "n": 2,
+      "z": "img/A_ART012/book/z001.webp?v=ce36f6b4"
      },
      {
       "src": "img/A_ART012/book/p002.webp?v=b0eb865a",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 3
+      "n": 3,
+      "z": "img/A_ART012/book/z002.webp?v=3c05c3c5"
      },
      {
       "src": "img/A_ART012/book/p003.webp?v=29e7b358",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 4
+      "n": 4,
+      "z": "img/A_ART012/book/z003.webp?v=d840ed59"
      },
      {
       "src": "img/A_ART012/book/p004.webp?v=f1ca729e",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 5
+      "n": 5,
+      "z": "img/A_ART012/book/z004.webp?v=024a7485"
      },
      {
       "src": "img/A_ART012/book/p005.webp?v=da0c5299",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 6
+      "n": 6,
+      "z": "img/A_ART012/book/z005.webp?v=68a90a9c"
      },
      {
       "src": "img/A_ART012/book/p006.webp?v=1da2e3a8",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 7
+      "n": 7,
+      "z": "img/A_ART012/book/z006.webp?v=faf81a3c"
      },
      {
       "src": "img/A_ART012/book/p007.webp?v=fde6e4d8",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 8
+      "n": 8,
+      "z": "img/A_ART012/book/z007.webp?v=d93747d3"
      },
      {
       "src": "img/A_ART012/book/p008.webp?v=1d1e5a7f",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 9
+      "n": 9,
+      "z": "img/A_ART012/book/z008.webp?v=376309b6"
      },
      {
       "src": "img/A_ART012/book/p009.webp?v=5755fcff",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 10
+      "n": 10,
+      "z": "img/A_ART012/book/z009.webp?v=4acc5c6e"
      },
      {
       "src": "img/A_ART012/book/p010.webp?v=56c00aca",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 11
+      "n": 11,
+      "z": "img/A_ART012/book/z010.webp?v=404eb924"
      },
      {
       "src": "img/A_ART012/book/p011.webp?v=c67d7454",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 12
+      "n": 12,
+      "z": "img/A_ART012/book/z011.webp?v=4883440d"
      },
      {
       "src": "img/A_ART012/book/p012.webp?v=37f3c16c",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 13
+      "n": 13,
+      "z": "img/A_ART012/book/z012.webp?v=b81ea41f"
      },
      {
       "src": "img/A_ART012/book/p013.webp?v=92460a14",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 14
+      "n": 14,
+      "z": "img/A_ART012/book/z013.webp?v=4dbe9f10"
      },
      {
       "src": "img/A_ART012/book/p014.webp?v=89ec093d",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 15
+      "n": 15,
+      "z": "img/A_ART012/book/z014.webp?v=ed9814bb"
      },
      {
       "src": "img/A_ART012/book/p015.webp?v=67d08e46",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 16
+      "n": 16,
+      "z": "img/A_ART012/book/z015.webp?v=3c96f7ee"
      },
      {
       "src": "img/A_ART012/book/p016.webp?v=0d89718f",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 17
+      "n": 17,
+      "z": "img/A_ART012/book/z016.webp?v=e91915a5"
      },
      {
       "src": "img/A_ART012/book/p017.webp?v=a9ac6b7d",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 18
+      "n": 18,
+      "z": "img/A_ART012/book/z017.webp?v=8b27d2d9"
      },
      {
       "src": "img/A_ART012/book/p018.webp?v=68894f0f",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 19
+      "n": 19,
+      "z": "img/A_ART012/book/z018.webp?v=a15c81c9"
      },
      {
       "src": "img/A_ART012/book/p019.webp?v=f686fce1",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 20
+      "n": 20,
+      "z": "img/A_ART012/book/z019.webp?v=68bd52cb"
      },
      {
       "src": "img/A_ART012/book/p020.webp?v=f925949f",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 21
+      "n": 21,
+      "z": "img/A_ART012/book/z020.webp?v=4267e15b"
      },
      {
       "src": "img/A_ART012/book/p021.webp?v=842a4f97",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 22
+      "n": 22,
+      "z": "img/A_ART012/book/z021.webp?v=297e3282"
      },
      {
       "src": "img/A_ART012/book/p022.webp?v=b36a083f",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 23
+      "n": 23,
+      "z": "img/A_ART012/book/z022.webp?v=e2608d0e"
      },
      {
       "src": "img/A_ART012/book/p023.webp?v=c083029b",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 24
+      "n": 24,
+      "z": "img/A_ART012/book/z023.webp?v=43abea6e"
      },
      {
       "src": "img/A_ART012/book/p024.webp?v=0020de9c",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 25
+      "n": 25,
+      "z": "img/A_ART012/book/z024.webp?v=1fea724e"
      },
      {
       "src": "img/A_ART012/book/p025.webp?v=6700fd4d",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 26
+      "n": 26,
+      "z": "img/A_ART012/book/z025.webp?v=3ac45ab4"
      },
      {
       "src": "img/A_ART012/book/p026.webp?v=c83b4388",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 27
+      "n": 27,
+      "z": "img/A_ART012/book/z026.webp?v=2f943fb9"
      },
      {
       "src": "img/A_ART012/book/p027.webp?v=42de5a3c",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 28
+      "n": 28,
+      "z": "img/A_ART012/book/z027.webp?v=cf7b2ddc"
      },
      {
       "src": "img/A_ART012/book/p028.webp?v=af6345fa",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 29
+      "n": 29,
+      "z": "img/A_ART012/book/z028.webp?v=3d54b835"
      },
      {
       "src": "img/A_ART012/book/p029.webp?v=bee3dcda",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 30
+      "n": 30,
+      "z": "img/A_ART012/book/z029.webp?v=35bacb6b"
      },
      {
       "src": "img/A_ART012/book/p030.webp?v=22f444be",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 31
+      "n": 31,
+      "z": "img/A_ART012/book/z030.webp?v=90ba294c"
      },
      {
       "src": "img/A_ART012/book/p031.webp?v=662846c3",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 32
+      "n": 32,
+      "z": "img/A_ART012/book/z031.webp?v=2f2966ad"
      },
      {
       "src": "img/A_ART012/book/p032.webp?v=156828d2",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 33
+      "n": 33,
+      "z": "img/A_ART012/book/z032.webp?v=2b8bc579"
      },
      {
       "src": "img/A_ART012/book/p033.webp?v=81eed8c3",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 34
+      "n": 34,
+      "z": "img/A_ART012/book/z033.webp?v=b92c5cd4"
      },
      {
       "src": "img/A_ART012/book/p034.webp?v=774b5587",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 35
+      "n": 35,
+      "z": "img/A_ART012/book/z034.webp?v=308bb13a"
      },
      {
       "src": "img/A_ART012/book/p035.webp?v=3e82bd45",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 36
+      "n": 36,
+      "z": "img/A_ART012/book/z035.webp?v=2b84ed25"
      },
      {
       "src": "img/A_ART012/book/p036.webp?v=7c79da18",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 37
+      "n": 37,
+      "z": "img/A_ART012/book/z036.webp?v=43c0ad3f"
      },
      {
       "src": "img/A_ART012/book/p037.webp?v=65d00ecc",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 38
+      "n": 38,
+      "z": "img/A_ART012/book/z037.webp?v=51e2b349"
      },
      {
       "src": "img/A_ART012/book/p038.webp?v=f0b0a8b4",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 39
+      "n": 39,
+      "z": "img/A_ART012/book/z038.webp?v=3740d88c"
      },
      {
       "src": "img/A_ART012/book/p039.webp?v=ab719a98",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 40
+      "n": 40,
+      "z": "img/A_ART012/book/z039.webp?v=b603fdab"
      },
      {
       "src": "img/A_ART012/book/p040.webp?v=d6b533a3",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 41
+      "n": 41,
+      "z": "img/A_ART012/book/z040.webp?v=66b0ded7"
      },
      {
       "src": "img/A_ART012/book/p041.webp?v=3ba1ed5b",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 42
+      "n": 42,
+      "z": "img/A_ART012/book/z041.webp?v=63526479"
      },
      {
       "src": "img/A_ART012/book/p042.webp?v=2100a752",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 43
+      "n": 43,
+      "z": "img/A_ART012/book/z042.webp?v=44f3fde7"
      },
      {
       "src": "img/A_ART012/book/p043.webp?v=20758956",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 44
+      "n": 44,
+      "z": "img/A_ART012/book/z043.webp?v=221c5b0d"
      },
      {
       "src": "img/A_ART012/book/p044.webp?v=d706a481",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 45
+      "n": 45,
+      "z": "img/A_ART012/book/z044.webp?v=392ad34f"
      },
      {
       "src": "img/A_ART012/book/p045.webp?v=57061a1d",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 46
+      "n": 46,
+      "z": "img/A_ART012/book/z045.webp?v=916e4a01"
      },
      {
       "src": "img/A_ART012/book/p046.webp?v=a0773df9",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 47
+      "n": 47,
+      "z": "img/A_ART012/book/z046.webp?v=1db84953"
      },
      {
       "src": "img/A_ART012/book/p047.webp?v=b88b3ca7",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 48
+      "n": 48,
+      "z": "img/A_ART012/book/z047.webp?v=244c8113"
      },
      {
       "src": "img/A_ART012/book/p048.webp?v=bc9742cc",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 49
+      "n": 49,
+      "z": "img/A_ART012/book/z048.webp?v=2751e5a0"
      },
      {
       "src": "img/A_ART012/book/p049.webp?v=b80d2dff",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 50
+      "n": 50,
+      "z": "img/A_ART012/book/z049.webp?v=abdb3eae"
      },
      {
       "src": "img/A_ART012/book/p050.webp?v=4be1509d",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 51
+      "n": 51,
+      "z": "img/A_ART012/book/z050.webp?v=5bc00f0e"
      },
      {
       "src": "img/A_ART012/book/p051.webp?v=2a4f3c42",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 52
+      "n": 52,
+      "z": "img/A_ART012/book/z051.webp?v=c15451ef"
      },
      {
       "src": "img/A_ART012/book/p052.webp?v=5df13209",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 53
+      "n": 53,
+      "z": "img/A_ART012/book/z052.webp?v=6df61d63"
      },
      {
       "src": "img/A_ART012/book/p053.webp?v=02273360",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 54
+      "n": 54,
+      "z": "img/A_ART012/book/z053.webp?v=3a112635"
      },
      {
       "src": "img/A_ART012/book/p054.webp?v=7cc58953",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 55
+      "n": 55,
+      "z": "img/A_ART012/book/z054.webp?v=fb40d051"
      },
      {
       "src": "img/A_ART012/book/p055.webp?v=d0f7d7e1",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 56
+      "n": 56,
+      "z": "img/A_ART012/book/z055.webp?v=fe3c317b"
      },
      {
       "src": "img/A_ART012/book/p056.webp?v=f89345f9",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 57
+      "n": 57,
+      "z": "img/A_ART012/book/z056.webp?v=06ee51f4"
      },
      {
       "src": "img/A_ART012/book/p057.webp?v=9e147a95",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 58
+      "n": 58,
+      "z": "img/A_ART012/book/z057.webp?v=f612d2b8"
      },
      {
       "src": "img/A_ART012/book/p058.webp?v=0052ed05",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 59
+      "n": 59,
+      "z": "img/A_ART012/book/z058.webp?v=7407b791"
      },
      {
       "src": "img/A_ART012/book/p059.webp?v=ec729b2a",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 60
+      "n": 60,
+      "z": "img/A_ART012/book/z059.webp?v=f2dfa05d"
      },
      {
       "src": "img/A_ART012/book/p060.webp?v=c27bb011",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 61
+      "n": 61,
+      "z": "img/A_ART012/book/z060.webp?v=756d82a4"
      },
      {
       "src": "img/A_ART012/book/p061.webp?v=68fb3206",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 62
+      "n": 62,
+      "z": "img/A_ART012/book/z061.webp?v=cc3739c6"
      },
      {
       "src": "img/A_ART012/book/p062.webp?v=475f0d13",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 63
+      "n": 63,
+      "z": "img/A_ART012/book/z062.webp?v=facc4b71"
      },
      {
       "src": "img/A_ART012/book/p063.webp?v=36752cee",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 64
+      "n": 64,
+      "z": "img/A_ART012/book/z063.webp?v=4fb1f228"
      },
      {
       "src": "img/A_ART012/book/p064.webp?v=4991ecc2",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 65
+      "n": 65,
+      "z": "img/A_ART012/book/z064.webp?v=b0c67ff2"
      },
      {
       "src": "img/A_ART012/book/p065.webp?v=78011d3a",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 66
+      "n": 66,
+      "z": "img/A_ART012/book/z065.webp?v=14d14ac7"
      },
      {
       "src": "img/A_ART012/book/p066.webp?v=73792403",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 67
+      "n": 67,
+      "z": "img/A_ART012/book/z066.webp?v=31d708f7"
      },
      {
       "src": "img/A_ART012/book/p067.webp?v=dfe38118",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 68
+      "n": 68,
+      "z": "img/A_ART012/book/z067.webp?v=98b22af9"
      },
      {
       "src": "img/A_ART012/book/p068.webp?v=1d272dc0",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 69
+      "n": 69,
+      "z": "img/A_ART012/book/z068.webp?v=dbd97717"
      },
      {
       "src": "img/A_ART012/book/p069.webp?v=20d8892c",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 70
+      "n": 70,
+      "z": "img/A_ART012/book/z069.webp?v=0f45b3e6"
      },
      {
       "src": "img/A_ART012/book/p070.webp?v=b0a0f2aa",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 71
+      "n": 71,
+      "z": "img/A_ART012/book/z070.webp?v=ca2a2dec"
      },
      {
       "src": "img/A_ART012/book/p071.webp?v=049dddac",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 72
+      "n": 72,
+      "z": "img/A_ART012/book/z071.webp?v=1252a2d0"
      },
      {
       "src": "img/A_ART012/book/p072.webp?v=d8d19223",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 73
+      "n": 73,
+      "z": "img/A_ART012/book/z072.webp?v=4a9fa4af"
      },
      {
       "src": "img/A_ART012/book/p073.webp?v=aafa74ab",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 74
+      "n": 74,
+      "z": "img/A_ART012/book/z073.webp?v=74d75460"
      },
      {
       "src": "img/A_ART012/book/p074.webp?v=96958638",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 75
+      "n": 75,
+      "z": "img/A_ART012/book/z074.webp?v=340ffd23"
      },
      {
       "src": "img/A_ART012/book/p075.webp?v=d1c6e90b",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 76
+      "n": 76,
+      "z": "img/A_ART012/book/z075.webp?v=0a465594"
      },
      {
       "src": "img/A_ART012/book/p076.webp?v=df062ae5",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 77
+      "n": 77,
+      "z": "img/A_ART012/book/z076.webp?v=cb2d3dcd"
      },
      {
-      "src": "img/A_ART012/book/p077.webp?v=e2bfbd59",
-      "w": 989,
+      "src": "img/A_ART012/book/p077.webp?v=81b45df4",
+      "w": 990,
       "h": 1400,
       "spread": false,
-      "n": 78
+      "n": 78,
+      "z": "img/A_ART012/book/z077.webp?v=474495fc"
      },
      {
       "src": "img/A_ART012/book/p078.webp?v=f641924c",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 79
+      "n": 79,
+      "z": "img/A_ART012/book/z078.webp?v=fa87f59d"
      },
      {
       "src": "img/A_ART012/book/p079.webp?v=3d498bb7",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 80
+      "n": 80,
+      "z": "img/A_ART012/book/z079.webp?v=1c614dad"
      },
      {
       "src": "img/A_ART012/book/p080.webp?v=408ad36a",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 81
+      "n": 81,
+      "z": "img/A_ART012/book/z080.webp?v=9ecb9840"
      },
      {
       "src": "img/A_ART012/book/p081.webp?v=01b963c8",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 82
+      "n": 82,
+      "z": "img/A_ART012/book/z081.webp?v=404291d1"
      },
      {
       "src": "img/A_ART012/book/p082.webp?v=a9f90c98",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 83
+      "n": 83,
+      "z": "img/A_ART012/book/z082.webp?v=2c44ed24"
      },
      {
       "src": "img/A_ART012/book/p083.webp?v=83c4653b",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 84
+      "n": 84,
+      "z": "img/A_ART012/book/z083.webp?v=91972c46"
      },
      {
       "src": "img/A_ART012/book/p084.webp?v=224b07d8",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 85
+      "n": 85,
+      "z": "img/A_ART012/book/z084.webp?v=f0ba118a"
      },
      {
       "src": "img/A_ART012/book/p085.webp?v=ca95fa91",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 86
+      "n": 86,
+      "z": "img/A_ART012/book/z085.webp?v=9894781c"
      },
      {
       "src": "img/A_ART012/book/p086.webp?v=ed61e38f",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 87
+      "n": 87,
+      "z": "img/A_ART012/book/z086.webp?v=2e4dee36"
      },
      {
       "src": "img/A_ART012/book/p087.webp?v=2c85e580",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 88
+      "n": 88,
+      "z": "img/A_ART012/book/z087.webp?v=7579c605"
      },
      {
       "src": "img/A_ART012/book/p088.webp?v=37682da6",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 89
+      "n": 89,
+      "z": "img/A_ART012/book/z088.webp?v=108ae03f"
      },
      {
       "src": "img/A_ART012/book/p089.webp?v=9351d7e9",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 90
+      "n": 90,
+      "z": "img/A_ART012/book/z089.webp?v=ec3a74da"
      },
      {
       "src": "img/A_ART012/book/p090.webp?v=cfe30e88",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 91
+      "n": 91,
+      "z": "img/A_ART012/book/z090.webp?v=592199b3"
      },
      {
       "src": "img/A_ART012/book/p091.webp?v=6f64ab9d",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 92
+      "n": 92,
+      "z": "img/A_ART012/book/z091.webp?v=bf943dab"
      },
      {
       "src": "img/A_ART012/book/p092.webp?v=f2c4ac44",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 93
+      "n": 93,
+      "z": "img/A_ART012/book/z092.webp?v=5f857fd2"
      },
      {
       "src": "img/A_ART012/book/p093.webp?v=3aa341a1",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 94
+      "n": 94,
+      "z": "img/A_ART012/book/z093.webp?v=bf972726"
      },
      {
       "src": "img/A_ART012/book/p094.webp?v=e0e61f0d",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 95
+      "n": 95,
+      "z": "img/A_ART012/book/z094.webp?v=2262f3fb"
      },
      {
       "src": "img/A_ART012/book/p095.webp?v=a1b326a6",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 96
+      "n": 96,
+      "z": "img/A_ART012/book/z095.webp?v=27f969ad"
      },
      {
       "src": "img/A_ART012/book/p096.webp?v=b4ce49d6",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 97
+      "n": 97,
+      "z": "img/A_ART012/book/z096.webp?v=c76bae58"
      },
      {
       "src": "img/A_ART012/book/p097.webp?v=38869696",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 98
+      "n": 98,
+      "z": "img/A_ART012/book/z097.webp?v=bac7ff10"
      },
      {
       "src": "img/A_ART012/book/p098.webp?v=9061c7a5",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 99
+      "n": 99,
+      "z": "img/A_ART012/book/z098.webp?v=591a757e"
      },
      {
       "src": "img/A_ART012/book/p099.webp?v=234edd02",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 100
+      "n": 100,
+      "z": "img/A_ART012/book/z099.webp?v=899d0f65"
      },
      {
       "src": "img/A_ART012/book/p100.webp?v=043b3db5",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 101
+      "n": 101,
+      "z": "img/A_ART012/book/z100.webp?v=e79d2326"
      },
      {
       "src": "img/A_ART012/book/p101.webp?v=6b8fb207",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 102
+      "n": 102,
+      "z": "img/A_ART012/book/z101.webp?v=2bc36158"
      },
      {
       "src": "img/A_ART012/book/p102.webp?v=cc151c8c",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 103
+      "n": 103,
+      "z": "img/A_ART012/book/z102.webp?v=49484720"
      },
      {
       "src": "img/A_ART012/book/p103.webp?v=9bb727f0",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 104
+      "n": 104,
+      "z": "img/A_ART012/book/z103.webp?v=4ae6d4b4"
      },
      {
       "src": "img/A_ART012/book/p104.webp?v=b62d1d05",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 105
+      "n": 105,
+      "z": "img/A_ART012/book/z104.webp?v=65d09cac"
      },
      {
       "src": "img/A_ART012/book/p105.webp?v=557888f8",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 106
+      "n": 106,
+      "z": "img/A_ART012/book/z105.webp?v=af06f145"
      },
      {
       "src": "img/A_ART012/book/p106.webp?v=d73197b7",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 107
+      "n": 107,
+      "z": "img/A_ART012/book/z106.webp?v=bd32c22f"
      },
      {
       "src": "img/A_ART012/book/p107.webp?v=54550612",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 108
+      "n": 108,
+      "z": "img/A_ART012/book/z107.webp?v=f7317285"
      },
      {
       "src": "img/A_ART012/book/p108.webp?v=75ccc6a8",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 109
+      "n": 109,
+      "z": "img/A_ART012/book/z108.webp?v=435dc5b9"
      },
      {
       "src": "img/A_ART012/book/p109.webp?v=3891b9fd",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 110
+      "n": 110,
+      "z": "img/A_ART012/book/z109.webp?v=bc2ef3c0"
      },
      {
       "src": "img/A_ART012/book/p110.webp?v=2511193f",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 111
+      "n": 111,
+      "z": "img/A_ART012/book/z110.webp?v=c8f93ccd"
      },
      {
       "src": "img/A_ART012/book/p111.webp?v=f4284067",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 112
+      "n": 112,
+      "z": "img/A_ART012/book/z111.webp?v=d79855b9"
      },
      {
       "src": "img/A_ART012/book/p112.webp?v=956fb906",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 113
+      "n": 113,
+      "z": "img/A_ART012/book/z112.webp?v=235eb713"
      },
      {
       "src": "img/A_ART012/book/p113.webp?v=460b51ce",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 114
+      "n": 114,
+      "z": "img/A_ART012/book/z113.webp?v=6bf304c6"
      },
      {
-      "src": "img/A_ART012/book/p114.webp?v=9e624b6e",
-      "w": 989,
+      "src": "img/A_ART012/book/p114.webp?v=3c064331",
+      "w": 990,
       "h": 1400,
       "spread": false,
-      "n": 115
+      "n": 115,
+      "z": "img/A_ART012/book/z114.webp?v=532da191"
      },
      {
       "src": "img/A_ART012/book/p115.webp?v=2e41172c",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 116
+      "n": 116,
+      "z": "img/A_ART012/book/z115.webp?v=4808b8d4"
      },
      {
       "src": "img/A_ART012/book/p116.webp?v=89d2e892",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 117
+      "n": 117,
+      "z": "img/A_ART012/book/z116.webp?v=8c235347"
      },
      {
       "src": "img/A_ART012/book/p117.webp?v=5d7480c5",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 118
+      "n": 118,
+      "z": "img/A_ART012/book/z117.webp?v=1262bb94"
      },
      {
       "src": "img/A_ART012/book/p118.webp?v=3011c6b6",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 119
+      "n": 119,
+      "z": "img/A_ART012/book/z118.webp?v=e7d7644e"
      },
      {
       "src": "img/A_ART012/book/p119.webp?v=7069ec92",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 120
+      "n": 120,
+      "z": "img/A_ART012/book/z119.webp?v=5176657f"
      },
      {
       "src": "img/A_ART012/book/p120.webp?v=91f96577",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 121
+      "n": 121,
+      "z": "img/A_ART012/book/z120.webp?v=c5a3a725"
      },
      {
       "src": "img/A_ART012/book/p121.webp?v=da4f1ec8",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 122
+      "n": 122,
+      "z": "img/A_ART012/book/z121.webp?v=b6b026be"
      },
      {
       "src": "img/A_ART012/book/p122.webp?v=842a859e",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 123
+      "n": 123,
+      "z": "img/A_ART012/book/z122.webp?v=147b80a6"
      },
      {
       "src": "img/A_ART012/book/p123.webp?v=374a8e4c",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 124
+      "n": 124,
+      "z": "img/A_ART012/book/z123.webp?v=17b13c37"
      },
      {
       "src": "img/A_ART012/book/p124.webp?v=30bff103",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 125
+      "n": 125,
+      "z": "img/A_ART012/book/z124.webp?v=98040df4"
      },
      {
       "src": "img/A_ART012/book/p125.webp?v=7f10be7a",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 126
+      "n": 126,
+      "z": "img/A_ART012/book/z125.webp?v=11c83b50"
      },
      {
       "src": "img/A_ART012/book/p126.webp?v=fb870a9c",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 127
+      "n": 127,
+      "z": "img/A_ART012/book/z126.webp?v=ee071795"
      },
      {
       "src": "img/A_ART012/book/p127.webp?v=bf0ace99",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 128
+      "n": 128,
+      "z": "img/A_ART012/book/z127.webp?v=d07cabfc"
      },
      {
       "src": "img/A_ART012/book/p128.webp?v=913f810d",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 129
+      "n": 129,
+      "z": "img/A_ART012/book/z128.webp?v=8f141c22"
      },
      {
       "src": "img/A_ART012/book/p129.webp?v=9abe22ee",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 130
+      "n": 130,
+      "z": "img/A_ART012/book/z129.webp?v=eca7f402"
      },
      {
       "src": "img/A_ART012/book/p130.webp?v=f3b32e0d",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 131
+      "n": 131,
+      "z": "img/A_ART012/book/z130.webp?v=69d2662d"
      },
      {
       "src": "img/A_ART012/book/p131.webp?v=b7a05885",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 132
+      "n": 132,
+      "z": "img/A_ART012/book/z131.webp?v=40ad25ce"
      },
      {
       "src": "img/A_ART012/book/p132.webp?v=291cde7d",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 133
+      "n": 133,
+      "z": "img/A_ART012/book/z132.webp?v=9fc0e7ca"
      },
      {
       "src": "img/A_ART012/book/p133.webp?v=318a0b93",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 134
+      "n": 134,
+      "z": "img/A_ART012/book/z133.webp?v=4e489677"
      },
      {
       "src": "img/A_ART012/book/p134.webp?v=910ec658",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 135
+      "n": 135,
+      "z": "img/A_ART012/book/z134.webp?v=d61d09fd"
      },
      {
       "src": "img/A_ART012/book/p135.webp?v=47d22897",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 136
+      "n": 136,
+      "z": "img/A_ART012/book/z135.webp?v=55bcdb71"
      },
      {
       "src": "img/A_ART012/book/p136.webp?v=498e80b9",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 137
+      "n": 137,
+      "z": "img/A_ART012/book/z136.webp?v=f3754b10"
      },
      {
       "src": "img/A_ART012/book/p137.webp?v=d198b692",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 138
+      "n": 138,
+      "z": "img/A_ART012/book/z137.webp?v=fcff616d"
      },
      {
       "src": "img/A_ART012/book/p138.webp?v=04c57018",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 139
+      "n": 139,
+      "z": "img/A_ART012/book/z138.webp?v=1c00470e"
      },
      {
       "src": "img/A_ART012/book/p139.webp?v=33bc351b",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 140
+      "n": 140,
+      "z": "img/A_ART012/book/z139.webp?v=013a0fcd"
      },
      {
       "src": "img/A_ART012/book/p140.webp?v=4ba9e91a",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 141
+      "n": 141,
+      "z": "img/A_ART012/book/z140.webp?v=cb1ad362"
      },
      {
       "src": "img/A_ART012/book/p141.webp?v=00265eba",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 142
+      "n": 142,
+      "z": "img/A_ART012/book/z141.webp?v=719fab85"
      },
      {
       "src": "img/A_ART012/book/p142.webp?v=35b98e5f",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 143
+      "n": 143,
+      "z": "img/A_ART012/book/z142.webp?v=ae06a9a4"
      },
      {
       "src": "img/A_ART012/book/p143.webp?v=f1c9161d",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 144
+      "n": 144,
+      "z": "img/A_ART012/book/z143.webp?v=b2e6801f"
      },
      {
       "src": "img/A_ART012/book/p144.webp?v=d9f7f488",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 145
+      "n": 145,
+      "z": "img/A_ART012/book/z144.webp?v=d86101cb"
      },
      {
       "src": "img/A_ART012/book/p145.webp?v=e015e215",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 146
+      "n": 146,
+      "z": "img/A_ART012/book/z145.webp?v=aa2a0123"
      },
      {
       "src": "img/A_ART012/book/p146.webp?v=4a20b6f8",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 147
+      "n": 147,
+      "z": "img/A_ART012/book/z146.webp?v=262e6dc8"
      },
      {
       "src": "img/A_ART012/book/p147.webp?v=58fe29a9",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 148
+      "n": 148,
+      "z": "img/A_ART012/book/z147.webp?v=8b5e876a"
      },
      {
       "src": "img/A_ART012/book/p148.webp?v=71bda619",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 149
+      "n": 149,
+      "z": "img/A_ART012/book/z148.webp?v=23e6ac52"
      },
      {
       "src": "img/A_ART012/book/p149.webp?v=df312b86",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 150
+      "n": 150,
+      "z": "img/A_ART012/book/z149.webp?v=07055b05"
      },
      {
       "src": "img/A_ART012/book/p150.webp?v=fb4f1ec8",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 151
+      "n": 151,
+      "z": "img/A_ART012/book/z150.webp?v=804c1552"
      },
      {
       "src": "img/A_ART012/book/p151.webp?v=68ebc1d4",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 152
+      "n": 152,
+      "z": "img/A_ART012/book/z151.webp?v=6909a6bc"
      },
      {
       "src": "img/A_ART012/book/p152.webp?v=bd1af941",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 153
+      "n": 153,
+      "z": "img/A_ART012/book/z152.webp?v=45fcc63a"
      },
      {
       "src": "img/A_ART012/book/p153.webp?v=f470bf17",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 154
+      "n": 154,
+      "z": "img/A_ART012/book/z153.webp?v=e2fc128a"
      },
      {
       "src": "img/A_ART012/book/p154.webp?v=d12c7ec9",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 155
+      "n": 155,
+      "z": "img/A_ART012/book/z154.webp?v=432ad818"
      },
      {
       "src": "img/A_ART012/book/p155.webp?v=78f29fcb",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 156
+      "n": 156,
+      "z": "img/A_ART012/book/z155.webp?v=001285be"
      },
      {
       "src": "img/A_ART012/book/p156.webp?v=6e426828",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 157
+      "n": 157,
+      "z": "img/A_ART012/book/z156.webp?v=2ac2ac7c"
      },
      {
       "src": "img/A_ART012/book/p157.webp?v=34a2a478",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 158
+      "n": 158,
+      "z": "img/A_ART012/book/z157.webp?v=ea1f6828"
      },
      {
       "src": "img/A_ART012/book/p158.webp?v=e87c7909",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 159
+      "n": 159,
+      "z": "img/A_ART012/book/z158.webp?v=7f29c744"
      },
      {
       "src": "img/A_ART012/book/p159.webp?v=7e31e8c1",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 160
+      "n": 160,
+      "z": "img/A_ART012/book/z159.webp?v=56fe5354"
      },
      {
       "src": "img/A_ART012/book/p160.webp?v=af9c3b80",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 161
+      "n": 161,
+      "z": "img/A_ART012/book/z160.webp?v=28ba9637"
      },
      {
       "src": "img/A_ART012/book/p161.webp?v=295f47fb",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 162
+      "n": 162,
+      "z": "img/A_ART012/book/z161.webp?v=f55526d7"
      },
      {
       "src": "img/A_ART012/book/p162.webp?v=6814649c",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 163
+      "n": 163,
+      "z": "img/A_ART012/book/z162.webp?v=e274bdb2"
      },
      {
       "src": "img/A_ART012/book/p163.webp?v=64ba7979",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 164
+      "n": 164,
+      "z": "img/A_ART012/book/z163.webp?v=4f227bb4"
      },
      {
-      "src": "img/A_ART012/book/p164.webp?v=64f9e1b0",
-      "w": 989,
+      "src": "img/A_ART012/book/p164.webp?v=102f5699",
+      "w": 990,
       "h": 1400,
       "spread": false,
-      "n": 165
+      "n": 165,
+      "z": "img/A_ART012/book/z164.webp?v=c4810d5c"
      },
      {
-      "src": "img/A_ART012/book/p165.webp?v=ff229367",
-      "w": 989,
+      "src": "img/A_ART012/book/p165.webp?v=c1a3e889",
+      "w": 990,
       "h": 1400,
       "spread": false,
-      "n": 166
+      "n": 166,
+      "z": "img/A_ART012/book/z165.webp?v=46b722d5"
      },
      {
       "src": "img/A_ART012/book/p166.webp?v=5622201b",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 167
+      "n": 167,
+      "z": "img/A_ART012/book/z166.webp?v=bf2bd0b8"
      },
      {
       "src": "img/A_ART012/book/p167.webp?v=3c51dfeb",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 168
+      "n": 168,
+      "z": "img/A_ART012/book/z167.webp?v=67b75582"
      },
      {
       "src": "img/A_ART012/book/p168.webp?v=e4b099ee",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 169
+      "n": 169,
+      "z": "img/A_ART012/book/z168.webp?v=f68602ef"
      },
      {
       "src": "img/A_ART012/book/p169.webp?v=dcd7816f",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 170
+      "n": 170,
+      "z": "img/A_ART012/book/z169.webp?v=b33ef80d"
      },
      {
       "src": "img/A_ART012/book/p170.webp?v=6cf60df3",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 171
+      "n": 171,
+      "z": "img/A_ART012/book/z170.webp?v=e1963e1e"
      },
      {
       "src": "img/A_ART012/book/p171.webp?v=a29c7b65",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 172
+      "n": 172,
+      "z": "img/A_ART012/book/z171.webp?v=78c4aaa8"
      },
      {
       "src": "img/A_ART012/book/p172.webp?v=c3ee2dab",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 173
+      "n": 173,
+      "z": "img/A_ART012/book/z172.webp?v=48565430"
      },
      {
       "src": "img/A_ART012/book/p173.webp?v=c25bf8d8",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 174
+      "n": 174,
+      "z": "img/A_ART012/book/z173.webp?v=fe721753"
      },
      {
       "src": "img/A_ART012/book/p174.webp?v=81d0a2d3",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 175
+      "n": 175,
+      "z": "img/A_ART012/book/z174.webp?v=4b909a96"
      },
      {
       "src": "img/A_ART012/book/p175.webp?v=952b22d7",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 176
+      "n": 176,
+      "z": "img/A_ART012/book/z175.webp?v=0a0aca37"
      },
      {
       "src": "img/A_ART012/book/p176.webp?v=aa4d2353",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 177
+      "n": 177,
+      "z": "img/A_ART012/book/z176.webp?v=e5565e86"
      },
      {
       "src": "img/A_ART012/book/p177.webp?v=2bd91991",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 178
+      "n": 178,
+      "z": "img/A_ART012/book/z177.webp?v=841d36ef"
      },
      {
       "src": "img/A_ART012/book/p178.webp?v=dec2f2e9",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 179
+      "n": 179,
+      "z": "img/A_ART012/book/z178.webp?v=bf696aec"
      },
      {
       "src": "img/A_ART012/book/p179.webp?v=2d7aae49",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 180
+      "n": 180,
+      "z": "img/A_ART012/book/z179.webp?v=64b541f9"
      },
      {
       "src": "img/A_ART012/book/p180.webp?v=179d7020",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 181
+      "n": 181,
+      "z": "img/A_ART012/book/z180.webp?v=54883a66"
      },
      {
       "src": "img/A_ART012/book/p181.webp?v=f7c883e6",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 182
+      "n": 182,
+      "z": "img/A_ART012/book/z181.webp?v=e8782faa"
      },
      {
       "src": "img/A_ART012/book/p182.webp?v=cfaada70",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 183
+      "n": 183,
+      "z": "img/A_ART012/book/z182.webp?v=c7914421"
      },
      {
       "src": "img/A_ART012/book/p183.webp?v=e72ad2d8",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 184
+      "n": 184,
+      "z": "img/A_ART012/book/z183.webp?v=e114a73a"
      },
      {
       "src": "img/A_ART012/book/p184.webp?v=bdb3059d",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 185
+      "n": 185,
+      "z": "img/A_ART012/book/z184.webp?v=9399594d"
      },
      {
       "src": "img/A_ART012/book/p185.webp?v=7caf7829",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 186
+      "n": 186,
+      "z": "img/A_ART012/book/z185.webp?v=cd1f7607"
      },
      {
       "src": "img/A_ART012/book/p186.webp?v=4d1695d2",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 187
+      "n": 187,
+      "z": "img/A_ART012/book/z186.webp?v=fb918591"
      },
      {
       "src": "img/A_ART012/book/p187.webp?v=55c677a9",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 188
+      "n": 188,
+      "z": "img/A_ART012/book/z187.webp?v=941cb385"
      },
      {
       "src": "img/A_ART012/book/p188.webp?v=9fe87a9c",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 189
+      "n": 189,
+      "z": "img/A_ART012/book/z188.webp?v=933b0fbf"
      },
      {
       "src": "img/A_ART012/book/p189.webp?v=17ccdf4b",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 190
+      "n": 190,
+      "z": "img/A_ART012/book/z189.webp?v=5ef51d5d"
      },
      {
       "src": "img/A_ART012/book/p190.webp?v=4fbb5574",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 191
+      "n": 191,
+      "z": "img/A_ART012/book/z190.webp?v=d1a8ed86"
      },
      {
       "src": "img/A_ART012/book/p191.webp?v=a90dede0",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 192
+      "n": 192,
+      "z": "img/A_ART012/book/z191.webp?v=70925c88"
      },
      {
       "src": "img/A_ART012/book/p192.webp?v=900e448f",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 193
+      "n": 193,
+      "z": "img/A_ART012/book/z192.webp?v=3842865c"
      },
      {
       "src": "img/A_ART012/book/p193.webp?v=16124976",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 194
+      "n": 194,
+      "z": "img/A_ART012/book/z193.webp?v=8ec757a7"
      },
      {
       "src": "img/A_ART012/book/p194.webp?v=7c3fba0f",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 195
+      "n": 195,
+      "z": "img/A_ART012/book/z194.webp?v=9cc780ba"
      },
      {
       "src": "img/A_ART012/book/p195.webp?v=fde609c0",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 196
+      "n": 196,
+      "z": "img/A_ART012/book/z195.webp?v=515e374d"
      },
      {
       "src": "img/A_ART012/book/p196.webp?v=133496fa",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 197
+      "n": 197,
+      "z": "img/A_ART012/book/z196.webp?v=6eaeb3ae"
      },
      {
       "src": "img/A_ART012/book/p197.webp?v=7651bcc0",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 198
+      "n": 198,
+      "z": "img/A_ART012/book/z197.webp?v=c789e756"
      },
      {
       "src": "img/A_ART012/book/p198.webp?v=b1c22e39",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 199
+      "n": 199,
+      "z": "img/A_ART012/book/z198.webp?v=f216fee8"
      },
      {
       "src": "img/A_ART012/book/p199.webp?v=1e1e459e",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 200
+      "n": 200,
+      "z": "img/A_ART012/book/z199.webp?v=5538a276"
      },
      {
       "src": "img/A_ART012/book/p200.webp?v=9b465214",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 201
+      "n": 201,
+      "z": "img/A_ART012/book/z200.webp?v=17d0d936"
      },
      {
       "src": "img/A_ART012/book/p201.webp?v=fef02db4",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 202
+      "n": 202,
+      "z": "img/A_ART012/book/z201.webp?v=a38e10c0"
      },
      {
       "src": "img/A_ART012/book/p202.webp?v=4d739b36",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 203
+      "n": 203,
+      "z": "img/A_ART012/book/z202.webp?v=40d82c74"
      },
      {
       "src": "img/A_ART012/book/p203.webp?v=88bc4647",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 204
+      "n": 204,
+      "z": "img/A_ART012/book/z203.webp?v=ef05ad84"
      },
      {
       "src": "img/A_ART012/book/p204.webp?v=fb0f0299",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 205
+      "n": 205,
+      "z": "img/A_ART012/book/z204.webp?v=998d51d6"
      },
      {
       "src": "img/A_ART012/book/p205.webp?v=f24108d8",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 206
+      "n": 206,
+      "z": "img/A_ART012/book/z205.webp?v=4c1a77d9"
      },
      {
       "src": "img/A_ART012/book/p206.webp?v=137c41e3",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 207
+      "n": 207,
+      "z": "img/A_ART012/book/z206.webp?v=aed888f6"
      },
      {
       "src": "img/A_ART012/book/p207.webp?v=d231ec30",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 208
+      "n": 208,
+      "z": "img/A_ART012/book/z207.webp?v=ae269e85"
      },
      {
       "src": "img/A_ART012/book/p208.webp?v=73e0db56",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 209
+      "n": 209,
+      "z": "img/A_ART012/book/z208.webp?v=d49b583d"
      },
      {
       "src": "img/A_ART012/book/p209.webp?v=10eb92cb",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 210
+      "n": 210,
+      "z": "img/A_ART012/book/z209.webp?v=c1c60936"
      },
      {
       "src": "img/A_ART012/book/p210.webp?v=e2a2ca07",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 211
+      "n": 211,
+      "z": "img/A_ART012/book/z210.webp?v=da10ea25"
      },
      {
       "src": "img/A_ART012/book/p211.webp?v=99897908",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 212
+      "n": 212,
+      "z": "img/A_ART012/book/z211.webp?v=925c7883"
      },
      {
-      "src": "img/A_ART012/book/p212.webp?v=84223e7b",
-      "w": 989,
+      "src": "img/A_ART012/book/p212.webp?v=44db40d9",
+      "w": 990,
       "h": 1400,
       "spread": false,
-      "n": 213
+      "n": 213,
+      "z": "img/A_ART012/book/z212.webp?v=48507058"
      },
      {
-      "src": "img/A_ART012/book/p213.webp?v=10ac63e1",
-      "w": 989,
+      "src": "img/A_ART012/book/p213.webp?v=5bc142e1",
+      "w": 990,
       "h": 1400,
       "spread": false,
-      "n": 214
+      "n": 214,
+      "z": "img/A_ART012/book/z213.webp?v=a6b4c135"
      },
      {
       "src": "img/A_ART012/book/p214.webp?v=68e1a5e6",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 215
+      "n": 215,
+      "z": "img/A_ART012/book/z214.webp?v=4b8fc66d"
      },
      {
       "src": "img/A_ART012/book/p215.webp?v=6e7360fc",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 216
+      "n": 216,
+      "z": "img/A_ART012/book/z215.webp?v=db308ebf"
      },
      {
       "src": "img/A_ART012/book/p216.webp?v=8ad78ba5",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 217
+      "n": 217,
+      "z": "img/A_ART012/book/z216.webp?v=f2151775"
      },
      {
       "src": "img/A_ART012/book/p217.webp?v=f6e2f4d5",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 218
+      "n": 218,
+      "z": "img/A_ART012/book/z217.webp?v=9bc2f4ad"
      },
      {
       "src": "img/A_ART012/book/p218.webp?v=31cceb1f",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 219
+      "n": 219,
+      "z": "img/A_ART012/book/z218.webp?v=d95b86e7"
      },
      {
       "src": "img/A_ART012/book/p219.webp?v=bffffc7c",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 220
+      "n": 220,
+      "z": "img/A_ART012/book/z219.webp?v=41716cbc"
      },
      {
       "src": "img/A_ART012/book/p220.webp?v=f7e424b7",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 221
+      "n": 221,
+      "z": "img/A_ART012/book/z220.webp?v=170b82a6"
      },
      {
       "src": "img/A_ART012/book/p221.webp?v=bb2d77b9",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 222
+      "n": 222,
+      "z": "img/A_ART012/book/z221.webp?v=79df7140"
      },
      {
-      "src": "img/A_ART012/book/p222.webp?v=35d02a2c",
-      "w": 989,
+      "src": "img/A_ART012/book/p222.webp?v=39913ba1",
+      "w": 990,
       "h": 1400,
       "spread": false,
-      "n": 223
+      "n": 223,
+      "z": "img/A_ART012/book/z222.webp?v=7e099f09"
      },
      {
       "src": "img/A_ART012/book/p223.webp?v=bba0dd24",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 224
+      "n": 224,
+      "z": "img/A_ART012/book/z223.webp?v=1f14bfc5"
      },
      {
-      "src": "img/A_ART012/book/p224.webp?v=551b29a6",
-      "w": 989,
+      "src": "img/A_ART012/book/p224.webp?v=bf5e3493",
+      "w": 990,
       "h": 1400,
       "spread": false,
-      "n": 225
+      "n": 225,
+      "z": "img/A_ART012/book/z224.webp?v=02b45a57"
      },
      {
       "src": "img/A_ART012/book/p225.webp?v=aa326685",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 226
+      "n": 226,
+      "z": "img/A_ART012/book/z225.webp?v=7610a5f4"
      },
      {
       "src": "img/A_ART012/book/p226.webp?v=26eeffa0",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 227
+      "n": 227,
+      "z": "img/A_ART012/book/z226.webp?v=a498c1de"
      },
      {
       "src": "img/A_ART012/book/p227.webp?v=3a302ce3",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 228
+      "n": 228,
+      "z": "img/A_ART012/book/z227.webp?v=f61c1d64"
      },
      {
       "src": "img/A_ART012/book/p228.webp?v=4544c239",
       "w": 989,
       "h": 1400,
       "spread": false,
-      "n": 229
+      "n": 229,
+      "z": "img/A_ART012/book/z228.webp?v=f722b19f"
      }
     ],
     "coverFirst": true,
@@ -4873,6 +5169,7 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "",
+    "pdf": "pdf/A_ART012.pdf",
     "role": "",
     "fromImages": false,
     "print": {
@@ -5024,6 +5321,7 @@ window.ARCHIVE = {
      "Vasili Macharadze"
     ]
    ],
+   "group": "",
    "role": "",
    "format": "",
    "material": {
@@ -5124,6 +5422,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "",
    "format": "",
    "material": {
@@ -5324,12 +5623,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "A zine based on the graduation work About My Topos.",
-    "ja": "修了作品 About My Topos をもとにしたZINE。"
+    "en": "A zine based on the graduation work About My Topos, made at the Kei Matsushita Lab, Tokyo University of the Arts, Japan.",
+    "ja": "修了制作 About My Topos をもとにしたZINE。東京藝術大学 松下計研究室で制作。"
    },
    "long": {
-    "en": "A zine based on the graduation work About My Topos.",
-    "ja": "修了作品 About My Topos をもとにしたZINE。"
+    "en": "A zine based on the graduation work About My Topos, made at the Kei Matsushita Lab, Tokyo University of the Arts, Japan.",
+    "ja": "修了制作 About My Topos をもとにしたZINE。東京藝術大学 松下計研究室で制作。"
    },
    "venue": "Kei Matsushita Lab / Tokyo University of the Arts",
    "venueShort": "Tokyo University of the Arts",
@@ -5356,6 +5655,7 @@ window.ARCHIVE = {
      "Bak Enkoh, Kei Matsushita"
     ]
    ],
+   "group": "",
    "role": "",
    "format": "",
    "material": {
@@ -5404,6 +5704,7 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "",
+    "pdf": "",
     "role": "",
     "fromImages": true,
     "print": {
@@ -5433,7 +5734,8 @@ window.ARCHIVE = {
      "bg": "#a7bdd3",
      "lum": 0.729
     }
-   ]
+   ],
+   "riso": "img/B_COL001/riso.webp?v=21dff8e7"
   },
   {
    "id": "B_COL010",
@@ -5487,6 +5789,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "Guest artist, within the framework of the work *Missing Sculpture*",
    "format": "",
    "material": {
@@ -5599,6 +5902,7 @@ window.ARCHIVE = {
      "Nicolas Buenaventura, Georg Wesolowski, Vasili Macharadze, Xenia Schürmann, students"
     ]
    ],
+   "group": "",
    "role": "Designer",
    "format": "",
    "material": {
@@ -5640,7 +5944,8 @@ window.ARCHIVE = {
      "bg": "#fefdfe",
      "lum": 0.993
     }
-   ]
+   ],
+   "riso": "img/B_COL020/riso.webp?v=7f949efc"
   },
   {
    "id": "B_COL030",
@@ -5721,6 +6026,7 @@ window.ARCHIVE = {
      "Contents in cooperation with external writers and supervisors from universities and museums."
     ]
    ],
+   "group": "app-philosophy",
    "role": "UX, Art Director, Mediengestaltung",
    "format": "",
    "material": {
@@ -5767,7 +6073,8 @@ window.ARCHIVE = {
      "bg": "#fdfdfd",
      "lum": 0.992
     }
-   ]
+   ],
+   "riso": "img/B_COL030/riso.webp?v=0da24245"
   },
   {
    "id": "C_CUL001",
@@ -5818,6 +6125,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "Educator",
    "format": "",
    "material": {
@@ -5845,7 +6153,8 @@ window.ARCHIVE = {
      "bg": "#f8f0e8",
      "lum": 0.946
     }
-   ]
+   ],
+   "riso": "img/C_CUL001/riso.webp?v=0b5e1312"
   },
   {
    "id": "C_CUL024",
@@ -5927,6 +6236,7 @@ window.ARCHIVE = {
      "Shunsuke Ookuchi"
     ]
    ],
+   "group": "app-philosophy",
    "role": "Designer",
    "format": "",
    "material": {
@@ -5960,7 +6270,8 @@ window.ARCHIVE = {
      "bg": "#000000",
      "lum": 0.0
     }
-   ]
+   ],
+   "riso": "img/C_CUL024/riso.webp?v=8b121455"
   },
   {
    "id": "C_CUL028",
@@ -6021,6 +6332,7 @@ window.ARCHIVE = {
      "OpenDNA, Inc"
     ]
    ],
+   "group": "app-philosophy",
    "role": "Designer",
    "format": "",
    "material": {
@@ -6046,7 +6358,8 @@ window.ARCHIVE = {
      "bg": "#ffffff",
      "lum": 1.0
     }
-   ]
+   ],
+   "riso": "img/C_CUL028/riso.webp?v=2e0b6bdd"
   },
   {
    "id": "C_CUL029",
@@ -6107,6 +6420,7 @@ window.ARCHIVE = {
      "OpenDNA, Inc"
     ]
    ],
+   "group": "app-philosophy",
    "role": "Designer",
    "format": "",
    "material": {
@@ -6132,7 +6446,8 @@ window.ARCHIVE = {
      "bg": "#231c01",
      "lum": 0.108
     }
-   ]
+   ],
+   "riso": "img/C_CUL029/riso.webp?v=4ebd424d"
   },
   {
    "id": "C_CUL030",
@@ -6141,8 +6456,8 @@ window.ARCHIVE = {
    "archiveHidden": false,
    "kinds": [],
    "title": {
-    "en": "Educational Content: Everyday Aesthetics",
-    "ja": "メディアコンテンツ 日常の美学"
+    "en": "Multimedia Illustration",
+    "ja": "マルチメディア・イラストレーション"
    },
    "year": "2025",
    "y0": 2025,
@@ -6157,12 +6472,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Educational content on aesthetics.",
-    "ja": "日常の美学を扱う教育コンテンツ。"
+    "en": "Multimedia illustration — drawing, motion and sound — for an app module on everyday aesthetics. The text was written by a philosopher.",
+    "ja": "日常の美学をテーマにしたアプリ教材のための、マルチメディア・イラストレーション（ドローイング、モーション、音）。テキストは哲学者による。"
    },
    "long": {
-    "en": "Educational content on aesthetics.",
-    "ja": "日常の美学を扱う教育コンテンツ。"
+    "en": "Multimedia illustration — drawing, motion and sound — for an app module on everyday aesthetics. The text was written by a philosopher.",
+    "ja": "日常の美学をテーマにしたアプリ教材のための、マルチメディア・イラストレーション（ドローイング、モーション、音）。テキストは哲学者による。"
    },
    "venue": "Digital",
    "venueShort": "",
@@ -6197,7 +6512,8 @@ window.ARCHIVE = {
      "Shunsuke Ookuchi"
     ]
    ],
-   "role": "Designer",
+   "group": "app-philosophy",
+   "role": "Multimedia illustration: drawing, motion, sound",
    "format": "",
    "material": {
     "en": "",
@@ -6222,7 +6538,8 @@ window.ARCHIVE = {
      "bg": "#9b635f",
      "lum": 0.434
     }
-   ]
+   ],
+   "riso": "img/C_CUL030/riso.webp?v=7dfc93bd"
   },
   {
    "id": "C_CUL039",
@@ -6275,6 +6592,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "Designer",
    "format": "",
    "material": {
@@ -6308,7 +6626,8 @@ window.ARCHIVE = {
      "bg": "#fefefe",
      "lum": 0.996
     }
-   ]
+   ],
+   "riso": "img/C_CUL039/riso.webp?v=f0bab181"
   },
   {
    "id": "D_DES006",
@@ -6333,12 +6652,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Booklet design for an art project.",
-    "ja": "アートプロジェクトの冊子デザイン。"
+    "en": "Book design for the art project YOU SAY ART I SAY WHAT by Danica Dakić and the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar, Germany.",
+    "ja": "ダニカ・ダキッチとバウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」によるアートプロジェクト YOU SAY ART I SAY WHAT（ドイツ・ワイマール）の書籍デザイン。"
    },
    "long": {
-    "en": "Booklet design for an art project.",
-    "ja": "アートプロジェクトの冊子デザイン。"
+    "en": "Book design for the art project YOU SAY ART I SAY WHAT by Danica Dakić and the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar, Germany.",
+    "ja": "ダニカ・ダキッチとバウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」によるアートプロジェクト YOU SAY ART I SAY WHAT（ドイツ・ワイマール）の書籍デザイン。"
    },
    "venue": "Bauhaus-Universität Weimar",
    "venueShort": "Bauhaus-Universität Weimar",
@@ -6389,6 +6708,7 @@ window.ARCHIVE = {
      "Jirka Reichmann"
     ]
    ],
+   "group": "",
    "role": "Graphic design: book design, layout and typesetting",
    "format": "",
    "material": {
@@ -7188,6 +7508,7 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "1000",
+    "pdf": "",
     "role": "",
     "fromImages": false,
     "print": {
@@ -7217,7 +7538,8 @@ window.ARCHIVE = {
      "bg": "#ffffff",
      "lum": 1.0
     }
-   ]
+   ],
+   "riso": "img/D_DES006/riso.webp?v=ad794163"
   },
   {
    "id": "D_DES007",
@@ -7242,12 +7564,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Booklet design for an art project and exhibition held in a former youth detention facility.",
-    "ja": "旧刑務所を会場としたアートプロジェクトの冊子デザイン。"
+    "en": "Catalogue design for an exhibition project held in the former youth detention centre in Weimar, Germany, by the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar.",
+    "ja": "ドイツ・ワイマールの旧青年刑務所で行われた、バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」の展覧会プロジェクトのカタログデザイン。"
    },
    "long": {
-    "en": "Booklet design for an art project and exhibition held in a former youth detention facility.",
-    "ja": "旧刑務所を会場としたアートプロジェクトの冊子デザイン。"
+    "en": "Catalogue design for an exhibition project held in the former youth detention centre in Weimar, Germany, by the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar.",
+    "ja": "ドイツ・ワイマールの旧青年刑務所で行われた、バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」の展覧会プロジェクトのカタログデザイン。"
    },
    "venue": "Jugendarrestanstalt / Bauhaus-Universität Weimar",
    "venueShort": "Bauhaus-Universität Weimar",
@@ -7294,6 +7616,7 @@ window.ARCHIVE = {
      "Vanessa Brazeau, Danielle Kourtesis, Ina Weise"
     ]
    ],
+   "group": "",
    "role": "Graphic design: book design and layout",
    "format": "",
    "material": {
@@ -7811,6 +8134,7 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "200",
+    "pdf": "",
     "role": "",
     "fromImages": false,
     "print": {
@@ -7840,7 +8164,8 @@ window.ARCHIVE = {
      "bg": "#ffffff",
      "lum": 1.0
     }
-   ]
+   ],
+   "riso": "img/D_DES007/riso.webp?v=0fea5733"
   },
   {
    "id": "D_DES008",
@@ -7891,6 +8216,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "Designer",
    "format": "",
    "material": {
@@ -7916,7 +8242,8 @@ window.ARCHIVE = {
      "bg": "#eb898c",
      "lum": 0.62
     }
-   ]
+   ],
+   "riso": "img/D_DES008/riso.webp?v=c39c9352"
   },
   {
    "id": "D_DES016",
@@ -7941,12 +8268,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Layout design for artist Danica Dakić’s catalogue, with bilingual German-English layout.",
-    "ja": "現代美術家の作品集カタログ、出版物レイアウトデザイン。Missing Sculpture by Danica Dakić 。英独バイリンガルレイアウト。"
+    "en": "Layout design of the bilingual German–English catalogue Missing Sculpture by the artist Danica Dakić, published in Vienna, Austria.",
+    "ja": "現代美術家ダニカ・ダキッチのカタログ Missing Sculpture（オーストリア・ウィーンで出版）の英独バイリンガルのレイアウトデザイン。"
    },
    "long": {
-    "en": "Layout design for artist Danica Dakić’s catalogue, with bilingual German-English layout.",
-    "ja": "現代美術家 Danica Dakić のアーティストカタログの出版物レイアウトデザイン、英独バイリンガルレイアウト。"
+    "en": "Layout design of the bilingual German–English catalogue Missing Sculpture by the artist Danica Dakić, published in Vienna, Austria.",
+    "ja": "現代美術家ダニカ・ダキッチのカタログ Missing Sculpture（オーストリア・ウィーンで出版）の英独バイリンガルのレイアウトデザイン。"
    },
    "venue": "Verlag für moderne Kunst / Lehmbruck Museum context",
    "venueShort": "Verlag für moderne Kunst",
@@ -7973,6 +8300,7 @@ window.ARCHIVE = {
      "Boris Buden, Söke Dinkla, Ronja Friedrichs, Peter Gorschlüter, Sabine Maria Schmidt"
     ]
    ],
+   "group": "",
    "role": "Designer",
    "format": "Paperback, 28 x 22 cm, colour",
    "material": {
@@ -8018,6 +8346,7 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "",
+    "pdf": "",
     "role": "",
     "fromImages": true,
     "print": {
@@ -8047,7 +8376,8 @@ window.ARCHIVE = {
      "bg": "#ffffff",
      "lum": 1.0
     }
-   ]
+   ],
+   "riso": "img/D_DES016/riso.webp?v=d486e71b"
   },
   {
    "id": "D_DES017",
@@ -8072,12 +8402,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Booklet design for an art project.",
-    "ja": "アートプロジェクトの冊子デザイン。"
+    "en": "Booklet design for the art project Un/Sounds of Buchenwald, Bauhaus-Universität Weimar, Germany.",
+    "ja": "バウハウス大学ワイマール（ドイツ）のアートプロジェクト Un/Sounds of Buchenwald の冊子デザイン。"
    },
    "long": {
-    "en": "Booklet design for an art project.",
-    "ja": "アートプロジェクトの冊子デザイン。"
+    "en": "Booklet design for the art project Un/Sounds of Buchenwald, Bauhaus-Universität Weimar, Germany.",
+    "ja": "バウハウス大学ワイマール（ドイツ）のアートプロジェクト Un/Sounds of Buchenwald の冊子デザイン。"
    },
    "venue": "Bauhaus-Universität Weimar",
    "venueShort": "Bauhaus-Universität Weimar",
@@ -8098,6 +8428,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "Designer",
    "format": "",
    "material": {
@@ -8143,6 +8474,7 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "",
+    "pdf": "",
     "role": "",
     "fromImages": true,
     "print": {
@@ -8172,7 +8504,8 @@ window.ARCHIVE = {
      "bg": "#ffffff",
      "lum": 1.0
     }
-   ]
+   ],
+   "riso": "img/D_DES017/riso.webp?v=ed4efe3b"
   },
   {
    "id": "D_DES034",
@@ -8199,12 +8532,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Editorial design and technical coaching for the artist's booklet within the framework of the mentoring program for female artists in Berlin.",
-    "ja": "ベルリン女性アーティスト向けメンタリングプログラムにおける冊子制作支援。編集レイアウトと技術指導を担当。"
+    "en": "Editorial design and technical coaching for an artist's booklet, within the Goldrausch mentoring programme for women artists in Berlin, Germany.",
+    "ja": "ドイツ・ベルリンの女性アーティストのためのメンタリングプログラム Goldrausch における、アーティストの冊子の編集デザインと技術指導。"
    },
    "long": {
-    "en": "Editorial design and technical coaching for the artist's booklet within the framework of the mentoring program for artists in Berlin.",
-    "ja": "ベルリン女性アーティスト向けメンタリングプログラムにおける冊子制作支援。編集レイアウトと技術指導を担当。"
+    "en": "Editorial design and technical coaching for an artist's booklet, within the Goldrausch mentoring programme for women artists in Berlin, Germany.",
+    "ja": "ドイツ・ベルリンの女性アーティストのためのメンタリングプログラム Goldrausch における、アーティストの冊子の編集デザインと技術指導。"
    },
    "venue": "Goldrausch Künstlerinnenprojekt Berlin",
    "venueShort": "Goldrausch Künstlerinnenprojekt, Berlin",
@@ -8236,6 +8569,7 @@ window.ARCHIVE = {
      "Hajra Haider Karrar"
     ]
    ],
+   "group": "",
    "role": "Editorial design and technical coaching",
    "format": "Booklet, 22.8 x 30 cm, colour",
    "material": {
@@ -8353,6 +8687,7 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "",
+    "pdf": "",
     "role": "",
     "fromImages": false,
     "print": {
@@ -8382,7 +8717,8 @@ window.ARCHIVE = {
      "bg": "#ffffff",
      "lum": 1.0
     }
-   ]
+   ],
+   "riso": "img/D_DES034/riso.webp?v=fd413aaa"
   },
   {
    "id": "D_DES035",
@@ -8433,6 +8769,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "Designer",
    "format": "",
    "material": {
@@ -8458,7 +8795,8 @@ window.ARCHIVE = {
      "bg": "#fff9f6",
      "lum": 0.981
     }
-   ]
+   ],
+   "riso": "img/D_DES035/riso.webp?v=801475b2"
   },
   {
    "id": "E_DEV031",
@@ -8509,6 +8847,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "web",
    "role": "Designer",
    "format": "",
    "material": {
@@ -8534,7 +8873,8 @@ window.ARCHIVE = {
      "bg": "#ffffff",
      "lum": 1.0
     }
-   ]
+   ],
+   "riso": "img/E_DEV031/riso.webp?v=ebef67da"
   },
   {
    "id": "F_COM038",
@@ -8588,6 +8928,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "Designer",
    "format": "",
    "material": {
@@ -8613,7 +8954,8 @@ window.ARCHIVE = {
      "bg": "#ffffff",
      "lum": 1.0
     }
-   ]
+   ],
+   "riso": "img/F_COM038/riso.webp?v=35a621e0"
   },
   {
    "id": "F_COM040",
@@ -8664,6 +9006,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "",
    "format": "",
    "material": {
@@ -8689,7 +9032,8 @@ window.ARCHIVE = {
      "bg": "#ffffff",
      "lum": 1.0
     }
-   ]
+   ],
+   "riso": "img/F_COM040/riso.webp?v=4c87031c"
   },
   {
    "id": "W_RP047",
@@ -8705,7 +9049,7 @@ window.ARCHIVE = {
    "y0": 2017,
    "y1": 2021,
    "area": "art",
-   "row": "unplaced",
+   "row": "other",
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -8741,6 +9085,7 @@ window.ARCHIVE = {
    "publisher": "",
    "collaborators": "",
    "people": [],
+   "group": "",
    "role": "Writer Editor",
    "format": "",
    "material": {
@@ -9031,13 +9376,17 @@ window.ARCHIVE = {
    "en": "Natsumi Sugiyama — Project Archive",
    "ja": "Natsumi Sugiyama — Project Archive"
   },
+  "site.tagline": {
+   "en": "Editor / Visual Artist",
+   "ja": "編集デザイナー・時々美術作家"
+  },
   "seo.description": {
    "en": "Project archive of Natsumi Sugiyama, artist based in Berlin, and of the design studio nat/yama.",
    "ja": "ベルリンを拠点とするアーティスト、杉山夏実と、デザインスタジオ nat/yama のプロジェクト・アーカイブ。"
   },
   "info.lead": {
-   "en": "",
-   "ja": ""
+   "en": "Editor / Visual Artist",
+   "ja": "編集デザイナー・時々美術作家"
   },
   "info.statement": {
    "en": "Natsumi Sugiyama interrogates narratives of places and everyday systems, shaping them into installations, drawings, visual collage, and digital products. Based in Berlin.",
@@ -9625,6 +9974,7 @@ window.ARCHIVE = {
    "y0": 2020,
    "y1": 2020,
    "kind": "research",
+   "group": "",
    "band": "art",
    "label": {
     "en": "Between Places and Humans, Fragments",
@@ -9635,6 +9985,7 @@ window.ARCHIVE = {
    "y0": 2019,
    "y1": 2019,
    "kind": "nda",
+   "group": "",
    "band": "design",
    "label": null
   },
@@ -9642,6 +9993,7 @@ window.ARCHIVE = {
    "y0": 2022,
    "y1": 2024,
    "kind": "nda",
+   "group": "app-philosophy",
    "band": "design",
    "label": null
   },
@@ -9649,6 +10001,7 @@ window.ARCHIVE = {
    "y0": 2022,
    "y1": 2024,
    "kind": "nda",
+   "group": "app-philosophy",
    "band": "design",
    "label": null
   },
@@ -9656,6 +10009,7 @@ window.ARCHIVE = {
    "y0": 2022,
    "y1": 2022,
    "kind": "nda",
+   "group": "app-philosophy",
    "band": "design",
    "label": null
   },
@@ -9663,6 +10017,7 @@ window.ARCHIVE = {
    "y0": 2023,
    "y1": 2023,
    "kind": "nda",
+   "group": "app-philosophy",
    "band": "design",
    "label": null
   },
@@ -9670,6 +10025,7 @@ window.ARCHIVE = {
    "y0": 2023,
    "y1": 2023,
    "kind": "nda",
+   "group": "app-philosophy",
    "band": "design",
    "label": null
   },
@@ -9677,6 +10033,7 @@ window.ARCHIVE = {
    "y0": 2022,
    "y1": 2022,
    "kind": "nda",
+   "group": "app-philosophy",
    "band": "design",
    "label": null
   },
@@ -9684,6 +10041,7 @@ window.ARCHIVE = {
    "y0": 2023,
    "y1": 2023,
    "kind": "nda",
+   "group": "",
    "band": "design",
    "label": null
   },
@@ -9691,6 +10049,7 @@ window.ARCHIVE = {
    "y0": 2025,
    "y1": 2026,
    "kind": "nda",
+   "group": "web",
    "band": "design",
    "label": null
   },
@@ -9698,6 +10057,7 @@ window.ARCHIVE = {
    "y0": 2026,
    "y1": 2026,
    "kind": "nda",
+   "group": "app-ui",
    "band": "design",
    "label": null
   },
@@ -9705,6 +10065,7 @@ window.ARCHIVE = {
    "y0": 2025,
    "y1": 2025,
    "kind": "nda",
+   "group": "app-ui",
    "band": "design",
    "label": null
   },
@@ -9712,6 +10073,7 @@ window.ARCHIVE = {
    "y0": 2021,
    "y1": 2026,
    "kind": "nda",
+   "group": "web",
    "band": "design",
    "label": null
   },
@@ -9719,6 +10081,7 @@ window.ARCHIVE = {
    "y0": 2019,
    "y1": 2019,
    "kind": "nda",
+   "group": "",
    "band": "design",
    "label": null
   },
@@ -9726,7 +10089,8 @@ window.ARCHIVE = {
    "y0": 2015,
    "y1": 2020,
    "kind": "research",
-   "band": "studio",
+   "group": "",
+   "band": "art",
    "label": {
     "en": "Field Research: Weimar / Berlin",
     "ja": ""
@@ -9736,7 +10100,8 @@ window.ARCHIVE = {
    "y0": 2015,
    "y1": 2020,
    "kind": "research",
-   "band": "studio",
+   "group": "",
+   "band": "art",
    "label": {
     "en": "Oral History Research: Weimar / Berlin",
     "ja": ""
@@ -9746,7 +10111,8 @@ window.ARCHIVE = {
    "y0": 2015,
    "y1": 2025,
    "kind": "research",
-   "band": "studio",
+   "group": "",
+   "band": "art",
    "label": {
     "en": "Urban Observation",
     "ja": ""
@@ -9756,7 +10122,8 @@ window.ARCHIVE = {
    "y0": 2017,
    "y1": 2021,
    "kind": "research",
-   "band": "studio",
+   "group": "",
+   "band": "art",
    "label": {
     "en": "Kleingarten and Local Life",
     "ja": ""
@@ -9766,7 +10133,8 @@ window.ARCHIVE = {
    "y0": 2015,
    "y1": 2025,
    "kind": "research",
-   "band": "studio",
+   "group": "",
+   "band": "art",
    "label": {
     "en": "Living Observing",
     "ja": ""
@@ -9776,7 +10144,8 @@ window.ARCHIVE = {
    "y0": 2023,
    "y1": 2025,
    "kind": "research",
-   "band": "studio",
+   "group": "",
+   "band": "art",
    "label": {
     "en": "Citizen Science Project Reports",
     "ja": ""
