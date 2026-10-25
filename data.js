@@ -604,6 +604,7 @@ window.ARCHIVE = {
     "paper": "",
     "endpaper": "",
     "coverStyle": "",
+    "edition": "",
     "role": "",
     "fromImages": false,
     "print": {
@@ -1019,6 +1020,7 @@ window.ARCHIVE = {
     "paper": "",
     "endpaper": "",
     "coverStyle": "",
+    "edition": "",
     "role": "none",
     "fromImages": true,
     "print": {
@@ -1656,6 +1658,7 @@ window.ARCHIVE = {
     "paper": "",
     "endpaper": "",
     "coverStyle": "",
+    "edition": "",
     "role": "",
     "fromImages": false,
     "print": {
@@ -2555,6 +2558,7 @@ window.ARCHIVE = {
     "paper": "transparent",
     "endpaper": "#87bfce",
     "coverStyle": "",
+    "edition": "",
     "role": "",
     "fromImages": false,
     "print": {
@@ -4868,6 +4872,7 @@ window.ARCHIVE = {
     "paper": "",
     "endpaper": "",
     "coverStyle": "",
+    "edition": "",
     "role": "",
     "fromImages": false,
     "print": {
@@ -5398,6 +5403,7 @@ window.ARCHIVE = {
     "paper": "",
     "endpaper": "",
     "coverStyle": "",
+    "edition": "",
     "role": "",
     "fromImages": true,
     "print": {
@@ -6383,7 +6389,7 @@ window.ARCHIVE = {
      "Jirka Reichmann"
     ]
    ],
-   "role": "Designer",
+   "role": "Graphic design: book design, layout and typesetting",
    "format": "",
    "material": {
     "en": "",
@@ -6855,7 +6861,8 @@ window.ARCHIVE = {
       "h": 1000,
       "spread": false,
       "n": 56,
-      "z": "img/D_DES006/book/z055.webp?v=adb86226"
+      "torn": "img/D_DES006/book/t055.webp?v=156ccfc6",
+      "under": "img/D_DES006/book/p057.webp?v=5d003436"
      },
      {
       "src": "img/D_DES006/book/p056.webp?v=0408b100",
@@ -6863,7 +6870,8 @@ window.ARCHIVE = {
       "h": 1000,
       "spread": false,
       "n": 57,
-      "z": "img/D_DES006/book/z056.webp?v=7112caf4"
+      "torn": "img/D_DES006/book/t056.webp?v=41c14dc8",
+      "under": "img/D_DES006/book/p054.webp?v=57cd1500"
      },
      {
       "src": "img/D_DES006/book/p057.webp?v=5d003436",
@@ -7179,6 +7187,7 @@ window.ARCHIVE = {
     "paper": "",
     "endpaper": "",
     "coverStyle": "",
+    "edition": "1000",
     "role": "",
     "fromImages": false,
     "print": {
@@ -7285,7 +7294,7 @@ window.ARCHIVE = {
      "Vanessa Brazeau, Danielle Kourtesis, Ina Weise"
     ]
    ],
-   "role": "Designer",
+   "role": "Graphic design: book design and layout",
    "format": "",
    "material": {
     "en": "",
@@ -7801,6 +7810,7 @@ window.ARCHIVE = {
     "paper": "",
     "endpaper": "",
     "coverStyle": "",
+    "edition": "200",
     "role": "",
     "fromImages": false,
     "print": {
@@ -7964,7 +7974,7 @@ window.ARCHIVE = {
     ]
    ],
    "role": "Designer",
-   "format": "Paperback, 28 x 22 cm, 152 pages, color",
+   "format": "Paperback, 28 x 22 cm, colour",
    "material": {
     "en": "",
     "ja": ""
@@ -8007,6 +8017,7 @@ window.ARCHIVE = {
     "paper": "",
     "endpaper": "",
     "coverStyle": "",
+    "edition": "",
     "role": "",
     "fromImages": true,
     "print": {
@@ -8016,7 +8027,7 @@ window.ARCHIVE = {
     "artists": "Danica Dakić",
     "texts": "Boris Buden, Söke Dinkla, Ronja Friedrichs, Peter Gorschlüter, Sabine Maria Schmidt",
     "isbn": "978-3-903228-44-3",
-    "pageCount": 0,
+    "pageCount": 152,
     "stock": {
      "en": "",
      "ja": ""
@@ -8131,6 +8142,7 @@ window.ARCHIVE = {
     "paper": "",
     "endpaper": "",
     "coverStyle": "",
+    "edition": "",
     "role": "",
     "fromImages": true,
     "print": {
@@ -8224,8 +8236,8 @@ window.ARCHIVE = {
      "Hajra Haider Karrar"
     ]
    ],
-   "role": "Designer",
-   "format": "Booklet, 22.8 x 30 cm, 16 pages, color, Offset-Print",
+   "role": "Editorial design and technical coaching",
+   "format": "Booklet, 22.8 x 30 cm, colour",
    "material": {
     "en": "",
     "ja": ""
@@ -8340,11 +8352,12 @@ window.ARCHIVE = {
     "paper": "",
     "endpaper": "",
     "coverStyle": "",
+    "edition": "",
     "role": "",
     "fromImages": false,
     "print": {
-     "en": "",
-     "ja": ""
+     "en": "Offset print",
+     "ja": "オフセット印刷"
     },
     "artists": "Noor us Sabah Saeed",
     "texts": "Hajra Haider Karrar",
