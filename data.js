@@ -5544,8 +5544,8 @@ window.ARCHIVE = {
     "graphics"
    ],
    "title": {
-    "en": "Exhibition Graphics for IMAGINARY BAUHAUS MUSEUM",
-    "ja": "IMAGINARY BAUHAUS MUSEUM 展示グラフィック"
+    "en": "Exhibition Graphics for a Group Exhibition",
+    "ja": "展示グラフィック グループ展"
    },
    "year": "2019",
    "y0": 2019,
@@ -5643,7 +5643,7 @@ window.ARCHIVE = {
    "archiveHidden": false,
    "kinds": [],
    "title": {
-    "en": "Mobile App UX/UI and Content Series of Cultural Mediation",
+    "en": "Mobile App: UX and Art Direction",
     "ja": "アートや哲学を通して問いを育てるアプリ"
    },
    "year": "2021–2025",
@@ -5848,8 +5848,8 @@ window.ARCHIVE = {
    "archiveHidden": false,
    "kinds": [],
    "title": {
-    "en": "EdTech Content Production: Notions in Western Philosophy",
-    "ja": "教育メディアコンテンツ 西洋哲学で考える概念シリーズ"
+    "en": "Educational Content: Philosophy",
+    "ja": "教育メディアコンテンツ 哲学"
    },
    "year": "2022–2024",
    "y0": 2022,
@@ -5864,12 +5864,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Philosophy education content within OpenDNA.",
-    "ja": "OpenDNA内の哲学教育コンテンツ。"
+    "en": "Philosophy education content for an educational app.",
+    "ja": "教育アプリ内の哲学教育コンテンツ。"
    },
    "long": {
-    "en": "Philosophy education content within OpenDNA.　Conceived as a counterpoint to Japan's answer-driven, memorization-based learning culture, this series aimed to show that a single philosophical question can be answered differently across history — making plurality of thought itself the lesson. In practice, the editorial process leaned toward presenting normative frameworks inherited from Western theological ethics, a tension between the project's original intent (relativizing the question) and its eventual form (offering answers) that remained unresolved.",
-    "ja": "OpenDNA内の哲学教育コンテンツ。"
+    "en": "Philosophy education content for an educational app.　Conceived as a counterpoint to Japan's answer-driven, memorization-based learning culture, this series aimed to show that a single philosophical question can be answered differently across history — making plurality of thought itself the lesson. In practice, the editorial process leaned toward presenting normative frameworks inherited from Western theological ethics, a tension between the project's original intent (relativizing the question) and its eventual form (offering answers) that remained unresolved.",
+    "ja": "教育アプリ内の哲学教育コンテンツ。"
    },
    "venue": "Digital",
    "venueShort": "",
@@ -5963,7 +5963,7 @@ window.ARCHIVE = {
    "archiveHidden": false,
    "kinds": [],
    "title": {
-    "en": "Media Content Production: Wandering through the World of Haiku",
+    "en": "Educational Content: Haiku",
     "ja": "メディアコンテンツ 俳句"
    },
    "year": "2023",
@@ -6049,7 +6049,7 @@ window.ARCHIVE = {
    "archiveHidden": true,
    "kinds": [],
    "title": {
-    "en": "Media Content Production \"The beginning of Kanji Characters\"",
+    "en": "Educational Content: Kanji",
     "ja": "メディアコンテンツ 漢字について"
    },
    "year": "2023",
@@ -6135,8 +6135,8 @@ window.ARCHIVE = {
    "archiveHidden": false,
    "kinds": [],
    "title": {
-    "en": "Editorial visual-audio drawing: Aesthetics in Daily Routine",
-    "ja": "テキストの視覚化・音響演出 日常の美学"
+    "en": "Educational Content: Everyday Aesthetics",
+    "ja": "メディアコンテンツ 日常の美学"
    },
    "year": "2025",
    "y0": 2025,
@@ -6225,7 +6225,7 @@ window.ARCHIVE = {
    "archiveHidden": false,
    "kinds": [],
    "title": {
-    "en": "Second Language Learning App for Children",
+    "en": "Content Structure: Language App for Children",
     "ja": "コンテンツ構成 こども向けアプリ"
    },
    "year": "2026",
@@ -7839,8 +7839,8 @@ window.ARCHIVE = {
    "archiveHidden": false,
    "kinds": [],
    "title": {
-    "en": "Art Spin",
-    "ja": "Art Spin"
+    "en": "Logo Design for an Art Project",
+    "ja": "ロゴデザイン アートプロジェクト"
    },
    "year": "2015",
    "y0": 2015,
@@ -8378,8 +8378,8 @@ window.ARCHIVE = {
    "archiveHidden": false,
    "kinds": [],
    "title": {
-    "en": "Geschichte im Glas",
-    "ja": "Geschichte im Glas｜グラスの中の歴史"
+    "en": "Visual Identity for a Podcast",
+    "ja": "ポッドキャストのビジュアル"
    },
    "year": "2025–2026",
    "y0": 2025,
@@ -8532,7 +8532,7 @@ window.ARCHIVE = {
     "graphics"
    ],
    "title": {
-    "en": "Infomation Graphics",
+    "en": "Information Graphics: Fintech",
     "ja": "インフォグラフィック 欧州フィンテック"
    },
    "year": "2025",
