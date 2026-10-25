@@ -351,12 +351,12 @@ window.ARCHIVE = {
     "ja": "人はどのように環境と結びつきながら場所の感覚を形成するのか？"
    },
    "desc": {
-    "en": "An installation and book that analyse and recompose memories of a living environment in the suburbs of Tokyo, Japan. Graduation work of the Master's programme in Design, Tokyo University of the Arts.",
-    "ja": "東京郊外の生活環境にまつわる記憶を分析し、再構成したインスタレーションと冊子。東京藝術大学大学院デザイン専攻の修了制作。"
+    "en": "A booklet on an installation that analyses and recomposes memories of an environment in the suburbs of Tokyo, Japan.",
+    "ja": "東京郊外の環境にまつわる記憶を分析し、再構成したインスタレーションにまつわる冊子。"
    },
    "long": {
-    "en": "An installation and book that analyse and recompose memories of a living environment in the suburbs of Tokyo, Japan. Graduation work of the Master's programme in Design, Tokyo University of the Arts.",
-    "ja": "東京郊外の生活環境にまつわる記憶を分析し、再構成したインスタレーションと冊子。東京藝術大学大学院デザイン専攻の修了制作。"
+    "en": "A booklet on an installation that analyses and recomposes memories of an environment in the suburbs of Tokyo, Japan.",
+    "ja": "東京郊外の環境にまつわる記憶を分析し、再構成したインスタレーションにまつわる冊子。"
    },
    "venue": "Tokyo International Forum and The Museum of Tokyo University of the Arts",
    "venueShort": "Tokyo International Forum and The Museum of Tokyo University of the Arts",
@@ -632,6 +632,19 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "",
+    "front": {
+     "src": "img/A_ART001/front.webp?v=c7f94bfe",
+     "w": 636,
+     "h": 900,
+     "rim": "#eeece9"
+    },
+    "size": {
+     "w": 210.0,
+     "h": 297.0,
+     "est": false
+    },
+    "depth": 6.0,
+    "object": "book",
     "pdf": "pdf/A_ART001.pdf",
     "role": "documentation",
     "fromImages": false,
@@ -1052,6 +1065,19 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "",
+    "front": {
+     "src": "img/A_ART004/front.webp?v=fa6702ce",
+     "w": 664,
+     "h": 900,
+     "rim": "#80817e"
+    },
+    "size": {
+     "w": 225.0,
+     "h": 305.0,
+     "est": true
+    },
+    "depth": 45.0,
+    "object": "box",
     "pdf": "",
     "role": "documentation",
     "fromImages": true,
@@ -1720,6 +1746,19 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "",
+    "front": {
+     "src": "img/A_ART008/front.webp?v=1a34c344",
+     "w": 900,
+     "h": 636,
+     "rim": "#8a6a4c"
+    },
+    "size": {
+     "w": 297.0,
+     "h": 210.0,
+     "est": false
+    },
+    "depth": 14.0,
+    "object": "book",
     "pdf": "pdf/A_ART008.pdf",
     "role": "documentation",
     "fromImages": false,
@@ -2622,6 +2661,19 @@ window.ARCHIVE = {
     "endpaper": "#87bfce",
     "coverStyle": "",
     "edition": "",
+    "front": {
+     "src": "img/A_ART009/front.webp?v=2dfd31ce",
+     "w": 861,
+     "h": 900,
+     "rim": "#9ccad3"
+    },
+    "size": {
+     "w": 220.0,
+     "h": 230.0,
+     "est": true
+    },
+    "depth": 12.0,
+    "object": "book",
     "pdf": "",
     "role": "documentation",
     "fromImages": false,
@@ -3173,12 +3225,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Practice-based doctoral dissertation, Graduate School of Fine Arts, Intermedia Art, Tokyo University of the Arts. It examines the relationship between places and people through field research and projects in Japan and Germany.",
-    "ja": "東京藝術大学大学院美術研究科先端芸術表現専攻の博士論文。日本とドイツでのフィールドリサーチと制作をもとに、場所と人の関係を論じる。"
+    "en": "Examines the relationship between places and people through field research and projects in Japan and Germany. Practice-based doctoral dissertation, Graduate School of Fine Arts, Design, Tokyo University of the Arts.",
+    "ja": "日本とドイツでのフィールドリサーチと制作をもとに、場所と人の関係を論じる。東京藝術大学大学院美術研究科デザイン専攻の博士論文。"
    },
    "long": {
-    "en": "Practice-based doctoral dissertation, Graduate School of Fine Arts, Intermedia Art, Tokyo University of the Arts. It examines the relationship between places and people through field research and projects in Japan and Germany.",
-    "ja": "東京藝術大学大学院美術研究科先端芸術表現専攻の博士論文。日本とドイツでのフィールドリサーチと制作をもとに、場所と人の関係を論じる。"
+    "en": "Examines the relationship between places and people through field research and projects in Japan and Germany. Practice-based doctoral dissertation, Graduate School of Fine Arts, Design, Tokyo University of the Arts.",
+    "ja": "日本とドイツでのフィールドリサーチと制作をもとに、場所と人の関係を論じる。東京藝術大学大学院美術研究科デザイン専攻の博士論文。"
    },
    "venue": "Tokyo University of the Arts",
    "venueShort": "Tokyo University of the Arts",
@@ -5169,6 +5221,19 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "",
+    "front": {
+     "src": "img/A_ART012/front.webp?v=32c76867",
+     "w": 636,
+     "h": 900,
+     "rim": "#4b4b49"
+    },
+    "size": {
+     "w": 210.0,
+     "h": 297.0,
+     "est": false
+    },
+    "depth": 16.0,
+    "object": "book",
     "pdf": "pdf/A_ART012.pdf",
     "role": "",
     "fromImages": false,
@@ -5623,12 +5688,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "A zine based on the graduation work About My Topos, made at the Kei Matsushita Lab, Tokyo University of the Arts, Japan.",
-    "ja": "修了制作 About My Topos をもとにしたZINE。東京藝術大学 松下計研究室で制作。"
+    "en": "A zine based on About My Topos. Made at the Kei Matsushita Lab, Tokyo University of the Arts, Japan.",
+    "ja": "About My Topos をもとにしたZINE。東京藝術大学 松下計研究室で制作。"
    },
    "long": {
-    "en": "A zine based on the graduation work About My Topos, made at the Kei Matsushita Lab, Tokyo University of the Arts, Japan.",
-    "ja": "修了制作 About My Topos をもとにしたZINE。東京藝術大学 松下計研究室で制作。"
+    "en": "A zine based on About My Topos. Made at the Kei Matsushita Lab, Tokyo University of the Arts, Japan.",
+    "ja": "About My Topos をもとにしたZINE。東京藝術大学 松下計研究室で制作。"
    },
    "venue": "Kei Matsushita Lab / Tokyo University of the Arts",
    "venueShort": "Tokyo University of the Arts",
@@ -5704,6 +5769,19 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "",
+    "front": {
+     "src": "img/B_COL001/front.webp?v=17e21147",
+     "w": 592,
+     "h": 840,
+     "rim": "#a1b1bb"
+    },
+    "size": {
+     "w": 148.0,
+     "h": 210.0,
+     "est": true
+    },
+    "depth": 3.0,
+    "object": "book",
     "pdf": "",
     "role": "",
     "fromImages": true,
@@ -5735,7 +5813,7 @@ window.ARCHIVE = {
      "lum": 0.729
     }
    ],
-   "riso": "img/B_COL001/riso.webp?v=21dff8e7"
+   "riso": "img/B_COL001/riso.webp?v=9f62c1d1"
   },
   {
    "id": "B_COL010",
@@ -5945,7 +6023,7 @@ window.ARCHIVE = {
      "lum": 0.993
     }
    ],
-   "riso": "img/B_COL020/riso.webp?v=7f949efc"
+   "riso": "img/B_COL020/riso.webp?v=dd3e3a68"
   },
   {
    "id": "B_COL030",
@@ -6074,7 +6152,7 @@ window.ARCHIVE = {
      "lum": 0.992
     }
    ],
-   "riso": "img/B_COL030/riso.webp?v=0da24245"
+   "riso": "img/B_COL030/riso.webp?v=e27edd6f"
   },
   {
    "id": "C_CUL001",
@@ -6154,7 +6232,7 @@ window.ARCHIVE = {
      "lum": 0.946
     }
    ],
-   "riso": "img/C_CUL001/riso.webp?v=0b5e1312"
+   "riso": "img/C_CUL001/riso.webp?v=47a16d4b"
   },
   {
    "id": "C_CUL024",
@@ -6271,7 +6349,7 @@ window.ARCHIVE = {
      "lum": 0.0
     }
    ],
-   "riso": "img/C_CUL024/riso.webp?v=8b121455"
+   "riso": "img/C_CUL024/riso.webp?v=6f2330c9"
   },
   {
    "id": "C_CUL028",
@@ -6359,7 +6437,7 @@ window.ARCHIVE = {
      "lum": 1.0
     }
    ],
-   "riso": "img/C_CUL028/riso.webp?v=2e0b6bdd"
+   "riso": "img/C_CUL028/riso.webp?v=687da95a"
   },
   {
    "id": "C_CUL029",
@@ -6447,7 +6525,7 @@ window.ARCHIVE = {
      "lum": 0.108
     }
    ],
-   "riso": "img/C_CUL029/riso.webp?v=4ebd424d"
+   "riso": "img/C_CUL029/riso.webp?v=1223e6b8"
   },
   {
    "id": "C_CUL030",
@@ -6539,7 +6617,7 @@ window.ARCHIVE = {
      "lum": 0.434
     }
    ],
-   "riso": "img/C_CUL030/riso.webp?v=7dfc93bd"
+   "riso": "img/C_CUL030/riso.webp?v=c20f7cb9"
   },
   {
    "id": "C_CUL039",
@@ -6627,7 +6705,7 @@ window.ARCHIVE = {
      "lum": 0.996
     }
    ],
-   "riso": "img/C_CUL039/riso.webp?v=f0bab181"
+   "riso": "img/C_CUL039/riso.webp?v=974fee85"
   },
   {
    "id": "D_DES006",
@@ -6652,12 +6730,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Book design for the art project YOU SAY ART I SAY WHAT by Danica Dakić and the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar, Germany.",
-    "ja": "ダニカ・ダキッチとバウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」によるアートプロジェクト YOU SAY ART I SAY WHAT（ドイツ・ワイマール）の書籍デザイン。"
+    "en": "Book design for the art project YOU SAY ART I SAY WHAT, by the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar, Germany.",
+    "ja": "アートプロジェクト YOU SAY ART I SAY WHAT の書籍デザイン。バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」によるプロジェクト（ドイツ・ワイマール）。"
    },
    "long": {
-    "en": "Book design for the art project YOU SAY ART I SAY WHAT by Danica Dakić and the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar, Germany.",
-    "ja": "ダニカ・ダキッチとバウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」によるアートプロジェクト YOU SAY ART I SAY WHAT（ドイツ・ワイマール）の書籍デザイン。"
+    "en": "Book design for the art project YOU SAY ART I SAY WHAT, by the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar, Germany.",
+    "ja": "アートプロジェクト YOU SAY ART I SAY WHAT の書籍デザイン。バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」によるプロジェクト（ドイツ・ワイマール）。"
    },
    "venue": "Bauhaus-Universität Weimar",
    "venueShort": "Bauhaus-Universität Weimar",
@@ -6732,7 +6810,8 @@ window.ARCHIVE = {
      "w": 2154,
      "h": 2160,
      "bg": "#ffffff",
-     "lum": 1.0
+     "lum": 1.0,
+     "acut": "img/D_DES006/00_acut.webp?v=8aa410ec"
     },
     "pages": [
      {
@@ -7508,6 +7587,19 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "1000",
+    "front": {
+     "src": "img/D_DES006/front.webp?v=0e05e2f9",
+     "w": 658,
+     "h": 900,
+     "rim": "#f5f8fa"
+    },
+    "size": {
+     "w": 190.0,
+     "h": 260.0,
+     "est": false
+    },
+    "depth": 8.0,
+    "object": "book",
     "pdf": "",
     "role": "",
     "fromImages": false,
@@ -7539,7 +7631,7 @@ window.ARCHIVE = {
      "lum": 1.0
     }
    ],
-   "riso": "img/D_DES006/riso.webp?v=ad794163"
+   "riso": "img/D_DES006/riso.webp?v=3752e00d"
   },
   {
    "id": "D_DES007",
@@ -7565,11 +7657,11 @@ window.ARCHIVE = {
    },
    "desc": {
     "en": "Catalogue design for an exhibition project held in the former youth detention centre in Weimar, Germany, by the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar.",
-    "ja": "ドイツ・ワイマールの旧青年刑務所で行われた、バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」の展覧会プロジェクトのカタログデザイン。"
+    "ja": "展覧会プロジェクトのカタログデザイン。ドイツ・ワイマールの旧青年刑務所を会場に、バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」が実施。"
    },
    "long": {
     "en": "Catalogue design for an exhibition project held in the former youth detention centre in Weimar, Germany, by the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar.",
-    "ja": "ドイツ・ワイマールの旧青年刑務所で行われた、バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」の展覧会プロジェクトのカタログデザイン。"
+    "ja": "展覧会プロジェクトのカタログデザイン。ドイツ・ワイマールの旧青年刑務所を会場に、バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」が実施。"
    },
    "venue": "Jugendarrestanstalt / Bauhaus-Universität Weimar",
    "venueShort": "Bauhaus-Universität Weimar",
@@ -7640,7 +7732,8 @@ window.ARCHIVE = {
      "w": 2106,
      "h": 1547,
      "bg": "#ffffff",
-     "lum": 1.0
+     "lum": 1.0,
+     "acut": "img/D_DES007/00_acut.webp?v=3139b7e6"
     },
     "pages": [
      {
@@ -8134,6 +8227,19 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "200",
+    "front": {
+     "src": "img/D_DES007/front.webp?v=23c0977e",
+     "w": 592,
+     "h": 840,
+     "rim": "#252223"
+    },
+    "size": {
+     "w": 148.0,
+     "h": 210.0,
+     "est": true
+    },
+    "depth": 4.0,
+    "object": "book",
     "pdf": "",
     "role": "",
     "fromImages": false,
@@ -8165,7 +8271,7 @@ window.ARCHIVE = {
      "lum": 1.0
     }
    ],
-   "riso": "img/D_DES007/riso.webp?v=0fea5733"
+   "riso": "img/D_DES007/riso.webp?v=c508e61a"
   },
   {
    "id": "D_DES008",
@@ -8243,7 +8349,7 @@ window.ARCHIVE = {
      "lum": 0.62
     }
    ],
-   "riso": "img/D_DES008/riso.webp?v=c39c9352"
+   "riso": "img/D_DES008/riso.webp?v=04a47141"
   },
   {
    "id": "D_DES016",
@@ -8268,12 +8374,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Layout design of the bilingual German–English catalogue Missing Sculpture by the artist Danica Dakić, published in Vienna, Austria.",
-    "ja": "現代美術家ダニカ・ダキッチのカタログ Missing Sculpture（オーストリア・ウィーンで出版）の英独バイリンガルのレイアウトデザイン。"
+    "en": "Layout design of the bilingual German–English catalogue Missing Sculpture by the artist Danica Dakić. Published by Verlag für moderne Kunst, Vienna, Austria, 2018.",
+    "ja": "現代美術家ダニカ・ダキッチのカタログ Missing Sculpture の英独バイリンガルのレイアウトデザイン。Verlag für moderne Kunst（オーストリア・ウィーン）より2018年刊行。"
    },
    "long": {
-    "en": "Layout design of the bilingual German–English catalogue Missing Sculpture by the artist Danica Dakić, published in Vienna, Austria.",
-    "ja": "現代美術家ダニカ・ダキッチのカタログ Missing Sculpture（オーストリア・ウィーンで出版）の英独バイリンガルのレイアウトデザイン。"
+    "en": "Layout design of the bilingual German–English catalogue Missing Sculpture by the artist Danica Dakić. Published by Verlag für moderne Kunst, Vienna, Austria, 2018.",
+    "ja": "現代美術家ダニカ・ダキッチのカタログ Missing Sculpture の英独バイリンガルのレイアウトデザイン。Verlag für moderne Kunst（オーストリア・ウィーン）より2018年刊行。"
    },
    "venue": "Verlag für moderne Kunst / Lehmbruck Museum context",
    "venueShort": "Verlag für moderne Kunst",
@@ -8324,7 +8430,8 @@ window.ARCHIVE = {
      "w": 2976,
      "h": 3064,
      "bg": "#ffffff",
-     "lum": 1.0
+     "lum": 1.0,
+     "acut": "img/D_DES016/00_acut.webp?v=9dc75770"
     },
     "pages": [
      {
@@ -8346,6 +8453,19 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "",
+    "front": {
+     "src": "img/D_DES016/front.webp?v=89aad409",
+     "w": 675,
+     "h": 900,
+     "rim": "#e6e1d5"
+    },
+    "size": {
+     "w": 240.0,
+     "h": 320.0,
+     "est": true
+    },
+    "depth": 9.0,
+    "object": "book",
     "pdf": "",
     "role": "",
     "fromImages": true,
@@ -8377,7 +8497,7 @@ window.ARCHIVE = {
      "lum": 1.0
     }
    ],
-   "riso": "img/D_DES016/riso.webp?v=d486e71b"
+   "riso": "img/D_DES016/riso.webp?v=54bb9098"
   },
   {
    "id": "D_DES017",
@@ -8403,11 +8523,11 @@ window.ARCHIVE = {
    },
    "desc": {
     "en": "Booklet design for the art project Un/Sounds of Buchenwald, Bauhaus-Universität Weimar, Germany.",
-    "ja": "バウハウス大学ワイマール（ドイツ）のアートプロジェクト Un/Sounds of Buchenwald の冊子デザイン。"
+    "ja": "アートプロジェクト Un/Sounds of Buchenwald の冊子デザイン。バウハウス大学ワイマール（ドイツ）のプロジェクト。"
    },
    "long": {
     "en": "Booklet design for the art project Un/Sounds of Buchenwald, Bauhaus-Universität Weimar, Germany.",
-    "ja": "バウハウス大学ワイマール（ドイツ）のアートプロジェクト Un/Sounds of Buchenwald の冊子デザイン。"
+    "ja": "アートプロジェクト Un/Sounds of Buchenwald の冊子デザイン。バウハウス大学ワイマール（ドイツ）のプロジェクト。"
    },
    "venue": "Bauhaus-Universität Weimar",
    "venueShort": "Bauhaus-Universität Weimar",
@@ -8452,7 +8572,8 @@ window.ARCHIVE = {
      "w": 4177,
      "h": 4632,
      "bg": "#ffffff",
-     "lum": 1.0
+     "lum": 1.0,
+     "acut": "img/D_DES017/00_acut.webp?v=dda43000"
     },
     "pages": [
      {
@@ -8474,6 +8595,19 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "",
+    "front": {
+     "src": "img/D_DES017/front.webp?v=5e0a74c1",
+     "w": 600,
+     "h": 600,
+     "rim": "#acaaa6"
+    },
+    "size": {
+     "w": 150.0,
+     "h": 150.0,
+     "est": true
+    },
+    "depth": 30.0,
+    "object": "box",
     "pdf": "",
     "role": "",
     "fromImages": true,
@@ -8505,7 +8639,7 @@ window.ARCHIVE = {
      "lum": 1.0
     }
    ],
-   "riso": "img/D_DES017/riso.webp?v=ed4efe3b"
+   "riso": "img/D_DES017/riso.webp?v=e7b8bf0e"
   },
   {
    "id": "D_DES034",
@@ -8533,11 +8667,11 @@ window.ARCHIVE = {
    },
    "desc": {
     "en": "Editorial design and technical coaching for an artist's booklet, within the Goldrausch mentoring programme for women artists in Berlin, Germany.",
-    "ja": "ドイツ・ベルリンの女性アーティストのためのメンタリングプログラム Goldrausch における、アーティストの冊子の編集デザインと技術指導。"
+    "ja": "アーティストの冊子の編集デザインと技術指導。ドイツ・ベルリンの女性アーティストのためのメンタリングプログラム Goldrausch の一環。"
    },
    "long": {
     "en": "Editorial design and technical coaching for an artist's booklet, within the Goldrausch mentoring programme for women artists in Berlin, Germany.",
-    "ja": "ドイツ・ベルリンの女性アーティストのためのメンタリングプログラム Goldrausch における、アーティストの冊子の編集デザインと技術指導。"
+    "ja": "アーティストの冊子の編集デザインと技術指導。ドイツ・ベルリンの女性アーティストのためのメンタリングプログラム Goldrausch の一環。"
    },
    "venue": "Goldrausch Künstlerinnenprojekt Berlin",
    "venueShort": "Goldrausch Künstlerinnenprojekt, Berlin",
@@ -8593,7 +8727,8 @@ window.ARCHIVE = {
      "w": 1600,
      "h": 1200,
      "bg": "#ffffff",
-     "lum": 1.0
+     "lum": 1.0,
+     "acut": "img/D_DES034/90_acut.webp?v=9a21e553"
     },
     "pages": [
      {
@@ -8687,6 +8822,19 @@ window.ARCHIVE = {
     "endpaper": "",
     "coverStyle": "",
     "edition": "",
+    "front": {
+     "src": "img/D_DES034/front.webp?v=dd6f829f",
+     "w": 684,
+     "h": 900,
+     "rim": "#d3dfec"
+    },
+    "size": {
+     "w": 228.0,
+     "h": 300.0,
+     "est": false
+    },
+    "depth": 2.0,
+    "object": "book",
     "pdf": "",
     "role": "",
     "fromImages": false,
@@ -8718,7 +8866,7 @@ window.ARCHIVE = {
      "lum": 1.0
     }
    ],
-   "riso": "img/D_DES034/riso.webp?v=fd413aaa"
+   "riso": "img/D_DES034/riso.webp?v=cbea67c4"
   },
   {
    "id": "D_DES035",
@@ -8796,7 +8944,7 @@ window.ARCHIVE = {
      "lum": 0.981
     }
    ],
-   "riso": "img/D_DES035/riso.webp?v=801475b2"
+   "riso": "img/D_DES035/riso.webp?v=098d6fae"
   },
   {
    "id": "E_DEV031",
@@ -8874,7 +9022,7 @@ window.ARCHIVE = {
      "lum": 1.0
     }
    ],
-   "riso": "img/E_DEV031/riso.webp?v=ebef67da"
+   "riso": "img/E_DEV031/riso.webp?v=958c5e72"
   },
   {
    "id": "F_COM038",
@@ -8955,7 +9103,7 @@ window.ARCHIVE = {
      "lum": 1.0
     }
    ],
-   "riso": "img/F_COM038/riso.webp?v=35a621e0"
+   "riso": "img/F_COM038/riso.webp?v=f9588fe1"
   },
   {
    "id": "F_COM040",
@@ -9033,7 +9181,7 @@ window.ARCHIVE = {
      "lum": 1.0
     }
    ],
-   "riso": "img/F_COM040/riso.webp?v=4c87031c"
+   "riso": "img/F_COM040/riso.webp?v=af1960fb"
   },
   {
    "id": "W_RP047",
@@ -9378,15 +9526,15 @@ window.ARCHIVE = {
   },
   "site.tagline": {
    "en": "Editor / Visual Artist",
-   "ja": "編集デザイナー・時々美術作家"
+   "ja": ""
   },
   "seo.description": {
    "en": "Project archive of Natsumi Sugiyama, artist based in Berlin, and of the design studio nat/yama.",
    "ja": "ベルリンを拠点とするアーティスト、杉山夏実と、デザインスタジオ nat/yama のプロジェクト・アーカイブ。"
   },
   "info.lead": {
-   "en": "Editor / Visual Artist",
-   "ja": "編集デザイナー・時々美術作家"
+   "en": "",
+   "ja": ""
   },
   "info.statement": {
    "en": "Natsumi Sugiyama interrogates narratives of places and everyday systems, shaping them into installations, drawings, visual collage, and digital products. Based in Berlin.",
@@ -9593,8 +9741,8 @@ window.ARCHIVE = {
    "ja": ""
   },
   "shelves.authored": {
-   "en": "Project documentation",
-   "ja": "プロジェクト記録"
+   "en": "Project documentation / Authored",
+   "ja": "プロジェクト記録／著作"
   },
   "shelves.collaborative": {
    "en": "Collaborative",

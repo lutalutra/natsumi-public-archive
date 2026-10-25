@@ -20,7 +20,7 @@
 <meta property="og:image" content="img/A_ART014/hero_00.webp">
 <link rel="canonical" href="https://www.natsumi-sugiyama.com/">
 <link rel="manifest" href="site.webmanifest">
-<link rel="stylesheet" href="site.css?v=bbf98c55">
+<link rel="stylesheet" href="site.css?v=5209b8a4">
 </head>
 <body>
 <div class="turn-phone" aria-hidden="true"><p data-t="turn.phone">Please turn your phone upright — the site is made for portrait view on phones.</p></div>
@@ -29,7 +29,7 @@
   <a class="name" href="#hero">Natsumi Sugiyama</a>
   <nav class="menu" aria-label="Sections" data-t-label="aria.sections">
     <a href="#archive" data-t="nav.archive">Archive</a>
-    <a href="#bookshelf" data-t="nav.bookshelf">Bookshelf</a>
+    <a href="#bookshelf" class="nav-shelf"><span data-t="nav.bookshelf">Bookshelf</span><span class="shelf-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3.5 6.5 11 8v11.5l-7.5-1.5z"/><path d="M20.5 6.5 13 8v11.5l7.5-1.5z"/></svg></span></a>
     <a href="#chronology" data-t="nav.index">Index</a>
     <a href="#info" data-t="nav.info">Info</a>
   </nav>
@@ -37,7 +37,7 @@
   <div class="drawer" id="drawer">
     <nav class="dmenu" aria-label="Sections" data-t-label="aria.sections">
       <a href="#archive" data-t="nav.archive">Archive</a>
-      <a href="#bookshelf" data-t="nav.bookshelf">Bookshelf</a>
+      <a href="#bookshelf" class="nav-shelf"><span data-t="nav.bookshelf">Bookshelf</span><span class="shelf-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3.5 6.5 11 8v11.5l-7.5-1.5z"/><path d="M20.5 6.5 13 8v11.5l7.5-1.5z"/></svg></span></a>
       <a href="#chronology" data-t="nav.index">Index</a>
       <a href="#info" data-t="nav.info">Info</a>
     </nav>
@@ -93,7 +93,7 @@
   </section>
 
   <section class="bookshelf" id="bookshelf" aria-labelledby="bookTitle">
-    <div class="bar"><h2 id="bookTitle" data-t="nav.bookshelf">Bookshelf</h2></div>
+    <div class="bar"><h2 id="bookTitle" class="nav-shelf"><span data-t="nav.bookshelf">Bookshelf</span><span class="shelf-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3.5 6.5 11 8v11.5l-7.5-1.5z"/><path d="M20.5 6.5 13 8v11.5l7.5-1.5z"/></svg></span></h2></div>
     <div id="shelves"></div>
     <p class="shelf-note" data-t="shelf.mobile">The bookshelf is being adjusted for phones. For now it is best viewed on a computer.</p>
   </section>
@@ -119,8 +119,8 @@
   <section class="info" id="info" aria-labelledby="infoTitle">
     <h2 id="infoTitle" data-t="info.heading">About</h2>
 <!--static:info-->
-<div class="info-text" lang="en"><p class="lead">Editor / Visual Artist</p><p>Natsumi Sugiyama interrogates narratives of places and everyday systems, shaping them into installations, drawings, visual collage, and digital products. Based in Berlin.</p></div>
-<div class="info-text" lang="ja" hidden><p class="lead">編集デザイナー・時々美術作家</p><p>場所像や日常にまつわる物語を問い直し、インスタレーション、視聴覚コラージュ、デジタルプロダクトとして編集、再構成している。</p></div>
+<div class="info-text" lang="en"><p>Natsumi Sugiyama interrogates narratives of places and everyday systems, shaping them into installations, drawings, visual collage, and digital products. Based in Berlin.</p></div>
+<div class="info-text" lang="ja" hidden><p>場所像や日常にまつわる物語を問い直し、インスタレーション、視聴覚コラージュ、デジタルプロダクトとして編集、再構成している。</p></div>
 <div class="info-side"><div><p class="bg" data-t="info.background">Educated in environmental design at Tama Art University, Public Art and New Artistic Strategies at Bauhaus-Universität Weimar, and practice-based doctoral research at Tokyo University of the Arts. POLA Art Foundation Overseas Research Grant (2017).</p><p class="studio"><span class="studio-k" data-t="info.related">Related:</span> <a href="https://natyama.com" target="_blank" rel="noopener">nat/yama</a></p></div></div>
 <div class="contact"><h2 class="contact-h" data-t="contact">Contact</h2><form class="cform" id="cform" action="https://formsubmit.co/ajax/n@natyama.com" method="post"><label><span data-t="form.name">Name</span><input name="name" autocomplete="name" required></label><label><span data-t="form.email">Email</span><input name="email" type="email" autocomplete="email" required></label><label><span data-t="form.message">Message</span><textarea name="message" rows="5" required></textarea></label><input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true"><p class="cnote"><span data-t="form.privacy">Your details are used only to reply to you. See the privacy policy.</span> <a href="datenschutz.html">Datenschutz</a></p><button type="submit" data-t="form.send">Send</button><p class="cstatus" role="status" aria-live="polite"></p></form></div>
 <!--/static:info-->
@@ -198,7 +198,7 @@
 <!-- visitor counts without cookies (GoatCounter; the script is served from this site) -->
 <script>window.goatcounter = { path: p => location.host + p };</script>
 <script data-goatcounter="https://natyama.goatcounter.com/count" async src="lib/goatcounter/count.js"></script>
-<script src="data.js?v=8b2a2210"></script>
-<script src="site.js?v=9b29f1b9"></script>
+<script src="data.js?v=29628c14"></script>
+<script src="site.js?v=21c25e9d"></script>
 </body>
 </html>
