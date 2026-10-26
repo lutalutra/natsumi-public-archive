@@ -316,7 +316,7 @@ window.ARCHIVE = {
    {
     "key": "digital",
     "en": "Web and app UX/UI",
-    "ja": "ウェブ・アプリのUI/UX"
+    "ja": "ウェブ・アプリ・UI/UX"
    },
    {
     "key": "content",
@@ -351,12 +351,12 @@ window.ARCHIVE = {
     "ja": "人はどのように環境と結びつきながら場所の感覚を形成するのか？"
    },
    "desc": {
-    "en": "A booklet on an installation that analyses and recomposes memories of an environment in the suburbs of Tokyo, Japan.",
-    "ja": "東京郊外の環境にまつわる記憶を分析し、再構成したインスタレーションにまつわる冊子。"
+    "en": "A booklet on an installation that analyses and recomposes experiences of an environment in the suburbs of Tokyo.",
+    "ja": "東京郊外の環境体験を分析し、再構成したインスタレーションにまつわる冊子。"
    },
    "long": {
-    "en": "A booklet on an installation that analyses and recomposes memories of an environment in the suburbs of Tokyo, Japan.",
-    "ja": "東京郊外の環境にまつわる記憶を分析し、再構成したインスタレーションにまつわる冊子。"
+    "en": "A booklet on an installation that analyses and recomposes experiences of an environment in the suburbs of Tokyo.",
+    "ja": "東京郊外の環境体験を分析し、再構成したインスタレーションにまつわる冊子。"
    },
    "venue": "Tokyo International Forum and The Museum of Tokyo University of the Arts",
    "venueShort": "Tokyo International Forum and The Museum of Tokyo University of the Arts",
@@ -645,6 +645,9 @@ window.ARCHIVE = {
     },
     "depth": 6.0,
     "object": "book",
+    "view": "",
+    "gap": "",
+    "layer": 0,
     "pdf": "pdf/A_ART001.pdf",
     "role": "documentation",
     "fromImages": false,
@@ -939,12 +942,12 @@ window.ARCHIVE = {
     "ja": "矯正の監獄の中で、消されずに残る個人の痕跡から何を見うるか?"
    },
    "desc": {
-    "en": "Drawings in booklet form that recompose traces left in the former youth detention centre in Weimar, Germany. Installed in the small library next to the chapel on the building's top floor.",
-    "ja": "ドイツ・ワイマールの旧青年刑務所に残る痕跡を観察し、ドローイングで組み替えた冊子のインスタレーション。建物最上階、礼拝堂に隣接する小さな図書室に設置。"
+    "en": "Observes the traces left in a former youth detention centre and follows, in drawings, what the acts behind them meant. The booklets were installed in the small library inside the prison. (Weimar, Germany)",
+    "ja": "旧青年刑務所に残る痕跡を観察し、ドローイングでその行為の意味を辿る。冊子のインスタレーションは刑務所内の小さな図書室に設置。（ドイツ・ワイマール）"
    },
    "long": {
-    "en": "Drawings in booklet form that recompose traces left in the former youth detention centre in Weimar, Germany. Installed in the small library next to the chapel on the building's top floor.",
-    "ja": "ドイツ・ワイマールの旧青年刑務所に残る痕跡を観察し、ドローイングで組み替えた冊子のインスタレーション。建物最上階、礼拝堂に隣接する小さな図書室に設置。"
+    "en": "Observes the traces left in a former youth detention centre and follows, in drawings, what the acts behind them meant. The booklets were installed in the small library inside the prison. (Weimar, Germany)",
+    "ja": "旧青年刑務所に残る痕跡を観察し、ドローイングでその行為の意味を辿る。冊子のインスタレーションは刑務所内の小さな図書室に設置。（ドイツ・ワイマール）"
    },
    "venue": "Ehemalige JVA Weimar",
    "venueShort": "Former prison (JVA), Weimar",
@@ -1078,6 +1081,9 @@ window.ARCHIVE = {
     },
     "depth": 45.0,
     "object": "box",
+    "view": "",
+    "gap": "",
+    "layer": 0,
     "pdf": "",
     "role": "documentation",
     "fromImages": true,
@@ -1286,7 +1292,7 @@ window.ARCHIVE = {
    },
    "venue": "Personal production",
    "venueShort": "",
-   "city": "",
+   "city": "Various Cities",
    "site": "fieldwork",
    "context": "",
    "medium": [
@@ -1392,7 +1398,7 @@ window.ARCHIVE = {
    "collaborators": "",
    "people": [],
    "group": "",
-   "role": "",
+   "role": "Artist",
    "format": "",
    "material": {
     "en": "",
@@ -1476,12 +1482,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "An illustrated archive of an apartment building in Weimar, Germany, based on observations of everyday life in and around it.",
-    "ja": "ドイツ・ワイマールの集合住宅と、その周りの日常の観察にもとづくイラストのアーカイブ。"
+    "en": "An illustrated archive of observations of everyday spaces in a historic apartment building. (Weimar, Germany)",
+    "ja": "歴史的建築の集合住居の日常空間観察、イラストのアーカイブ。（ドイツ・ワイマール）"
    },
    "long": {
-    "en": "An illustrated archive of an apartment building in Weimar, Germany, based on observations of everyday life in and around it.",
-    "ja": "ドイツ・ワイマールの集合住宅と、その周りの日常の観察にもとづくイラストのアーカイブ。"
+    "en": "An illustrated archive of observations of everyday spaces in a historic apartment building. (Weimar, Germany)",
+    "ja": "歴史的建築の集合住居の日常空間観察、イラストのアーカイブ。（ドイツ・ワイマール）"
    },
    "venue": "Personal production",
    "venueShort": "",
@@ -1506,7 +1512,7 @@ window.ARCHIVE = {
    "collaborators": "",
    "people": [],
    "group": "",
-   "role": "",
+   "role": "Illustration, Drawing",
    "format": "",
    "material": {
     "en": "",
@@ -1759,6 +1765,9 @@ window.ARCHIVE = {
     },
     "depth": 14.0,
     "object": "book",
+    "view": "",
+    "gap": "",
+    "layer": 0,
     "pdf": "pdf/A_ART008.pdf",
     "role": "documentation",
     "fromImages": false,
@@ -1840,12 +1849,12 @@ window.ARCHIVE = {
     "ja": "人と場所の関係は、どのように観察・記述できるのか？"
    },
    "desc": {
-    "en": "A booklet printed on tracing paper and an installation, based on field research into places and environmental memory in Weimar, Germany. Master's thesis project, MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar.",
-    "ja": "ドイツ・ワイマールでの、場所と環境の記憶をめぐるフィールドリサーチにもとづく、トレーシングペーパーの冊子とインスタレーション。バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」の修了研究。"
+    "en": "An essay based on field research that takes apart places, environments and their memories in order to think about them.",
+    "ja": "場所と環境、その記憶について分解的に思考する、フィールドリサーチに基づいたエッセイ。"
    },
    "long": {
-    "en": "A booklet printed on tracing paper and an installation, based on field research into places and environmental memory in Weimar, Germany. Master's thesis project, MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar.",
-    "ja": "ドイツ・ワイマールでの、場所と環境の記憶をめぐるフィールドリサーチにもとづく、トレーシングペーパーの冊子とインスタレーション。バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」の修了研究。"
+    "en": "An essay based on field research that takes apart places, environments and their memories in order to think about them.",
+    "ja": "場所と環境、その記憶について分解的に思考する、フィールドリサーチに基づいたエッセイ。"
    },
    "venue": "Herzogin Anna Amalia Bibliothek",
    "venueShort": "Herzogin Anna Amalia Bibliothek, Weimar",
@@ -1870,7 +1879,7 @@ window.ARCHIVE = {
    "collaborators": "",
    "people": [],
    "group": "",
-   "role": "",
+   "role": "Artist",
    "format": "",
    "material": {
     "en": "",
@@ -2674,6 +2683,9 @@ window.ARCHIVE = {
     },
     "depth": 12.0,
     "object": "book",
+    "view": "",
+    "gap": "",
+    "layer": 0,
     "pdf": "",
     "role": "documentation",
     "fromImages": false,
@@ -2863,12 +2875,12 @@ window.ARCHIVE = {
     "ja": "過去の保存の静的博物館空間で、未来への開かれをどのように構成するか"
    },
    "desc": {
-    "en": "",
-    "ja": ""
+    "en": "Exhibition scenography and wall graphic installation for IMAGINARY BAUHAUS MUSEUM. A graphic composition spanning two floors conceptually deconstructs the existing museum space while creating a continuous spatial landscape.",
+    "ja": "《IMAGINARY BAUHAUS MUSEUM》の展示空間構成ウォールグラフィックインスタレーション。2フロアを横断するグラフィック構成によって、既存の博物館空間を概念的に解体しながらも連続した風景を立ち上げる。"
    },
    "long": {
-    "en": "",
-    "ja": ""
+    "en": "Developed as part of the 2019 Bauhaus centenary programme, *IMAGINARY BAUHAUS MUSEUM* approached the Bauhaus not as a collection of historical works or a fixed style, but as an ongoing practice of questioning established frameworks through education, making, architecture, and engagement with society. *Scenery of De/Museumization* translated this perspective into a wall graphic installation spanning two floors, conceptually deconstructing the existing museum space while creating a continuous spatial landscape. Experienced from within the building, this continuity brings into focus the tension between a movement that remains active beyond any single site and the museum as a place where it is presented. The scenography thus questions the idea that such a movement can be contained within the institution that hosts it.",
+    "ja": "2019年のバウハウス100周年記念プログラムの一環として企画された IMAGINARY BAUHAUS MUSEUM は、実験と社会変革を基盤とするバウハウスを、過去の様式や作品群ではなく、教育、制作、建築、社会との関わりを通じて既存の枠組みを問い直し続ける実践として捉える試みである。Scenery of De/Museumization では、2フロアを横断するウォールグラフィックによって、既存の博物館空間を概念的に解体しながら、連続した風景を立ち上げた。空間の内部に身を置くことで知覚されるその連続性を通じて、特定の場所に収蔵・固定されることのない運動と、博物館という発表の場との緊張関係を、展示空間の構成そのものによって問いかけた。"
    },
    "venue": "Schiller Museum Weimar",
    "venueShort": "Schiller Museum, Weimar",
@@ -2893,7 +2905,7 @@ window.ARCHIVE = {
    "collaborators": "",
    "people": [],
    "group": "",
-   "role": "Artist",
+   "role": "Artist, Exhibition Scenography Design, Adjunct Lecturer",
    "format": "",
    "material": {
     "en": "",
@@ -3221,16 +3233,16 @@ window.ARCHIVE = {
    "featured": true,
    "featOrder": 1,
    "question": {
-    "en": "",
-    "ja": ""
+    "en": "How can relationships between people and places be observed and described?",
+    "ja": "人と場所の関係は、どのように観察・記述できるのか？"
    },
    "desc": {
-    "en": "Examines the relationship between places and people through field research and projects in Japan and Germany. Practice-based doctoral dissertation, Graduate School of Fine Arts, Design, Tokyo University of the Arts.",
-    "ja": "日本とドイツでのフィールドリサーチと制作をもとに、場所と人の関係を論じる。東京藝術大学大学院美術研究科デザイン専攻の博士論文。"
+    "en": "Examines the relationship between places and people through field research and projects in various locations. Practice-based doctoral dissertation, Graduate School of Fine Arts, Design, Tokyo University of the Arts.",
+    "ja": "フィールドリサーチと制作をもとに、場所と人の関係を論じる。東京藝術大学大学院美術研究科デザイン専攻の博士論文。"
    },
    "long": {
-    "en": "Examines the relationship between places and people through field research and projects in Japan and Germany. Practice-based doctoral dissertation, Graduate School of Fine Arts, Design, Tokyo University of the Arts.",
-    "ja": "日本とドイツでのフィールドリサーチと制作をもとに、場所と人の関係を論じる。東京藝術大学大学院美術研究科デザイン専攻の博士論文。"
+    "en": "Examines the relationship between places and people through field research and projects in various locations. Practice-based doctoral dissertation, Graduate School of Fine Arts, Design, Tokyo University of the Arts.",
+    "ja": "フィールドリサーチと制作をもとに、場所と人の関係を論じる。東京藝術大学大学院美術研究科デザイン専攻の博士論文。"
    },
    "venue": "Tokyo University of the Arts",
    "venueShort": "Tokyo University of the Arts",
@@ -3256,7 +3268,7 @@ window.ARCHIVE = {
    "collaborators": "",
    "people": [],
    "group": "",
-   "role": "",
+   "role": "Researcher, Artist",
    "format": "",
    "material": {
     "en": "",
@@ -5234,6 +5246,9 @@ window.ARCHIVE = {
     },
     "depth": 16.0,
     "object": "book",
+    "view": "",
+    "gap": "",
+    "layer": 0,
     "pdf": "pdf/A_ART012.pdf",
     "role": "",
     "fromImages": false,
@@ -5357,7 +5372,7 @@ window.ARCHIVE = {
    },
    "venue": "Pola Museum Annex",
    "venueShort": "Pola Museum Annex, Tokyo",
-   "city": "",
+   "city": "Tokyo",
    "site": "fieldwork, gallery",
    "context": "",
    "medium": [
@@ -5371,8 +5386,8 @@ window.ARCHIVE = {
    "photoCredit": "",
    "creditAlways": false,
    "award": "",
-   "funding": "Pola Art Foundation",
-   "commissioner": "Pola Art Foundation",
+   "funding": "",
+   "commissioner": "",
    "organizations": "",
    "publisher": "",
    "collaborators": "Voice: 12 people who shared narratives about their places Audio-visual programming: Vasili Macharadze",
@@ -5387,7 +5402,7 @@ window.ARCHIVE = {
     ]
    ],
    "group": "",
-   "role": "",
+   "role": "Artist",
    "format": "",
    "material": {
     "en": "",
@@ -5412,15 +5427,7 @@ window.ARCHIVE = {
      "w": 2000,
      "h": 1170,
      "bg": "#030302",
-     "lum": 0.011,
-     "cap": {
-      "en": "Installation view",
-      "ja": "展示風景",
-      "credit": "",
-      "clean": "",
-      "bg": "",
-      "gallery": ""
-     }
+     "lum": 0.011
     },
     {
      "src": "img/A_ART014/v00.webp?v=b136cc86",
@@ -5455,15 +5462,15 @@ window.ARCHIVE = {
    "featOrder": 3,
    "question": {
     "en": "",
-    "ja": ""
+    "ja": "移動と変容に関わる、場に関する個人のイメージの造形化"
    },
    "desc": {
     "en": "Four small diagrams based on interviews recorded at the Gorki Theater, Berlin.",
     "ja": "ベルリンのゴーリキー劇場で収録したインタビューをもとにした、4点の小さなダイアグラム。"
    },
    "long": {
-    "en": "*Portraits of (Places)*: four small diagrams based on interviews recorded at the Gorki Theater, Berlin✴︎.\n✴︎ *Imaginary Bauhaus Museum Goes Gorki*, within the framework of the Gorki Herbst Salon 2015",
-    "ja": "《Portraits of (Places)》は、ベルリンのゴーリキー劇場で収録したインタビュー✴︎をもとにした、4点の小さなダイアグラム。\n✴︎ *Imaginary Bauhaus Museum Goes Gorki*（Gorki Herbst Salon 2015の枠内で）"
+    "en": "*Portraits of (Places)*: four small diagrams based on narrative interviews.",
+    "ja": "《Portraits of (Places)》は、ベルリンのゴーリキー劇場で収録したインタビューをもとにした、4点の小さなダイアグラムである"
    },
    "venue": "Kiosk for a Magic Future by Imaginary Collective, as part of the 7th Berliner Herbstsalon ЯE:IMAGINE: THE RED HOUSE, Maxim Gorki Theater, Berlin",
    "venueShort": "7th Berliner Herbstsalon, Maxim Gorki Theater, Berlin",
@@ -5488,7 +5495,7 @@ window.ARCHIVE = {
    "collaborators": "",
    "people": [],
    "group": "",
-   "role": "",
+   "role": "Artist",
    "format": "",
    "material": {
     "en": "stone, wood, clay, found objects, pigment from soil, resin",
@@ -5688,12 +5695,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "A zine based on About My Topos. Made at the Kei Matsushita Lab, Tokyo University of the Arts, Japan.",
-    "ja": "About My Topos をもとにしたZINE。東京藝術大学 松下計研究室で制作。"
+    "en": "A zine based on About My Topos. Made by the Kei Matsushita Lab, Tokyo University of the Arts.",
+    "ja": "About My Topos をもとにしたZINE。東京藝術大学 松下計研究室 制作。"
    },
    "long": {
-    "en": "A zine based on About My Topos. Made at the Kei Matsushita Lab, Tokyo University of the Arts, Japan.",
-    "ja": "About My Topos をもとにしたZINE。東京藝術大学 松下計研究室で制作。"
+    "en": "A zine based on About My Topos. Made by the Kei Matsushita Lab, Tokyo University of the Arts.",
+    "ja": "About My Topos をもとにしたZINE。東京藝術大学 松下計研究室 制作。"
    },
    "venue": "Kei Matsushita Lab / Tokyo University of the Arts",
    "venueShort": "Tokyo University of the Arts",
@@ -5782,6 +5789,9 @@ window.ARCHIVE = {
     },
     "depth": 3.0,
     "object": "book",
+    "view": "",
+    "gap": "",
+    "layer": 0,
     "pdf": "",
     "role": "",
     "fromImages": true,
@@ -6730,12 +6740,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Book design for the art project YOU SAY ART I SAY WHAT, by the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar, Germany.",
-    "ja": "アートプロジェクト YOU SAY ART I SAY WHAT の書籍デザイン。バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」によるプロジェクト（ドイツ・ワイマール）。"
+    "en": "Book design for the art project YOU SAY ART I SAY WHAT. Bilingual, English/German.",
+    "ja": "アートプロジェクト YOU SAY ART I SAY WHAT の書籍デザイン。英独バイリンガル。"
    },
    "long": {
-    "en": "Book design for the art project YOU SAY ART I SAY WHAT, by the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar, Germany.",
-    "ja": "アートプロジェクト YOU SAY ART I SAY WHAT の書籍デザイン。バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」によるプロジェクト（ドイツ・ワイマール）。"
+    "en": "Book design for the art project YOU SAY ART I SAY WHAT. Bilingual, English/German.",
+    "ja": "アートプロジェクト YOU SAY ART I SAY WHAT の書籍デザイン。英独バイリンガル。"
    },
    "venue": "Bauhaus-Universität Weimar",
    "venueShort": "Bauhaus-Universität Weimar",
@@ -7600,6 +7610,9 @@ window.ARCHIVE = {
     },
     "depth": 8.0,
     "object": "book",
+    "view": "",
+    "gap": "",
+    "layer": 0,
     "pdf": "",
     "role": "",
     "fromImages": false,
@@ -7656,12 +7669,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Catalogue design for an exhibition project held in the former youth detention centre in Weimar, Germany, by the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar.",
-    "ja": "展覧会プロジェクトのカタログデザイン。ドイツ・ワイマールの旧青年刑務所を会場に、バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」が実施。"
+    "en": "Catalogue design for an exhibition project in the former youth detention centre in Weimar, Germany, carried out by the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar.",
+    "ja": "展覧会プロジェクトのカタログデザイン。ドイツ・ワイマールの旧青年刑務所、バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」が実施。"
    },
    "long": {
-    "en": "Catalogue design for an exhibition project held in the former youth detention centre in Weimar, Germany, by the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar.",
-    "ja": "展覧会プロジェクトのカタログデザイン。ドイツ・ワイマールの旧青年刑務所を会場に、バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」が実施。"
+    "en": "Catalogue design for an exhibition project in the former youth detention centre in Weimar, Germany, carried out by the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar.",
+    "ja": "展覧会プロジェクトのカタログデザイン。ドイツ・ワイマールの旧青年刑務所、バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」が実施。"
    },
    "venue": "Jugendarrestanstalt / Bauhaus-Universität Weimar",
    "venueShort": "Bauhaus-Universität Weimar",
@@ -8240,6 +8253,9 @@ window.ARCHIVE = {
     },
     "depth": 4.0,
     "object": "book",
+    "view": "",
+    "gap": "auto",
+    "layer": 3,
     "pdf": "",
     "role": "",
     "fromImages": false,
@@ -8374,12 +8390,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Layout design of the bilingual German–English catalogue Missing Sculpture by the artist Danica Dakić. Published by Verlag für moderne Kunst, Vienna, Austria, 2018.",
-    "ja": "現代美術家ダニカ・ダキッチのカタログ Missing Sculpture の英独バイリンガルのレイアウトデザイン。Verlag für moderne Kunst（オーストリア・ウィーン）より2018年刊行。"
+    "en": "Catalogue of a contemporary artist's work: bilingual English/German layout design. Published by Verlag für moderne Kunst (Vienna, Austria).",
+    "ja": "現代美術家の作品カタログ。英独バイリンガルのレイアウトデザイン。Verlag für moderne Kunst（オーストリア・ウィーン）より刊行。"
    },
    "long": {
-    "en": "Layout design of the bilingual German–English catalogue Missing Sculpture by the artist Danica Dakić. Published by Verlag für moderne Kunst, Vienna, Austria, 2018.",
-    "ja": "現代美術家ダニカ・ダキッチのカタログ Missing Sculpture の英独バイリンガルのレイアウトデザイン。Verlag für moderne Kunst（オーストリア・ウィーン）より2018年刊行。"
+    "en": "Catalogue of a contemporary artist's work: bilingual English/German layout design. Published by Verlag für moderne Kunst (Vienna, Austria).",
+    "ja": "現代美術家の作品カタログ。英独バイリンガルのレイアウトデザイン。Verlag für moderne Kunst（オーストリア・ウィーン）より刊行。"
    },
    "venue": "Verlag für moderne Kunst / Lehmbruck Museum context",
    "venueShort": "Verlag für moderne Kunst",
@@ -8466,6 +8482,9 @@ window.ARCHIVE = {
     },
     "depth": 9.0,
     "object": "book",
+    "view": "",
+    "gap": "24",
+    "layer": 5,
     "pdf": "",
     "role": "",
     "fromImages": true,
@@ -8522,12 +8541,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Booklet design for the art project Un/Sounds of Buchenwald, Bauhaus-Universität Weimar, Germany.",
-    "ja": "アートプロジェクト Un/Sounds of Buchenwald の冊子デザイン。バウハウス大学ワイマール（ドイツ）のプロジェクト。"
+    "en": "Booklet design for the art project Un/Sounds of Buchenwald, set at the site of the former Buchenwald concentration camp near Weimar, Germany.",
+    "ja": "アートプロジェクト Un/Sounds of Buchenwald の冊子デザイン。舞台はドイツ・ワイマール近郊のブーヘンヴァルト強制収容所跡地。"
    },
    "long": {
-    "en": "Booklet design for the art project Un/Sounds of Buchenwald, Bauhaus-Universität Weimar, Germany.",
-    "ja": "アートプロジェクト Un/Sounds of Buchenwald の冊子デザイン。バウハウス大学ワイマール（ドイツ）のプロジェクト。"
+    "en": "Booklet design for the art project Un/Sounds of Buchenwald, set at the site of the former Buchenwald concentration camp near Weimar, Germany.",
+    "ja": "アートプロジェクト Un/Sounds of Buchenwald の冊子デザイン。舞台はドイツ・ワイマール近郊のブーヘンヴァルト強制収容所跡地。"
    },
    "venue": "Bauhaus-Universität Weimar",
    "venueShort": "Bauhaus-Universität Weimar",
@@ -8608,6 +8627,9 @@ window.ARCHIVE = {
     },
     "depth": 30.0,
     "object": "box",
+    "view": "",
+    "gap": "-14",
+    "layer": 4,
     "pdf": "",
     "role": "",
     "fromImages": true,
@@ -8650,8 +8672,8 @@ window.ARCHIVE = {
     "books"
    ],
    "title": {
-    "en": "Why (& Where) Do I Need to Draw?",
-    "ja": "Why (& Where) Do I Need to Draw?"
+    "en": "Why (& Where) Do I Need to Draw? by Noor us Sabah Saeed",
+    "ja": "Why (& Where) Do I Need to Draw? by Noor us Sabah Saeed"
    },
    "year": "2024",
    "y0": 2024,
@@ -8666,15 +8688,15 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Editorial design and technical coaching for an artist's booklet, within the Goldrausch mentoring programme for women artists in Berlin, Germany.",
-    "ja": "アーティストの冊子の編集デザインと技術指導。ドイツ・ベルリンの女性アーティストのためのメンタリングプログラム Goldrausch の一環。"
+    "en": "Editorial design and technical coaching within an artist's practice. Part of Goldrausch Künstlerinnenprojekt art IT, a professional programme for women artists in Berlin.",
+    "ja": "美術作家の実践における編集デザインおよび技術指導。ベルリンのプロ女性アーティストサポートプログラム Goldrausch Künstlerinnenprojekt art IT の一環。"
    },
    "long": {
-    "en": "Editorial design and technical coaching for an artist's booklet, within the Goldrausch mentoring programme for women artists in Berlin, Germany.",
-    "ja": "アーティストの冊子の編集デザインと技術指導。ドイツ・ベルリンの女性アーティストのためのメンタリングプログラム Goldrausch の一環。"
+    "en": "Editorial design and technical coaching within an artist's practice. Part of Goldrausch Künstlerinnenprojekt art IT, a professional programme for women artists in Berlin.",
+    "ja": "美術作家の実践における編集デザインおよび技術指導。ベルリンのプロ女性アーティストサポートプログラム Goldrausch Künstlerinnenprojekt art IT の一環。"
    },
-   "venue": "Goldrausch Künstlerinnenprojekt Berlin",
-   "venueShort": "Goldrausch Künstlerinnenprojekt, Berlin",
+   "venue": "Goldrausch Künstlerinnenprojekt art IT Berlin",
+   "venueShort": "Goldrausch Künstlerinnenprojekt art IT, Berlin",
    "city": "Berlin",
    "site": "publication",
    "context": "",
@@ -8690,8 +8712,8 @@ window.ARCHIVE = {
    "award": "",
    "funding": "",
    "commissioner": "",
-   "organizations": "Goldrausch Künstlerinnenprojekt Berlin",
-   "publisher": "Goldrausch Künstlerinnenprojekt, Berlin",
+   "organizations": "Goldrausch Künstlerinnenprojekt art IT Berlin",
+   "publisher": "Goldrausch Künstlerinnenprojekt art IT, Berlin",
    "collaborators": "Noor us Sabah Saeed Text: Hajra Haider Karrar",
    "people": [
     [
@@ -8788,12 +8810,12 @@ window.ARCHIVE = {
       "z": "img/D_DES034/book/z006.webp?v=27f08552"
      },
      {
-      "src": "img/D_DES034/book/p007.webp?v=1f327f18",
+      "src": "img/D_DES034/book/p007.webp?v=a9dd6743",
       "w": 760,
       "h": 1000,
       "spread": false,
       "n": 8,
-      "z": "img/D_DES034/book/z007.webp?v=092348a3"
+      "z": "img/D_DES034/book/z007.webp?v=0f3d6b84"
      },
      {
       "src": "img/D_DES034/book/p008.webp?v=dd21c78c",
@@ -8823,10 +8845,10 @@ window.ARCHIVE = {
     "coverStyle": "",
     "edition": "",
     "front": {
-     "src": "img/D_DES034/front.webp?v=dd6f829f",
-     "w": 684,
-     "h": 900,
-     "rim": "#d3dfec"
+     "src": "img/D_DES034/front.webp?v=798a0f2a",
+     "w": 900,
+     "h": 592,
+     "rim": "#c9ccc6"
     },
     "size": {
      "w": 228.0,
@@ -8835,6 +8857,9 @@ window.ARCHIVE = {
     },
     "depth": 2.0,
     "object": "book",
+    "view": "open",
+    "gap": "-55",
+    "layer": 1,
     "pdf": "",
     "role": "",
     "fromImages": false,
@@ -9206,16 +9231,16 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Observation and understanding of Kleingarten systems and urban gardening communities.",
-    "ja": "クラインガルテン制度やアーバンガーデニング・コミュニティの観察と理解。"
+    "en": "About Kleingarten and urban gardening",
+    "ja": "ドイツにおけるクラインガルテンやアーバンガーデニング・コミュニティ、制度やコミュニティの観察と参加"
    },
    "long": {
-    "en": "Observation and understanding of Kleingarten systems and urban gardening communities.",
-    "ja": "クラインガルテン制度やアーバンガーデニング・コミュニティの観察と理解。"
+    "en": "About Kleingarten and urban gardening",
+    "ja": "ドイツにおけるクラインガルテンやアーバンガーデニング・コミュニティ、制度やコミュニティの観察と参加"
    },
    "venue": "Kleingarten / urban gardening contexts",
    "venueShort": "",
-   "city": "Germany",
+   "city": "Weimar, Berlin and near Potsdam",
    "site": "fieldwork",
    "context": "",
    "medium": [
@@ -9234,7 +9259,7 @@ window.ARCHIVE = {
    "collaborators": "",
    "people": [],
    "group": "",
-   "role": "Writer Editor",
+   "role": "Researcher",
    "format": "",
    "material": {
     "en": "",
@@ -9295,15 +9320,7 @@ window.ARCHIVE = {
     "w": 2000,
     "h": 1170,
     "bg": "#030302",
-    "lum": 0.011,
-    "cap": {
-     "en": "Installation view",
-     "ja": "展示風景",
-     "credit": "",
-     "clean": "",
-     "bg": "",
-     "gallery": ""
-    }
+    "lum": 0.011
    },
    "title": {
     "en": "Recollections of Beyond",
