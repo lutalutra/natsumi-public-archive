@@ -5386,7 +5386,7 @@ window.ARCHIVE = {
    "photoCredit": "",
    "creditAlways": false,
    "award": "",
-   "funding": "",
+   "funding": "Pola Art Foundation",
    "commissioner": "",
    "organizations": "",
    "publisher": "",
