@@ -646,6 +646,7 @@ window.ARCHIVE = {
     "depth": 6.0,
     "object": "book",
     "view": "",
+    "byline": "",
     "gap": "",
     "layer": 0,
     "pdf": "pdf/A_ART001.pdf",
@@ -1082,6 +1083,7 @@ window.ARCHIVE = {
     "depth": 45.0,
     "object": "box",
     "view": "",
+    "byline": "",
     "gap": "",
     "layer": 0,
     "pdf": "",
@@ -1766,6 +1768,7 @@ window.ARCHIVE = {
     "depth": 14.0,
     "object": "book",
     "view": "",
+    "byline": "",
     "gap": "",
     "layer": 0,
     "pdf": "pdf/A_ART008.pdf",
@@ -2684,10 +2687,11 @@ window.ARCHIVE = {
     "depth": 12.0,
     "object": "book",
     "view": "",
+    "byline": "",
     "gap": "",
     "layer": 0,
     "pdf": "",
-    "role": "documentation",
+    "role": "thesis",
     "fromImages": false,
     "print": {
      "en": "",
@@ -5247,10 +5251,11 @@ window.ARCHIVE = {
     "depth": 16.0,
     "object": "book",
     "view": "",
+    "byline": "",
     "gap": "",
     "layer": 0,
     "pdf": "pdf/A_ART012.pdf",
-    "role": "",
+    "role": "thesis",
     "fromImages": false,
     "print": {
      "en": "",
@@ -5695,14 +5700,14 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "A zine based on About My Topos, from the zine series Noboru. Made by the Kei Matsushita Lab, Tokyo University of the Arts.",
-    "ja": "About My Topos をもとにしたZINE。ZINEシリーズ「Noboru」の一冊。東京藝術大学 松下計研究室 制作。"
+    "en": "A zine based on About My Topos, from the zine series Noboru. Made by the Visual Communication Design Lab, Design, Graduate School of Fine Arts, Tokyo University of the Arts.",
+    "ja": "About My Topos をもとにしたZINE。ZINEシリーズ「Noboru」の一冊。東京藝術大学大学院 美術研究科 デザイン専攻 視覚・伝達研究室 制作。"
    },
    "long": {
-    "en": "A zine based on About My Topos, from the zine series Noboru. Made by the Kei Matsushita Lab, Tokyo University of the Arts.",
-    "ja": "About My Topos をもとにしたZINE。ZINEシリーズ「Noboru」の一冊。東京藝術大学 松下計研究室 制作。"
+    "en": "A zine based on About My Topos, from the zine series Noboru. Made by the Visual Communication Design Lab, Design, Graduate School of Fine Arts, Tokyo University of the Arts.",
+    "ja": "About My Topos をもとにしたZINE。ZINEシリーズ「Noboru」の一冊。東京藝術大学大学院 美術研究科 デザイン専攻 視覚・伝達研究室 制作。"
    },
-   "venue": "Kei Matsushita Lab / Tokyo University of the Arts",
+   "venue": "Visual Communication Design Lab, Design, Graduate School of Fine Arts, Tokyo University of the Arts",
    "venueShort": "Tokyo University of the Arts",
    "city": "Tokyo",
    "site": "fieldwork",
@@ -5718,8 +5723,8 @@ window.ARCHIVE = {
    "award": "",
    "funding": "",
    "commissioner": "",
-   "organizations": "Matsushita Kei Lab, Tokyo University of the Arts",
-   "publisher": "",
+   "organizations": "Visual Communication Design Lab, Design, Graduate School of Fine Arts, Tokyo University of the Arts",
+   "publisher": "東京藝術大学大学院 美術研究科 デザイン専攻 視覚・伝達研究室",
    "collaborators": "Bak Enkoh, Kei Matsushita",
    "people": [
     [
@@ -5790,10 +5795,11 @@ window.ARCHIVE = {
     "depth": 3.0,
     "object": "book",
     "view": "",
+    "byline": "",
     "gap": "",
     "layer": 0,
     "pdf": "",
-    "role": "",
+    "role": "collaboration",
     "fromImages": true,
     "print": {
      "en": "Risograph print",
@@ -7611,6 +7617,7 @@ window.ARCHIVE = {
     "depth": 8.0,
     "object": "book",
     "view": "",
+    "byline": "",
     "gap": "",
     "layer": 0,
     "pdf": "",
@@ -8254,6 +8261,7 @@ window.ARCHIVE = {
     "depth": 4.0,
     "object": "book",
     "view": "",
+    "byline": "",
     "gap": "auto",
     "layer": 3,
     "pdf": "",
@@ -8374,8 +8382,8 @@ window.ARCHIVE = {
    "archiveHidden": false,
    "kinds": [],
    "title": {
-    "en": "Missing Sculpture, Publication Design",
-    "ja": "”Missing Sculpture” カタログデザイン"
+    "en": "Missing Sculpture",
+    "ja": "Missing Sculpture"
    },
    "year": "2017",
    "y0": 2017,
@@ -8390,12 +8398,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Catalogue of a contemporary artist's work: bilingual English/German layout design. Published by Verlag für moderne Kunst (Vienna, Austria).",
-    "ja": "現代美術家の作品カタログ。英独バイリンガルのレイアウトデザイン。Verlag für moderne Kunst（オーストリア・ウィーン）より刊行。"
+    "en": "Catalogue of a contemporary artist's work. Bilingual English/German layout. Published by Verlag für moderne Kunst (Vienna, Austria).",
+    "ja": "現代美術家の作品カタログ。英独バイリンガルレイアウト。Verlag für moderne Kunst（オーストリア・ウィーン）より刊行。"
    },
    "long": {
-    "en": "Catalogue of a contemporary artist's work: bilingual English/German layout design. Published by Verlag für moderne Kunst (Vienna, Austria).",
-    "ja": "現代美術家の作品カタログ。英独バイリンガルのレイアウトデザイン。Verlag für moderne Kunst（オーストリア・ウィーン）より刊行。"
+    "en": "Catalogue of a contemporary artist's work. Bilingual English/German layout. Published by Verlag für moderne Kunst (Vienna, Austria).",
+    "ja": "現代美術家の作品カタログ。英独バイリンガルレイアウト。Verlag für moderne Kunst（オーストリア・ウィーン）より刊行。"
    },
    "venue": "Verlag für moderne Kunst / Lehmbruck Museum context",
    "venueShort": "Verlag für moderne Kunst",
@@ -8483,6 +8491,7 @@ window.ARCHIVE = {
     "depth": 9.0,
     "object": "book",
     "view": "",
+    "byline": "Danica Dakić",
     "gap": "24",
     "layer": 5,
     "pdf": "",
@@ -8541,12 +8550,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Booklet design for the art project Un/Sounds of Buchenwald, set at the site of the former Buchenwald concentration camp near Weimar, Germany.",
-    "ja": "アートプロジェクト Un/Sounds of Buchenwald の冊子デザイン。舞台はドイツ・ワイマール近郊のブーヘンヴァルト強制収容所跡地。"
+    "en": "Booklet for an art project at the site of a former concentration camp: a bricolage of resin enclosing rose leaves from the site, with a USB stick holding the sound works.",
+    "ja": "強制収容所跡地でのアートプロジェクトの冊子。跡地のバラの葉を封じたレジンに、音の作品を収めたUSBを組み込んだブリコラージュ的な造本。"
    },
    "long": {
-    "en": "Booklet design for the art project Un/Sounds of Buchenwald, set at the site of the former Buchenwald concentration camp near Weimar, Germany.",
-    "ja": "アートプロジェクト Un/Sounds of Buchenwald の冊子デザイン。舞台はドイツ・ワイマール近郊のブーヘンヴァルト強制収容所跡地。"
+    "en": "Booklet for an art project at the site of a former concentration camp: a bricolage of resin enclosing rose leaves from the site, with a USB stick holding the sound works.",
+    "ja": "強制収容所跡地でのアートプロジェクトの冊子。跡地のバラの葉を封じたレジンに、音の作品を収めたUSBを組み込んだブリコラージュ的な造本。"
    },
    "venue": "Bauhaus-Universität Weimar",
    "venueShort": "Bauhaus-Universität Weimar",
@@ -8628,6 +8637,7 @@ window.ARCHIVE = {
     "depth": 30.0,
     "object": "box",
     "view": "",
+    "byline": "",
     "gap": "-14",
     "layer": 4,
     "pdf": "",
@@ -8858,6 +8868,7 @@ window.ARCHIVE = {
     "depth": 2.0,
     "object": "book",
     "view": "open",
+    "byline": "",
     "gap": "-55",
     "layer": 1,
     "pdf": "",
