@@ -633,10 +633,10 @@ window.ARCHIVE = {
     "coverStyle": "",
     "edition": "",
     "front": {
-     "src": "img/A_ART001/front.webp?v=c7f94bfe",
-     "w": 636,
-     "h": 900,
-     "rim": "#eeece9"
+     "src": "img/A_ART001/front.webp?v=4a703633",
+     "w": 354,
+     "h": 500,
+     "rim": "#eeece8"
     },
     "size": {
      "w": 210.0,
@@ -1069,9 +1069,9 @@ window.ARCHIVE = {
     "coverStyle": "",
     "edition": "",
     "front": {
-     "src": "img/A_ART004/front.webp?v=fa6702ce",
-     "w": 664,
-     "h": 900,
+     "src": "img/A_ART004/front.webp?v=1c3d4023",
+     "w": 369,
+     "h": 500,
      "rim": "#80817e"
     },
     "size": {
@@ -1753,10 +1753,10 @@ window.ARCHIVE = {
     "coverStyle": "",
     "edition": "",
     "front": {
-     "src": "img/A_ART008/front.webp?v=1a34c344",
-     "w": 900,
-     "h": 636,
-     "rim": "#8a6a4c"
+     "src": "img/A_ART008/front.webp?v=da4c1f78",
+     "w": 707,
+     "h": 500,
+     "rim": "#896b4c"
     },
     "size": {
      "w": 297.0,
@@ -2671,10 +2671,10 @@ window.ARCHIVE = {
     "coverStyle": "",
     "edition": "",
     "front": {
-     "src": "img/A_ART009/front.webp?v=2dfd31ce",
-     "w": 861,
-     "h": 900,
-     "rim": "#9ccad3"
+     "src": "img/A_ART009/front.webp?v=9190f9f5",
+     "w": 478,
+     "h": 500,
+     "rim": "#9cc9d3"
     },
     "size": {
      "w": 220.0,
@@ -5234,10 +5234,10 @@ window.ARCHIVE = {
     "coverStyle": "",
     "edition": "",
     "front": {
-     "src": "img/A_ART012/front.webp?v=32c76867",
-     "w": 636,
-     "h": 900,
-     "rim": "#4b4b49"
+     "src": "img/A_ART012/front.webp?v=2e7c7b65",
+     "w": 354,
+     "h": 500,
+     "rim": "#4a4b48"
     },
     "size": {
      "w": 210.0,
@@ -5359,19 +5359,19 @@ window.ARCHIVE = {
    "featured": true,
    "featOrder": 2,
    "question": {
-    "en": "How do intersecting narratives move us beyond nostalgia, toward a new landscape?",
-    "ja": "異なる人々のナラティブは、どのように交差し、新たな風景を描き出すのか"
+    "en": "How do the narratives of different people intersect and draw out a new landscape?",
+    "ja": "異なる人々の語りは、どのように交差し、新たな風景を描き出すのか。"
    },
    "desc": {
-    "en": "An audio-visual collage piece based on narrative interviews about place. Fragments of stories from people crossing different continents and times are intersections.",
-    "ja": "場所に関するナラティブ・インタビューをもとにした、視覚と音声のコラージュ・インスタレーション。複数の大陸と時代を横断する人々の物語の断片が組み合わされ、動き続ける交差点として構成されている。"
+    "en": "A collage installation that recomposes, in sound and image, memories and experiences of places drawn from interviews. Fragments of narratives by people who have crossed continents and eras are put together, drawing out a new landscape that emerges where their experiences intersect.",
+    "ja": "人々へのインタビューをもとに、場所にまつわる記憶や経験を音と映像によって再構成したコラージュ・インスタレーション。複数の大陸や時代を横断してきた人々の語りの断片を組み合わせ、それぞれの経験が交差することで立ち現れる、新たな風景を描き出す。"
    },
    "long": {
-    "en": "An audio-visual collage installation based on narrative interviews about place, composing a new landscape. Fragments of stories shared by people crossing different continents and times are combined and woven together.\nThe work marks a turning point within the next phase of the series \"Portraits of Places.\" The series began with an analysis of personal experience within an anonymous suburban landscape, then came to recognize the precariousness of binding place to fixed notions of territory — shifting its focus instead toward place as a site where multiple trajectories intersect.",
-    "ja": "場所についての語りのインタビューに基づき、次の風景を作り出すオーディオ・ビジュアルのコラージュ・インスタレーション。複数の大陸と時代を横断してきた人々の物語の断片が組み合わされ、繋がれていく。\n本作は「場所の肖像(Portraits of Places)」シリーズにおける、次のフェーズへの転換点であると言える。同シリーズは、匿名的な郊外の風景の中での個人的な経験の分析から始まったが、場所と領域を固定的に結びつけることの危うさに気づき、複数の軌跡が一時的に交差する場として捉え直す視点へと、その関心を移行させてきた。"
+    "en": "A collage installation that recomposes, in sound and image, memories and experiences of places drawn from interviews. Fragments of narratives by people who have crossed continents and eras are put together, drawing out a new landscape that emerges where their experiences intersect.\nThe work marked a turning point in the series Portraits of Places, a shift in how it sees the relationship between places and people. The early works of the series looked, one by one, at personal experiences within an environment and the meanings projected onto it. In response to the limits and problems of binding a place to a fixed geographical territory, this work attempts to depict the site itself where people's movements, memories, overlapping experiences and the trajectories of their organic motion briefly intersect.",
+    "ja": "人々へのインタビューをもとに、場所にまつわる記憶や経験を音と映像によって再構成したコラージュ・インスタレーション。複数の大陸や時代を横断してきた人々の語りの断片を組み合わせ、それぞれの経験が交差することで立ち現れる、新たな風景を描き出す。\n本作は、「場所の肖像（Portraits of Places）」シリーズにおいて、場所と人との関係を捉える視点が変化する転換点となった。シリーズの初期作品では、環境のなかの個人的な経験と意味の投影の個々に着目していた。しかし、場所を特定の地理的領域と固定的に結びつけることへの限界と問題点への対応として、人々の移動や記憶、経験の重なりと有機的な運動の軌跡が一時的に交差する場自体を描く試みである。"
    },
-   "venue": "Pola Museum Annex",
-   "venueShort": "Pola Museum Annex, Tokyo",
+   "venue": "",
+   "venueShort": "",
    "city": "Tokyo",
    "site": "fieldwork, gallery",
    "context": "",
@@ -5679,8 +5679,8 @@ window.ARCHIVE = {
    "archiveHidden": false,
    "kinds": [],
    "title": {
-    "en": "Noboru",
-    "ja": "Noboru"
+    "en": "Notation of Topos Phase. 0",
+    "ja": "Notation of Topos Phase. 0"
    },
    "year": "2014",
    "y0": 2014,
@@ -5695,12 +5695,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "A zine based on About My Topos. Made by the Kei Matsushita Lab, Tokyo University of the Arts.",
-    "ja": "About My Topos をもとにしたZINE。東京藝術大学 松下計研究室 制作。"
+    "en": "A zine based on About My Topos, from the zine series Noboru. Made by the Kei Matsushita Lab, Tokyo University of the Arts.",
+    "ja": "About My Topos をもとにしたZINE。ZINEシリーズ「Noboru」の一冊。東京藝術大学 松下計研究室 制作。"
    },
    "long": {
-    "en": "A zine based on About My Topos. Made by the Kei Matsushita Lab, Tokyo University of the Arts.",
-    "ja": "About My Topos をもとにしたZINE。東京藝術大学 松下計研究室 制作。"
+    "en": "A zine based on About My Topos, from the zine series Noboru. Made by the Kei Matsushita Lab, Tokyo University of the Arts.",
+    "ja": "About My Topos をもとにしたZINE。ZINEシリーズ「Noboru」の一冊。東京藝術大学 松下計研究室 制作。"
    },
    "venue": "Kei Matsushita Lab / Tokyo University of the Arts",
    "venueShort": "Tokyo University of the Arts",
@@ -5777,9 +5777,9 @@ window.ARCHIVE = {
     "coverStyle": "",
     "edition": "",
     "front": {
-     "src": "img/B_COL001/front.webp?v=17e21147",
-     "w": 592,
-     "h": 840,
+     "src": "img/B_COL001/front.webp?v=70e69b8a",
+     "w": 352,
+     "h": 500,
      "rim": "#a1b1bb"
     },
     "size": {
@@ -7598,10 +7598,10 @@ window.ARCHIVE = {
     "coverStyle": "",
     "edition": "1000",
     "front": {
-     "src": "img/D_DES006/front.webp?v=0e05e2f9",
-     "w": 658,
-     "h": 900,
-     "rim": "#f5f8fa"
+     "src": "img/D_DES006/front.webp?v=607bf807",
+     "w": 365,
+     "h": 500,
+     "rim": "#f5f8fb"
     },
     "size": {
      "w": 190.0,
@@ -8241,9 +8241,9 @@ window.ARCHIVE = {
     "coverStyle": "",
     "edition": "200",
     "front": {
-     "src": "img/D_DES007/front.webp?v=23c0977e",
-     "w": 592,
-     "h": 840,
+     "src": "img/D_DES007/front.webp?v=d9426395",
+     "w": 352,
+     "h": 500,
      "rim": "#252223"
     },
     "size": {
@@ -8470,9 +8470,9 @@ window.ARCHIVE = {
     "coverStyle": "",
     "edition": "",
     "front": {
-     "src": "img/D_DES016/front.webp?v=89aad409",
-     "w": 675,
-     "h": 900,
+     "src": "img/D_DES016/front.webp?v=0fc12589",
+     "w": 375,
+     "h": 500,
      "rim": "#e6e1d5"
     },
     "size": {
@@ -8615,9 +8615,9 @@ window.ARCHIVE = {
     "coverStyle": "",
     "edition": "",
     "front": {
-     "src": "img/D_DES017/front.webp?v=5e0a74c1",
-     "w": 600,
-     "h": 600,
+     "src": "img/D_DES017/front.webp?v=acf0debd",
+     "w": 500,
+     "h": 500,
      "rim": "#acaaa6"
     },
     "size": {
@@ -8688,15 +8688,15 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Editorial design and technical coaching within an artist's practice. Part of Goldrausch Künstlerinnenprojekt art IT, a professional programme for women artists in Berlin.",
-    "ja": "美術作家の実践における編集デザインおよび技術指導。ベルリンのプロ女性アーティストサポートプログラム Goldrausch Künstlerinnenprojekt art IT の一環。"
+    "en": "Editorial design and technical coaching within an artist's practice. Part of Goldrausch Künstlerinnenprojekt, a professional programme for women artists in Berlin.",
+    "ja": "美術作家の実践における編集デザインおよび技術指導。ベルリンのプロ女性アーティストサポートプログラム Goldrausch Künstlerinnenprojekt の一環。"
    },
    "long": {
-    "en": "Editorial design and technical coaching within an artist's practice. Part of Goldrausch Künstlerinnenprojekt art IT, a professional programme for women artists in Berlin.",
-    "ja": "美術作家の実践における編集デザインおよび技術指導。ベルリンのプロ女性アーティストサポートプログラム Goldrausch Künstlerinnenprojekt art IT の一環。"
+    "en": "Editorial design and technical coaching within an artist's practice. Part of Goldrausch Künstlerinnenprojekt, a professional programme for women artists in Berlin.",
+    "ja": "美術作家の実践における編集デザインおよび技術指導。ベルリンのプロ女性アーティストサポートプログラム Goldrausch Künstlerinnenprojekt の一環。"
    },
-   "venue": "Goldrausch Künstlerinnenprojekt art IT Berlin",
-   "venueShort": "Goldrausch Künstlerinnenprojekt art IT, Berlin",
+   "venue": "Goldrausch Künstlerinnenprojekt Berlin",
+   "venueShort": "Goldrausch Künstlerinnenprojekt, Berlin",
    "city": "Berlin",
    "site": "publication",
    "context": "",
@@ -8712,8 +8712,8 @@ window.ARCHIVE = {
    "award": "",
    "funding": "",
    "commissioner": "",
-   "organizations": "Goldrausch Künstlerinnenprojekt art IT Berlin",
-   "publisher": "Goldrausch Künstlerinnenprojekt art IT, Berlin",
+   "organizations": "Goldrausch Künstlerinnenprojekt Berlin",
+   "publisher": "Goldrausch Künstlerinnenprojekt, Berlin",
    "collaborators": "Noor us Sabah Saeed Text: Hajra Haider Karrar",
    "people": [
     [
@@ -8845,9 +8845,9 @@ window.ARCHIVE = {
     "coverStyle": "",
     "edition": "",
     "front": {
-     "src": "img/D_DES034/front.webp?v=798a0f2a",
-     "w": 900,
-     "h": 592,
+     "src": "img/D_DES034/front.webp?v=f25e7e1e",
+     "w": 760,
+     "h": 500,
      "rim": "#c9ccc6"
     },
     "size": {
