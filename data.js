@@ -8398,12 +8398,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Catalogue of a contemporary artist's work. Bilingual English/German layout. Published by Verlag für moderne Kunst (Vienna, Austria).",
-    "ja": "現代美術家の作品カタログ。英独バイリンガルレイアウト。Verlag für moderne Kunst（オーストリア・ウィーン）より刊行。"
+    "en": "Catalogue of a contemporary artist's work. Bilingual English/German layout. Published by Verlag für moderne Kunst (Vienna).",
+    "ja": "現代美術家の作品カタログ。英独バイリンガルレイアウト。Verlag für moderne Kunst（ウィーン）より刊行。"
    },
    "long": {
-    "en": "Catalogue of a contemporary artist's work. Bilingual English/German layout. Published by Verlag für moderne Kunst (Vienna, Austria).",
-    "ja": "現代美術家の作品カタログ。英独バイリンガルレイアウト。Verlag für moderne Kunst（オーストリア・ウィーン）より刊行。"
+    "en": "Catalogue of a contemporary artist's work. Bilingual English/German layout. Published by Verlag für moderne Kunst (Vienna).",
+    "ja": "現代美術家の作品カタログ。英独バイリンガルレイアウト。Verlag für moderne Kunst（ウィーン）より刊行。"
    },
    "venue": "Verlag für moderne Kunst / Lehmbruck Museum context",
    "venueShort": "Verlag für moderne Kunst",
@@ -8682,8 +8682,8 @@ window.ARCHIVE = {
     "books"
    ],
    "title": {
-    "en": "Why (& Where) Do I Need to Draw? by Noor us Sabah Saeed",
-    "ja": "Why (& Where) Do I Need to Draw? by Noor us Sabah Saeed"
+    "en": "Why (& Where) Do I Need to Draw?",
+    "ja": "Why (& Where) Do I Need to Draw?"
    },
    "year": "2024",
    "y0": 2024,
@@ -8868,7 +8868,7 @@ window.ARCHIVE = {
     "depth": 2.0,
     "object": "book",
     "view": "open",
-    "byline": "",
+    "byline": "Noor us Sabah Saeed",
     "gap": "-55",
     "layer": 1,
     "pdf": "",
