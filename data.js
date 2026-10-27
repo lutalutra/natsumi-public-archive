@@ -7683,12 +7683,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Catalogue design for an exhibition project in the former youth detention centre in Weimar, Germany, carried out by the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar.",
-    "ja": "展覧会プロジェクトのカタログデザイン。ドイツ・ワイマールの旧青年刑務所、バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」が実施。"
+    "en": "Catalogue design for an exhibition project in the former youth detention centre in Weimar, Germany.",
+    "ja": "展覧会プロジェクトのカタログデザイン。会場はドイツ・ワイマールの旧青年刑務所。"
    },
    "long": {
-    "en": "Catalogue design for an exhibition project in the former youth detention centre in Weimar, Germany, carried out by the MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar.",
-    "ja": "展覧会プロジェクトのカタログデザイン。ドイツ・ワイマールの旧青年刑務所、バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」が実施。"
+    "en": "Catalogue design for an exhibition project in the former youth detention centre in Weimar, Germany.",
+    "ja": "展覧会プロジェクトのカタログデザイン。会場はドイツ・ワイマールの旧青年刑務所。"
    },
    "venue": "Jugendarrestanstalt / Bauhaus-Universität Weimar",
    "venueShort": "Bauhaus-Universität Weimar",
@@ -8406,12 +8406,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Catalogue of a contemporary artist's work. Bilingual English/German layout. Published by Verlag für moderne Kunst (Vienna).",
-    "ja": "現代美術家の作品カタログ。英独バイリンガルレイアウト。Verlag für moderne Kunst（ウィーン）より刊行。"
+    "en": "Catalogue of the artist's work. Bilingual English/German layout. Published by Verlag für moderne Kunst (Vienna).",
+    "ja": "作家の作品カタログ。英独バイリンガルレイアウト。Verlag für moderne Kunst（ウィーン）より刊行。"
    },
    "long": {
-    "en": "Catalogue of a contemporary artist's work. Bilingual English/German layout. Published by Verlag für moderne Kunst (Vienna).",
-    "ja": "現代美術家の作品カタログ。英独バイリンガルレイアウト。Verlag für moderne Kunst（ウィーン）より刊行。"
+    "en": "Catalogue of the artist's work. Bilingual English/German layout. Published by Verlag für moderne Kunst (Vienna).",
+    "ja": "作家の作品カタログ。英独バイリンガルレイアウト。Verlag für moderne Kunst（ウィーン）より刊行。"
    },
    "venue": "Verlag für moderne Kunst / Lehmbruck Museum context",
    "venueShort": "Verlag für moderne Kunst",
@@ -8559,12 +8559,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Booklet for an art project at the site of a former concentration camp: a bricolage of resin enclosing rose leaves from the site, with a USB stick holding the sound works.",
-    "ja": "強制収容所跡地でのアートプロジェクトの冊子。跡地のバラの葉を封じたレジンに、音の作品を収めたUSBを組み込んだブリコラージュ的な造本。"
+    "en": "Booklet for an art project at the site of a former concentration camp: a bricolage of resin enclosing rose leaves from the site, holding the sound works.",
+    "ja": "強制収容所跡地でのアートプロジェクトの冊子。跡地のバラの葉を封じたレジンに音の作品を組み込んだ、ブリコラージュ的な造本。"
    },
    "long": {
-    "en": "Booklet for an art project at the site of a former concentration camp: a bricolage of resin enclosing rose leaves from the site, with a USB stick holding the sound works.",
-    "ja": "強制収容所跡地でのアートプロジェクトの冊子。跡地のバラの葉を封じたレジンに、音の作品を収めたUSBを組み込んだブリコラージュ的な造本。"
+    "en": "Booklet for an art project at the site of a former concentration camp: a bricolage of resin enclosing rose leaves from the site, holding the sound works.",
+    "ja": "強制収容所跡地でのアートプロジェクトの冊子。跡地のバラの葉を封じたレジンに音の作品を組み込んだ、ブリコラージュ的な造本。"
    },
    "venue": "Bauhaus-Universität Weimar",
    "venueShort": "Bauhaus-Universität Weimar",
@@ -8708,12 +8708,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Editorial design and technical coaching within an artist's practice. Part of Goldrausch Künstlerinnenprojekt, a professional programme for women artists in Berlin.",
-    "ja": "美術作家の実践における編集デザインおよび技術指導。ベルリンのプロ女性アーティストサポートプログラム Goldrausch Künstlerinnenprojekt の一環。"
+    "en": "Editorial design and technical coaching within the artist's practice. Part of Goldrausch Künstlerinnenprojekt, a professional programme for women artists in Berlin.",
+    "ja": "作家の実践における編集デザインおよび技術指導。ベルリンのプロ女性アーティストサポートプログラム Goldrausch Künstlerinnenprojekt の一環。"
    },
    "long": {
-    "en": "Editorial design and technical coaching within an artist's practice. Part of Goldrausch Künstlerinnenprojekt, a professional programme for women artists in Berlin.",
-    "ja": "美術作家の実践における編集デザインおよび技術指導。ベルリンのプロ女性アーティストサポートプログラム Goldrausch Künstlerinnenprojekt の一環。"
+    "en": "Editorial design and technical coaching within the artist's practice. Part of Goldrausch Künstlerinnenprojekt, a professional programme for women artists in Berlin.",
+    "ja": "作家の実践における編集デザインおよび技術指導。ベルリンのプロ女性アーティストサポートプログラム Goldrausch Künstlerinnenprojekt の一環。"
    },
    "venue": "Goldrausch Künstlerinnenprojekt Berlin",
    "venueShort": "Goldrausch Künstlerinnenprojekt, Berlin",
