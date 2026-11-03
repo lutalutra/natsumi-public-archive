@@ -352,12 +352,12 @@ window.ARCHIVE = {
     "ja": "人はどのように環境と結びつきながら場所の感覚を形成するのか？"
    },
    "desc": {
-    "en": "A booklet on an installation that analyses and recomposes experiences of an environment in the suburbs of Tokyo.",
-    "ja": "東京郊外の環境体験を分析し、再構成したインスタレーションにまつわる冊子。"
+    "en": "An installation that analyses and recomposes experiences of an environment in the suburbs of Tokyo.",
+    "ja": "東京郊外の環境体験を分析し、再構成したインスタレーション。"
    },
    "long": {
-    "en": "A booklet on an installation that analyses and recomposes experiences of an environment in the suburbs of Tokyo.",
-    "ja": "東京郊外の環境体験を分析し、再構成したインスタレーションにまつわる冊子。"
+    "en": "An installation that analyses and recomposes experiences of an environment in the suburbs of Tokyo.",
+    "ja": "東京郊外の環境体験を分析し、再構成したインスタレーション。"
    },
    "venue": "Tokyo International Forum and The Museum of Tokyo University of the Arts",
    "venueShort": "Tokyo International Forum and The Museum of Tokyo University of the Arts",
@@ -626,8 +626,8 @@ window.ARCHIVE = {
     "coverFirst": false,
     "protect": false,
     "about": {
-     "en": "",
-     "ja": ""
+     "en": "A booklet on an installation that analyses and recomposes experiences of an environment in the suburbs of Tokyo.",
+     "ja": "東京郊外の環境体験を分析し、再構成したインスタレーションにまつわる冊子。"
     },
     "paper": "",
     "endpaper": "",
@@ -5272,7 +5272,7 @@ window.ARCHIVE = {
     "gap": "",
     "layer": 0,
     "pdf": "pdf/A_ART012.pdf",
-    "role": "thesis",
+    "role": "monograph",
     "fromImages": false,
     "print": {
      "en": "",
@@ -8739,11 +8739,11 @@ window.ARCHIVE = {
    },
    "desc": {
     "en": "Editorial design and technical coaching within the artist's practice. Part of Goldrausch Künstlerinnenprojekt, a professional programme for women artists in Berlin.",
-    "ja": "作家の実践における編集デザインおよび技術指導。ベルリンのプロ女性アーティストサポートプログラム Goldrausch Künstlerinnenprojekt の一環。"
+    "ja": "現代美術家の実践における編集デザインおよび技術指導。ベルリンのプロ女性アーティストサポートプログラム Goldrausch Künstlerinnenprojekt の一環。"
    },
    "long": {
     "en": "Editorial design and technical coaching within the artist's practice. Part of Goldrausch Künstlerinnenprojekt, a professional programme for women artists in Berlin.",
-    "ja": "作家の実践における編集デザインおよび技術指導。ベルリンのプロ女性アーティストサポートプログラム Goldrausch Künstlerinnenprojekt の一環。"
+    "ja": "現代美術家の実践における編集デザインおよび技術指導。ベルリンのプロ女性アーティストサポートプログラム Goldrausch Künstlerinnenprojekt の一環。"
    },
    "venue": "Goldrausch Künstlerinnenprojekt Berlin",
    "venueShort": "Goldrausch Künstlerinnenprojekt, Berlin",
