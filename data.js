@@ -8434,12 +8434,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Catalogue of the artist's work. Bilingual English/German layout. Published by Verlag für moderne Kunst (Vienna).",
-    "ja": "作家の作品カタログ。英独バイリンガルレイアウト。Verlag für moderne Kunst（ウィーン）より刊行。"
+    "en": "Catalogue of the contemporary artist's work. Bilingual English/German layout. Published by Verlag für moderne Kunst (Vienna).",
+    "ja": "現代美術家の作品カタログ。英独バイリンガルレイアウト。Verlag für moderne Kunst（ウィーン）より刊行。"
    },
    "long": {
-    "en": "Catalogue of the artist's work. Bilingual English/German layout. Published by Verlag für moderne Kunst (Vienna).",
-    "ja": "作家の作品カタログ。英独バイリンガルレイアウト。Verlag für moderne Kunst（ウィーン）より刊行。"
+    "en": "Catalogue of the contemporary artist's work. Bilingual English/German layout. Published by Verlag für moderne Kunst (Vienna).",
+    "ja": "現代美術家の作品カタログ。英独バイリンガルレイアウト。Verlag für moderne Kunst（ウィーン）より刊行。"
    },
    "venue": "Verlag für moderne Kunst / Lehmbruck Museum context",
    "venueShort": "Verlag für moderne Kunst",
