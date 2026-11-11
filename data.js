@@ -294,6 +294,7 @@ window.ARCHIVE = {
  "awards": [
   {
    "kind": "award",
+   "lp": true,
    "year": "2013",
    "title": {
     "en": "MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013, Grand Prize",
@@ -307,6 +308,7 @@ window.ARCHIVE = {
   },
   {
    "kind": "award",
+   "lp": false,
    "year": "2013",
    "title": {
     "en": "Salon de Printemps Prize, Tokyo University of the Arts",
@@ -317,6 +319,7 @@ window.ARCHIVE = {
   },
   {
    "kind": "grant",
+   "lp": true,
    "year": "2017",
    "title": {
     "en": "POLA Art Foundation Overseas Research Grant",
@@ -10517,7 +10520,7 @@ window.ARCHIVE = {
   },
   "info.statement": {
    "en": "Natsumi Sugiyama is an artist whose practice examines how environments are experienced, crossed and transformed, drawing on movement across borders, marginalised presences and under-recorded narratives. Working through editorial methods, she composes this work as installation, moving image and drawing. Between 2013 and 2020 her work centred on narratives of place, developed through fieldwork; it now turns to narratives in flux, recomposed across borders.",
-   "ja": "杉山夏実（すぎやま・なつみ）　美術家。環境がどのように経験され、越えられ、変容されるかを主題に、越境する移動、周縁化された存在、記録されにくい語りを手がかりとした実践を行う。編集的手法を通し、インスタレーション、映像、ドローイングなどのかたちに構成する。2013年から2020年にかけては、フィールドワークを通じた場所の語りを中心に制作した。現在は、越境のなかで混ざり合い、組み替えられていく語りへと焦点を移している。"
+   "ja": "杉山夏実（すぎやま・なつみ）｜美術家\n\n人と環境の関係を主題に、移動や越境、周縁化された存在、記録に残りにくい語りを扱う。2013年から2020年にかけては、フィールドワークを通じて場所にまつわる語りを扱ってきた。現在は、異なる場所や文化のあいだを移動するなかで、語りが交差し、変容していく過程に焦点を当てている。編集的な手法を用い、インスタレーション、映像、ドローイングなどを制作する。"
   },
   "info.origin": {
    "en": "Born in Tokyo, based in Berlin (as of 2026)\nPOLA Art Foundation Overseas Research Grant (2017)",
@@ -10532,8 +10535,8 @@ window.ARCHIVE = {
    "ja": "2020|東京藝術大学大学院 美術研究科 博士後期課程|ref:19\n2017|ワイマール・バウハウス大学（パブリックアートと新芸術戦略）修士課程修了|ref:28\n2013|東京藝術大学大学院 美術研究科 デザイン専攻 修士課程修了\n|多摩美術大学 環境デザイン学科 卒業"
   },
   "index.awards": {
-   "en": "2013|MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013, Grand Prize|ref:1|kind:award\n2013|Salon de Printemps Prize, Tokyo University of the Arts|kind:award\n2017|POLA Art Foundation Overseas Research Grant|ref:21|kind:grant",
-   "ja": "2013|MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013 大賞|ref:1|kind:award\n2013|サロン・ド・プランタン賞（東京藝術大学）|kind:award\n2017|ポーラ美術振興財団 在外研修員|ref:21|kind:grant"
+   "en": "2013|MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013, Grand Prize|ref:1|kind:award\n2013|Salon de Printemps Prize, Tokyo University of the Arts|kind:award|lp:no\n2017|POLA Art Foundation Overseas Research Grant|ref:21|kind:grant",
+   "ja": "2013|MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013 大賞|ref:1|kind:award\n2013|サロン・ド・プランタン賞（東京藝術大学）|kind:award|lp:no\n2017|ポーラ美術振興財団 在外研修員|ref:21|kind:grant"
   },
   "info.stmt.label": {
    "en": "Statement",

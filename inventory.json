@@ -1,0 +1,1962 @@
+{
+ "name": "Natsumi Sugiyama — Inventory",
+ "url": "https://www.natsumi-sugiyama.com/inventory.html",
+ "artist": {
+  "name": "Natsumi Sugiyama",
+  "name_ja": "杉山夏実",
+  "bio": {
+   "en": "Natsumi Sugiyama is an artist whose practice examines how environments are experienced, crossed and transformed, drawing on movement across borders, marginalised presences and under-recorded narratives. Working through editorial methods, she composes this work as installation, moving image and drawing. Between 2013 and 2020 her work centred on narratives of place, developed through fieldwork; it now turns to narratives in flux, recomposed across borders.",
+   "ja": "杉山夏実（すぎやま・なつみ）｜美術家\n\n人と環境の関係を主題に、移動や越境、周縁化された存在、記録に残りにくい語りを扱う。2013年から2020年にかけては、フィールドワークを通じて場所にまつわる語りを扱ってきた。現在は、異なる場所や文化のあいだを移動するなかで、語りが交差し、変容していく過程に焦点を当てている。編集的な手法を用い、インスタレーション、映像、ドローイングなどを制作する。"
+  },
+  "occupation": {
+   "en": "Visual Artist",
+   "ja": "現代美術家"
+  }
+ },
+ "education": [
+  {
+   "year": "2020",
+   "text": "PhD, practice-based, Tokyo University of the Arts"
+  },
+  {
+   "year": "2017",
+   "text": "MFA, Public Art and New Artistic Strategies, Bauhaus-Universität Weimar"
+  },
+  {
+   "year": "2013",
+   "text": "MA, Design, Tokyo University of the Arts"
+  },
+  {
+   "year": "",
+   "text": "BA, Environmental Design, Tama Art University"
+  }
+ ],
+ "awards": [
+  {
+   "kind": "award",
+   "year": "2013",
+   "title": {
+    "en": "MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013, Grand Prize",
+    "ja": "MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013 大賞"
+   },
+   "url": "https://compe.japandesign.ne.jp/mitsubishi_chemical/2013/results/"
+  },
+  {
+   "kind": "award",
+   "year": "2013",
+   "title": {
+    "en": "Salon de Printemps Prize, Tokyo University of the Arts",
+    "ja": "サロン・ド・プランタン賞（東京藝術大学）"
+   },
+   "url": ""
+  },
+  {
+   "kind": "grant",
+   "year": "2017",
+   "title": {
+    "en": "POLA Art Foundation Overseas Research Grant",
+    "ja": "ポーラ美術振興財団 在外研修員"
+   },
+   "url": "https://www.pola.co.jp/about/news/2021/bd2jfg0000000zlc-att/po20211216.pdf"
+  }
+ ],
+ "scholarships": [
+  {
+   "year": "2015",
+   "title": {
+    "en": "TOBITATE! Study Abroad JAPAN",
+    "ja": "トビタテ！留学JAPAN"
+   },
+   "organisation": {
+    "en": "Ministry of Education, Culture, Sports, Science and Technology (MEXT)",
+    "ja": "文部科学省"
+   }
+  },
+  {
+   "year": "2015",
+   "title": {
+    "en": "JASSO Short-term Study Abroad Support Program",
+    "ja": "JASSO 海外短期留学支援制度"
+   },
+   "organisation": {
+    "en": "Japan Student Services Organization",
+    "ja": "日本学生支援機構"
+   }
+  },
+  {
+   "year": "2013",
+   "title": {
+    "en": "JASSO Repayment Exemption for Graduate Students with Excellent Achievements (full), on completing the master’s programme at Tokyo University of the Arts",
+    "ja": "JASSO 特に優れた業績による返還免除（全額）、東京藝術大学大学院 修士課程修了時"
+   },
+   "organisation": {
+    "en": "Japan Student Services Organization",
+    "ja": "日本学生支援機構"
+   }
+  }
+ ],
+ "exhibitions": [
+  {
+   "year": "2025",
+   "work": "A_ART015",
+   "exhibition": "Kiosk for a Magic Future by Imaginary Collective, ЯE:IMAGINE: THE RED HOUSE, 7th Berliner Herbstsalon",
+   "venue": "Maxim Gorki Theater",
+   "city": "Berlin",
+   "type": "group"
+  },
+  {
+   "year": "2022",
+   "work": "A_ART014",
+   "exhibition": "Beyond Subjects and Material",
+   "venue": "Pola Museum Annex",
+   "city": "Tokyo",
+   "type": "group",
+   "url": "https://www.pola.co.jp/about/news/2021/bd2jfg0000000zlc-att/po20211216.pdf"
+  },
+  {
+   "year": "2019",
+   "work": "A_ART011",
+   "exhibition": "IMAGINARY BAUHAUS MUSEUM*",
+   "venue": "Schiller Museum",
+   "city": "Weimar",
+   "type": "group",
+   "url": "https://www.uni-weimar.de/de/medieninformationen/detail/imaginary-bauhaus-museum-internationale-kunststudierende-praesentieren-imaginierte-bauhaussammlung/"
+  },
+  {
+   "year": "2017",
+   "work": "A_ART009",
+   "venue": "Herzogin Anna Amalia Bibliothek",
+   "city": "Weimar",
+   "type": "group"
+  },
+  {
+   "year": "2017",
+   "work": "A_ART010",
+   "exhibition": "Asphalt Festival",
+   "venue": "Public spaces in the city centre",
+   "city": "Düsseldorf",
+   "type": "group",
+   "url": "https://www.asphalt-festival.de/events/2017/grasgemaelde/"
+  },
+  {
+   "year": "2017",
+   "work": "B_COL010",
+   "exhibition": "as a guest, within Danica Dakić's *Missing Sculpture*",
+   "venue": "Lehmbruck Museum",
+   "city": "Duisburg",
+   "type": "guest",
+   "url": "https://lehmbruckmuseum.pr.co/140499-sculpture-21st-danica-dakic/"
+  },
+  {
+   "year": "2016",
+   "work": "A_ART007",
+   "exhibition": "Tomorrow We Will Explain",
+   "venue": "Kunsthaus Dresden and public space",
+   "city": "Dresden",
+   "type": "group",
+   "url": "https://kunsthausdresden.de/veranstaltungen/tomorrow-we-will-explain/"
+  },
+  {
+   "year": "2015",
+   "work": "A_ART005",
+   "exhibition": "YOU SAY ART I SAY WHAT",
+   "venue": "Maxim Gorki Theater and Stiftung Mercator",
+   "city": "Berlin",
+   "type": "group"
+  },
+  {
+   "year": "2015",
+   "work": "A_ART004",
+   "exhibition": "There is an Exhibition in Prison. It is Called CRACK",
+   "venue": "Former prison (JVA)",
+   "city": "Weimar",
+   "type": "group"
+  },
+  {
+   "year": "2014",
+   "work": "A_ART003",
+   "venue": "Jūniten Gallery",
+   "city": "Nagano",
+   "type": "self-organized"
+  },
+  {
+   "year": "2014",
+   "work": "A_ART002",
+   "venue": "Roppongi Art Night",
+   "city": "Tokyo",
+   "type": "group",
+   "url": "https://www.roppongiartnight.com/2014/release/RANrelease20140220.pdf"
+  },
+  {
+   "year": "2013",
+   "work": "A_ART001",
+   "venue": "Tokyo International Forum and The Museum of Tokyo University of the Arts",
+   "city": "Tokyo",
+   "type": "group",
+   "url": "https://www.chem-t.com/fax/images/tmp_file1_1381986408.pdf"
+  }
+ ],
+ "works": [
+  {
+   "id": "A_ART015",
+   "url": "https://www.natsumi-sugiyama.com/#work=A_ART015",
+   "title": {
+    "en": "Portraits of (Places)",
+    "ja": "Portraits of (Places)"
+   },
+   "year": "2025",
+   "area": "artistic practice",
+   "category": {
+    "en": "Mobility and narratives of environments",
+    "ja": "移動と環境体験の語り"
+   },
+   "medium": [
+    "mixed media object",
+    "exhibition"
+   ],
+   "material": {
+    "en": "stone, wood, clay, found objects, pigment from soil, resin",
+    "ja": "石、木、粘土、拾ったもの、土からの顔料、レジン"
+   },
+   "role": "Artist",
+   "venue": "Kiosk for a Magic Future by Imaginary Collective, as part of the 7th Berliner Herbstsalon ЯE:IMAGINE: THE RED HOUSE, Maxim Gorki Theater, Berlin",
+   "city": "Berlin",
+   "commissioner": "IMAGINARY COLLECTIVE",
+   "organizations": "Gorki Theatre",
+   "description": {
+    "en": "Four small diagrams based on interviews.",
+    "ja": "インタビューをもとにした、4点の小さなダイアグラム。"
+   },
+   "text": {
+    "en": "Portraits of (Places): four small diagrams based on narrative interviews.",
+    "ja": "《Portraits of (Places)》は、ベルリンのゴーリキー劇場で収録したインタビューをもとにした、4点の小さなダイアグラムである"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART015/00.webp",
+     "width": 1100,
+     "height": 740
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART015/01.webp",
+     "width": 1600,
+     "height": 909
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART015/02.webp",
+     "width": 1600,
+     "height": 908
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART015/03.webp",
+     "width": 1600,
+     "height": 909
+    }
+   ],
+   "index_only": false
+  },
+  {
+   "id": "A_ART014",
+   "url": "https://www.natsumi-sugiyama.com/#work=A_ART014",
+   "title": {
+    "en": "Recollections of Beyond",
+    "ja": "Recollections of Beyond｜回想：場所と人のあいだ"
+   },
+   "year": "2022",
+   "area": "artistic practice",
+   "category": {
+    "en": "Mobility and narratives of environments",
+    "ja": "移動と環境体験の語り"
+   },
+   "medium": [
+    "installation",
+    "video"
+   ],
+   "role": "Artist",
+   "city": "Tokyo",
+   "collaborators": [
+    [
+     "Voice",
+     "12 people who shared narratives about their places"
+    ],
+    [
+     "Audio-visual programming",
+     "Vasili Macharadze"
+    ]
+   ],
+   "support": "Pola Art Foundation",
+   "description": {
+    "en": "A collage installation that recomposes, in sound and image, memories and experiences of places drawn from interviews. Fragments of narratives by people who have crossed continents and eras are put together, drawing out a new landscape that emerges where their experiences intersect.",
+    "ja": "人々へのインタビューをもとに、場所にまつわる記憶や経験を音と映像によって再構成したコラージュ・インスタレーション。複数の大陸や時代を横断してきた人々の語りの断片を組み合わせ、それぞれの経験が交差することで立ち現れる、新たな風景を描き出す。"
+   },
+   "text": {
+    "en": "A collage installation that recomposes, in sound and image, memories and experiences of places drawn from interviews. Fragments of narratives by people who have crossed continents and eras are put together, drawing out a new landscape that emerges where their experiences intersect.\nThe work marked a turning point in the series Portraits of Places, a shift in how it sees the relationship between places and people. The early works of the series looked, one by one, at personal experiences within an environment and the meanings projected onto it. In response to the limits and problems of binding a place to a fixed geographical territory, this work attempts to depict the site itself where people's movements, memories, overlapping experiences and the trajectories of their organic motion briefly intersect.",
+    "ja": "人々へのインタビューをもとに、場所にまつわる記憶や経験を音と映像によって再構成したコラージュ・インスタレーション。複数の大陸や時代を横断してきた人々の語りの断片を組み合わせ、それぞれの経験が交差することで立ち現れる、新たな風景を描き出す。\n本作は、「場所の肖像（Portraits of Places）」シリーズにおいて、場所と人との関係を捉える視点が変化する転換点となった。シリーズの初期作品では、環境のなかの個人的な経験と意味の投影の個々に着目していた。しかし、場所を特定の地理的領域と固定的に結びつけることへの限界と問題点への対応として、人々の移動や記憶、経験の重なりと有機的な運動の軌跡が一時的に交差する場自体を描く試みである。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART014/00.webp",
+     "width": 2000,
+     "height": 1170
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART014/v00.webp",
+     "width": 1280,
+     "height": 720
+    }
+   ],
+   "sources": [
+    {
+     "source": "POLA ORBIS HOLDINGS",
+     "source_original": "ポーラ・オルビスホールディングス",
+     "type": "press release (PDF)",
+     "title": "POLA MUSEUM ANNEX Exhibition 2022",
+     "title_original": "ポーラ ミュージアム アネックス展 2022",
+     "date": "2021-12-16",
+     "url": "https://www.pola.co.jp/about/news/2021/bd2jfg0000000zlc-att/po20211216.pdf",
+     "archived": "https://web.archive.org/web/20261111135843/https://www.pola.co.jp/about/news/2021/bd2jfg0000000zlc-att/po20211216.pdf"
+    },
+    {
+     "source": "PR TIMES",
+     "source_original": "PR TIMES",
+     "type": "press release",
+     "title": "POLA MUSEUM ANNEX Exhibition 2022",
+     "title_original": "ポーラ ミュージアム アネックス展 2022",
+     "date": "2021-12-16",
+     "url": "https://prtimes.jp/main/html/rd/p/000000020.000069355.html",
+     "archived": "https://web.archive.org/web/20261111135903/https://prtimes.jp/main/html/rd/p/000000020.000069355.html"
+    },
+    {
+     "source": "Bijutsu Techo",
+     "source_original": "美術手帖",
+     "type": "exhibition listing",
+     "title": "POLA MUSEUM ANNEX Exhibition 2022",
+     "title_original": "ポーラ ミュージアム アネックス展 2022",
+     "date": "2022",
+     "url": "https://bijutsutecho.com/exhibitions/9492",
+     "archived": "https://web.archive.org/web/20261111135943/https://bijutsutecho.com/exhibitions/9492"
+    },
+    {
+     "source": "artscape",
+     "source_original": "artscape",
+     "type": "exhibition listing",
+     "title": "POLA MUSEUM ANNEX Exhibition 2022",
+     "title_original": "ポーラ ミュージアム アネックス展 2022",
+     "date": "2022",
+     "url": "https://artscape.jp/exhibition/art-flash-news/2022/10174061_21841.html",
+     "archived": "https://web.archive.org/web/20261111140039/https://artscape.jp/exhibition/art-flash-news/2022/10174061_21841.html"
+    },
+    {
+     "source": "Tokyo Art Beat",
+     "source_original": "Tokyo Art Beat",
+     "type": "exhibition listing",
+     "title": "POLA MUSEUM ANNEX Exhibition 2022",
+     "title_original": "ポーラ ミュージアム アネックス展 2022",
+     "date": "2022",
+     "url": "https://www.tokyoartbeat.com/events/-/2022%2Fpola-museum-annex-exhibition-2022",
+     "archived": "https://web.archive.org/web/20261111140143/https://www.tokyoartbeat.com/events/-/2022%2Fpola-museum-annex-exhibition-2022"
+    },
+    {
+     "source": "Kokosil Ginza",
+     "source_original": "ココシル銀座",
+     "type": "news",
+     "title": "POLA MUSEUM ANNEX Exhibition 2022",
+     "title_original": "ポーラ ミュージアム アネックス展 2022",
+     "date": "2021-12-18",
+     "url": "https://home.ginza.kokosil.net/ja/archives/90443",
+     "archived": "https://web.archive.org/web/20261111140223/https://home.ginza.kokosil.net/en/"
+    },
+    {
+     "source": "Geijutsu Seikatsu",
+     "source_original": "芸術生活",
+     "type": "news",
+     "title": "POLA MUSEUM ANNEX Exhibition 2022",
+     "title_original": "ポーラ ミュージアム アネックス展 2022",
+     "date": "2021-12-16",
+     "url": "https://geijutsuseikatsu.com/7719/",
+     "archived": "https://web.archive.org/web/20261111140328/https://geijutsuseikatsu.com/7719/"
+    }
+   ],
+   "index_only": false
+  },
+  {
+   "id": "A_ART012",
+   "url": "https://www.natsumi-sugiyama.com/#work=A_ART012",
+   "title": {
+    "en": "In-Between Places and Humans",
+    "ja": "場所と人のあいだ"
+   },
+   "year": "2020",
+   "area": "artistic practice",
+   "category": {
+    "en": "Research and writing",
+    "ja": "研究・論考"
+   },
+   "medium": [
+    "text",
+    "field research"
+   ],
+   "role": "Researcher, Artist",
+   "venue": "Tokyo University of the Arts",
+   "city": "Tokyo",
+   "support": "Pola Art Foundation, Tobitate, Jasso",
+   "description": {
+    "en": "Examines the relationship between places and people through field research and projects in various locations. Practice-based doctoral dissertation, Graduate School of Fine Arts, Design, Tokyo University of the Arts.",
+    "ja": "フィールドリサーチと制作をもとに、場所と人の関係を論じる。東京藝術大学大学院美術研究科デザイン専攻の博士論文。"
+   },
+   "text": {
+    "en": "Examines the relationship between places and people through field research and projects in various locations. Practice-based doctoral dissertation, Graduate School of Fine Arts, Design, Tokyo University of the Arts.",
+    "ja": "フィールドリサーチと制作をもとに、場所と人の関係を論じる。東京藝術大学大学院美術研究科デザイン専攻の博士論文。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART012/00.webp",
+     "width": 1712,
+     "height": 1282
+    }
+   ],
+   "sources": [
+    {
+     "source": "Tokyo University of the Arts Repository",
+     "source_original": "東京藝術大学 機関リポジトリ",
+     "type": "doctoral thesis",
+     "title": "In-Between Places and Humans (full text)",
+     "title_original": "場所と人のあいだ（全文）",
+     "date": "2020-03-25",
+     "url": "https://geidai.repo.nii.ac.jp/records/2000226",
+     "archived": "https://web.archive.org/web/20260313150039/https://geidai.repo.nii.ac.jp/records/2000226"
+    },
+    {
+     "source": "Tokyo University of the Arts Repository",
+     "source_original": "東京藝術大学 機関リポジトリ",
+     "type": "thesis summary",
+     "title": "In-Between Places and Humans: summary and examination report (no. 615)",
+     "title_original": "場所と人のあいだ 要旨・審査結果（博美第615号）",
+     "date": "2020-03-25",
+     "url": "https://geidai.repo.nii.ac.jp/record/1090/files/hakubi615.pdf",
+     "archived": "https://web.archive.org/web/20250811082751/https://geidai.repo.nii.ac.jp/record/1090/files/hakubi615.pdf"
+    }
+   ],
+   "index_only": false,
+   "publication": {
+    "url": "https://www.natsumi-sugiyama.com/#book=A_ART012",
+    "role": "monograph",
+    "pages": 229,
+    "language": "Japanese",
+    "cover": "https://www.natsumi-sugiyama.com/img/A_ART012/front.webp"
+   }
+  },
+  {
+   "id": "A_ART011",
+   "url": "https://www.natsumi-sugiyama.com/#work=A_ART011",
+   "title": {
+    "en": "Scenery of De/Museumization",
+    "ja": "Scenery of De/Museumization"
+   },
+   "year": "2019",
+   "area": "artistic practice",
+   "category": {
+    "en": "Traces and interventions in structures",
+    "ja": "構造のなかの痕跡と介入"
+   },
+   "medium": [
+    "installation",
+    "exhibition"
+   ],
+   "role": "Artist, Exhibition Scenography Design, Adjunct Lecturer",
+   "venue": "Schiller Museum Weimar",
+   "city": "Weimar",
+   "commissioner": "IMAGINARY BAUHAUS MUSEUM*",
+   "organizations": "MFA \"Public Art and New Artistic Strategies\" at Bauhaus-Universität Weimar; Klassik Stiftung Weimar",
+   "support": "Kreativfonds der Bauhaus-Universität Weimar; Thüringer Staatskanzlei,",
+   "description": {
+    "en": "Exhibition scenography and wall graphic installation for IMAGINARY BAUHAUS MUSEUM. A graphic composition spanning two floors conceptually deconstructs the existing museum space while creating a continuous spatial landscape.",
+    "ja": "《IMAGINARY BAUHAUS MUSEUM》の展示空間構成ウォールグラフィックインスタレーション。2フロアを横断するグラフィック構成によって、既存の博物館空間を概念的に解体しながらも連続した風景を立ち上げる。"
+   },
+   "text": {
+    "en": "Developed as part of the 2019 Bauhaus centenary programme, IMAGINARY BAUHAUS MUSEUM approached the Bauhaus not as a collection of historical works or a fixed style, but as an ongoing practice of questioning established frameworks through education, making, architecture, and engagement with society. Scenery of De/Museumization translated this perspective into a wall graphic installation spanning two floors, conceptually deconstructing the existing museum space while creating a continuous spatial landscape. Experienced from within the building, this continuity brings into focus the tension between a movement that remains active beyond any single site and the museum as a place where it is presented. The scenography thus questions the idea that such a movement can be contained within the institution that hosts it.",
+    "ja": "2019年のバウハウス100周年記念プログラムの一環として企画された IMAGINARY BAUHAUS MUSEUM は、実験と社会変革を基盤とするバウハウスを、過去の様式や作品群ではなく、教育、制作、建築、社会との関わりを通じて既存の枠組みを問い直し続ける実践として捉える試みである。Scenery of De/Museumization では、2フロアを横断するウォールグラフィックによって、既存の博物館空間を概念的に解体しながら、連続した風景を立ち上げた。空間の内部に身を置くことで知覚されるその連続性を通じて、特定の場所に収蔵・固定されることのない運動と、博物館という発表の場との緊張関係を、展示空間の構成そのものによって問いかけた。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/00.webp",
+     "width": 2778,
+     "height": 1345
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/01.webp",
+     "width": 4624,
+     "height": 3083
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/02.webp",
+     "width": 4815,
+     "height": 3210
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/03.webp",
+     "width": 5305,
+     "height": 3537
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/04.webp",
+     "width": 5127,
+     "height": 3418
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/05.webp",
+     "width": 3613,
+     "height": 2409
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/06.webp",
+     "width": 4531,
+     "height": 3021
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/07.webp",
+     "width": 5352,
+     "height": 3568
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/08.webp",
+     "width": 5616,
+     "height": 3744
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/09.webp",
+     "width": 4111,
+     "height": 2741
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/10.webp",
+     "width": 4837,
+     "height": 3225
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/11.webp",
+     "width": 5089,
+     "height": 3393
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/12.webp",
+     "width": 4886,
+     "height": 3257
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/13.webp",
+     "width": 4522,
+     "height": 3015
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/14.webp",
+     "width": 3589,
+     "height": 2393
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/15.webp",
+     "width": 632,
+     "height": 488
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/16.webp",
+     "width": 384,
+     "height": 602
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/17.webp",
+     "width": 1872,
+     "height": 1172
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/18.webp",
+     "width": 1956,
+     "height": 1176
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART011/95.webp",
+     "width": 2500,
+     "height": 2500
+    }
+   ],
+   "credit": "Each artwork by paticipated artists, Exhibition view photos: Carlos Santos",
+   "sources": [
+    {
+     "source": "Bauhaus-Universität Weimar",
+     "source_original": "Bauhaus-Universität Weimar",
+     "type": "press release",
+     "title": "IMAGINARY BAUHAUS MUSEUM – Internationale Kunststudierende präsentieren imaginierte Bauhaussammlung",
+     "title_original": "IMAGINARY BAUHAUS MUSEUM – Internationale Kunststudierende präsentieren imaginierte Bauhaussammlung",
+     "date": "2019-04-01",
+     "url": "https://www.uni-weimar.de/de/medieninformationen/detail/imaginary-bauhaus-museum-internationale-kunststudierende-praesentieren-imaginierte-bauhaussammlung/",
+     "archived": "https://web.archive.org/web/20261111135433/https://www.uni-weimar.de/de/medieninformationen/detail/imaginary-bauhaus-museum-internationale-kunststudierende-praesentieren-imaginierte-bauhaussammlung/"
+    },
+    {
+     "source": "IMAGINARY BAUHAUS MUSEUM",
+     "source_original": "IMAGINARY BAUHAUS MUSEUM",
+     "type": "project archive",
+     "title": "WORKS (SPACE COMPOSITION / VI)",
+     "title_original": "WORKS（SPACE COMPOSITION / VI）",
+     "date": "2019",
+     "url": "https://imaginarybauhaus.com/de/works",
+     "archived": "https://web.archive.org/web/20261111135547/https://imaginarybauhaus.com/de/works"
+    },
+    {
+     "source": "Vimeo (Konrad Behr)",
+     "source_original": "Vimeo（Konrad Behr）",
+     "type": "video",
+     "title": "Opening of IMAGINARY BAUHAUS MUSEUM at Schiller-Museum Weimar",
+     "title_original": "Opening of IMAGINARY BAUHAUS MUSEUM at Schiller-Museum Weimar",
+     "date": "2019-04-04",
+     "url": "https://vimeo.com/383495993",
+     "archived": "https://web.archive.org/web/20261111135633/https://vimeo.com/383495993"
+    }
+   ],
+   "index_only": false
+  },
+  {
+   "id": "G_EDU050",
+   "url": "https://www.natsumi-sugiyama.com/#work=G_EDU050",
+   "title": {
+    "en": "IMAGINARY BAUHAUS MUSEUM",
+    "ja": "IMAGINARY BAUHAUS MUSEUM"
+   },
+   "year": "2018–2019",
+   "area": "design",
+   "category": {
+    "en": "Educational projects",
+    "ja": "教育活動"
+   },
+   "role": "Project Adjunct Lecturer",
+   "venue": "Schiller Museum Weimar",
+   "city": "Weimar",
+   "organizations": "MFA \"Public Art and New Artistic Strategies\" at Bauhaus-Universität Weimar; Klassik Stiftung Weimar",
+   "description": {
+    "en": "Project Adjunct Lecturer for the MFA programme \"Public Art and New Artistic Strategies\" at Bauhaus-Universität Weimar, for the exhibition project IMAGINARY BAUHAUS MUSEUM, marking the Bauhaus centenary in 2019.",
+    "ja": "ワイマール・バウハウス大学 MFA「Public Art and New Artistic Strategies」プロジェクト特任非常勤講師。2019年のバウハウス100周年に向けた展覧会プロジェクト IMAGINARY BAUHAUS MUSEUM を担当。"
+   },
+   "text": {
+    "en": "",
+    "ja": ""
+   },
+   "related": [
+    "A_ART011",
+    "B_COL020"
+   ],
+   "sources": [
+    {
+     "source": "Bauhaus-Universität Weimar",
+     "source_original": "Bauhaus-Universität Weimar",
+     "type": "press release",
+     "title": "IMAGINARY BAUHAUS MUSEUM – Internationale Kunststudierende präsentieren imaginierte Bauhaussammlung",
+     "title_original": "IMAGINARY BAUHAUS MUSEUM – Internationale Kunststudierende präsentieren imaginierte Bauhaussammlung",
+     "date": "2019-04-01",
+     "url": "https://www.uni-weimar.de/de/medieninformationen/detail/imaginary-bauhaus-museum-internationale-kunststudierende-praesentieren-imaginierte-bauhaussammlung/",
+     "archived": "https://web.archive.org/web/20261111135433/https://www.uni-weimar.de/de/medieninformationen/detail/imaginary-bauhaus-museum-internationale-kunststudierende-praesentieren-imaginierte-bauhaussammlung/"
+    },
+    {
+     "source": "IMAGINARY BAUHAUS MUSEUM",
+     "source_original": "IMAGINARY BAUHAUS MUSEUM",
+     "type": "project archive",
+     "title": "WORKS (SPACE COMPOSITION / VI)",
+     "title_original": "WORKS（SPACE COMPOSITION / VI）",
+     "date": "2019",
+     "url": "https://imaginarybauhaus.com/de/works",
+     "archived": "https://web.archive.org/web/20261111135547/https://imaginarybauhaus.com/de/works"
+    },
+    {
+     "source": "Vimeo (Konrad Behr)",
+     "source_original": "Vimeo（Konrad Behr）",
+     "type": "video",
+     "title": "Opening of IMAGINARY BAUHAUS MUSEUM at Schiller-Museum Weimar",
+     "title_original": "Opening of IMAGINARY BAUHAUS MUSEUM at Schiller-Museum Weimar",
+     "date": "2019-04-04",
+     "url": "https://vimeo.com/383495993",
+     "archived": "https://web.archive.org/web/20261111135633/https://vimeo.com/383495993"
+    }
+   ],
+   "index_only": true
+  },
+  {
+   "id": "A_ART009",
+   "url": "https://www.natsumi-sugiyama.com/#work=A_ART009",
+   "title": {
+    "en": "Field Notes of Topophilia",
+    "ja": "Field Notes of Topophilia"
+   },
+   "year": "2017",
+   "area": "artistic practice",
+   "category": {
+    "en": "Research and writing",
+    "ja": "研究・論考"
+   },
+   "medium": [
+    "text",
+    "field research"
+   ],
+   "role": "Artist",
+   "venue": "Herzogin Anna Amalia Bibliothek",
+   "city": "Weimar",
+   "organizations": "MFA \"Public Art and New Artistic Strategies\" Bauhaus-Universität Weimar, Anna Amalia Bibliothek",
+   "support": "POLA Art Foundation Overseas Research Grant (2017–2018)",
+   "description": {
+    "en": "An essay based on field research that takes apart places, environments and their memories in order to think about them.",
+    "ja": "場所と環境、その記憶について分解的に思考する、フィールドリサーチに基づいたエッセイ。"
+   },
+   "text": {
+    "en": "An essay based on field research that takes apart places, environments and their memories in order to think about them.",
+    "ja": "場所と環境、その記憶について分解的に思考する、フィールドリサーチに基づいたエッセイ。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART009/00.webp",
+     "width": 4912,
+     "height": 3064
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART009/01.webp",
+     "width": 4032,
+     "height": 3024
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART009/02.webp",
+     "width": 564,
+     "height": 675
+    }
+   ],
+   "credit": "Installation view photos: Hilde Pank",
+   "index_only": false,
+   "publication": {
+    "url": "https://www.natsumi-sugiyama.com/#book=A_ART009",
+    "role": "thesis",
+    "pages": 63,
+    "language": "English",
+    "cover": "https://www.natsumi-sugiyama.com/img/A_ART009/front.webp"
+   }
+  },
+  {
+   "id": "A_ART010",
+   "url": "https://www.natsumi-sugiyama.com/#work=A_ART010",
+   "title": {
+    "en": "StadtGestaltung",
+    "ja": "StadtGestaltung Düsseldorf｜街の顔"
+   },
+   "year": "2017",
+   "area": "artistic practice",
+   "category": {
+    "en": "Traces and interventions in structures",
+    "ja": "構造のなかの痕跡と介入"
+   },
+   "medium": [
+    "installation"
+   ],
+   "role": "Artist",
+   "venue": "Asphalt Festival – Sommer der Künste / two outdoor public spaces in city centre",
+   "city": "Düsseldorf",
+   "commissioner": "Asphalt Festival – Sommer der Künste",
+   "organizations": "Asphaslt Festival Sommer der Kunste",
+   "collaborators": [
+    [
+     "",
+     "public (randomly encountered people at the site)"
+    ]
+   ],
+   "description": {
+    "en": "A performative public installation composed of fragmented pieces of faces, creating a portrait of the city that emerged from encounters around the project site.",
+    "ja": "都市の顔とは誰なのかを扱うパブリック・インスタレーション。"
+   },
+   "text": {
+    "en": "A performative public installation composed of fragmented pieces of faces, creating a portrait of the city that emerged from encounters around the project site.",
+    "ja": "都市の顔とは誰なのかを扱うパブリック・インスタレーション。プロジェクトサイト周辺での偶然のやり取りから断片化された顔の要素を集め、都市の肖像を立ち上げる。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART010/00.webp",
+     "width": 1181,
+     "height": 827
+    }
+   ],
+   "credit": "Egbert Trogemann, VG Bild-Kunst, 2017",
+   "sources": [
+    {
+     "source": "asphalt Festival",
+     "source_original": "asphalt Festival",
+     "type": "programme page",
+     "title": "Grasgemälde (Kunststörer, Festivalthema StadtGestalten)",
+     "title_original": "Grasgemälde（Kunststörer, Festivalthema StadtGestalten）",
+     "date": "2017-07",
+     "url": "https://www.asphalt-festival.de/events/2017/grasgemaelde/",
+     "archived": "https://web.archive.org/web/20261111134818/https://www.asphalt-festival.de/events/2017/grasgemaelde/"
+    },
+    {
+     "source": "Westdeutsche Zeitung",
+     "source_original": "Westdeutsche Zeitung",
+     "type": "newspaper",
+     "title": "„Wir wollen Leute erreichen, die nicht ins Theater gehen\"",
+     "title_original": "„Wir wollen Leute erreichen, die nicht ins Theater gehen\"",
+     "date": "2017-07-14"
+    }
+   ],
+   "index_only": false
+  },
+  {
+   "id": "B_COL010",
+   "url": "https://www.natsumi-sugiyama.com/#work=B_COL010",
+   "title": {
+    "en": "Pigment Floor Drawing",
+    "ja": "Missing Sculpture 空間ドローイング"
+   },
+   "year": "2017",
+   "area": "artistic practice",
+   "category": {
+    "en": "Spatial graphics",
+    "ja": "空間グラフィック"
+   },
+   "medium": [
+    "installation",
+    "exhibition"
+   ],
+   "role": "Guest artist, within the framework of the work *Missing Sculpture*",
+   "venue": "Lehmbruck Museum",
+   "city": "Duisburg",
+   "organizations": "Lehmbruck Museum",
+   "description": {
+    "en": "A floor drawing in pigments and bone glue, interlaced with words from Joseph Beuys’ final speech, made within the multimedia work Missing Sculpture.",
+    "ja": "顔料と膠による大型の空間ドローイング。ヨーゼフ・ボイス最後の講演の言葉を織り込み、マルチメディア作品《Missing Sculpture》のなかで制作した。"
+   },
+   "text": {
+    "en": "A floor drawing in pigments and bone glue, interlaced with words from Joseph Beuys’ final speech, made within the multimedia work Missing Sculpture.",
+    "ja": "顔料と膠による大型の空間ドローイング。ヨーゼフ・ボイス最後の講演の言葉を織り込み、マルチメディア作品《Missing Sculpture》のなかで制作した。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/B_COL010/00.webp",
+     "width": 1181,
+     "height": 566
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/B_COL010/01.webp",
+     "width": 787,
+     "height": 560
+    }
+   ],
+   "credit": "Installation View Photo: Egbert Trogemann, VG Bild-Kunst, 2017",
+   "sources": [
+    {
+     "source": "Lehmbruck Museum",
+     "source_original": "Lehmbruck Museum",
+     "type": "press release",
+     "title": "Sculpture 21st: Danica Dakić (MISSING SCULPTURE, guest artist)",
+     "title_original": "Sculpture 21st: Danica Dakić（MISSING SCULPTURE, guest artist）",
+     "date": "2017",
+     "url": "https://lehmbruckmuseum.pr.co/140499-sculpture-21st-danica-dakic/",
+     "archived": "https://web.archive.org/web/20261111134952/https://lehmbruckmuseum.pr.co/140499-sculpture-21st-danica-dakic/"
+    },
+    {
+     "source": "Lokalkompass Duisburg",
+     "source_original": "Lokalkompass Duisburg",
+     "type": "news",
+     "title": "Danica Dakic im Lehmbruck-Museum",
+     "title_original": "Danica Dakic im Lehmbruck-Museum",
+     "date": "2017",
+     "url": "https://www.lokalkompass.de/duisburg/c-kultur/danica-dakic-im-lehmbruck-museum_a731400",
+     "archived": "https://web.archive.org/web/20250806085311/https://www.lokalkompass.de/duisburg/c-kultur/danica-dakic-im-lehmbruck-museum_a731400"
+    },
+    {
+     "source": "Duisburg am Rhein",
+     "source_original": "Duisburg am Rhein",
+     "type": "review",
+     "title": "Sculpture 21st: Lehmbruck Museum Duisburg zeigt Danica Dakićs „Missing Sculpture\"",
+     "title_original": "Sculpture 21st: Lehmbruck Museum Duisburg zeigt Danica Dakićs „Missing Sculpture\"",
+     "date": "2017-01-25",
+     "url": "https://duisburgamrhein-betrachtungen.de/2017/01/25/sculpture-21st-lehmbruck-museum-duisburg-zeigt-danica-dakics-missing-sculpture/",
+     "archived": "https://web.archive.org/web/20261111135139/https://duisburgamrhein-betrachtungen.de/2017/01/25/sculpture-21st-lehmbruck-museum-duisburg-zeigt-danica-dakics-missing-sculpture/"
+    }
+   ],
+   "index_only": false
+  },
+  {
+   "id": "W_RP047",
+   "url": "https://www.natsumi-sugiyama.com/#work=W_RP047",
+   "title": {
+    "en": "Untitled",
+    "ja": "無題"
+   },
+   "year": "2017–2021",
+   "area": "artistic practice",
+   "category": {
+    "en": "Other works",
+    "ja": "その他"
+   },
+   "medium": [
+    "field research",
+    "participant observation"
+   ],
+   "role": "Researcher",
+   "city": "Weimar, Berlin and near Potsdam",
+   "description": {
+    "en": "An activity carried on without a name, out of a need that could not be put aside. In GDR times, people who could not travel far built huts by hand and worked the land on small plots. Drawn to these places, where things quicker to buy are grown anyway and amateur DIY stands side by side, the artist went round looking at them, and for a time lived in a caravan, working the land herself.",
+    "ja": "名前を与えないまま、やむにやまれず続けていた行為。東ドイツ時代、遠くへ行くことのできなかった人々が、手で小屋を建て、自然に手を入れてきた区画がある。買った方が早いものをわざわざ育て、素人のDIYが並ぶその環境に惹かれて見て回り、自らも野良仕事をしながら、キャラバンで暮らした時期がある。"
+   },
+   "text": {
+    "en": "An activity carried on without a name, out of a need that could not be put aside. In GDR times, people who could not travel far built huts by hand and worked the land on small plots. Drawn to these places, where things quicker to buy are grown anyway and amateur DIY stands side by side, the artist went round looking at them, and for a time lived in a caravan, working the land herself.",
+    "ja": "名前を与えないまま、やむにやまれず続けていた行為。東ドイツ時代、遠くへ行くことのできなかった人々が、手で小屋を建て、自然に手を入れてきた区画がある。買った方が早いものをわざわざ育て、素人のDIYが並ぶその環境に惹かれて見て回り、自らも野良仕事をしながら、キャラバンで暮らした時期がある。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/W_RP047/00.webp",
+     "width": 2070,
+     "height": 1378
+    }
+   ],
+   "index_only": false
+  },
+  {
+   "id": "A_ART006",
+   "url": "https://www.natsumi-sugiyama.com/#work=A_ART006",
+   "title": {
+    "en": "Sceneries",
+    "ja": "Sceneries｜風景たち"
+   },
+   "year": "2016",
+   "area": "artistic practice",
+   "category": {
+    "en": "Mobility and narratives of environments",
+    "ja": "移動と環境体験の語り"
+   },
+   "medium": [
+    "field research",
+    "photography"
+   ],
+   "role": "Photography",
+   "venue": "Personal production",
+   "city": "Various Cities",
+   "description": {
+    "en": "A self-initiated field research, photography and editing project on relationships between landscapes and people.",
+    "ja": "風景と人の関係を扱うフィールドリサーチ、写真・編集による個人制作。"
+   },
+   "text": {
+    "en": "A self-initiated field research, photography and editing project on relationships between landscapes and people.",
+    "ja": "風景と人の関係を扱うフィールドリサーチ、写真・編集による個人制作。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART006/00.webp",
+     "width": 724,
+     "height": 498
+    }
+   ],
+   "index_only": false
+  },
+  {
+   "id": "A_ART007",
+   "url": "https://www.natsumi-sugiyama.com/#work=A_ART007",
+   "title": {
+    "en": "Phenomena, and Symbols of Persuasion",
+    "ja": "Portraits of Dresden"
+   },
+   "year": "2016",
+   "area": "artistic practice",
+   "category": {
+    "en": "Traces and interventions in structures",
+    "ja": "構造のなかの痕跡と介入"
+   },
+   "medium": [
+    "mixed media object",
+    "drawing",
+    "exhibition"
+   ],
+   "role": "Artist",
+   "venue": "Kunsthaus Dresden, Public space in the city of Dresden",
+   "city": "Dresden",
+   "organizations": "Kunsthaus Dresden, MFA \"Public Art and New Artistic Strategies\" Bauhaus-Universität Weimar",
+   "support": "Funding support by Kreativefund.",
+   "description": {
+    "en": "A mixed-media work addressing attachment to the city, and the fragility of representational signs — how readily they are instrumentalized. One of the works in the Portraits of Places series.",
+    "ja": "都市への愛着と表象記号、その危うさを扱うミクストメディア作品。"
+   },
+   "text": {
+    "en": "A mixed-media work addressing attachment to the city, and the fragility of representational signs — how readily they are instrumentalized. One of the works in the Portraits of Places series.",
+    "ja": "都市への愛着と表象記号、その危うさを扱うミクストメディア作品。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART007/00.webp",
+     "width": 3000,
+     "height": 1860
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART007/01.webp",
+     "width": 3872,
+     "height": 2592
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART007/02.webp",
+     "width": 1163,
+     "height": 797
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART007/03.webp",
+     "width": 1442,
+     "height": 920
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART007/04.webp",
+     "width": 3648,
+     "height": 5472
+    }
+   ],
+   "sources": [
+    {
+     "source": "Kunsthaus Dresden",
+     "source_original": "Kunsthaus Dresden",
+     "type": "exhibition page",
+     "title": "TOMORROW WE WILL EXPLAIN",
+     "title_original": "TOMORROW WE WILL EXPLAIN",
+     "date": "2016-06",
+     "url": "https://kunsthausdresden.de/veranstaltungen/tomorrow-we-will-explain/",
+     "archived": "https://web.archive.org/web/20261111134628/https://kunsthausdresden.de/veranstaltungen/tomorrow-we-will-explain/"
+    },
+    {
+     "source": "Dresden Contemporary Art",
+     "source_original": "Dresden Contemporary Art",
+     "type": "event listing",
+     "title": "TOMORROW WE WILL EXPLAIN",
+     "title_original": "TOMORROW WE WILL EXPLAIN",
+     "date": "2016-06",
+     "url": "https://dresdencontemporaryart.com/de/event/tomorrow-we-will-explain",
+     "archived": "https://web.archive.org/web/20261111134706/https://dresdencontemporaryart.com/de/event/tomorrow-we-will-explain"
+    },
+    {
+     "source": "Ina Weise",
+     "source_original": "Ina Weise",
+     "type": "project archive",
+     "title": "Tomorrow We Will Explain",
+     "title_original": "Tomorrow We Will Explain",
+     "date": "2016",
+     "url": "https://inaweise.de/tomorrow-we-will-explain/",
+     "archived": "https://web.archive.org/web/20261111134739/https://inaweise.de/tomorrow-we-will-explain/"
+    }
+   ],
+   "index_only": false
+  },
+  {
+   "id": "A_ART008",
+   "url": "https://www.natsumi-sugiyama.com/#work=A_ART008",
+   "title": {
+    "en": "A Dot on a Line, Replaced and Continuing",
+    "ja": "A Dot on a Line, Replaced and Continuing"
+   },
+   "year": "2016",
+   "area": "artistic practice",
+   "category": {
+    "en": "Perception and memory of environments",
+    "ja": "環境体験の知覚と記憶"
+   },
+   "medium": [
+    "drawing",
+    "photography"
+   ],
+   "role": "Illustration, Drawing",
+   "venue": "Personal production",
+   "city": "Weimar",
+   "support": "POLA Art Foundation Overseas Research Grant (2017–2018)",
+   "description": {
+    "en": "An illustrated archive of observations of everyday spaces in a historic apartment building. (Weimar, Germany)",
+    "ja": "歴史的建築の集合住居の日常空間観察、イラストのアーカイブ。（ドイツ・ワイマール）"
+   },
+   "text": {
+    "en": "An illustrated archive of observations of everyday spaces in a historic apartment building. (Weimar, Germany)",
+    "ja": "歴史的建築の集合住居の日常空間観察、イラストのアーカイブ。（ドイツ・ワイマール）"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART008/00.webp",
+     "width": 5066,
+     "height": 5189
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART008/01.webp",
+     "width": 5095,
+     "height": 3673
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART008/02.webp",
+     "width": 6328,
+     "height": 4516
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART008/03.webp",
+     "width": 5456,
+     "height": 3632
+    }
+   ],
+   "index_only": false,
+   "publication": {
+    "url": "https://www.natsumi-sugiyama.com/#book=A_ART008",
+    "role": "documentation",
+    "pages": 25,
+    "cover": "https://www.natsumi-sugiyama.com/img/A_ART008/front.webp"
+   }
+  },
+  {
+   "id": "A_ART004",
+   "url": "https://www.natsumi-sugiyama.com/#work=A_ART004",
+   "title": {
+    "en": "Unerased Reminders",
+    "ja": "Unerased Reminders"
+   },
+   "year": "2015",
+   "area": "artistic practice",
+   "category": {
+    "en": "Traces and interventions in structures",
+    "ja": "構造のなかの痕跡と介入"
+   },
+   "medium": [
+    "installation",
+    "drawing",
+    "exhibition"
+   ],
+   "role": "Illustration, Drawing",
+   "venue": "Ehemalige JVA Weimar",
+   "city": "Weimar",
+   "organizations": "MFA \"Public Art and New Artistic Strategies\" Bauhaus-Universität Weimar",
+   "description": {
+    "en": "Observes the traces left in a former youth detention centre and follows, in drawings, what the acts behind them meant. The booklets were installed in the small library inside the prison. (Weimar, Germany)",
+    "ja": "旧青年刑務所に残る痕跡を観察し、ドローイングでその行為の意味を辿る。冊子のインスタレーションは刑務所内の小さな図書室に設置。（ドイツ・ワイマール）"
+   },
+   "text": {
+    "en": "Observes the traces left in a former youth detention centre and follows, in drawings, what the acts behind them meant. The booklets were installed in the small library inside the prison. (Weimar, Germany)",
+    "ja": "旧青年刑務所に残る痕跡を観察し、ドローイングでその行為の意味を辿る。冊子のインスタレーションは刑務所内の小さな図書室に設置。（ドイツ・ワイマール）"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART004/00.webp",
+     "width": 3872,
+     "height": 2592
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART004/01.webp",
+     "width": 1950,
+     "height": 1404
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART004/02.webp",
+     "width": 1173,
+     "height": 1023
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART004/03.webp",
+     "width": 4608,
+     "height": 2592
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART004/04.webp",
+     "width": 540,
+     "height": 361
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART004/05.webp",
+     "width": 1970,
+     "height": 1394
+    }
+   ],
+   "index_only": false,
+   "publication": {
+    "url": "https://www.natsumi-sugiyama.com/#book=A_ART004",
+    "role": "documentation",
+    "pages": 6,
+    "cover": "https://www.natsumi-sugiyama.com/img/A_ART004/front.webp"
+   }
+  },
+  {
+   "id": "A_ART005",
+   "url": "https://www.natsumi-sugiyama.com/#work=A_ART005",
+   "title": {
+    "en": "Landscapes Narratives",
+    "ja": "Landscapes Narratives｜風景と物語"
+   },
+   "year": "2015",
+   "area": "artistic practice",
+   "category": {
+    "en": "Mobility and narratives of environments",
+    "ja": "移動と環境体験の語り"
+   },
+   "medium": [
+    "fieldwork",
+    "field research",
+    "exhibition"
+   ],
+   "role": "Illustration, Drawing",
+   "venue": "Maxim Gorki Theater",
+   "city": "Berlin",
+   "organizations": "Stiftung Mercator, Gorki Theatre Berlin, MFA \"Public Art and New Artistic Strategies\" Bauhaus-Universität Weimar",
+   "description": {
+    "en": "An installation exploring relationships between individual stories of mobility and apparently universal landscapes.",
+    "ja": "場所を移動する個人の物語と普遍の風景の関係を扱うインスタレーション。"
+   },
+   "text": {
+    "en": "An installation exploring relationships between individual stories of mobility and apparently universal landscapes.",
+    "ja": "場所を移動する個人の物語と普遍の風景の関係を扱うインスタレーション。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART005/00.webp",
+     "width": 1342,
+     "height": 848
+    }
+   ],
+   "index_only": false
+  },
+  {
+   "id": "A_ART002",
+   "url": "https://www.natsumi-sugiyama.com/#work=A_ART002",
+   "title": {
+    "en": "Roppongi, Paralleled",
+    "ja": "Roppongi, Paralleled｜並行する六本木"
+   },
+   "year": "2014",
+   "area": "artistic practice",
+   "category": {
+    "en": "Perception and memory of environments",
+    "ja": "環境体験の知覚と記憶"
+   },
+   "medium": [
+    "drawing",
+    "interview"
+   ],
+   "role": "Illustration, Drawing, Writing",
+   "venue": "Roppongi Art Night publicity magazine",
+   "city": "Tokyo",
+   "collaborators": [
+    [
+     "",
+     "Chika Imai, Mr. Takehara"
+    ]
+   ],
+   "description": {
+    "en": "An illustrated diagram based on interviews with city residents about their image of the city.",
+    "ja": "街の住民の都市のイメージにまつわるインタビューをもとにしたイラスト・ダイアグラム"
+   },
+   "text": {
+    "en": "An illustrated diagram based on interviews with city residents about their image of the city.",
+    "ja": "街の住民の都市のイメージにまつわるインタビューをもとにしたイラスト・ダイアグラム"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART002/00.webp",
+     "width": 4724,
+     "height": 3753
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART002/01.webp",
+     "width": 6620,
+     "height": 4680
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART002/02.webp",
+     "width": 5063,
+     "height": 2681
+    }
+   ],
+   "sources": [
+    {
+     "source": "Roppongi Art Night Executive Committee",
+     "source_original": "六本木アートナイト実行委員会",
+     "type": "press release",
+     "title": "Roppongi Art Night 2014 press release (participating artists)",
+     "title_original": "六本木アートナイト2014 プレスリリース（参加予定作家）",
+     "date": "2014-02-20",
+     "url": "https://www.roppongiartnight.com/2014/release/RANrelease20140220.pdf",
+     "archived": "https://web.archive.org/web/20261111134605/https://www.roppongiartnight.com/2014/release/RANrelease20140220.pdf"
+    }
+   ],
+   "index_only": false
+  },
+  {
+   "id": "A_ART003",
+   "url": "https://www.natsumi-sugiyama.com/#work=A_ART003",
+   "title": {
+    "en": "About Another's Topos",
+    "ja": "About Another's Topos｜ Kさんの場所について"
+   },
+   "year": "2014",
+   "area": "artistic practice",
+   "category": {
+    "en": "Perception and memory of environments",
+    "ja": "環境体験の知覚と記憶"
+   },
+   "medium": [
+    "drawing",
+    "field research"
+   ],
+   "role": "Research, Information Design",
+   "venue": "Jūniten Gallery",
+   "city": "Nagano",
+   "collaborators": [
+    [
+     "",
+     "Yoshizumi Kumai"
+    ]
+   ],
+   "description": {
+    "en": "An exhibition of interviews and cognitive maps concerning the environmental memories of a former resident of Nagano.",
+    "ja": "長野の元住民の環境記憶に関する聞き取り調査と、その認知地図。"
+   },
+   "text": {
+    "en": "An exhibition of interviews and cognitive maps concerning the environmental memories of a former resident of Nagano.",
+    "ja": "長野の元住民の環境記憶に関する聞き取り調査と、その認知地図の展示。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART003/00.webp",
+     "width": 2920,
+     "height": 2064
+    }
+   ],
+   "index_only": false
+  },
+  {
+   "id": "A_ART001",
+   "url": "https://www.natsumi-sugiyama.com/#work=A_ART001",
+   "title": {
+    "en": "About My Topos",
+    "ja": "About My Topos"
+   },
+   "year": "2013",
+   "area": "artistic practice",
+   "category": {
+    "en": "Perception and memory of environments",
+    "ja": "環境体験の知覚と記憶"
+   },
+   "medium": [
+    "installation",
+    "drawing",
+    "field research",
+    "exhibition"
+   ],
+   "role": "Concept Development",
+   "venue": "Tokyo International Forum and The Museum of Tokyo University of the Arts",
+   "city": "Tokyo",
+   "award": "Mitsubishi Chemical Junior Designer Award Grand Prize; Salon de Printemps Prize",
+   "description": {
+    "en": "An installation that analyses and recomposes experiences of an environment in the suburbs of Tokyo.",
+    "ja": "東京郊外の環境体験を分析し、再構成したインスタレーション。"
+   },
+   "text": {
+    "en": "An installation that analyses and recomposes experiences of an environment in the suburbs of Tokyo.",
+    "ja": "東京郊外の環境体験を分析し、再構成したインスタレーション。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART001/00.webp",
+     "width": 1454,
+     "height": 740
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART001/01.webp",
+     "width": 3508,
+     "height": 2481
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART001/02.webp",
+     "width": 3508,
+     "height": 2481
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART001/03.webp",
+     "width": 3508,
+     "height": 2481
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/A_ART001/06.webp",
+     "width": 3508,
+     "height": 2481
+    }
+   ],
+   "credit": "Installation view photos: Kenji Utsugi",
+   "sources": [
+    {
+     "source": "JDN (Tōryūmon)",
+     "source_original": "登竜門（JDN）",
+     "type": "award result",
+     "title": "MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013: results (Grand Prize)",
+     "title_original": "MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013 結果発表（大賞）",
+     "date": "2013",
+     "url": "https://compe.japandesign.ne.jp/mitsubishi_chemical/2013/results/",
+     "archived": "https://web.archive.org/web/20261111134358/https://compe.japandesign.ne.jp/mitsubishi_chemical/2013/results/"
+    },
+    {
+     "source": "Mitsubishi Chemical Corporation",
+     "source_original": "三菱化学株式会社",
+     "type": "press release",
+     "title": "MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013: winning works announced",
+     "title_original": "MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013 受賞作品決定",
+     "date": "2013-10-17",
+     "url": "https://www.chem-t.com/fax/images/tmp_file1_1381986408.pdf",
+     "archived": "https://web.archive.org/web/20261111134521/https://www.chem-t.com/fax/images/tmp_file1_1381986408.pdf"
+    },
+    {
+     "source": "Tokyo University of the Arts, magazine Geieru",
+     "source_original": "東京藝術大学 広報誌『藝える』",
+     "type": "university publication",
+     "title": "Interview as a doctoral student",
+     "title_original": "博士学生としてのインタビュー",
+     "date": "2014",
+     "url": "https://www.geidai.ac.jp/wp-content/uploads/2014/10/p009-011.pdf",
+     "archived": "https://web.archive.org/web/20150320175622/https://www.geidai.ac.jp/wp-content/uploads/2014/10/p009-011.pdf"
+    }
+   ],
+   "index_only": false,
+   "publication": {
+    "url": "https://www.natsumi-sugiyama.com/#book=A_ART001",
+    "role": "documentation",
+    "pages": 26,
+    "language": "Japanese, English",
+    "cover": "https://www.natsumi-sugiyama.com/img/A_ART001/front.webp",
+    "about": {
+     "en": "A booklet on an installation that analyses and recomposes experiences of an environment in the suburbs of Tokyo.",
+     "ja": "東京郊外の環境体験を分析し、再構成したインスタレーションにまつわる冊子。"
+    }
+   }
+  },
+  {
+   "id": "D_DES034",
+   "url": "https://www.natsumi-sugiyama.com/#work=D_DES034",
+   "title": {
+    "en": "Why (& Where) Do I Need to Draw?",
+    "ja": "Why (& Where) Do I Need to Draw?"
+   },
+   "year": "2024",
+   "area": "design",
+   "category": {
+    "en": "Editorial design",
+    "ja": "エディトリアルデザイン"
+   },
+   "medium": [
+    "editorial design",
+    "technical coaching",
+    "booklet"
+   ],
+   "role": "Editorial design and technical coaching",
+   "venue": "Goldrausch Künstlerinnenprojekt Berlin",
+   "city": "Berlin",
+   "organizations": "Goldrausch Künstlerinnenprojekt Berlin",
+   "collaborators": [
+    [
+     "",
+     "Noor us Sabah Saeed"
+    ],
+    [
+     "Text",
+     "Hajra Haider Karrar"
+    ]
+   ],
+   "description": {
+    "en": "Editorial design and technical coaching within the artist's practice. Part of Goldrausch Künstlerinnenprojekt, a professional programme for women artists in Berlin.",
+    "ja": "現代美術家の実践における編集デザインおよび技術指導。ベルリンのプロ女性アーティストサポートプログラム Goldrausch Künstlerinnenprojekt の一環。"
+   },
+   "text": {
+    "en": "Editorial design and technical coaching within the artist's practice. Part of Goldrausch Künstlerinnenprojekt, a professional programme for women artists in Berlin.",
+    "ja": "現代美術家の実践における編集デザインおよび技術指導。ベルリンのプロ女性アーティストサポートプログラム Goldrausch Künstlerinnenprojekt の一環。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/D_DES034/00.webp",
+     "width": 1600,
+     "height": 1200
+    }
+   ],
+   "index_only": false,
+   "publication": {
+    "url": "https://www.natsumi-sugiyama.com/#book=D_DES034",
+    "role": "design",
+    "author": "Noor us Sabah Saeed",
+    "publisher": "Goldrausch Künstlerinnenprojekt, Berlin",
+    "pages": 16,
+    "language": "English",
+    "cover": "https://www.natsumi-sugiyama.com/img/D_DES034/front.webp"
+   }
+  },
+  {
+   "id": "B_COL020",
+   "url": "https://www.natsumi-sugiyama.com/#work=B_COL020",
+   "title": {
+    "en": "Exhibition Graphics for a Group Exhibition",
+    "ja": "展示グラフィック グループ展"
+   },
+   "year": "2019",
+   "area": "design",
+   "category": {
+    "en": "Editorial design",
+    "ja": "エディトリアルデザイン"
+   },
+   "medium": [
+    "website",
+    "exhibition",
+    "installation"
+   ],
+   "role": "Designer",
+   "venue": "Schiller Museum / IMAGINARY BAUHAUS MUSEUM",
+   "city": "Weimar",
+   "commissioner": "IMAGINARY BAUHAUS MUSEUM",
+   "organizations": "Klassik Stiftung Weimar; Bauhaus-Universität Weimar; Helmreich Malerfachbetrieb und Fassadensanierung GmbH",
+   "collaborators": [
+    [
+     "",
+     "Nicolas Buenaventura, Georg Wesolowski, Vasili Macharadze, Xenia Schürmann, students"
+    ]
+   ],
+   "description": {
+    "en": "Visual composition and graphic design for a contemporary art group exhibition; the museum space was designed both as an art installation in itself and as an exhibition space for other works.",
+    "ja": "現代美術グループ展の展示空間構成とグラフィックデザイン一式。美術館空間をアートインスタレーションとして設計し、他作品の展示空間としても構成した。"
+   },
+   "text": {
+    "en": "Visual composition and graphic design for a contemporary art group exhibition; the museum space was designed both as an art installation in itself and as an exhibition space for other works.",
+    "ja": "現代美術グループ展の展示空間構成とグラフィックデザイン一式。美術館空間をアートインスタレーションとして設計し、他作品の展示空間としても構成した。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/B_COL020/00.webp",
+     "width": 2500,
+     "height": 2500
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/B_COL020/01.webp",
+     "width": 1966,
+     "height": 1912
+    },
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/B_COL020/02.gif",
+     "width": 600,
+     "height": 338
+    }
+   ],
+   "credit": "Carlos Santos",
+   "index_only": false
+  },
+  {
+   "id": "D_DES016",
+   "url": "https://www.natsumi-sugiyama.com/#work=D_DES016",
+   "title": {
+    "en": "Missing Sculpture",
+    "ja": "Missing Sculpture"
+   },
+   "year": "2017",
+   "area": "design",
+   "category": {
+    "en": "Editorial design",
+    "ja": "エディトリアルデザイン"
+   },
+   "medium": [
+    "book design",
+    "bilingual layout"
+   ],
+   "role": "Designer",
+   "venue": "Verlag für moderne Kunst / Lehmbruck Museum context",
+   "city": "Vienna",
+   "collaborators": [
+    [
+     "Texts",
+     "Boris Buden, Söke Dinkla, Ronja Friedrichs, Peter Gorschlüter, Sabine Maria Schmidt"
+    ]
+   ],
+   "description": {
+    "en": "Catalogue of the contemporary artist's work. Bilingual English/German layout. Published by Verlag für moderne Kunst (Vienna).",
+    "ja": "現代美術家の作品カタログ。英独バイリンガルレイアウト。Verlag für moderne Kunst（ウィーン）より刊行。"
+   },
+   "text": {
+    "en": "Catalogue of the contemporary artist's work. Bilingual English/German layout. Published by Verlag für moderne Kunst (Vienna).",
+    "ja": "現代美術家の作品カタログ。英独バイリンガルレイアウト。Verlag für moderne Kunst（ウィーン）より刊行。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/D_DES016/00.webp",
+     "width": 2976,
+     "height": 3064
+    }
+   ],
+   "sources": [
+    {
+     "source": "Kunsthalle Düsseldorf",
+     "source_original": "Kunsthalle Düsseldorf",
+     "type": "event page",
+     "title": "NACHTFOYER: Danica Dakić (catalogue, Design: Natsumi Sugiyama, ISBN 978-3-903228-44-3)",
+     "title_original": "NACHTFOYER: Danica Dakić（catalogue, Design: Natsumi Sugiyama, ISBN 978-3-903228-44-3）",
+     "url": "https://www.kunsthalle-duesseldorf.de/index.php?events=1997&id=114"
+    }
+   ],
+   "index_only": false,
+   "publication": {
+    "url": "https://www.natsumi-sugiyama.com/#book=D_DES016",
+    "role": "design",
+    "author": "Danica Dakić",
+    "publisher": "Verlag für moderne Kunst, 2018",
+    "isbn": "978-3-903228-44-3",
+    "pages": 152,
+    "language": "English, German",
+    "cover": "https://www.natsumi-sugiyama.com/img/D_DES016/front.webp"
+   }
+  },
+  {
+   "id": "D_DES017",
+   "url": "https://www.natsumi-sugiyama.com/#work=D_DES017",
+   "title": {
+    "en": "Un/Sounds of Buchenwald",
+    "ja": "Un/Sounds of Buchenwald"
+   },
+   "year": "2017",
+   "area": "design",
+   "category": {
+    "en": "Editorial design",
+    "ja": "エディトリアルデザイン"
+   },
+   "medium": [
+    "booklet design"
+   ],
+   "role": "Designer",
+   "venue": "Bauhaus-Universität Weimar",
+   "city": "Weimar",
+   "organizations": "Bauhaus-Universität Weimar",
+   "description": {
+    "en": "Booklet for an art project at the site of a former concentration camp: a bricolage of resin enclosing rose leaves from the site, holding the sound works.",
+    "ja": "強制収容所跡地でのアートプロジェクトの冊子。跡地のバラの葉を封じたレジンに音の作品を組み込んだ、ブリコラージュ的な造本。"
+   },
+   "text": {
+    "en": "Booklet for an art project at the site of a former concentration camp: a bricolage of resin enclosing rose leaves from the site, holding the sound works.",
+    "ja": "強制収容所跡地でのアートプロジェクトの冊子。跡地のバラの葉を封じたレジンに音の作品を組み込んだ、ブリコラージュ的な造本。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/D_DES017/00.webp",
+     "width": 4177,
+     "height": 4632
+    }
+   ],
+   "index_only": false,
+   "publication": {
+    "url": "https://www.natsumi-sugiyama.com/#book=D_DES017",
+    "role": "design",
+    "language": "English",
+    "cover": "https://www.natsumi-sugiyama.com/img/D_DES017/front.webp"
+   }
+  },
+  {
+   "id": "D_DES006",
+   "url": "https://www.natsumi-sugiyama.com/#work=D_DES006",
+   "title": {
+    "en": "YOU SAY ART I SAY WHAT",
+    "ja": "YOU SAY ART I SAY WHAT"
+   },
+   "year": "2015",
+   "area": "design",
+   "category": {
+    "en": "Editorial design",
+    "ja": "エディトリアルデザイン"
+   },
+   "medium": [
+    "booklet design",
+    "editorial design"
+   ],
+   "role": "Graphic design: book design, layout and typesetting",
+   "venue": "Bauhaus-Universität Weimar",
+   "city": "Weimar",
+   "organizations": "Bauhaus-Universität Weimar",
+   "collaborators": [
+    [
+     "Curators",
+     "Danica Dakić, Stefan Klein"
+    ],
+    [
+     "Assistance",
+     "Vanessa Brazeau"
+    ],
+    [
+     "Photography",
+     "Egbert Trogemann"
+    ],
+    [
+     "Translation",
+     "Danielle Kourtesis"
+    ],
+    [
+     "Proofreading",
+     "Dagmar Deuring, Vanessa Brazeau"
+    ],
+    [
+     "Artistic staff",
+     "Anke Hannemann, Claire Waffel, Ina Weise"
+    ],
+    [
+     "Coordination",
+     "Jirka Reichmann"
+    ]
+   ],
+   "description": {
+    "en": "Book design for an art project. Bilingual, English/German.",
+    "ja": "アートプロジェクトの書籍デザイン。英独バイリンガル。"
+   },
+   "text": {
+    "en": "Book design for an art project. Bilingual, English/German.",
+    "ja": "アートプロジェクトの書籍デザイン。英独バイリンガル。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/D_DES006/00.webp",
+     "width": 2154,
+     "height": 2160
+    }
+   ],
+   "index_only": false,
+   "publication": {
+    "url": "https://www.natsumi-sugiyama.com/#book=D_DES006",
+    "role": "design",
+    "publisher": "MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar (distribution: VERLAK)",
+    "isbn": "978-3-00-050776-2",
+    "pages": 95,
+    "language": "English, German",
+    "cover": "https://www.natsumi-sugiyama.com/img/D_DES006/front.webp"
+   }
+  },
+  {
+   "id": "D_DES007",
+   "url": "https://www.natsumi-sugiyama.com/#work=D_DES007",
+   "title": {
+    "en": "There is an Exhibition in Prison. It is Called CRACK.",
+    "ja": "There is an Exhibition in Prison. It is Called CRACK."
+   },
+   "year": "2015",
+   "area": "design",
+   "category": {
+    "en": "Editorial design",
+    "ja": "エディトリアルデザイン"
+   },
+   "medium": [
+    "booklet design",
+    "editorial design"
+   ],
+   "role": "Graphic design: book design and layout",
+   "venue": "Jugendarrestanstalt / Bauhaus-Universität Weimar",
+   "city": "Weimar",
+   "organizations": "Bauhaus-Universität Weimar",
+   "collaborators": [
+    [
+     "Teaching team",
+     "Danica Dakić, Boris Buden, Anke Hannemann, Ina Weise"
+    ],
+    [
+     "Coordination",
+     "Jirka Reichmann"
+    ],
+    [
+     "Photography",
+     "the artists, unless otherwise stated"
+    ],
+    [
+     "Architectural diagram",
+     "Carmina Revert"
+    ],
+    [
+     "Translation",
+     "Danielle Kourtesis"
+    ],
+    [
+     "Proofreading",
+     "Vanessa Brazeau, Danielle Kourtesis, Ina Weise"
+    ]
+   ],
+   "description": {
+    "en": "Catalogue design for an exhibition project in the former youth detention centre in Weimar, Germany.",
+    "ja": "展覧会プロジェクトのカタログデザイン。会場はドイツ・ワイマールの旧青年刑務所。"
+   },
+   "text": {
+    "en": "Catalogue design for an exhibition project in the former youth detention centre in Weimar, Germany.",
+    "ja": "展覧会プロジェクトのカタログデザイン。会場はドイツ・ワイマールの旧青年刑務所。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/D_DES007/00.webp",
+     "width": 2106,
+     "height": 1547
+    }
+   ],
+   "index_only": false,
+   "publication": {
+    "url": "https://www.natsumi-sugiyama.com/#book=D_DES007",
+    "role": "design",
+    "publisher": "MFA Public Art and New Artistic Strategies, Bauhaus-Universität Weimar",
+    "pages": 60,
+    "language": "English",
+    "cover": "https://www.natsumi-sugiyama.com/img/D_DES007/front.webp"
+   }
+  },
+  {
+   "id": "D_DES008",
+   "url": "https://www.natsumi-sugiyama.com/#work=D_DES008",
+   "title": {
+    "en": "Logo Design for an Art Project",
+    "ja": "ロゴデザイン アートプロジェクト"
+   },
+   "year": "2015",
+   "area": "design",
+   "category": {
+    "en": "Editorial design",
+    "ja": "エディトリアルデザイン"
+   },
+   "medium": [
+    "logo design"
+   ],
+   "role": "Designer",
+   "venue": "Art Spin",
+   "city": "Berlin",
+   "description": {
+    "en": "Logo design for an art project toured by bicycle.",
+    "ja": "自転車で巡るアートプロジェクトのロゴデザイン。"
+   },
+   "text": {
+    "en": "Logo design for an art project toured by bicycle.",
+    "ja": "自転車で巡るアートプロジェクトのロゴデザイン。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/D_DES008/00.webp",
+     "width": 930,
+     "height": 550
+    }
+   ],
+   "index_only": false
+  },
+  {
+   "id": "B_COL001",
+   "url": "https://www.natsumi-sugiyama.com/#work=B_COL001",
+   "title": {
+    "en": "Notation of Topos Phase. 0",
+    "ja": "Notation of Topos Phase. 0"
+   },
+   "year": "2014",
+   "area": "design",
+   "category": {
+    "en": "Editorial design",
+    "ja": "エディトリアルデザイン"
+   },
+   "medium": [
+    "publication",
+    "zine"
+   ],
+   "venue": "Visual Communication Design Lab, Design, Graduate School of Fine Arts, Tokyo University of the Arts",
+   "city": "Tokyo",
+   "organizations": "Visual Communication Design Lab, Design, Graduate School of Fine Arts, Tokyo University of the Arts",
+   "collaborators": [
+    [
+     "",
+     "Bak Enkoh, Kei Matsushita"
+    ]
+   ],
+   "description": {
+    "en": "A zine based on About My Topos, from the zine series Noboru. Published by the Visual Communication Design Lab, Design, Graduate School of Fine Arts, Tokyo University of the Arts.",
+    "ja": "About My Topos をもとにしたZINE。ZINEシリーズ「Noboru」の一冊。東京藝術大学大学院 美術研究科 デザイン専攻 視覚・伝達研究室 発行。"
+   },
+   "text": {
+    "en": "A zine based on About My Topos, from the zine series Noboru. Published by the Visual Communication Design Lab, Design, Graduate School of Fine Arts, Tokyo University of the Arts.",
+    "ja": "About My Topos をもとにしたZINE。ZINEシリーズ「Noboru」の一冊。東京藝術大学大学院 美術研究科 デザイン専攻 視覚・伝達研究室 発行。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/B_COL001/00.webp",
+     "width": 3600,
+     "height": 2592
+    }
+   ],
+   "index_only": false,
+   "publication": {
+    "url": "https://www.natsumi-sugiyama.com/#book=B_COL001",
+    "role": "collaboration",
+    "publisher": "東京藝術大学大学院 美術研究科 デザイン専攻 視覚・伝達研究室",
+    "language": "Japanese",
+    "cover": "https://www.natsumi-sugiyama.com/img/B_COL001/front.webp"
+   }
+  },
+  {
+   "id": "C_CUL001",
+   "url": "https://www.natsumi-sugiyama.com/#work=C_CUL001",
+   "title": {
+    "en": "Hands-on Art Workshop for a Kindergarten",
+    "ja": "こども園 美術造形教育プログラム"
+   },
+   "year": "2013–2014",
+   "area": "design",
+   "category": {
+    "en": "Educational projects",
+    "ja": "教育活動"
+   },
+   "medium": [
+    "workshop"
+   ],
+   "role": "Educator",
+   "venue": "Yoyogi-Uehara Kodomoen",
+   "city": "Tokyo",
+   "description": {
+    "en": "Annual planning and implementation of a drawing and craft program for children aged 3–5, including a presentation exhibition.",
+    "ja": "美術造形教育プログラムの企画・実施および成果発表展示。3〜5歳対象。"
+   },
+   "text": {
+    "en": "Annual planning and implementation of a drawing and craft program for children aged 3–5, including a presentation exhibition.",
+    "ja": "美術造形教育プログラムの企画・実施および成果発表展示。3〜5歳対象。"
+   },
+   "images": [
+    {
+     "src": "https://www.natsumi-sugiyama.com/img/C_CUL001/00.webp",
+     "width": 500,
+     "height": 349
+    }
+   ],
+   "index_only": false,
+   "notes": [
+    {
+     "en": "Kindergarten in Yoyogi-Uehara, Shibuya, Tokyo",
+     "ja": "渋谷区代々木上原のこども園"
+    }
+   ]
+  }
+ ],
+ "talks_and_presentations": [
+  {
+   "year": "2013",
+   "title": {
+    "en": "\"Methods of describing place\" (Natsumi Sugiyama, Yasuhiro Shimizu), 60th Annual Conference of the Japanese Society for the Science of Design",
+    "ja": "「場所の記述法」（杉山夏実・清水泰博）日本デザイン学会 第60回研究発表大会"
+   },
+   "organisation": {
+    "en": "Japanese Society for the Science of Design",
+    "ja": "日本デザイン学会"
+   },
+   "works": [
+    "A_ART001"
+   ]
+  },
+  {
+   "year": "2017",
+   "title": {
+    "en": "Invited artist talk, Missing Sculpture, Lehmbruck Museum, Duisburg",
+    "ja": "招待アーティストトーク《Missing Sculpture》レームブルック美術館（デュイスブルク）"
+   },
+   "organisation": {
+    "en": "Lehmbruck Museum",
+    "ja": "レームブルック美術館"
+   },
+   "works": [
+    "B_COL010"
+   ]
+  }
+ ],
+ "civic": [],
+ "publications_about": [
+  {
+   "source": "National Diet Library",
+   "title": "\"Rethinking landscape\" (About My Topos), Dictionary of Contemporary Design, 2014 edition (Heibonsha)",
+   "date": "2014-03",
+   "url": "https://ndlsearch.ndl.go.jp/en/books/R100000002-I025336989",
+   "archived": "https://web.archive.org/web/20261111140803/https://ndlsearch.ndl.go.jp/en/books/R100000002-I025336989"
+  }
+ ]
+}
