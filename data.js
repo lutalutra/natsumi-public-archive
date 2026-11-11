@@ -9869,11 +9869,11 @@ window.ARCHIVE = {
    "ja": "杉山夏実のプロジェクト・アーカイブ。環境の経験と記憶、その変容をめぐるマルチメディアの実践記録。"
   },
   "info.lead": {
-   "en": "Natsumi Sugiyama is an artist working on how environments are experienced, remembered and transformed.\nThrough installations, archives and multimedia de/compositional diagrams,\nshe traces what becomes invisible between individual experience and collective memory and its frameworks.",
+   "en": "Natsumi Sugiyama is an artist whose practice asks\nhow environments are experienced, remembered and transformed,\nthrough installation, moving image and drawing.",
    "ja": "環境はどのように経験され、\n記憶され、変容していくのか。\n\nマルチメディアによる研究と制作の実践"
   },
   "info.statement": {
-   "en": "Natsumi Sugiyama is an artist whose practice examines how environments are lived, crossed and recorded, following four threads: movement across borders, flows of information, non-human perspectives, and under-recorded narratives. Working through observation, collection, mapping and editing, she produces moving image, drawing, text, publications and installations. Between 2013 and 2020 her work centred on narratives of place, developed through fieldwork; it now turns to hybrid narratives formed across borders.",
+   "en": "Natsumi Sugiyama is an artist whose practice examines how environments are experienced, crossed and transformed, drawing on movement across borders, marginalised presences and under-recorded narratives. Working through editorial methods, she presents her work as installation, moving image and drawing. Between 2013 and 2020 her work centred on narratives of place, developed through fieldwork; it now turns to narratives that mix and are recomposed across borders.",
    "ja": "杉山夏実（すぎやま・なつみ）　現代美術家。環境がどのように経験され、越えられ、変容されるかを主題に、越境する移動、周縁化された存在、記録されにくい語りを手がかりとした実践を行う。編集的手法を通し、インスタレーション、映像、ドローイングなどの形式で発表する。2013年から2020年にかけては、フィールドワークを通じた場所の語りを中心に制作した。現在は、越境のなかで混ざり合い、組み替えられていく語りへと焦点を移している。"
   },
   "info.origin": {
