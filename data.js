@@ -10500,16 +10500,16 @@ window.ARCHIVE = {
  ],
  "texts": {
   "seo.title": {
-   "en": "Natsumi Sugiyama — Project Archive",
-   "ja": "Natsumi Sugiyama — Project Archive"
+   "en": "Natsumi Sugiyama / 杉山夏実 — Visual Artist",
+   "ja": "Natsumi Sugiyama / 杉山夏実 — Visual Artist"
   },
   "site.tagline": {
    "en": "Editor / Visual Artist",
    "ja": ""
   },
   "seo.description": {
-   "en": "Project archive of Natsumi Sugiyama, an artist working on how environments are experienced, remembered and transformed.",
-   "ja": "杉山夏実のプロジェクト・アーカイブ。環境の経験と記憶、その変容をめぐるマルチメディアの実践記録。"
+   "en": "Natsumi Sugiyama / 杉山夏実, visual artist. Project archive: how environments are experienced, remembered and transformed.",
+   "ja": "杉山夏実 / Natsumi Sugiyama、現代美術家。プロジェクト・アーカイブ：環境の経験と記憶、その変容。"
   },
   "info.lead": {
    "en": "Natsumi Sugiyama is an artist whose practice asks\nhow environments are experienced, remembered and transformed,\nthrough installation, moving image and drawing.",
