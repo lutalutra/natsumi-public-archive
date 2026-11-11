@@ -153,29 +153,6 @@ window.ARCHIVE = {
    "url": "https://lehmbruckmuseum.pr.co/140499-sculpture-21st-danica-dakic/"
   },
   {
-   "year": "2017",
-   "id": "",
-   "venueImage": null,
-   "title": {
-    "en": "WALK OF ART",
-    "ja": "WALK OF ART"
-   },
-   "exhibition": {
-    "en": "AM FLUSS / AT THE RIVER",
-    "ja": "AM FLUSS / AT THE RIVER"
-   },
-   "venue": {
-    "en": "Kunsthaus Dresden and public space",
-    "ja": "クンストハウス・ドレスデンおよび市内の公共空間"
-   },
-   "city": {
-    "en": "Dresden",
-    "ja": "ドレスデン"
-   },
-   "type": "group",
-   "url": "https://amfluss.tumblr.com/"
-  },
-  {
    "year": "2016",
    "id": "A_ART007",
    "venueImage": null,
@@ -316,18 +293,7 @@ window.ARCHIVE = {
  ],
  "awards": [
   {
-   "year": "2017",
-   "title": {
-    "en": "POLA Art Foundation Overseas Research Grant",
-    "ja": "ポーラ美術振興財団 在外研修員"
-   },
-   "url": "https://www.pola.co.jp/about/news/2021/bd2jfg0000000zlc-att/po20211216.pdf",
-   "source": {
-    "en": "POLA ORBIS HOLDINGS",
-    "ja": "ポーラ・オルビスホールディングス"
-   }
-  },
-  {
+   "kind": "award",
    "year": "2013",
    "title": {
     "en": "MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013, Grand Prize",
@@ -337,6 +303,29 @@ window.ARCHIVE = {
    "source": {
     "en": "JDN (Tōryūmon)",
     "ja": "登竜門（JDN）"
+   }
+  },
+  {
+   "kind": "award",
+   "year": "2013",
+   "title": {
+    "en": "Salon de Printemps Prize, Tokyo University of the Arts",
+    "ja": "サロン・ド・プランタン賞（東京藝術大学）"
+   },
+   "url": "",
+   "source": ""
+  },
+  {
+   "kind": "grant",
+   "year": "2017",
+   "title": {
+    "en": "POLA Art Foundation Overseas Research Grant",
+    "ja": "ポーラ美術振興財団 在外研修員"
+   },
+   "url": "https://www.pola.co.jp/about/news/2021/bd2jfg0000000zlc-att/po20211216.pdf",
+   "source": {
+    "en": "POLA ORBIS HOLDINGS",
+    "ja": "ポーラ・オルビスホールディングス"
    }
   }
  ],
@@ -861,16 +850,16 @@ window.ARCHIVE = {
     {
      "n": "3",
      "source": {
-      "en": "Tokyo University of the Arts",
-      "ja": "東京藝術大学"
+      "en": "Tokyo University of the Arts, magazine Geieru",
+      "ja": "東京藝術大学 広報誌『藝える』"
      },
      "type": {
       "en": "university publication",
       "ja": "university publication"
      },
      "title": {
-      "en": "Interviews with award-winning students, no. 12",
-      "ja": "受賞学生インタビュー 第12回"
+      "en": "Interview as a doctoral student",
+      "ja": "博士学生としてのインタビュー"
      },
      "date": "2014",
      "url": "https://www.geidai.ac.jp/wp-content/uploads/2014/10/p009-011.pdf"
@@ -890,8 +879,8 @@ window.ARCHIVE = {
     "ja": "bibliographic record"
    },
    "title": {
-    "en": "Dictionary of Contemporary Design, 2014 edition (Heibonsha)",
-    "ja": "現代デザイン事典 2014年版（平凡社）"
+    "en": "\"Rethinking landscape\" (About My Topos), Dictionary of Contemporary Design, 2014 edition (Heibonsha)",
+    "ja": "「風景の再考」（About My Topos 掲載）、現代デザイン事典 2014年版（平凡社）"
    },
    "date": "2014-03",
    "url": "https://ndlsearch.ndl.go.jp/en/books/R100000002-I025336989"
@@ -10528,7 +10517,7 @@ window.ARCHIVE = {
   },
   "info.statement": {
    "en": "Natsumi Sugiyama is an artist whose practice examines how environments are experienced, crossed and transformed, drawing on movement across borders, marginalised presences and under-recorded narratives. Working through editorial methods, she composes this work as installation, moving image and drawing. Between 2013 and 2020 her work centred on narratives of place, developed through fieldwork; it now turns to narratives in flux, recomposed across borders.",
-   "ja": "杉山夏実（すぎやま・なつみ）　現代美術家。環境がどのように経験され、越えられ、変容されるかを主題に、越境する移動、周縁化された存在、記録されにくい語りを手がかりとした実践を行う。編集的手法を通し、インスタレーション、映像、ドローイングなどのかたちに構成する。2013年から2020年にかけては、フィールドワークを通じた場所の語りを中心に制作した。現在は、越境のなかで混ざり合い、組み替えられていく語りへと焦点を移している。"
+   "ja": "杉山夏実（すぎやま・なつみ）　美術家。環境がどのように経験され、越えられ、変容されるかを主題に、越境する移動、周縁化された存在、記録されにくい語りを手がかりとした実践を行う。編集的手法を通し、インスタレーション、映像、ドローイングなどのかたちに構成する。2013年から2020年にかけては、フィールドワークを通じた場所の語りを中心に制作した。現在は、越境のなかで混ざり合い、組み替えられていく語りへと焦点を移している。"
   },
   "info.origin": {
    "en": "Born in Tokyo, based in Berlin (as of 2026)\nPOLA Art Foundation Overseas Research Grant (2017)",
@@ -10543,8 +10532,8 @@ window.ARCHIVE = {
    "ja": "2020|東京藝術大学大学院 美術研究科 博士後期課程|ref:19\n2017|ワイマール・バウハウス大学（パブリックアートと新芸術戦略）修士課程修了|ref:28\n2013|東京藝術大学大学院 美術研究科 デザイン専攻 修士課程修了\n|多摩美術大学 環境デザイン学科 卒業"
   },
   "index.awards": {
-   "en": "2017|POLA Art Foundation Overseas Research Grant|ref:21\n2013|MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013, Grand Prize|ref:1",
-   "ja": "2017|ポーラ美術振興財団 在外研修員|ref:21\n2013|MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013 大賞|ref:1"
+   "en": "2013|MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013, Grand Prize|ref:1|kind:award\n2013|Salon de Printemps Prize, Tokyo University of the Arts|kind:award\n2017|POLA Art Foundation Overseas Research Grant|ref:21|kind:grant",
+   "ja": "2013|MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013 大賞|ref:1|kind:award\n2013|サロン・ド・プランタン賞（東京藝術大学）|kind:award\n2017|ポーラ美術振興財団 在外研修員|ref:21|kind:grant"
   },
   "info.stmt.label": {
    "en": "Statement",
