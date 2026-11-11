@@ -10527,8 +10527,8 @@ window.ARCHIVE = {
    "ja": "環境はどのように経験され、\n記憶され、変容していくのか。\n\nマルチメディアによる研究と制作の実践"
   },
   "info.statement": {
-   "en": "Natsumi Sugiyama is an artist whose practice examines how environments are experienced, crossed and transformed, drawing on movement across borders, marginalised presences and under-recorded narratives. Working through editorial methods, she presents her work as installation, moving image and drawing. Between 2013 and 2020 her work centred on narratives of place, developed through fieldwork; it now turns to narratives in flux, recomposed across borders.",
-   "ja": "杉山夏実（すぎやま・なつみ）　現代美術家。環境がどのように経験され、越えられ、変容されるかを主題に、越境する移動、周縁化された存在、記録されにくい語りを手がかりとした実践を行う。編集的手法を通し、インスタレーション、映像、ドローイングなどの形式で発表する。2013年から2020年にかけては、フィールドワークを通じた場所の語りを中心に制作した。現在は、越境のなかで混ざり合い、組み替えられていく語りへと焦点を移している。"
+   "en": "Natsumi Sugiyama is an artist whose practice examines how environments are experienced, crossed and transformed, drawing on movement across borders, marginalised presences and under-recorded narratives. Working through editorial methods, she composes this work as installation, moving image and drawing. Between 2013 and 2020 her work centred on narratives of place, developed through fieldwork; it now turns to narratives in flux, recomposed across borders.",
+   "ja": "杉山夏実（すぎやま・なつみ）　現代美術家。環境がどのように経験され、越えられ、変容されるかを主題に、越境する移動、周縁化された存在、記録されにくい語りを手がかりとした実践を行う。編集的手法を通し、インスタレーション、映像、ドローイングなどのかたちに構成する。2013年から2020年にかけては、フィールドワークを通じた場所の語りを中心に制作した。現在は、越境のなかで混ざり合い、組み替えられていく語りへと焦点を移している。"
   },
   "info.origin": {
    "en": "Born in Tokyo, based in Berlin (as of 2026)\nPOLA Art Foundation Overseas Research Grant (2017)",
