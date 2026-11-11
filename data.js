@@ -288,8 +288,8 @@ window.ARCHIVE = {
    },
    {
     "key": "institutions",
-    "en": "Institutions and representation",
-    "ja": "制度と表象"
+    "en": "Traces and interventions in structures",
+    "ja": "構造のなかの痕跡と介入"
    },
    {
     "key": "mobility",
