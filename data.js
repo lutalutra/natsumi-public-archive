@@ -21,7 +21,8 @@ window.ARCHIVE = {
     "en": "Berlin",
     "ja": "ベルリン"
    },
-   "type": "group"
+   "type": "group",
+   "url": ""
   },
   {
    "year": "2022",
@@ -43,7 +44,8 @@ window.ARCHIVE = {
     "en": "Tokyo",
     "ja": "東京"
    },
-   "type": "group"
+   "type": "group",
+   "url": "https://www.pola.co.jp/about/news/2021/bd2jfg0000000zlc-att/po20211216.pdf"
   },
   {
    "year": "2019",
@@ -78,7 +80,8 @@ window.ARCHIVE = {
     "en": "Weimar",
     "ja": "ワイマール"
    },
-   "type": "group"
+   "type": "group",
+   "url": "https://www.uni-weimar.de/de/medieninformationen/detail/imaginary-bauhaus-museum-internationale-kunststudierende-praesentieren-imaginierte-bauhaussammlung/"
   },
   {
    "year": "2017",
@@ -100,7 +103,8 @@ window.ARCHIVE = {
     "en": "Weimar",
     "ja": "ワイマール"
    },
-   "type": "group"
+   "type": "group",
+   "url": ""
   },
   {
    "year": "2017",
@@ -122,7 +126,8 @@ window.ARCHIVE = {
     "en": "Düsseldorf",
     "ja": "デュッセルドルフ"
    },
-   "type": "group"
+   "type": "group",
+   "url": "https://www.asphalt-festival.de/events/2017/grasgemaelde/"
   },
   {
    "year": "2017",
@@ -144,7 +149,31 @@ window.ARCHIVE = {
     "en": "Duisburg",
     "ja": "デュイスブルク"
    },
-   "type": "guest"
+   "type": "guest",
+   "url": "https://lehmbruckmuseum.pr.co/140499-sculpture-21st-danica-dakic/"
+  },
+  {
+   "year": "2017",
+   "id": "",
+   "venueImage": null,
+   "title": {
+    "en": "WALK OF ART",
+    "ja": "WALK OF ART"
+   },
+   "exhibition": {
+    "en": "AM FLUSS / AT THE RIVER",
+    "ja": "AM FLUSS / AT THE RIVER"
+   },
+   "venue": {
+    "en": "Kunsthaus Dresden and public space",
+    "ja": "クンストハウス・ドレスデンおよび市内の公共空間"
+   },
+   "city": {
+    "en": "Dresden",
+    "ja": "ドレスデン"
+   },
+   "type": "group",
+   "url": "https://amfluss.tumblr.com/"
   },
   {
    "year": "2016",
@@ -166,7 +195,8 @@ window.ARCHIVE = {
     "en": "Dresden",
     "ja": "ドレスデン"
    },
-   "type": "group"
+   "type": "group",
+   "url": "https://kunsthausdresden.de/veranstaltungen/tomorrow-we-will-explain/"
   },
   {
    "year": "2015",
@@ -188,7 +218,8 @@ window.ARCHIVE = {
     "en": "Berlin",
     "ja": "ベルリン"
    },
-   "type": "group"
+   "type": "group",
+   "url": ""
   },
   {
    "year": "2015",
@@ -210,7 +241,8 @@ window.ARCHIVE = {
     "en": "Weimar",
     "ja": "ワイマール"
    },
-   "type": "group"
+   "type": "group",
+   "url": ""
   },
   {
    "year": "2014",
@@ -232,7 +264,8 @@ window.ARCHIVE = {
     "en": "Nagano",
     "ja": "長野"
    },
-   "type": "self-organized"
+   "type": "self-organized",
+   "url": ""
   },
   {
    "year": "2014",
@@ -254,7 +287,8 @@ window.ARCHIVE = {
     "en": "Tokyo",
     "ja": "東京"
    },
-   "type": "group"
+   "type": "group",
+   "url": "https://www.roppongiartnight.com/2014/release/RANrelease20140220.pdf"
   },
   {
    "year": "2013",
@@ -276,7 +310,591 @@ window.ARCHIVE = {
     "en": "Tokyo",
     "ja": "東京"
    },
-   "type": "group"
+   "type": "group",
+   "url": "https://www.chem-t.com/fax/images/tmp_file1_1381986408.pdf"
+  }
+ ],
+ "awards": [
+  {
+   "year": "2017",
+   "title": {
+    "en": "POLA Art Foundation Overseas Research Grant",
+    "ja": "ポーラ美術振興財団 在外研修員"
+   },
+   "url": "https://www.pola.co.jp/about/news/2021/bd2jfg0000000zlc-att/po20211216.pdf",
+   "source": {
+    "en": "POLA ORBIS HOLDINGS",
+    "ja": "ポーラ・オルビスホールディングス"
+   }
+  },
+  {
+   "year": "2013",
+   "title": {
+    "en": "MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013, Grand Prize",
+    "ja": "MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013 大賞"
+   },
+   "url": "https://compe.japandesign.ne.jp/mitsubishi_chemical/2013/results/",
+   "source": {
+    "en": "JDN (Tōryūmon)",
+    "ja": "登竜門（JDN）"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "A_ART014",
+   "y0": 2022,
+   "refs": [
+    {
+     "n": "21",
+     "source": {
+      "en": "POLA ORBIS HOLDINGS",
+      "ja": "ポーラ・オルビスホールディングス"
+     },
+     "type": {
+      "en": "press release (PDF)",
+      "ja": "press release (PDF)"
+     },
+     "title": {
+      "en": "POLA MUSEUM ANNEX Exhibition 2022",
+      "ja": "ポーラ ミュージアム アネックス展 2022"
+     },
+     "date": "2021-12-16",
+     "url": "https://www.pola.co.jp/about/news/2021/bd2jfg0000000zlc-att/po20211216.pdf"
+    },
+    {
+     "n": "22",
+     "source": {
+      "en": "PR TIMES",
+      "ja": "PR TIMES"
+     },
+     "type": {
+      "en": "press release",
+      "ja": "press release"
+     },
+     "title": {
+      "en": "POLA MUSEUM ANNEX Exhibition 2022",
+      "ja": "ポーラ ミュージアム アネックス展 2022"
+     },
+     "date": "2021-12-16",
+     "url": "https://prtimes.jp/main/html/rd/p/000000020.000069355.html"
+    },
+    {
+     "n": "23",
+     "source": {
+      "en": "Bijutsu Techo",
+      "ja": "美術手帖"
+     },
+     "type": {
+      "en": "exhibition listing",
+      "ja": "exhibition listing"
+     },
+     "title": {
+      "en": "POLA MUSEUM ANNEX Exhibition 2022",
+      "ja": "ポーラ ミュージアム アネックス展 2022"
+     },
+     "date": "2022",
+     "url": "https://bijutsutecho.com/exhibitions/9492"
+    },
+    {
+     "n": "24",
+     "source": {
+      "en": "artscape",
+      "ja": "artscape"
+     },
+     "type": {
+      "en": "exhibition listing",
+      "ja": "exhibition listing"
+     },
+     "title": {
+      "en": "POLA MUSEUM ANNEX Exhibition 2022",
+      "ja": "ポーラ ミュージアム アネックス展 2022"
+     },
+     "date": "2022",
+     "url": "https://artscape.jp/exhibition/art-flash-news/2022/10174061_21841.html"
+    },
+    {
+     "n": "25",
+     "source": {
+      "en": "Tokyo Art Beat",
+      "ja": "Tokyo Art Beat"
+     },
+     "type": {
+      "en": "exhibition listing",
+      "ja": "exhibition listing"
+     },
+     "title": {
+      "en": "POLA MUSEUM ANNEX Exhibition 2022",
+      "ja": "ポーラ ミュージアム アネックス展 2022"
+     },
+     "date": "2022",
+     "url": "https://www.tokyoartbeat.com/events/-/2022%2Fpola-museum-annex-exhibition-2022"
+    },
+    {
+     "n": "26",
+     "source": {
+      "en": "Kokosil Ginza",
+      "ja": "ココシル銀座"
+     },
+     "type": {
+      "en": "news",
+      "ja": "news"
+     },
+     "title": {
+      "en": "POLA MUSEUM ANNEX Exhibition 2022",
+      "ja": "ポーラ ミュージアム アネックス展 2022"
+     },
+     "date": "2021-12-18",
+     "url": "https://home.ginza.kokosil.net/ja/archives/90443"
+    },
+    {
+     "n": "27",
+     "source": {
+      "en": "Geijutsu Seikatsu",
+      "ja": "芸術生活"
+     },
+     "type": {
+      "en": "news",
+      "ja": "news"
+     },
+     "title": {
+      "en": "POLA MUSEUM ANNEX Exhibition 2022",
+      "ja": "ポーラ ミュージアム アネックス展 2022"
+     },
+     "date": "2021-12-16",
+     "url": "https://geijutsuseikatsu.com/7719/"
+    }
+   ]
+  },
+  {
+   "id": "A_ART012",
+   "y0": 2020,
+   "refs": [
+    {
+     "n": "19",
+     "source": {
+      "en": "Tokyo University of the Arts Repository",
+      "ja": "東京藝術大学 機関リポジトリ"
+     },
+     "type": {
+      "en": "doctoral thesis",
+      "ja": "博士論文"
+     },
+     "title": {
+      "en": "In-Between Places and Humans (full text)",
+      "ja": "場所と人のあいだ（全文）"
+     },
+     "date": "2020-03-25",
+     "url": "https://geidai.repo.nii.ac.jp/records/2000226"
+    },
+    {
+     "n": "20",
+     "source": {
+      "en": "Tokyo University of the Arts Repository",
+      "ja": "東京藝術大学 機関リポジトリ"
+     },
+     "type": {
+      "en": "thesis summary",
+      "ja": "論文要旨"
+     },
+     "title": {
+      "en": "In-Between Places and Humans: summary and examination report (no. 615)",
+      "ja": "場所と人のあいだ 要旨・審査結果（博美第615号）"
+     },
+     "date": "2020-03-25",
+     "url": "https://geidai.repo.nii.ac.jp/record/1090/files/hakubi615.pdf"
+    }
+   ]
+  },
+  {
+   "id": "A_ART011",
+   "y0": 2019,
+   "refs": [
+    {
+     "n": "15",
+     "source": {
+      "en": "Bauhaus-Universität Weimar",
+      "ja": "Bauhaus-Universität Weimar"
+     },
+     "type": {
+      "en": "press release",
+      "ja": "press release"
+     },
+     "title": {
+      "en": "IMAGINARY BAUHAUS MUSEUM – Internationale Kunststudierende präsentieren imaginierte Bauhaussammlung",
+      "ja": "IMAGINARY BAUHAUS MUSEUM – Internationale Kunststudierende präsentieren imaginierte Bauhaussammlung"
+     },
+     "date": "2019-04-01",
+     "url": "https://www.uni-weimar.de/de/medieninformationen/detail/imaginary-bauhaus-museum-internationale-kunststudierende-praesentieren-imaginierte-bauhaussammlung/"
+    },
+    {
+     "n": "16",
+     "source": {
+      "en": "IMAGINARY BAUHAUS MUSEUM",
+      "ja": "IMAGINARY BAUHAUS MUSEUM"
+     },
+     "type": {
+      "en": "project archive",
+      "ja": "project archive"
+     },
+     "title": {
+      "en": "WORKS (SPACE COMPOSITION / VI)",
+      "ja": "WORKS（SPACE COMPOSITION / VI）"
+     },
+     "date": "2019",
+     "url": "https://imaginarybauhaus.com/de/works"
+    },
+    {
+     "n": "17",
+     "source": {
+      "en": "Vimeo (Konrad Behr)",
+      "ja": "Vimeo（Konrad Behr）"
+     },
+     "type": {
+      "en": "video",
+      "ja": "video"
+     },
+     "title": {
+      "en": "Opening of IMAGINARY BAUHAUS MUSEUM at Schiller-Museum Weimar",
+      "ja": "Opening of IMAGINARY BAUHAUS MUSEUM at Schiller-Museum Weimar"
+     },
+     "date": "2019-04-04",
+     "url": "https://vimeo.com/383495993"
+    }
+   ]
+  },
+  {
+   "id": "G_EDU050",
+   "y0": 2018,
+   "refs": [
+    {
+     "n": "15",
+     "source": {
+      "en": "Bauhaus-Universität Weimar",
+      "ja": "Bauhaus-Universität Weimar"
+     },
+     "type": {
+      "en": "press release",
+      "ja": "press release"
+     },
+     "title": {
+      "en": "IMAGINARY BAUHAUS MUSEUM – Internationale Kunststudierende präsentieren imaginierte Bauhaussammlung",
+      "ja": "IMAGINARY BAUHAUS MUSEUM – Internationale Kunststudierende präsentieren imaginierte Bauhaussammlung"
+     },
+     "date": "2019-04-01",
+     "url": "https://www.uni-weimar.de/de/medieninformationen/detail/imaginary-bauhaus-museum-internationale-kunststudierende-praesentieren-imaginierte-bauhaussammlung/"
+    },
+    {
+     "n": "16",
+     "source": {
+      "en": "IMAGINARY BAUHAUS MUSEUM",
+      "ja": "IMAGINARY BAUHAUS MUSEUM"
+     },
+     "type": {
+      "en": "project archive",
+      "ja": "project archive"
+     },
+     "title": {
+      "en": "WORKS (SPACE COMPOSITION / VI)",
+      "ja": "WORKS（SPACE COMPOSITION / VI）"
+     },
+     "date": "2019",
+     "url": "https://imaginarybauhaus.com/de/works"
+    },
+    {
+     "n": "17",
+     "source": {
+      "en": "Vimeo (Konrad Behr)",
+      "ja": "Vimeo（Konrad Behr）"
+     },
+     "type": {
+      "en": "video",
+      "ja": "video"
+     },
+     "title": {
+      "en": "Opening of IMAGINARY BAUHAUS MUSEUM at Schiller-Museum Weimar",
+      "ja": "Opening of IMAGINARY BAUHAUS MUSEUM at Schiller-Museum Weimar"
+     },
+     "date": "2019-04-04",
+     "url": "https://vimeo.com/383495993"
+    }
+   ]
+  },
+  {
+   "id": "A_ART010",
+   "y0": 2017,
+   "refs": [
+    {
+     "n": "8",
+     "source": {
+      "en": "asphalt Festival",
+      "ja": "asphalt Festival"
+     },
+     "type": {
+      "en": "programme page",
+      "ja": "programme page"
+     },
+     "title": {
+      "en": "Grasgemälde (Kunststörer, Festivalthema StadtGestalten)",
+      "ja": "Grasgemälde（Kunststörer, Festivalthema StadtGestalten）"
+     },
+     "date": "2017-07",
+     "url": "https://www.asphalt-festival.de/events/2017/grasgemaelde/"
+    },
+    {
+     "n": "9",
+     "source": {
+      "en": "Westdeutsche Zeitung",
+      "ja": "Westdeutsche Zeitung"
+     },
+     "type": {
+      "en": "newspaper",
+      "ja": "newspaper"
+     },
+     "title": {
+      "en": "„Wir wollen Leute erreichen, die nicht ins Theater gehen\"",
+      "ja": "„Wir wollen Leute erreichen, die nicht ins Theater gehen\""
+     },
+     "date": "2017-07-14",
+     "url": ""
+    }
+   ]
+  },
+  {
+   "id": "B_COL010",
+   "y0": 2017,
+   "refs": [
+    {
+     "n": "10",
+     "source": {
+      "en": "Lehmbruck Museum",
+      "ja": "Lehmbruck Museum"
+     },
+     "type": {
+      "en": "press release",
+      "ja": "press release"
+     },
+     "title": {
+      "en": "Sculpture 21st: Danica Dakić (MISSING SCULPTURE, guest artist)",
+      "ja": "Sculpture 21st: Danica Dakić（MISSING SCULPTURE, guest artist）"
+     },
+     "date": "2017",
+     "url": "https://lehmbruckmuseum.pr.co/140499-sculpture-21st-danica-dakic/"
+    },
+    {
+     "n": "11",
+     "source": {
+      "en": "Lokalkompass Duisburg",
+      "ja": "Lokalkompass Duisburg"
+     },
+     "type": {
+      "en": "news",
+      "ja": "news"
+     },
+     "title": {
+      "en": "Danica Dakic im Lehmbruck-Museum",
+      "ja": "Danica Dakic im Lehmbruck-Museum"
+     },
+     "date": "2017",
+     "url": "https://www.lokalkompass.de/duisburg/c-kultur/danica-dakic-im-lehmbruck-museum_a731400"
+    },
+    {
+     "n": "12",
+     "source": {
+      "en": "Duisburg am Rhein",
+      "ja": "Duisburg am Rhein"
+     },
+     "type": {
+      "en": "review",
+      "ja": "review"
+     },
+     "title": {
+      "en": "Sculpture 21st: Lehmbruck Museum Duisburg zeigt Danica Dakićs „Missing Sculpture\"",
+      "ja": "Sculpture 21st: Lehmbruck Museum Duisburg zeigt Danica Dakićs „Missing Sculpture\""
+     },
+     "date": "2017-01-25",
+     "url": "https://duisburgamrhein-betrachtungen.de/2017/01/25/sculpture-21st-lehmbruck-museum-duisburg-zeigt-danica-dakics-missing-sculpture/"
+    }
+   ]
+  },
+  {
+   "id": "D_DES016",
+   "y0": 2017,
+   "refs": [
+    {
+     "n": "13",
+     "source": {
+      "en": "Kunsthalle Düsseldorf",
+      "ja": "Kunsthalle Düsseldorf"
+     },
+     "type": {
+      "en": "event page",
+      "ja": "event page"
+     },
+     "title": {
+      "en": "NACHTFOYER: Danica Dakić (catalogue, Design: Natsumi Sugiyama, ISBN 978-3-903228-44-3)",
+      "ja": "NACHTFOYER: Danica Dakić（catalogue, Design: Natsumi Sugiyama, ISBN 978-3-903228-44-3）"
+     },
+     "date": "",
+     "url": "https://www.kunsthalle-duesseldorf.de/index.php?events=1997&id=114"
+    }
+   ]
+  },
+  {
+   "id": "A_ART007",
+   "y0": 2016,
+   "refs": [
+    {
+     "n": "5",
+     "source": {
+      "en": "Kunsthaus Dresden",
+      "ja": "Kunsthaus Dresden"
+     },
+     "type": {
+      "en": "exhibition page",
+      "ja": "exhibition page"
+     },
+     "title": {
+      "en": "TOMORROW WE WILL EXPLAIN",
+      "ja": "TOMORROW WE WILL EXPLAIN"
+     },
+     "date": "2016-06",
+     "url": "https://kunsthausdresden.de/veranstaltungen/tomorrow-we-will-explain/"
+    },
+    {
+     "n": "6",
+     "source": {
+      "en": "Dresden Contemporary Art",
+      "ja": "Dresden Contemporary Art"
+     },
+     "type": {
+      "en": "event listing",
+      "ja": "event listing"
+     },
+     "title": {
+      "en": "TOMORROW WE WILL EXPLAIN",
+      "ja": "TOMORROW WE WILL EXPLAIN"
+     },
+     "date": "2016-06",
+     "url": "https://dresdencontemporaryart.com/de/event/tomorrow-we-will-explain"
+    },
+    {
+     "n": "7",
+     "source": {
+      "en": "Ina Weise",
+      "ja": "Ina Weise"
+     },
+     "type": {
+      "en": "project archive",
+      "ja": "project archive"
+     },
+     "title": {
+      "en": "Tomorrow We Will Explain",
+      "ja": "Tomorrow We Will Explain"
+     },
+     "date": "2016",
+     "url": "https://inaweise.de/tomorrow-we-will-explain/"
+    }
+   ]
+  },
+  {
+   "id": "A_ART002",
+   "y0": 2014,
+   "refs": [
+    {
+     "n": "4",
+     "source": {
+      "en": "Roppongi Art Night Executive Committee",
+      "ja": "六本木アートナイト実行委員会"
+     },
+     "type": {
+      "en": "press release",
+      "ja": "press release"
+     },
+     "title": {
+      "en": "Roppongi Art Night 2014 press release (participating artists)",
+      "ja": "六本木アートナイト2014 プレスリリース（参加予定作家）"
+     },
+     "date": "2014-02-20",
+     "url": "https://www.roppongiartnight.com/2014/release/RANrelease20140220.pdf"
+    }
+   ]
+  },
+  {
+   "id": "A_ART001",
+   "y0": 2013,
+   "refs": [
+    {
+     "n": "1",
+     "source": {
+      "en": "JDN (Tōryūmon)",
+      "ja": "登竜門（JDN）"
+     },
+     "type": {
+      "en": "award result",
+      "ja": "award result"
+     },
+     "title": {
+      "en": "MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013: results (Grand Prize)",
+      "ja": "MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013 結果発表（大賞）"
+     },
+     "date": "2013",
+     "url": "https://compe.japandesign.ne.jp/mitsubishi_chemical/2013/results/"
+    },
+    {
+     "n": "2",
+     "source": {
+      "en": "Mitsubishi Chemical Corporation",
+      "ja": "三菱化学株式会社"
+     },
+     "type": {
+      "en": "press release",
+      "ja": "press release"
+     },
+     "title": {
+      "en": "MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013: winning works announced",
+      "ja": "MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013 受賞作品決定"
+     },
+     "date": "2013-10-17",
+     "url": "https://www.chem-t.com/fax/images/tmp_file1_1381986408.pdf"
+    },
+    {
+     "n": "3",
+     "source": {
+      "en": "Tokyo University of the Arts",
+      "ja": "東京藝術大学"
+     },
+     "type": {
+      "en": "university publication",
+      "ja": "university publication"
+     },
+     "title": {
+      "en": "Interviews with award-winning students, no. 12",
+      "ja": "受賞学生インタビュー 第12回"
+     },
+     "date": "2014",
+     "url": "https://www.geidai.ac.jp/wp-content/uploads/2014/10/p009-011.pdf"
+    }
+   ]
+  }
+ ],
+ "media": [
+  {
+   "n": "30",
+   "source": {
+    "en": "National Diet Library",
+    "ja": "国立国会図書館"
+   },
+   "type": {
+    "en": "bibliographic record",
+    "ja": "bibliographic record"
+   },
+   "title": {
+    "en": "Dictionary of Contemporary Design, 2014 edition (Heibonsha)",
+    "ja": "現代デザイン事典 2014年版（平凡社）"
+   },
+   "date": "2014-03",
+   "url": "https://ndlsearch.ndl.go.jp/en/books/R100000002-I025336989"
   }
  ],
  "rows": {
@@ -356,6 +974,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "art",
    "row": "perception",
+   "venueUrl": "https://www.chem-t.com/fax/images/tmp_file1_1381986408.pdf",
    "rows": [],
    "pillars": [
     "portraits"
@@ -758,6 +1377,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "art",
    "row": "perception",
+   "venueUrl": "https://www.roppongiartnight.com/2014/release/RANrelease20140220.pdf",
    "rows": [],
    "pillars": [
     "portraits"
@@ -870,6 +1490,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "art",
    "row": "perception",
+   "venueUrl": "",
    "rows": [],
    "pillars": [
     "portraits"
@@ -967,6 +1588,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "art",
    "row": "institutions",
+   "venueUrl": "",
    "rows": [],
    "pillars": [
     "installation"
@@ -1230,6 +1852,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "art",
    "row": "mobility",
+   "venueUrl": "",
    "rows": [],
    "pillars": [
     "portraits"
@@ -1322,6 +1945,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "art",
    "row": "mobility",
+   "venueUrl": "",
    "rows": [],
    "pillars": [
     "other"
@@ -1412,6 +2036,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "art",
    "row": "institutions",
+   "venueUrl": "https://kunsthausdresden.de/veranstaltungen/tomorrow-we-will-explain/",
    "rows": [],
    "pillars": [
     "portraits"
@@ -1533,6 +2158,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "art",
    "row": "perception",
+   "venueUrl": "",
    "rows": [],
    "pillars": [
     "other"
@@ -1908,6 +2534,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "art",
    "row": "research",
+   "venueUrl": "",
    "rows": [],
    "pillars": [
     "portraits"
@@ -2846,6 +3473,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "art",
    "row": "institutions",
+   "venueUrl": "https://www.asphalt-festival.de/events/2017/grasgemaelde/",
    "rows": [],
    "pillars": [
     "installation"
@@ -2948,6 +3576,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "art",
    "row": "institutions",
+   "venueUrl": "https://www.uni-weimar.de/de/medieninformationen/detail/imaginary-bauhaus-museum-internationale-kunststudierende-praesentieren-imaginierte-bauhaussammlung/",
    "rows": [
     "spatial"
    ],
@@ -3318,6 +3947,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "art",
    "row": "research",
+   "venueUrl": "https://geidai.repo.nii.ac.jp/records/2000226",
    "rows": [],
    "pillars": [
     "portraits"
@@ -5451,6 +6081,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "art",
    "row": "mobility",
+   "venueUrl": "https://www.pola.co.jp/about/news/2021/bd2jfg0000000zlc-att/po20211216.pdf",
    "rows": [],
    "pillars": [
     "installation",
@@ -5560,6 +6191,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "art",
    "row": "mobility",
+   "venueUrl": "",
    "rows": [],
    "pillars": [
     "portraits"
@@ -5798,6 +6430,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -5959,6 +6592,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "art",
    "row": "spatial",
+   "venueUrl": "https://lehmbruckmuseum.pr.co/140499-sculpture-21st-danica-dakic/",
    "rows": [],
    "pillars": [
     "installation"
@@ -6074,6 +6708,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -6181,6 +6816,7 @@ window.ARCHIVE = {
    "focusEnd": 2022,
    "area": "design",
    "row": "digital",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -6316,6 +6952,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "education",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -6402,6 +7039,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "content",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -6525,6 +7163,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "content",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -6619,6 +7258,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "content",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -6713,6 +7353,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "content",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -6811,6 +7452,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "content",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -6905,6 +7547,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -7842,6 +8485,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -8493,6 +9137,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -8577,6 +9222,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "venueUrl": "https://www.kunsthalle-duesseldorf.de/index.php?events=1997&id=114",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -8736,6 +9382,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -8891,6 +9538,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -9127,6 +9775,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -9211,6 +9860,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "digital",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -9297,6 +9947,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "content",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -9382,6 +10033,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "design",
    "row": "content",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -9466,6 +10118,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "art",
    "row": "other",
+   "venueUrl": "",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -9550,6 +10203,7 @@ window.ARCHIVE = {
    "focusEnd": null,
    "area": "art",
    "row": "education",
+   "venueUrl": "https://www.uni-weimar.de/de/medieninformationen/detail/imaginary-bauhaus-museum-internationale-kunststudierende-praesentieren-imaginierte-bauhaussammlung/",
    "rows": [],
    "pillars": [],
    "featured": false,
@@ -9559,8 +10213,8 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "Project Adjunct Lecturer for an exhibition project of the MFA programme \"Public Art and New Artistic Strategies\" at Bauhaus-Universität Weimar, for the Bauhaus centenary in 2019. The exhibition scenography and the exhibition graphics came out of this project.",
-    "ja": "ワイマール・バウハウス大学 MFA「Public Art and New Artistic Strategies」による、2019年のバウハウス100周年の展覧会プロジェクトにプロジェクト特任非常勤講師として参加。展示空間構成と展示グラフィックは、このプロジェクトから生まれた。"
+    "en": "Project Adjunct Lecturer for the MFA programme \"Public Art and New Artistic Strategies\" at Bauhaus-Universität Weimar, for the exhibition project IMAGINARY BAUHAUS MUSEUM, marking the Bauhaus centenary in 2019.",
+    "ja": "ワイマール・バウハウス大学 MFA「Public Art and New Artistic Strategies」プロジェクト特任非常勤講師。2019年のバウハウス100周年に向けた展覧会プロジェクト IMAGINARY BAUHAUS MUSEUM を担当。"
    },
    "long": {
     "en": "",
@@ -9873,7 +10527,7 @@ window.ARCHIVE = {
    "ja": "環境はどのように経験され、\n記憶され、変容していくのか。\n\nマルチメディアによる研究と制作の実践"
   },
   "info.statement": {
-   "en": "Natsumi Sugiyama is an artist whose practice examines how environments are experienced, crossed and transformed, drawing on movement across borders, marginalised presences and under-recorded narratives. Working through editorial methods, she presents her work as installation, moving image and drawing. Between 2013 and 2020 her work centred on narratives of place, developed through fieldwork; it now turns to narratives that mix and are recomposed across borders.",
+   "en": "Natsumi Sugiyama is an artist whose practice examines how environments are experienced, crossed and transformed, drawing on movement across borders, marginalised presences and under-recorded narratives. Working through editorial methods, she presents her work as installation, moving image and drawing. Between 2013 and 2020 her work centred on narratives of place, developed through fieldwork; it now turns to narratives in flux, recomposed across borders.",
    "ja": "杉山夏実（すぎやま・なつみ）　現代美術家。環境がどのように経験され、越えられ、変容されるかを主題に、越境する移動、周縁化された存在、記録されにくい語りを手がかりとした実践を行う。編集的手法を通し、インスタレーション、映像、ドローイングなどの形式で発表する。2013年から2020年にかけては、フィールドワークを通じた場所の語りを中心に制作した。現在は、越境のなかで混ざり合い、組み替えられていく語りへと焦点を移している。"
   },
   "info.origin": {
@@ -9885,8 +10539,12 @@ window.ARCHIVE = {
    "ja": ""
   },
   "info.cv": {
-   "en": "2020|Doctoral programme, Graduate School of Fine Arts, Tokyo University of the Arts\n2017|MFA, Public Art and New Artistic Strategies, Bauhaus-Universität Weimar\n2013|MA, Design, Graduate School of Fine Arts, Tokyo University of the Arts\n|BA, Environmental Design, Tama Art University",
-   "ja": "2020|東京藝術大学大学院 美術研究科 博士後期課程\n2017|ワイマール・バウハウス大学（パブリックアートと新芸術戦略）修士課程修了\n2013|東京藝術大学大学院 美術研究科 デザイン専攻 修士課程修了\n|多摩美術大学 環境デザイン学科 卒業"
+   "en": "2020|PhD, practice-based, Tokyo University of the Arts|ref:19\n2017|MFA, Public Art and New Artistic Strategies, Bauhaus-Universität Weimar|ref:28\n2013|MA, Design, Tokyo University of the Arts\n|BA, Environmental Design, Tama Art University",
+   "ja": "2020|東京藝術大学大学院 美術研究科 博士後期課程|ref:19\n2017|ワイマール・バウハウス大学（パブリックアートと新芸術戦略）修士課程修了|ref:28\n2013|東京藝術大学大学院 美術研究科 デザイン専攻 修士課程修了\n|多摩美術大学 環境デザイン学科 卒業"
+  },
+  "index.awards": {
+   "en": "2017|POLA Art Foundation Overseas Research Grant|ref:21\n2013|MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013, Grand Prize|ref:1",
+   "ja": "2017|ポーラ美術振興財団 在外研修員|ref:21\n2013|MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013 大賞|ref:1"
   },
   "info.stmt.label": {
    "en": "Statement",
@@ -10425,7 +11083,7 @@ window.ARCHIVE = {
    "ja": ""
   },
   "seo.awards": {
-   "en": "POLA Art Foundation Overseas Research Grant (2017)",
+   "en": "MITSUBISHI CHEMICAL JUNIOR DESIGNER AWARD 2013 (Grand Prize); POLA Art Foundation Overseas Research Grant (2017)",
    "ja": ""
   },
   "back": {
