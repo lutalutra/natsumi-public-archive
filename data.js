@@ -282,19 +282,24 @@ window.ARCHIVE = {
  "rows": {
   "art": [
    {
-    "key": "places",
-    "en": "Places & memory",
-    "ja": "場所と記憶"
+    "key": "perception",
+    "en": "Perception and memory of environments",
+    "ja": "環境体験の知覚と記憶"
    },
    {
-    "key": "narratives",
-    "en": "Narratives & archives",
-    "ja": "語りとアーカイブ"
+    "key": "institutions",
+    "en": "Institutions and representation",
+    "ja": "制度と表象"
    },
    {
-    "key": "between",
-    "en": "In-betweenness",
-    "ja": "越境と変容"
+    "key": "mobility",
+    "en": "Mobility and narratives of environments",
+    "ja": "移動と環境体験の語り"
+   },
+   {
+    "key": "research",
+    "en": "Research and writing",
+    "ja": "研究・論考"
    },
    {
     "key": "spatial",
@@ -310,8 +315,8 @@ window.ARCHIVE = {
   "design": [
    {
     "key": "editorial",
-    "en": "Editorial and print",
-    "ja": "編集・印刷物"
+    "en": "Editorial design",
+    "ja": "エディトリアルデザイン"
    },
    {
     "key": "digital",
@@ -322,6 +327,11 @@ window.ARCHIVE = {
     "key": "content",
     "en": "Content production",
     "ja": "コンテンツ制作"
+   },
+   {
+    "key": "education",
+    "en": "Educational projects",
+    "ja": "教育活動"
    }
   ]
  },
@@ -336,12 +346,17 @@ window.ARCHIVE = {
     "en": "About My Topos",
     "ja": "About My Topos"
    },
+   "hover": {
+    "en": "An installation that analyses the artist’s own experience of a Tokyo suburb and recomposes how memory and perception shape an image of the environment.",
+    "ja": "東京郊外での自身の環境体験を分析し、記憶と知覚が環境の像をどう形づくるかを再構成したインスタレーション。"
+   },
    "year": "2013",
    "y0": 2013,
    "y1": 2013,
    "focusEnd": null,
    "area": "art",
-   "row": "places",
+   "row": "perception",
+   "rows": [],
    "pillars": [
     "portraits"
    ],
@@ -733,12 +748,17 @@ window.ARCHIVE = {
     "en": "Roppongi, Paralleled",
     "ja": "Roppongi, Paralleled｜並行する六本木"
    },
+   "hover": {
+    "en": "Diagrams drawn from interviews with residents, showing the several images of one city that exist side by side.",
+    "ja": "住民へのインタビューから、ひとつの街に並んで存在する複数の都市像を描いたダイアグラム。"
+   },
    "year": "2014",
    "y0": 2014,
    "y1": 2014,
    "focusEnd": null,
    "area": "art",
-   "row": "narratives",
+   "row": "perception",
+   "rows": [],
    "pillars": [
     "portraits"
    ],
@@ -840,12 +860,17 @@ window.ARCHIVE = {
     "en": "About Another's Topos",
     "ja": "About Another's Topos｜ Kさんの場所について"
    },
+   "hover": {
+    "en": "Interviews with a former resident of Nagano, drawing another person’s memory of an environment as a cognitive map.",
+    "ja": "長野の元住民への聞き取りから、他者の環境の記憶を認知地図として描いた。"
+   },
    "year": "2014",
    "y0": 2014,
    "y1": 2014,
    "focusEnd": null,
    "area": "art",
-   "row": "places",
+   "row": "perception",
+   "rows": [],
    "pillars": [
     "portraits"
    ],
@@ -932,12 +957,17 @@ window.ARCHIVE = {
     "en": "Unerased Reminders",
     "ja": "Unerased Reminders"
    },
+   "hover": {
+    "en": "Drawings that follow the traces left in a former youth prison: acts that remained within the institution, unerased.",
+    "ja": "旧青年刑務所に残る痕跡から、制度のなかで消されずに残った行為を、ドローイングで辿る。"
+   },
    "year": "2015",
    "y0": 2015,
    "y1": 2015,
    "focusEnd": null,
    "area": "art",
-   "row": "places",
+   "row": "institutions",
+   "rows": [],
    "pillars": [
     "installation"
    ],
@@ -1190,12 +1220,17 @@ window.ARCHIVE = {
     "en": "Landscapes Narratives",
     "ja": "Landscapes Narratives｜風景と物語"
    },
+   "hover": {
+    "en": "An installation on the relation between the stories of people who have moved and landscapes that seem to be anywhere.",
+    "ja": "移動してきた個人の語りと、どこにでもあるように見える風景との関係を扱うインスタレーション。"
+   },
    "year": "2015",
    "y0": 2015,
    "y1": 2015,
    "focusEnd": null,
    "area": "art",
-   "row": "narratives",
+   "row": "mobility",
+   "rows": [],
    "pillars": [
     "portraits"
    ],
@@ -1277,12 +1312,17 @@ window.ARCHIVE = {
     "en": "Sceneries",
     "ja": "Sceneries｜風景たち"
    },
+   "hover": {
+    "en": "Field research, photography and editing recording how people and landscapes relate.",
+    "ja": "風景と人の関係を、フィールドリサーチと写真、編集によって記録した。"
+   },
    "year": "2016",
    "y0": 2016,
    "y1": 2016,
    "focusEnd": null,
    "area": "art",
-   "row": "places",
+   "row": "mobility",
+   "rows": [],
    "pillars": [
     "other"
    ],
@@ -1362,12 +1402,17 @@ window.ARCHIVE = {
     "en": "Phenomena, and Symbols of Persuasion",
     "ja": "Portraits of Dresden"
    },
+   "hover": {
+    "en": "A mixed-media work on how attachment to a city is turned into signs, and how readily those signs become tools of persuasion.",
+    "ja": "都市への愛着が記号に置き換えられ、説得の道具になっていく危うさを扱うミクストメディア作品。"
+   },
    "year": "2016",
    "y0": 2016,
    "y1": 2016,
    "focusEnd": null,
    "area": "art",
-   "row": "narratives",
+   "row": "institutions",
+   "rows": [],
    "pillars": [
     "portraits"
    ],
@@ -1478,12 +1523,17 @@ window.ARCHIVE = {
     "en": "A Dot on a Line, Replaced and Continuing",
     "ja": "A Dot on a Line, Replaced and Continuing"
    },
+   "hover": {
+    "en": "Everyday life in a historic apartment building, continuing as its residents change, observed and kept as an illustrated archive.",
+    "ja": "歴史的な集合住宅で、住む人が入れ替わりながら続く日常を観察し、イラストのアーカイブにした。"
+   },
    "year": "2016",
    "y0": 2016,
    "y1": 2016,
    "focusEnd": null,
    "area": "art",
-   "row": "places",
+   "row": "perception",
+   "rows": [],
    "pillars": [
     "other"
    ],
@@ -1848,12 +1898,17 @@ window.ARCHIVE = {
     "en": "Field Notes of Topophilia",
     "ja": "Field Notes of Topophilia"
    },
+   "hover": {
+    "en": "An essay based on field research that takes environments and their memories apart in order to think about them.",
+    "ja": "環境とその記憶を要素に分けて考える、フィールドリサーチに基づくエッセイ。"
+   },
    "year": "2017",
    "y0": 2017,
    "y1": 2017,
    "focusEnd": null,
    "area": "art",
-   "row": "narratives",
+   "row": "research",
+   "rows": [],
    "pillars": [
     "portraits"
    ],
@@ -2781,12 +2836,17 @@ window.ARCHIVE = {
     "en": "StadtGestaltung",
     "ja": "StadtGestaltung Düsseldorf｜街の顔"
    },
+   "hover": {
+    "en": "A public installation that asks, from fragments of faces gathered in the city, who the face of a city is.",
+    "ja": "街で集めた顔の断片から、都市の顔とは誰なのかを問うパブリック・インスタレーション。"
+   },
    "year": "2017",
    "y0": 2017,
    "y1": 2017,
    "focusEnd": null,
    "area": "art",
-   "row": "narratives",
+   "row": "institutions",
+   "rows": [],
    "pillars": [
     "installation"
    ],
@@ -2878,12 +2938,19 @@ window.ARCHIVE = {
     "en": "Scenery of De/Museumization",
     "ja": "Scenery of De/Museumization"
    },
+   "hover": {
+    "en": "A wall graphic across two floors that takes apart, and questions, the museum as a place where things are collected and fixed.",
+    "ja": "ものを収蔵し固定する場としての博物館を、2フロアにわたるウォールグラフィックで解体し、問い直す。"
+   },
    "year": "2019",
    "y0": 2019,
    "y1": 2019,
    "focusEnd": null,
    "area": "art",
-   "row": "spatial",
+   "row": "institutions",
+   "rows": [
+    "spatial"
+   ],
    "pillars": [
     "installation"
    ],
@@ -3241,12 +3308,17 @@ window.ARCHIVE = {
     "en": "In-Between Places and Humans",
     "ja": "場所と人のあいだ"
    },
+   "hover": {
+    "en": "A doctoral dissertation on the relation between environments and people, drawn from the practice up to then.",
+    "ja": "それまでの実践をもとに、環境と人の関係を論じた博士論文。"
+   },
    "year": "2020",
    "y0": 2020,
    "y1": 2020,
    "focusEnd": null,
    "area": "art",
-   "row": "between",
+   "row": "research",
+   "rows": [],
    "pillars": [
     "portraits"
    ],
@@ -5369,12 +5441,17 @@ window.ARCHIVE = {
     "en": "Recollections of Beyond",
     "ja": "Recollections of Beyond｜回想：場所と人のあいだ"
    },
+   "hover": {
+    "en": "The narratives of people who have moved across continents and eras, layered in sound and image: not a fixed place, but where experiences cross.",
+    "ja": "大陸や時代を越えて移動してきた人々の語りを、音と映像で重ねる。描くのは固定された場所ではなく、経験が交差する場。"
+   },
    "year": "2022",
    "y0": 2022,
    "y1": 2022,
    "focusEnd": null,
    "area": "art",
-   "row": "between",
+   "row": "mobility",
+   "rows": [],
    "pillars": [
     "installation",
     "portraits"
@@ -5473,12 +5550,17 @@ window.ARCHIVE = {
     "en": "Portraits of (Places)",
     "ja": "Portraits of (Places)"
    },
+   "hover": {
+    "en": "Four small diagrams, drawn from interviews, of where the experiences of people on the move cross.",
+    "ja": "インタビューから、移動する人々の経験が交差する場を、4点の小さなダイアグラムにまとめた。"
+   },
    "year": "2025",
    "y0": 2025,
    "y1": 2025,
    "focusEnd": null,
    "area": "art",
-   "row": "between",
+   "row": "mobility",
+   "rows": [],
    "pillars": [
     "portraits"
    ],
@@ -5489,8 +5571,8 @@ window.ARCHIVE = {
     "ja": "移動と変容に関わる、場に関する個人のイメージの造形化"
    },
    "desc": {
-    "en": "Four small diagrams based on interviews recorded at the Gorki Theater, Berlin.",
-    "ja": "ベルリンのゴーリキー劇場で収録したインタビューをもとにした、4点の小さなダイアグラム。"
+    "en": "Four small diagrams based on interviews.",
+    "ja": "インタビューをもとにした、4点の小さなダイアグラム。"
    },
    "long": {
     "en": "*Portraits of (Places)*: four small diagrams based on narrative interviews.",
@@ -5706,12 +5788,17 @@ window.ARCHIVE = {
     "en": "Notation of Topos Phase. 0",
     "ja": "Notation of Topos Phase. 0"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2014",
    "y0": 2014,
    "y1": 2014,
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -5862,12 +5949,17 @@ window.ARCHIVE = {
     "en": "Pigment Floor Drawing",
     "ja": "Missing Sculpture 空間ドローイング"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2017",
    "y0": 2017,
    "y1": 2017,
    "focusEnd": null,
    "area": "art",
    "row": "spatial",
+   "rows": [],
    "pillars": [
     "installation"
    ],
@@ -5972,12 +6064,17 @@ window.ARCHIVE = {
     "en": "Exhibition Graphics for a Group Exhibition",
     "ja": "展示グラフィック グループ展"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2019",
    "y0": 2019,
    "y1": 2019,
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -6074,12 +6171,17 @@ window.ARCHIVE = {
     "en": "Mobile App: UX and Art Direction",
     "ja": "アートや哲学を通して問いを育てるアプリ"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2021–2024",
    "y0": 2021,
    "y1": 2024,
    "focusEnd": 2022,
    "area": "design",
    "row": "digital",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 8,
@@ -6204,12 +6306,17 @@ window.ARCHIVE = {
     "en": "Hands-on Art Workshop for a Kindergarten",
     "ja": "こども園 美術造形教育プログラム"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2013–2014",
    "y0": 2013,
    "y1": 2014,
    "focusEnd": null,
    "area": "design",
-   "row": "content",
+   "row": "education",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -6285,12 +6392,17 @@ window.ARCHIVE = {
     "en": "Educational Content: Philosophy",
     "ja": "教育メディアコンテンツ 哲学"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2022–2024",
    "y0": 2022,
    "y1": 2024,
    "focusEnd": null,
    "area": "design",
    "row": "content",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -6403,12 +6515,17 @@ window.ARCHIVE = {
     "en": "Educational Content: Haiku",
     "ja": "メディアコンテンツ 俳句"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2023",
    "y0": 2023,
    "y1": 2023,
    "focusEnd": null,
    "area": "design",
    "row": "content",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -6492,12 +6609,17 @@ window.ARCHIVE = {
     "en": "Educational Content: Kanji",
     "ja": "メディアコンテンツ 漢字について"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2023",
    "y0": 2023,
    "y1": 2023,
    "focusEnd": null,
    "area": "design",
    "row": "content",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -6581,12 +6703,17 @@ window.ARCHIVE = {
     "en": "Multimedia Illustration",
     "ja": "マルチメディア・イラストレーション"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2025",
    "y0": 2025,
    "y1": 2025,
    "focusEnd": null,
    "area": "design",
    "row": "content",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -6674,12 +6801,17 @@ window.ARCHIVE = {
     "en": "Content Structure: Language App for Children",
     "ja": "コンテンツ構成 こども向けアプリ"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2026",
    "y0": 2026,
    "y1": 2026,
    "focusEnd": null,
    "area": "design",
    "row": "content",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -6763,12 +6895,17 @@ window.ARCHIVE = {
     "en": "YOU SAY ART I SAY WHAT",
     "ja": "YOU SAY ART I SAY WHAT"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2015",
    "y0": 2015,
    "y1": 2015,
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -7695,12 +7832,17 @@ window.ARCHIVE = {
     "en": "There is an Exhibition in Prison. It is Called CRACK.",
     "ja": "There is an Exhibition in Prison. It is Called CRACK."
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2015",
    "y0": 2015,
    "y1": 2015,
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -8341,12 +8483,17 @@ window.ARCHIVE = {
     "en": "Logo Design for an Art Project",
     "ja": "ロゴデザイン アートプロジェクト"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2015",
    "y0": 2015,
    "y1": 2015,
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -8420,12 +8567,17 @@ window.ARCHIVE = {
     "en": "Missing Sculpture",
     "ja": "Missing Sculpture"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2017",
    "y0": 2017,
    "y1": 2017,
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -8574,12 +8726,17 @@ window.ARCHIVE = {
     "en": "Un/Sounds of Buchenwald",
     "ja": "Un/Sounds of Buchenwald"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2017",
    "y0": 2017,
    "y1": 2017,
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -8724,12 +8881,17 @@ window.ARCHIVE = {
     "en": "Why (& Where) Do I Need to Draw?",
     "ja": "Why (& Where) Do I Need to Draw?"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2024",
    "y0": 2024,
    "y1": 2024,
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -8955,12 +9117,17 @@ window.ARCHIVE = {
     "en": "Visual Identity for a Podcast",
     "ja": "ポッドキャストのビジュアル"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2025–2026",
    "y0": 2025,
    "y1": 2026,
    "focusEnd": null,
    "area": "design",
    "row": "editorial",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -9034,12 +9201,17 @@ window.ARCHIVE = {
     "en": "Website Graphics",
     "ja": "ウェブサイトグラフィック"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2021",
    "y0": 2021,
    "y1": 2021,
    "focusEnd": null,
    "area": "design",
    "row": "digital",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -9115,12 +9287,17 @@ window.ARCHIVE = {
     "en": "Information Graphics: Fintech",
     "ja": "インフォグラフィック 欧州フィンテック"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2025",
    "y0": 2025,
    "y1": 2025,
    "focusEnd": null,
    "area": "design",
    "row": "content",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -9195,12 +9372,17 @@ window.ARCHIVE = {
     "en": "Multilingual Content Localisation Support",
     "ja": "多言語コンテンツ 情報設計支援"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2025–2026",
    "y0": 2025,
    "y1": 2026,
    "focusEnd": null,
    "area": "design",
    "row": "content",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -9274,12 +9456,17 @@ window.ARCHIVE = {
     "en": "Untitled",
     "ja": "無題"
    },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
    "year": "2017–2021",
    "y0": 2017,
    "y1": 2021,
    "focusEnd": null,
    "area": "art",
    "row": "other",
+   "rows": [],
    "pillars": [],
    "featured": false,
    "featOrder": 9999,
@@ -9288,14 +9475,14 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "About Kleingarten and urban gardening",
-    "ja": "ドイツにおけるクラインガルテンやアーバンガーデニング・コミュニティ、制度やコミュニティの観察と参加"
+    "en": "An activity carried on without a name, out of a need that could not be put aside. In GDR times, people who could not travel far built huts by hand and worked the land on small plots. Drawn to these places, where things quicker to buy are grown anyway and amateur DIY stands side by side, the artist went round looking at them, and for a time lived in a caravan, working the land herself.",
+    "ja": "名前を与えないまま、やむにやまれず続けていた行為。東ドイツ時代、遠くへ行くことのできなかった人々が、手で小屋を建て、自然に手を入れてきた区画がある。買った方が早いものをわざわざ育て、素人のDIYが並ぶその環境に惹かれて見て回り、自らも野良仕事をしながら、キャラバンで暮らした時期がある。"
    },
    "long": {
-    "en": "About Kleingarten and urban gardening",
-    "ja": "ドイツにおけるクラインガルテンやアーバンガーデニング・コミュニティ、制度やコミュニティの観察と参加"
+    "en": "An activity carried on without a name, out of a need that could not be put aside. In GDR times, people who could not travel far built huts by hand and worked the land on small plots. Drawn to these places, where things quicker to buy are grown anyway and amateur DIY stands side by side, the artist went round looking at them, and for a time lived in a caravan, working the land herself.",
+    "ja": "名前を与えないまま、やむにやまれず続けていた行為。東ドイツ時代、遠くへ行くことのできなかった人々が、手で小屋を建て、自然に手を入れてきた区画がある。買った方が早いものをわざわざ育て、素人のDIYが並ぶその環境に惹かれて見て回り、自らも野良仕事をしながら、キャラバンで暮らした時期がある。"
    },
-   "venue": "Kleingarten / urban gardening contexts",
+   "venue": "",
    "venueShort": "",
    "city": "Weimar, Berlin and near Potsdam",
    "site": "fieldwork",
@@ -9342,6 +9529,81 @@ window.ARCHIVE = {
      "lum": 0.407
     }
    ]
+  },
+  {
+   "id": "G_EDU050",
+   "visibility": "index",
+   "indexOnly": true,
+   "archiveHidden": false,
+   "kinds": [],
+   "title": {
+    "en": "IMAGINARY BAUHAUS MUSEUM",
+    "ja": "IMAGINARY BAUHAUS MUSEUM"
+   },
+   "hover": {
+    "en": "",
+    "ja": ""
+   },
+   "year": "2019",
+   "y0": 2019,
+   "y1": 2019,
+   "focusEnd": null,
+   "area": "art",
+   "row": "education",
+   "rows": [],
+   "pillars": [],
+   "featured": false,
+   "featOrder": 99,
+   "question": {
+    "en": "",
+    "ja": ""
+   },
+   "desc": {
+    "en": "Project Adjunct Lecturer for an exhibition project of the MFA programme \"Public Art and New Artistic Strategies\" at Bauhaus-Universität Weimar, for the Bauhaus centenary in 2019. The exhibition scenography and the exhibition graphics came out of this project.",
+    "ja": "バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」による、2019年のバウハウス100周年の展覧会プロジェクトにプロジェクト特任非常勤講師として参加。展示空間構成と展示グラフィックは、このプロジェクトから生まれた。"
+   },
+   "long": {
+    "en": "",
+    "ja": ""
+   },
+   "venue": "Schiller Museum Weimar",
+   "venueShort": "",
+   "city": "Weimar",
+   "site": "",
+   "context": "",
+   "medium": [],
+   "method": [],
+   "credit": "",
+   "photoCredit": "",
+   "creditAlways": false,
+   "award": "",
+   "funding": "",
+   "commissioner": "",
+   "organizations": "MFA \"Public Art and New Artistic Strategies\" at Bauhaus-Universität Weimar; Klassik Stiftung Weimar",
+   "publisher": "",
+   "collaborators": "",
+   "people": [],
+   "group": "",
+   "role": "Project Adjunct Lecturer",
+   "format": "",
+   "material": {
+    "en": "",
+    "ja": ""
+   },
+   "language": "",
+   "parent": "",
+   "related": [
+    "A_ART011",
+    "B_COL020"
+   ],
+   "themes": [],
+   "excerpts": [],
+   "gallerySpreads": [],
+   "intro": null,
+   "website": "",
+   "book": null,
+   "pdfs": [],
+   "images": []
   }
  ],
  "series": [
@@ -10204,14 +10466,6 @@ window.ARCHIVE = {
    }
   },
   {
-   "y0": 2019,
-   "y1": 2019,
-   "kind": "nda",
-   "group": "",
-   "band": "design",
-   "label": null
-  },
-  {
    "y0": 2022,
    "y1": 2024,
    "kind": "nda",
@@ -10263,7 +10517,7 @@ window.ARCHIVE = {
    "y0": 2023,
    "y1": 2023,
    "kind": "nda",
-   "group": "",
+   "group": "editorial",
    "band": "design",
    "label": null
   },
@@ -10303,7 +10557,7 @@ window.ARCHIVE = {
    "y0": 2019,
    "y1": 2019,
    "kind": "nda",
-   "group": "",
+   "group": "editorial",
    "band": "design",
    "label": null
   },
