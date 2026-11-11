@@ -862,7 +862,7 @@ window.ARCHIVE = {
    },
    "hover": {
     "en": "Interviews with a former resident of Nagano, drawing another person’s memory of an environment as a cognitive map.",
-    "ja": "長野の元住民への聞き取りから、他者の環境の記憶を認知地図として描いた。"
+    "ja": "長野の元住民への聞き取りから、他者の環境の記憶を描いた認知地図。"
    },
    "year": "2014",
    "y0": 2014,
@@ -1314,7 +1314,7 @@ window.ARCHIVE = {
    },
    "hover": {
     "en": "Field research, photography and editing recording how people and landscapes relate.",
-    "ja": "風景と人の関係を、フィールドリサーチと写真、編集によって記録した。"
+    "ja": "風景と人の関係をめぐる、フィールドリサーチと写真、編集による記録。"
    },
    "year": "2016",
    "y0": 2016,
@@ -1525,7 +1525,7 @@ window.ARCHIVE = {
    },
    "hover": {
     "en": "Everyday life in a historic apartment building, continuing as its residents change, observed and kept as an illustrated archive.",
-    "ja": "歴史的な集合住宅で、住む人が入れ替わりながら続く日常を観察し、イラストのアーカイブにした。"
+    "ja": "歴史的な集合住宅で、住む人が入れ替わりながら続く日常の観察と、そのイラスト・アーカイブ。"
    },
    "year": "2016",
    "y0": 2016,
@@ -5552,7 +5552,7 @@ window.ARCHIVE = {
    },
    "hover": {
     "en": "Four small diagrams, drawn from interviews, of where the experiences of people on the move cross.",
-    "ja": "インタビューから、移動する人々の経験が交差する場を、4点の小さなダイアグラムにまとめた。"
+    "ja": "インタビューをもとに、移動する人々の経験が交差する場を描いた4点の小さなダイアグラム。"
    },
    "year": "2025",
    "y0": 2025,
@@ -5807,12 +5807,12 @@ window.ARCHIVE = {
     "ja": ""
    },
    "desc": {
-    "en": "A zine based on About My Topos, from the zine series Noboru. Made by the Visual Communication Design Lab, Design, Graduate School of Fine Arts, Tokyo University of the Arts.",
-    "ja": "About My Topos をもとにしたZINE。ZINEシリーズ「Noboru」の一冊。東京藝術大学大学院 美術研究科 デザイン専攻 視覚・伝達研究室 制作。"
+    "en": "A zine based on About My Topos, from the zine series Noboru. Published by the Visual Communication Design Lab, Design, Graduate School of Fine Arts, Tokyo University of the Arts.",
+    "ja": "About My Topos をもとにしたZINE。ZINEシリーズ「Noboru」の一冊。東京藝術大学大学院 美術研究科 デザイン専攻 視覚・伝達研究室 発行。"
    },
    "long": {
-    "en": "A zine based on About My Topos, from the zine series Noboru. Made by the Visual Communication Design Lab, Design, Graduate School of Fine Arts, Tokyo University of the Arts.",
-    "ja": "About My Topos をもとにしたZINE。ZINEシリーズ「Noboru」の一冊。東京藝術大学大学院 美術研究科 デザイン専攻 視覚・伝達研究室 制作。"
+    "en": "A zine based on About My Topos, from the zine series Noboru. Published by the Visual Communication Design Lab, Design, Graduate School of Fine Arts, Tokyo University of the Arts.",
+    "ja": "About My Topos をもとにしたZINE。ZINEシリーズ「Noboru」の一冊。東京藝術大学大学院 美術研究科 デザイン専攻 視覚・伝達研究室 発行。"
    },
    "venue": "Visual Communication Design Lab, Design, Graduate School of Fine Arts, Tokyo University of the Arts",
    "venueShort": "Tokyo University of the Arts",
@@ -9865,16 +9865,44 @@ window.ARCHIVE = {
    "ja": ""
   },
   "seo.description": {
-   "en": "Project archive of Natsumi Sugiyama, artist based in Berlin, and of the design studio nat/yama.",
-   "ja": "ベルリンを拠点とするアーティスト、杉山夏実と、デザインスタジオ nat/yama のプロジェクト・アーカイブ。"
+   "en": "Project archive of Natsumi Sugiyama, an artist working on how environments are experienced, remembered and transformed.",
+   "ja": "杉山夏実のプロジェクト・アーカイブ。環境の経験と記憶、その変容をめぐるマルチメディアの実践記録。"
   },
   "info.lead": {
+   "en": "Natsumi Sugiyama is an artist working on how environments are experienced, remembered and transformed.\nThrough installations, archives and multimedia de/compositional diagrams,\nshe traces what becomes invisible between individual experience and collective memory and its frameworks.",
+   "ja": "環境はどのように経験され、\n記憶され、変容していくのか。\n\nマルチメディアによる脱/構成の実践を記録するアーカイブです。"
+  },
+  "info.statement": {
+   "en": "Natsumi Sugiyama is an artist whose practice examines how environments are lived, crossed and recorded, following four threads: movement across borders, flows of information, non-human perspectives, and under-recorded narratives. Working through observation, collection, mapping and editing, she produces moving image, drawing, text, publications and installations. Between 2013 and 2020 her work centred on narratives of place, developed through fieldwork; it now turns to hybrid narratives formed across borders.",
+   "ja": "杉山夏実（すぎやま・なつみ）　現代美術家。環境がどのように経験され、越えられ、変容されるかを主題に、越境する移動、周縁化された存在、記録されにくい語りを手がかりとした実践を行う。編集的手法を通し、インスタレーション、映像、ドローイングなどの形式で発表する。2013年から2020年にかけては、フィールドワークを通じた場所の語りを中心に制作した。現在は、越境のなかで混ざり合い、組み替えられていく語りへと焦点を移している。"
+  },
+  "info.origin": {
+   "en": "Born in Tokyo, based in Berlin (as of 2026)\nPOLA Art Foundation Overseas Research Grant (2017)",
+   "ja": "東京生まれ、ベルリン拠点（2026年時点）\nポーラ美術振興財団 在外研修員（2017年）"
+  },
+  "info.cv.label": {
    "en": "",
    "ja": ""
   },
-  "info.statement": {
-   "en": "Natsumi Sugiyama interrogates narratives of places and everyday systems, shaping them into installations, drawings, visual collage, and digital products. Based in Berlin.",
-   "ja": "場所像や日常にまつわる物語を問い直し、インスタレーション、視聴覚コラージュ、デジタルプロダクトとして編集、再構成している。"
+  "info.cv": {
+   "en": "2020|Doctoral programme, Graduate School of Fine Arts, Tokyo University of the Arts\n2017|MFA, Public Art and New Artistic Strategies, Bauhaus-Universität Weimar\n2013|MA, Design, Graduate School of Fine Arts, Tokyo University of the Arts\n|BA, Environmental Design, Tama Art University",
+   "ja": "2020|東京藝術大学大学院 美術研究科 博士後期課程\n2017|バウハウス大学ワイマール（パブリックアートと新芸術戦略）修士課程修了\n2013|東京藝術大学大学院 美術研究科 デザイン専攻 修士課程修了\n|多摩美術大学 環境デザイン学科 卒業"
+  },
+  "info.stmt.label": {
+   "en": "Statement",
+   "ja": "Statement"
+  },
+  "info.stmt.title": {
+   "en": "",
+   "ja": ""
+  },
+  "info.stmt": {
+   "en": "",
+   "ja": ""
+  },
+  "info.stmt.draft": {
+   "en": "My practice asks how environments are lived, crossed and recorded. By environment I mean not only land and climate, but a layering of relations that includes institutions, languages, circulating information and the time of non-human beings.\n\nRather than building toward a single body of work, the practice moves forward as small, parallel projects, each beginning with its own question. Counting the start of a season by the behaviour of plants and animals rather than by the calendar. Tracing the network of land, labour and movement that a single dish is connected to today. Looking at the everyday procedures and habits that are rearranged when one lives across borders. Recording narratives that rarely enter official records, and the perspectives of overlooked creatures.\n\nDifferent in subject and form, these practices share one method: observing, collecting, mapping relations, and re-editing records to share them. The results take whatever form the question calls for, from moving image, drawing and text to publications, installations and screenings. Field records and maps in progress are published as outcomes in their own right and accumulate as an archive, whose materials are reworked over time into new works and projects.\n\nThe aim is not to arrive at one answer about environment, but to leave multiple records through which it can be reread from different positions.",
+   "ja": "私の実践は、環境がどのように経験され、越えられ、記録されるかを問う。ここでいう環境とは、土地や気候だけを指すのではない。制度や言語、流通する情報、人間以外の生き物の時間までを含む、関係の重なりである。\n\n実践は一つの大きな作品に向かうのではなく、個別の問いから始まる小さなプロジェクトとして並行して進む。季節の始まりを、暦ではなく植物や動物のふるまいから数えること。一皿の料理がいまつながっている土地や労働、移動の網の目をたどること。国境を越えて暮らすなかで置き直される、日常の手続きや習慣に目を向けること。公式の記録に残りにくい語りや、見過ごされてきた生き物の視点を記録すること。\n\nテーマも形式も異なるこれらの実践は、同じ方法で結ばれている。観察し、集め、関係を図に起こし、記録を編み直して共有することである。成果は、映像、ドローイング、テキスト、出版物、インスタレーション、上映の場など、問いに応じた形をとる。完成作品だけでなく、採集の記録や途中の地図もそれ自体を成果として公開し、一つのアーカイブとして蓄積していく。その素材は時間をかけて、別の作品や企画に組み直されていく。\n\n環境について一つの答えを出すことは目指していない。異なる立場から環境を読み直すための記録を、複数残していくことを目指している。"
   },
   "menu.statement": {
    "en": "Selected Project Archive of Natsumi Sugiyama.",
@@ -10369,8 +10397,8 @@ window.ARCHIVE = {
    "ja": ""
   },
   "info.background": {
-   "en": "Educated in environmental design at Tama Art University, Public Art and New Artistic Strategies at Bauhaus-Universität Weimar, and practice-based doctoral research at Tokyo University of the Arts. POLA Art Foundation Overseas Research Grant (2017).",
-   "ja": "多摩美術大学卒業後、デザイン事務所勤務を経て、東京藝術大学大学院美術研究科。在籍中にドイツへ渡り、現地の大学院でパブリックアートの修士号。ポーラ美術振興財団在外研修生（2017年）"
+   "en": "",
+   "ja": ""
   },
   "info.studio": {
    "en": "nat/yama",
@@ -10383,6 +10411,10 @@ window.ARCHIVE = {
   "info.studio.caption": {
    "en": "Studio for editorial, web and exhibition design",
    "ja": "編集・ウェブ・展示のデザインスタジオ"
+  },
+  "info.studio.text": {
+   "en": "Her design practice is carried out as nat/yama.",
+   "ja": "デザインの実践は nat/yama として行う。"
   },
   "info.studio.image": {
    "en": "img/studio/natyama_cover.webp?v=ce0ddf1d",
