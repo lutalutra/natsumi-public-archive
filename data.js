@@ -959,7 +959,7 @@ window.ARCHIVE = {
    },
    "hover": {
     "en": "Drawings that follow the traces left in a former youth prison: acts that remained within the institution, unerased.",
-    "ja": "旧青年刑務所に残る痕跡から、制度のなかで消されずに残った行為を、ドローイングで辿る。"
+    "ja": "旧青年刑務所に残る痕跡から、制度のなかで消されずに残った行為を辿るドローイングによるインスタレーション。"
    },
    "year": "2015",
    "y0": 2015,
@@ -2940,7 +2940,7 @@ window.ARCHIVE = {
    },
    "hover": {
     "en": "A wall graphic across two floors that takes apart, and questions, the museum as a place where things are collected and fixed.",
-    "ja": "ものを収蔵し固定する場としての博物館を、2フロアにわたるウォールグラフィックで解体し、問い直す。"
+    "ja": "ものを収蔵し固定する場としての博物館を解体し、問い直す、2フロアにわたる壁面の視覚構成、インスタレーション。"
    },
    "year": "2019",
    "y0": 2019,
@@ -9544,8 +9544,8 @@ window.ARCHIVE = {
     "en": "",
     "ja": ""
    },
-   "year": "2019",
-   "y0": 2019,
+   "year": "2018–2019",
+   "y0": 2018,
    "y1": 2019,
    "focusEnd": null,
    "area": "art",
@@ -9560,7 +9560,7 @@ window.ARCHIVE = {
    },
    "desc": {
     "en": "Project Adjunct Lecturer for an exhibition project of the MFA programme \"Public Art and New Artistic Strategies\" at Bauhaus-Universität Weimar, for the Bauhaus centenary in 2019. The exhibition scenography and the exhibition graphics came out of this project.",
-    "ja": "バウハウス大学ワイマール MFA「Public Art and New Artistic Strategies」による、2019年のバウハウス100周年の展覧会プロジェクトにプロジェクト特任非常勤講師として参加。展示空間構成と展示グラフィックは、このプロジェクトから生まれた。"
+    "ja": "ワイマール・バウハウス大学 MFA「Public Art and New Artistic Strategies」による、2019年のバウハウス100周年の展覧会プロジェクトにプロジェクト特任非常勤講師として参加。展示空間構成と展示グラフィックは、このプロジェクトから生まれた。"
    },
    "long": {
     "en": "",
@@ -9870,7 +9870,7 @@ window.ARCHIVE = {
   },
   "info.lead": {
    "en": "Natsumi Sugiyama is an artist working on how environments are experienced, remembered and transformed.\nThrough installations, archives and multimedia de/compositional diagrams,\nshe traces what becomes invisible between individual experience and collective memory and its frameworks.",
-   "ja": "環境はどのように経験され、\n記憶され、変容していくのか。\n\nマルチメディアによる脱/構成の実践を記録するアーカイブです。"
+   "ja": "環境はどのように経験され、\n記憶され、変容していくのか。\n\nマルチメディアによる研究と制作の実践"
   },
   "info.statement": {
    "en": "Natsumi Sugiyama is an artist whose practice examines how environments are lived, crossed and recorded, following four threads: movement across borders, flows of information, non-human perspectives, and under-recorded narratives. Working through observation, collection, mapping and editing, she produces moving image, drawing, text, publications and installations. Between 2013 and 2020 her work centred on narratives of place, developed through fieldwork; it now turns to hybrid narratives formed across borders.",
@@ -9886,7 +9886,7 @@ window.ARCHIVE = {
   },
   "info.cv": {
    "en": "2020|Doctoral programme, Graduate School of Fine Arts, Tokyo University of the Arts\n2017|MFA, Public Art and New Artistic Strategies, Bauhaus-Universität Weimar\n2013|MA, Design, Graduate School of Fine Arts, Tokyo University of the Arts\n|BA, Environmental Design, Tama Art University",
-   "ja": "2020|東京藝術大学大学院 美術研究科 博士後期課程\n2017|バウハウス大学ワイマール（パブリックアートと新芸術戦略）修士課程修了\n2013|東京藝術大学大学院 美術研究科 デザイン専攻 修士課程修了\n|多摩美術大学 環境デザイン学科 卒業"
+   "ja": "2020|東京藝術大学大学院 美術研究科 博士後期課程\n2017|ワイマール・バウハウス大学（パブリックアートと新芸術戦略）修士課程修了\n2013|東京藝術大学大学院 美術研究科 デザイン専攻 修士課程修了\n|多摩美術大学 環境デザイン学科 卒業"
   },
   "info.stmt.label": {
    "en": "Statement",
