@@ -10516,7 +10516,7 @@ window.ARCHIVE = {
   },
   "info.lead": {
    "en": "Natsumi Sugiyama is an artist|whose practice inquires into\nhow environments are experienced, remembered and transformed,\nthrough installation, moving image and drawing.",
-   "ja": "環境はどのように経験され、\n記憶され、変容していくのか。\n\nマルチメディアによる研究と制作の実践"
+   "ja": "環境はどのように経験され、\n記憶され、変容していくのか。\n\nマルチメディアによる芸術実践と研究のプロジェクト・アーカイブ"
   },
   "info.statement": {
    "en": "Natsumi Sugiyama is an artist whose practice examines how environments are experienced, crossed and transformed, drawing on movement across borders, marginalised presences and under-recorded narratives. Working through editorial methods, she composes this work as installation, moving image and drawing. Between 2013 and 2020 her work centred on narratives of place, developed through fieldwork; it now turns to narratives in flux, recomposed across borders.",
