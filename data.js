@@ -2000,11 +2000,13 @@ window.ARCHIVE = {
    "images": [
     {
      "src": "img/A_ART006/00.webp?v=b886ad55",
-     "thumb": "img/A_ART006/00_s.webp?v=264b1a3e",
+     "thumb": "img/A_ART006/00_vs.webp?v=622994d3",
      "w": 724,
      "h": 498,
      "bg": "#9b9d5b",
-     "lum": 0.595
+     "lum": 0.595,
+     "tile": "img/A_ART006/00_v.webp?v=bd2b6b06",
+     "veil": true
     }
    ]
   },

@@ -1,3 +1,5 @@
 User-agent: *
+Disallow: /img/A_ART006/00.webp
+Disallow: /img/A_ART006/00_s.webp
 Allow: /
 Sitemap: https://www.natsumi-sugiyama.com/sitemap.xml
