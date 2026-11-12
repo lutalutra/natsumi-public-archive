@@ -10515,7 +10515,7 @@ window.ARCHIVE = {
    "ja": "杉山夏実 / Natsumi Sugiyama、現代美術家。プロジェクト・アーカイブ：環境の経験と記憶、その変容。"
   },
   "info.lead": {
-   "en": "Natsumi Sugiyama is an artist whose practice asks\nhow environments are experienced, remembered and transformed,\nthrough installation, moving image and drawing.",
+   "en": "Natsumi Sugiyama is an artist|whose practice inquires into\nhow environments are experienced, remembered and transformed,\nthrough installation, moving image and drawing.",
    "ja": "環境はどのように経験され、\n記憶され、変容していくのか。\n\nマルチメディアによる研究と制作の実践"
   },
   "info.statement": {
