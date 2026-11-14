@@ -6845,31 +6845,31 @@ window.ARCHIVE = {
    "commissioner": "",
    "organizations": "",
    "publisher": "",
-   "collaborators": "Producer: Yuji Ando Editor-in-Chief: Ai Sakaguchi Editor: Yusuke Mori, Wataru Ono, Kyoko Akimoto Development: Sora Fukui Sound: Shunsuke Ookuchi App UI: VEHICLE inc. Contents in cooperation with external writers and supervisors from universities and museums.",
+   "collaborators": "Producer: In-house Editor-in-Chief: In-house Editor: In-house editorial team Development: In-house Sound: Collaborating musician (external) App UI: External design studio Contents in cooperation with external writers and supervisors from universities and museums.",
    "people": [
     [
      "Producer",
-     "Yuji Ando"
+     "In-house"
     ],
     [
      "Editor-in-Chief",
-     "Ai Sakaguchi"
+     "In-house"
     ],
     [
      "Editor",
-     "Yusuke Mori, Wataru Ono, Kyoko Akimoto"
+     "In-house editorial team"
     ],
     [
      "Development",
-     "Sora Fukui"
+     "In-house"
     ],
     [
      "Sound",
-     "Shunsuke Ookuchi"
+     "Collaborating musician (external)"
     ],
     [
      "App UI",
-     "VEHICLE inc."
+     "External design studio"
     ],
     [
      "",
@@ -7069,35 +7069,19 @@ window.ARCHIVE = {
    "commissioner": "",
    "organizations": "",
    "publisher": "",
-   "collaborators": "Supervisor: Motoki Saito (Takachiho University, Department of Philosophy) Production: OpenDNA, Inc Producer: Yuji Ando Editor-in-Chief: Ai Sakaguchi Editor, Philosophy: Yusuke Mori, Wataru Ono Development: Sora Fukui Sound: Shunsuke Ookuchi",
+   "collaborators": "Supervisor: Motoki Saito (Takachiho University, Department of Philosophy) Editorial: In-house editorial team Sound: Collaborating musician (external)",
    "people": [
     [
      "Supervisor",
      "Motoki Saito (Takachiho University, Department of Philosophy)"
     ],
     [
-     "Production",
-     "OpenDNA, Inc"
-    ],
-    [
-     "Producer",
-     "Yuji Ando"
-    ],
-    [
-     "Editor-in-Chief",
-     "Ai Sakaguchi"
-    ],
-    [
-     "Editor, Philosophy",
-     "Yusuke Mori, Wataru Ono"
-    ],
-    [
-     "Development",
-     "Sora Fukui"
+     "Editorial",
+     "In-house editorial team"
     ],
     [
      "Sound",
-     "Shunsuke Ookuchi"
+     "Collaborating musician (external)"
     ]
    ],
    "group": "app-philosophy",
@@ -7192,7 +7176,7 @@ window.ARCHIVE = {
    "commissioner": "",
    "organizations": "",
    "publisher": "",
-   "collaborators": "Supervisor: Hiroshi Ozawa (Sawa Haiku Association) Editorial: OpenDNA, Inc",
+   "collaborators": "Supervisor: Hiroshi Ozawa (Sawa Haiku Association) Editorial: In-house editorial team",
    "people": [
     [
      "Supervisor",
@@ -7200,7 +7184,7 @@ window.ARCHIVE = {
     ],
     [
      "Editorial",
-     "OpenDNA, Inc"
+     "In-house editorial team"
     ]
    ],
    "group": "app-philosophy",
@@ -7287,7 +7271,7 @@ window.ARCHIVE = {
    "commissioner": "",
    "organizations": "",
    "publisher": "",
-   "collaborators": "Supervisor: Yoshinobu Shino (Meiji University) Editorial: OpenDNA, Inc",
+   "collaborators": "Supervisor: Yoshinobu Shino (Meiji University) Editorial: In-house editorial team",
    "people": [
     [
      "Supervisor",
@@ -7295,7 +7279,7 @@ window.ARCHIVE = {
     ],
     [
      "Editorial",
-     "OpenDNA, Inc"
+     "In-house editorial team"
     ]
    ],
    "group": "app-philosophy",
@@ -7382,7 +7366,7 @@ window.ARCHIVE = {
    "commissioner": "",
    "organizations": "",
    "publisher": "",
-   "collaborators": "Text: Futoshi Hoshino (Philosopher, University of Tokyo) Editorial: OpenDNA, Inc Sound: Shunsuke Ookuchi",
+   "collaborators": "Text: Futoshi Hoshino (Philosopher, University of Tokyo) Editorial: In-house editorial team Sound: Collaborating musician (external)",
    "people": [
     [
      "Text",
@@ -7390,11 +7374,11 @@ window.ARCHIVE = {
     ],
     [
      "Editorial",
-     "OpenDNA, Inc"
+     "In-house editorial team"
     ],
     [
      "Sound",
-     "Shunsuke Ookuchi"
+     "Collaborating musician (external)"
     ]
    ],
    "group": "app-philosophy",
