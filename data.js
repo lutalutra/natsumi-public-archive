@@ -853,7 +853,7 @@ window.ARCHIVE = {
     {
      "n": "3",
      "source": {
-      "en": "Tokyo University of the Arts, magazine Geieru",
+      "en": "Tokyo University of the Arts, magazine Ueru",
       "ja": "東京藝術大学 広報誌『藝える』"
      },
      "type": {
